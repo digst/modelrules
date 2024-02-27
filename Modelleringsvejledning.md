@@ -65,6 +65,7 @@ Til orientering anvendes der i grunddatamodellering disse specifikke farver:
 * Enumerationer: Grøn (RGB: 232,253,227, HEX: #E8FDE3)
 
   ![Grøn](Illustrations/kap7-1d-grøn.svg)
+  ![svg](Illustrations/ny.svg)
 
 Man kan eventuelt anvende yderligere visuelle markeringer, der fremhæver aspekter af modelleringen. I så fald bør disse markeringer:
 * udelukkende fremhæve - ikke tilføje - information
