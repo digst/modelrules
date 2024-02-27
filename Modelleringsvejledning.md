@@ -109,7 +109,7 @@ I nogle situationer er der en indbygget logisk rækkefølge eller kronologi mell
 ### Lav også alternative visuelle diagrammer til kommunikationsformål
 Det kan være relevant at formidle det centrale indhold af en begrebs- eller datamodel visuelt med andre grafiske metoder til specifikke kommunikationsformål.  
 
-Det er typisk uformelle modeller med kasser, figurer og streger eller illustrationer med ikoner eller andre grafiske illustrationer, der repræsenterer modellens elementer og relationer. Se eksempelvis denne illustration fra grunddataprogrammet som viser grunddata på et overordnet niveau.
+Det er typisk uformelle modeller med kasser, figurer og streger eller illustrationer med ikoner eller andre grafiske illustrationer, der repræsenterer modellens elementer og relationer. Se eksempelvis denne [illustration fra grunddataprogrammet](https://datafordeler.dk/vejledning/grunddata/datamodel/) som viser grunddata på et overordnet niveau.
 
 En anden måde at lave diagrammer til kommunikation er at lave simplificerede views af UML-modellen. Sådanne diagrammer kan være velegnede i forbindelse med forretningsgodkendelse af modellen. Det kan fx være nyttigt at lave diagramvisninger, der ikke viser stereotyper, datatyper, prefixes eller aliaser på et andet sprog, selvom dette er en del af den bagvedliggende model.
 
@@ -117,12 +117,12 @@ En anden måde at lave diagrammer til kommunikation er at lave simplificerede vi
 ### Angivelse af kravniveau med supplerende stereotyper 
 Hvis man i en UML-model ønsker at tydeliggøre de forskellige krav til anvendelse af de forskellige elementer i modellen, bør man anvende supplerende stereotyper til dette. Eksempelvis kan stereotyperne 5<<mandatory>>, <<recommended>>, og <<optional>> anvendes til at angive om udfyldelse af et givet felt er obligatorisk, anbefalet eller valgfrit. 
 
-Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af Europa-Kommissionen. Se fx UML-diagrammet til DCAT-AP 2.0.1. I INSPIRE data specifikationerne anvendes også stereotypen <<voidable>> til at angive at der ikke eksisterer eller kan afledes en tilsvarende værdi i kildedatasættet. 
+Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af Europa-Kommissionen. Se fx [UML-diagrammet til DCAT-AP 2.0.1](https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2020-06/8d26212c-3ed4-4c9d-b5a5-0b5934daae34/DCAT_AP_2.0.1.png). I [INSPIRE](https://inspire-regadmin.jrc.ec.europa.eu/dataspecification/themes/br/Chapter5.pdf) data specifikationerne anvendes også stereotypen <<voidable>> til at angive at der ikke eksisterer eller kan afledes en tilsvarende værdi i kildedatasættet. 
 
 Figur xx: Udsnit fra UML-diagram til DCAT-AP 2.0.1
 
 ### Angiv gerne namespaces og præfikser i logiske datamodeller
-Ved at anvende en forkortelse for namespacet på den model hvor modelelementer er defineret som præfiks for UML-elementnavne, er det til enhver tid tydeligt hvor et givent element kommer fra. Se fx  W3Cs UML-visualisering af DCAT. Det er især relevant i anvendelsesmodeller som sammensættes af modelelementer fra forskellige kernemodeller. I kernemodeller kan man eksempelvis også vælge alene at forsyne de indlånte elementer med prefixes, så defaultlæsningen bliver at de øvrige klasser er modellens egne. 
+Ved at anvende en forkortelse for namespacet på den model hvor modelelementer er defineret som præfiks for UML-elementnavne, er det til enhver tid tydeligt hvor et givent element kommer fra. Se fx  [W3Cs UML-visualisering af DCAT](https://www.w3.org/TR/vocab-dcat-2/). Det er især relevant i anvendelsesmodeller som sammensættes af modelelementer fra forskellige kernemodeller. I kernemodeller kan man eksempelvis også vælge alene at forsyne de indlånte elementer med prefixes, så defaultlæsningen bliver at de øvrige klasser er modellens egne. 
 
 Figur xx: ??
 For at gøre det let at se hvilke modeller der er genbruges i given model, bør man også indsætte en tekstboks med anvendte prefixes og namespaces i modellen, fx
