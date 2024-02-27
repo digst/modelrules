@@ -41,9 +41,6 @@ Grunddatamodellering har en praksis vedr. enumerationer og datatyper som også a
 Der anbefales følgende farver til modelelementer:
 
 * Sandfarve/beige til egendefinerede klasser
-  
-  
-
 * Blå til genbrugt/fremmede/indlånte klasser/begreber fra andre kernemodeller
 * Grøn til klassifikationer i form af enumerationer og klassifikationsklasser
 * Gul til strukturerede datatyper
@@ -74,7 +71,6 @@ Man kan eventuelt anvende yderligere visuelle markeringer, der fremhæver aspekt
 * supplere - ikke erstatte - de fælles anbefalede farver
 * anvendes konsistent
 * forklares på diagrammet
-
 
 ### Placer overordnede klasser over deres specialiseringer
 Lad så vidt muligt generaliseringspilene pege opad. 
