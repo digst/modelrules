@@ -63,11 +63,11 @@ Til orientering anvendes der i grunddatamodellering disse specifikke farver:
   
 * Strukturerede datatyper: Gul (RGB: 251,249,198, HEX: #FBF9C6)
 
-  ![Grøn](Illustrations/kap7-1c-grøn.svg)
+  ![Gul](Illustrations/kap7-1c-gul.svg)
 
 * Enumerationer: Grøn (RGB: 232,253,227, HEX: #E8FDE3)
 
-  ![Gul](Illustrations/kap7-1d-gul.svg)
+  ![Grøn](Illustrations/kap7-1d-grøn.svg)
 
 Man kan eventuelt anvende yderligere visuelle markeringer, der fremhæver aspekter af modelleringen. I så fald bør disse markeringer:
 * udelukkende fremhæve - ikke tilføje - information
