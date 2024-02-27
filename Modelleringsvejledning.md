@@ -41,24 +41,33 @@ Grunddatamodellering har en praksis vedr. enumerationer og datatyper som også a
 Der anbefales følgende farver til modelelementer:
 
 * Sandfarve/beige til egendefinerede klasser
-![Sandfarve](illustrations/kap7-1a-sand.svg)
+  
+  
+
 * Blå til genbrugt/fremmede/indlånte klasser/begreber fra andre kernemodeller
-* Grøn til klassifikationer i form af enumerationer og klassifikationsklasser 
-* Gul til strukturerede datatyper 
+* Grøn til klassifikationer i form af enumerationer og klassifikationsklasser
+* Gul til strukturerede datatyper
 * Lysegrå til objekter
 
 De valgte farver skal egne sig til både skærm og print, og tekst placeret på disse farver skal være let læselig.
 
 Til orientering anvendes der i grunddatamodellering disse specifikke farver:
 
-Klasser: Sandfarvet (RGB: 254,250,247, HEX: #FEFAF7)
+* Klasser: Sandfarvet (RGB: 254,250,247, HEX: #FEFAF7)
+  
+  ![Sandfarve](Illustrations/kap7-1a-sand.svg)
+  
+* Indlånte klasser: Blå (RGB: 135,205,235, HEX: #87CDEB)
 
-Indlånte klasser: Blå (RGB: 135,205,235, HEX: #87CDEB)
+  ![Blå](Illustrations/kap7-1b-blå.svg)
+  
+* Strukturerede datatyper: Gul (RGB: 251,249,198, HEX: #FBF9C6)
 
-Strukturerede datatyper: Gul (RGB: 251,249,198, HEX: #FBF9C6)
+  ![Grøn](Illustrations/kap7-1c-grøn.svg)
 
-Enumerationer: Grøn (RGB: 232,253,227, HEX: #E8FDE3)
+* Enumerationer: Grøn (RGB: 232,253,227, HEX: #E8FDE3)
 
+  ![Gul](Illustrations/kap7-1d-gul.svg)
 
 Man kan eventuelt anvende yderligere visuelle markeringer, der fremhæver aspekter af modelleringen. I så fald bør disse markeringer:
 * udelukkende fremhæve - ikke tilføje - information
