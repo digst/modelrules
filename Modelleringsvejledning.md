@@ -134,7 +134,7 @@ Hvis man i en UML-model ønsker at tydeliggøre de forskellige krav til anvendel
 
 Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af Europa-Kommissionen. Se fx [UML-diagrammet til DCAT-AP 2.0.1](https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2020-06/8d26212c-3ed4-4c9d-b5a5-0b5934daae34/DCAT_AP_2.0.1.png). I [INSPIRE](https://inspire-regadmin.jrc.ec.europa.eu/dataspecification/themes/br/Chapter5.pdf) data specifikationerne anvendes også stereotypen <<voidable>> til at angive at der ikke eksisterer eller kan afledes en tilsvarende værdi i kildedatasættet. 
 
-![Kravsniveau med stereotyper](Illustrations/kap7-6-kravsniveau-med-stereotyper.svg)
+![Kravsniveau med stereotyper](Illustrations/kap7-6-kravniveau-med-stereotyper.svg)
 
 Figur xx: Udsnit fra UML-diagram til DCAT-AP 2.0.1
 
