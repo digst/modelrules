@@ -1,6 +1,8 @@
 # Kapitel 7: Det visuelle udtryk
 Af hensyn til brugbarheden bør man gøre modellerne så læsevenlige som kompleksiteten i modellen tillader det, og helt overordnet anbefales det at det visuelle udtryk i UML-modellerne ensrettes så meget som muligt. 
 
+<code style="color : aqua">text</code>
+
 Det visuelle udtryk af modellen understøtter kommunikation mellem forskellige interessenter såsom arkitekter, udviklere og forretningseksperter, samt på tværs af organisationer med forskellig dokumentationspraksis. Det visuelle udtryk kan dermed betragtes som UMLs største fordel, og denne udnyttes bedst, hvis diagrammerne er nemme at afkode og behagelige at kigge på. Derfor giver det mening at følge fælles principper for udarbejdelsen af diagrammer, for at opnå et genkendeligt visuelt udtryk. Dette gælder uanset om der er tale om begrebsdiagrammer, diagrammer for informationsmodeller eller logiske datamodeller.
 
 De generelle anbefalinger nedenfor betyder ikke at selve indholdet af UML-modellen bliver bedre, men at det bliver nemmere at kommunikere modellen til interessenter. 
@@ -80,7 +82,7 @@ Generaliseringssæt (hvor flere generaliseringspile samles i en spids) kan bruge
 
 ![Generaliseringssæt](Illustrations/kap7-2-generaliseringssæt.svg)
 
-Figur xx: Eksempel på anvendelse af generaliseringssæt i begrebsdiagram
+Figur 7.1: Eksempel på anvendelse af generaliseringssæt i begrebsdiagram
 
 ### Angiv retning på begrebsrelationer
 UML-associationer kan angives med eller uden navigabilitet, der vises som en pil i enden af associationer. Dette omtales ofte mindre præcist som retning. Navigabilitet er ikke det samme som, men ofte sammenfaldende med læseretning. 
@@ -92,7 +94,7 @@ I UML er både attributter og associationsender egenskaber og kan teknisk have b
 
 ![Egenskaber](Illustrations/kap7-3-egenskaber.svg)
 
-Figur xx : ???
+Figur 7.2 : ??
 
 Objektegenskaber har klasser som udfaldsrum, og datatypeegenskaber har datatyper som udfaldsrum. Her kan der være tale om primitive datatyper, strukturerede datatyper eller enumerationer. For strukturerede datatyper og enumerationer hjælper det læseren, hvis der oprettes en dependency mellem atrributtet og datatypen.
 
@@ -100,13 +102,13 @@ Nedenfor ses objektegenskaben ‘påLager’ med klassen ‘Cykel’ som udfalds
 
 ![Eksempel på egenskaber](Illustrations/kap7-4-egenskaber-eksempel.svg)
 
-Figur xx : objektegenskaber som associationsender og datatypeegenskaber som attributter. 
+Figur 7.3: objektegenskaber som associationsender og datatypeegenskaber som attributter. 
 
 ## Eksempel på UML-diagram 
 
 ![Diagrameksempel](Illustrations/kap7-5-diagrameksempel.svg)
 
-Figur xx : UML-diagram hvor anbefalinger følges
+Figur 7.4: UML-diagram hvor anbefalinger følges
 
 ## Anbefalinger til organisering og kommunikation
 ### Skab overblik med opdeling og overordnede diagrammer 
@@ -136,20 +138,20 @@ Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af E
 
 ![Kravsniveau med stereotyper](Illustrations/kap7-6-kravniveau-med-stereotyper.svg)
 
-Figur xx: Udsnit fra UML-diagram til DCAT-AP 2.0.1
+Figur 7.5: Udsnit fra UML-diagram til DCAT-AP 2.0.1
 
 ### Angiv gerne namespaces og præfikser i logiske datamodeller
 Ved at anvende en forkortelse for namespacet på den model hvor modelelementer er defineret som præfiks for UML-elementnavne, er det til enhver tid tydeligt hvor et givent element kommer fra. Se fx  [W3Cs UML-visualisering af DCAT](https://www.w3.org/TR/vocab-dcat-2/). Det er især relevant i anvendelsesmodeller som sammensættes af modelelementer fra forskellige kernemodeller. I kernemodeller kan man eksempelvis også vælge alene at forsyne de indlånte elementer med prefixes, så defaultlæsningen bliver at de øvrige klasser er modellens egne. 
 
 ![Præfixer](Illustrations/kap7-7-præfixer.svg)
 
-Figur xx: ??
+Figur 7.6: ??
 
-For at gøre det let at se hvilke modeller der er genbruges i given model, bør man også indsætte en tekstboks med anvendte prefixes og namespaces i modellen, fx
+For at gøre det let at se hvilke modeller der er genbrugt i given model, bør man også indsætte en tekstboks med anvendte prefixes og namespaces i modellen, fx
 
 ![Tekstboks](Illustrations/kap7-8-tekstboks.svg)
 
-Figur xx: Tekstboks med anvendte prefixes
+Figur 7.7: Tekstboks med anvendte prefixes
 
 
 # Kapitel 8: Governance
