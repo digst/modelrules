@@ -78,6 +78,8 @@ Når man anvender en hierarkisk relation som en specialisering, så er det lette
 ### Anvend generaliseringssæt
 Generaliseringssæt (hvor flere generaliseringspile samles i en spids) kan bruges til at vise at specialiserede klasser/begreber er specialiserede efter samme inddelingskriterie, fx formål eller funktion. Dette giver diagrammer mere information samtidigt med at det bliver mere roligt at se på. Læs mere om generaliseringssæt i afsnittet om UML-modellering.
 
+![Generaliseringssæt](Illustrations/kap7-2-generaliseringssæt.svg)
+
 Figur xx: Eksempel på anvendelse af generaliseringssæt i begrebsdiagram
 
 ### Angiv retning på begrebsrelationer
@@ -88,13 +90,21 @@ I begrebs- og informationsmodeller giver det ikke meget mening at tale om naviga
 ### Brug associationer til klasser og attributter til datatyper
 I UML er både attributter og associationsender egenskaber og kan teknisk have både datatyper og klasser som udfaldsrum. Det giver dog mere ensartede og letlæselige modeller hvis objektegenskaber modelleres som associationsender og datatypeegenskaber som attributter.
 
+![Egenskaber](Illustrations/kap7-3-egenskaber.svg)
+
+Figur xx : ???
+
 Objektegenskaber har klasser som udfaldsrum, og datatypeegenskaber har datatyper som udfaldsrum. Her kan der være tale om primitive datatyper, strukturerede datatyper eller enumerationer. For strukturerede datatyper og enumerationer hjælper det læseren, hvis der oprettes en dependency mellem atrributtet og datatypen.
 
 Nedenfor ses objektegenskaben ‘påLager’ med klassen ‘Cykel’ som udfaldsrum modelleret som associationsende. Datatypeegenskaberne ‘navn’, ‘cvrNr’, ‘stelnummer’ og størrelse’ er modelleret som attributter. Heraf har ‘stelnummer’ en struktureret datatype som udfaldsrum og sammenhængen mellem elementerne er illustreret med en dependency.
 
+![Eksempel på egenskaber](Illustrations/kap7-4-egenskaber-eksempel.svg)
+
 Figur xx : objektegenskaber som associationsender og datatypeegenskaber som attributter. 
 
 ## Eksempel på UML-diagram 
+
+![Sandfarve](Illustrations/kap7-5-diagrameksempel.svg)
 
 Figur xx : UML-diagram hvor anbefalinger følges
 
@@ -124,13 +134,20 @@ Hvis man i en UML-model ønsker at tydeliggøre de forskellige krav til anvendel
 
 Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af Europa-Kommissionen. Se fx [UML-diagrammet til DCAT-AP 2.0.1](https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2020-06/8d26212c-3ed4-4c9d-b5a5-0b5934daae34/DCAT_AP_2.0.1.png). I [INSPIRE](https://inspire-regadmin.jrc.ec.europa.eu/dataspecification/themes/br/Chapter5.pdf) data specifikationerne anvendes også stereotypen <<voidable>> til at angive at der ikke eksisterer eller kan afledes en tilsvarende værdi i kildedatasættet. 
 
+![Kravsniveau med stereotyper](Illustrations/kap7-6-kravsniveau-med-stereotyper.svg)
+
 Figur xx: Udsnit fra UML-diagram til DCAT-AP 2.0.1
 
 ### Angiv gerne namespaces og præfikser i logiske datamodeller
 Ved at anvende en forkortelse for namespacet på den model hvor modelelementer er defineret som præfiks for UML-elementnavne, er det til enhver tid tydeligt hvor et givent element kommer fra. Se fx  [W3Cs UML-visualisering af DCAT](https://www.w3.org/TR/vocab-dcat-2/). Det er især relevant i anvendelsesmodeller som sammensættes af modelelementer fra forskellige kernemodeller. I kernemodeller kan man eksempelvis også vælge alene at forsyne de indlånte elementer med prefixes, så defaultlæsningen bliver at de øvrige klasser er modellens egne. 
 
+![Præfixer](Illustrations/kap7-7-præfixer.svg)
+
 Figur xx: ??
+
 For at gøre det let at se hvilke modeller der er genbruges i given model, bør man også indsætte en tekstboks med anvendte prefixes og namespaces i modellen, fx
+
+![Tekstboks](Illustrations/kap7-8-tekstboks.svg)
 
 Figur xx: Tekstboks med anvendte prefixes
 
