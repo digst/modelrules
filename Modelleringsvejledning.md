@@ -104,7 +104,7 @@ Figur xx : objektegenskaber som associationsender og datatypeegenskaber som attr
 
 ## Eksempel på UML-diagram 
 
-![Sandfarve](Illustrations/kap7-5-diagrameksempel.svg)
+![Diagrameksempel](Illustrations/kap7-5-diagrameksempel.svg)
 
 Figur xx : UML-diagram hvor anbefalinger følges
 
