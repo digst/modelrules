@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Oprettet af Microsoft Visio, SVG-eksport Logisk_datamodel.svg Page-4 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.75591in" height="6.37795in"
+		viewBox="0 0 558.425 459.213" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1030" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+			<v:ud v:nameU="Ifc__CustomPropsLevel" v:val="VT0(0):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#000000;font-family:Arial;font-size:0.833336em}
+		.st5 {font-size:1em}
+		.st6 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="8" v:index="4" v:groupContext="foregroundPage">
+		<title>Side-4</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape73-1" v:mID="73" v:groupContext="shape" transform="translate(202.961,-327.24)">
+			<title>Ark.73</title>
+			<path d="M0 459.21 L76.54 459.21" class="st1"/>
+		</g>
+		<g id="shape74-4" v:mID="74" v:groupContext="shape" transform="translate(905.82,178.68) rotate(90.0034)">
+			<title>Ark.74</title>
+			<path d="M0 459.21 L146.65 459.21" class="st1"/>
+		</g>
+		<g id="shape75-7" v:mID="75" v:groupContext="shape" transform="translate(572.882,152.196) rotate(90)">
+			<title>Ark.75</title>
+			<path d="M0 459.21 L173.67 459.21" class="st1"/>
+		</g>
+		<g id="shape76-10" v:mID="76" v:groupContext="shape" transform="translate(430.025,-267.331)">
+			<title>Trekant.168</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<path d="M35.73 459.21 L16.58 419.53 L-2.57 459.21 L35.73 459.21 Z" class="st2"/>
+		</g>
+		<g id="shape77-12" v:mID="77" v:groupContext="shape" transform="translate(738.709,131.973) rotate(90)">
+			<title>Ark.77</title>
+			<path d="M0 459.21 L244.35 459.21" class="st1"/>
+		</g>
+		<g id="shape78-15" v:mID="78" v:groupContext="shape" transform="translate(279.497,-82.8847)">
+			<title>Ark.78</title>
+			<path d="M0 459.21 L77.81 459.21" class="st3"/>
+		</g>
+		<g id="shape79-18" v:mID="79" v:groupContext="shape" transform="translate(202.961,-358.04)">
+			<title>Ark.79</title>
+			<path d="M0 459.21 L153.82 459.21" class="st3"/>
+		</g>
+		<g id="shape80-21" v:mID="80" v:groupContext="shape" transform="translate(24.3785,-307.016)">
+			<title>Rectangle.178</title>
+			<desc>ModelElement1 attribut1 datatype attribut2 datatype attribut3...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="89.2913" cy="408.189" width="178.59" height="102.047"/>
+			<rect x="0" y="357.165" width="178.583" height="102.047" class="st2"/>
+			<text x="54.55" y="375.19" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>ModelElement1<v:lf/><v:newlineChar/><tspan
+						x="27.59" dy="2.4em" class="st5">attribut</tspan>1<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype<v:newlineChar/></tspan><tspan
+						x="27.59" dy="1.2em" class="st5">attribut</tspan>2<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype<v:newlineChar/></tspan><tspan
+						x="27.59" dy="1.2em" class="st5">attribut</tspan>3<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype</tspan><v:newlineChar/><v:newlineChar/></text>		</g>
+		<g id="shape81-30" v:mID="81" v:groupContext="shape" transform="translate(24.3785,-383.366)">
+			<title>Ark.81</title>
+			<path d="M0 459.21 L178.58 459.21" class="st1"/>
+		</g>
+		<g id="shape82-33" v:mID="82" v:groupContext="shape" transform="translate(357.308,-31.861)">
+			<title>Rectangle.184</title>
+			<desc>ModelElement4 attribut1 datatype attribut2 datatype attribut3...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="89.2913" cy="408.189" width="178.59" height="102.047"/>
+			<rect x="0" y="357.165" width="178.583" height="102.047" class="st2"/>
+			<text x="54.55" y="375.19" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>ModelElement4<v:newlineChar/><v:newlineChar/><tspan
+						x="27.59" dy="2.4em" class="st5">attribut</tspan>1<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype<v:newlineChar/></tspan><tspan
+						x="27.59" dy="1.2em" class="st5">attribut</tspan>2<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype<v:newlineChar/></tspan><tspan
+						x="27.59" dy="1.2em" class="st5">attribut</tspan>3<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype</tspan><v:newlineChar/><v:newlineChar/></text>		</g>
+		<g id="shape83-42" v:mID="83" v:groupContext="shape" transform="translate(357.308,-107.96)">
+			<title>Ark.83</title>
+			<path d="M0 459.21 L178.58 459.21" class="st1"/>
+		</g>
+		<g id="shape84-45" v:mID="84" v:groupContext="shape" transform="translate(356.778,-307.016)">
+			<title>Rectangle.186</title>
+			<desc>ModelElement3 attribut1 datatype attribut2 datatype attribut3...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="89.2913" cy="408.189" width="178.59" height="102.047"/>
+			<rect x="0" y="357.165" width="178.583" height="102.047" class="st2"/>
+			<text x="54.55" y="375.19" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>ModelElement3<v:lf/><v:newlineChar/><tspan
+						x="27.59" dy="2.4em" class="st5">attribut</tspan>1<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype<v:newlineChar/></tspan><tspan
+						x="27.59" dy="1.2em" class="st5">attribut</tspan>2<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype<v:newlineChar/></tspan><tspan
+						x="27.59" dy="1.2em" class="st5">attribut</tspan>3<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype</tspan><v:newlineChar/><v:newlineChar/></text>		</g>
+		<g id="shape85-54" v:mID="85" v:groupContext="shape" transform="translate(356.032,-383.366)">
+			<title>Ark.85</title>
+			<path d="M0 459.21 L178.58 459.21" class="st1"/>
+		</g>
+		<g id="shape86-57" v:mID="86" v:groupContext="shape" transform="translate(24.3785,-31.3026)">
+			<title>Rectangle.190</title>
+			<desc>ModelElement2 attribut1 datatype attribut2 datatype attribut3...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="89.2913" cy="408.189" width="178.59" height="102.047"/>
+			<rect x="0" y="357.165" width="178.583" height="102.047" class="st2"/>
+			<text x="54.55" y="375.19" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>ModelElement2<v:newlineChar/><v:newlineChar/><tspan
+						x="27.59" dy="2.4em" class="st5">attribut</tspan>1<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype<v:newlineChar/></tspan><tspan
+						x="27.59" dy="1.2em" class="st5">attribut</tspan>2<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype<v:newlineChar/></tspan><tspan
+						x="27.59" dy="1.2em" class="st5">attribut</tspan>3<v:tabChar/><v:tabChar/><tspan dx="4.891em" class="st5">datatype</tspan><v:newlineChar/><v:newlineChar/></text>		</g>
+		<g id="shape87-66" v:mID="87" v:groupContext="shape" transform="translate(24.3785,-107.882)">
+			<title>Ark.87</title>
+			<path d="M0 459.21 L178.58 459.21" class="st1"/>
+		</g>
+		<g id="shape88-69" v:mID="88" v:groupContext="shape" transform="translate(138.676,-356.544)">
+			<title>Ark.88</title>
+			<desc>1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="449.213" width="152" height="20"/>
+			<rect x="0" y="439.213" width="152" height="20" class="st6"/>
+			<text x="73.22" y="452.21" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape89-72" v:mID="89" v:groupContext="shape" transform="translate(236.419,-360.717)">
+			<title>Ark.89</title>
+			<desc>associationsende4 0..*</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="449.213" width="152" height="20"/>
+			<rect x="0" y="439.213" width="152" height="20" class="st6"/>
+			<text x="34.58" y="446.21" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>associationsende4<v:newlineChar/><tspan
+						x="36.54" dy="1.2em" class="st5">                       </tspan>0..*</text>		</g>
+		<g id="shape90-76" v:mID="90" v:groupContext="shape" transform="translate(34.7388,-281.504)">
+			<title>Ark.90</title>
+			<desc>0..1 associationsende1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="449.213" width="152" height="20"/>
+			<rect x="0" y="439.213" width="152" height="20" class="st6"/>
+			<text x="88.92" y="446.21" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/><v:tabChar/>0..1<v:lf/><tspan
+						x="34.58" dy="1.2em" class="st5">associationsende</tspan>1</text>		</g>
+		<g id="shape91-80" v:mID="91" v:groupContext="shape" transform="translate(37.9934,-140.449)">
+			<title>Ark.91</title>
+			<desc>associationsende2 0..2</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="449.213" width="152" height="20"/>
+			<rect x="0" y="439.213" width="152" height="20" class="st6"/>
+			<text x="34.58" y="446.21" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>associationsende2<v:newlineChar/><tspan
+						x="52.38" dy="1.2em" class="st5">           </tspan>0..2</text>		</g>
+		<g id="shape92-84" v:mID="92" v:groupContext="shape" transform="translate(236.419,-87.0579)">
+			<title>Ark.92</title>
+			<desc>0..1 associationsende6</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="449.213" width="152" height="20"/>
+			<rect x="0" y="439.213" width="152" height="20" class="st6"/>
+			<text x="98.64" y="446.21" class="st4" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/><v:tabChar/>0..1<tspan
+						x="34.58" dy="1.2em" class="st5">associationsende</tspan>6</text>		</g>
+		<g id="shape93-88" v:mID="93" v:groupContext="shape" transform="translate(9.64695,-12.0185)">
+			<title>Rectangle.207</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(12):26"/>
+			</v:userDefs>
+			<rect x="0" y="19.6479" width="538.583" height="439.565" class="st7"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1"
+	 id="Lag_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 576.4 440.4"
+	 style="enable-background:new 0 0 576.4 440.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.24;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;}
+	
+		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:0.24;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;}
+	.st2{fill:none;stroke:#808080;stroke-width:0.24;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:10px;}
+	.st5{opacity:0;fill:#FFFFFF;enable-background:new    ;}
+	.st6{opacity:0;enable-background:new    ;}
+	.st7{fill:none;}
+	.st8{enable-background:new    ;}
+	.st9{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="440.4" width="576.4" x="538" y="407"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<v:documentProperties  v:langID="1030" v:metric="true" v:viewMarkup="false">
+	<v:userDefs>
+		<v:ud  v:nameU="msvNoAutoConnect" v:val="VT0(1):26"></v:ud>
+		<v:ud  v:nameU="Ifc__CustomPropsLevel" v:val="VT0(0):26"></v:ud>
+	</v:userDefs>
+</v:documentProperties>
+<g>
+	
+		<v:pageProperties  v:drawingScale="0.0393701" v:drawingUnits="24" v:pageScale="0.0393701" v:shadowOffsetX="8.50394" v:shadowOffsetY="-8.50394">
+		</v:pageProperties>
+	<g id="shape25-1" transform="translate(746.822,-732.856)">
+		<path class="st0" d="M-538,847.3h76.5"/>
+	</g>
+	<g id="shape26-4" transform="translate(2638.22,970.877) rotate(90.2623)">
+		<path class="st0" d="M-798,2189.4h145.5"/>
+	</g>
+	<g id="shape27-7" transform="translate(2305.31,935.147) rotate(90)">
+		<path class="st0" d="M-800.4,2185.8h173.7"/>
+	</g>
+	<g id="shape28-10" transform="translate(973.877,-670.352)">
+		<v:userDefs>
+			<v:ud  v:nameU="visVersion" v:val="VT0(14):26"></v:ud>
+		</v:userDefs>
+		<path class="st1" d="M-502.3,847.4l-19.1-42.3l-19.2,42.3H-502.3z"/>
+	</g>
+	<g id="shape29-12" transform="translate(2471.14,914.335) rotate(89.9795)">
+		<path class="st0" d="M-800.6,2185.5l244.9,0"/>
+	</g>
+	<g id="shape30-15" transform="translate(823.445,-487.943)">
+		<path class="st2" d="M-538,847.3h80.8"/>
+	</g>
+	<g id="shape31-18" transform="translate(746.822,-763.656)">
+		<path class="st0" d="M-538,847.4h153.1"/>
+	</g>
+	<g id="shape32-21" transform="translate(568.239,-712.633)">
+		<desc>Concept1 attribut1 Datatype attribut2 Datatype attribut3 Data...</desc>
+		<v:userDefs>
+			<v:ud  v:nameU="visVersion" v:val="VT0(12):26"></v:ud>
+		</v:userDefs>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="89.2913" cy="1596.76" height="102.047" width="178.59"></v:textRect>
+		<rect x="-538" y="745.3" class="st1" width="178.6" height="102"/>
+		<text transform="matrix(1 0 0 1 -470.098 763.33)" class="st3 st4">Concept1</text>
+		<text transform="matrix(1 0 0 1 -511.228 787.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 787.3301)" class="st3 st4">1</text>
+		<text transform="matrix(1 0 0 1 -426.1849 787.3301)" class="st5 st3 st4">Datatype</text>
+		<text transform="matrix(1 0 0 1 -511.228 799.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 799.3301)" class="st3 st4">2</text>
+		<text transform="matrix(1 0 0 1 -426.1849 799.3301)" class="st6 st3 st4">Datatype</text>
+		<text transform="matrix(1 0 0 1 -511.228 811.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 811.3301)" class="st3 st4">3</text>
+		<text transform="matrix(1 0 0 1 -426.1849 811.3301)" class="st6 st3 st4">Datatype</text>
+		<v:paragraph  v:horizAlign="1"></v:paragraph>
+		<v:tabList></v:tabList>
+		<v:lf></v:lf>
+		<v:newlineChar></v:newlineChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+	</g>
+	<g id="shape33-30" transform="translate(568.239,-788.982)">
+		<path class="st0" d="M-538,847.4h178.6"/>
+	</g>
+	<g id="shape34-33" transform="translate(900.502,-436.919)">
+		<desc>Concept4 attribut1 Datatype attribut2 Datatype attribut3 Data...</desc>
+		<v:userDefs>
+			<v:ud  v:nameU="visVersion" v:val="VT0(12):26"></v:ud>
+		</v:userDefs>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="89.2913" cy="1596.76" height="102.047" width="178.59"></v:textRect>
+		<rect x="-538" y="745.3" class="st1" width="178.6" height="102"/>
+		<text transform="matrix(1 0 0 1 -470.098 763.33)" class="st3 st4">Concept4</text>
+		<text transform="matrix(1 0 0 1 -511.228 787.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 787.3301)" class="st3 st4">1</text>
+		<text transform="matrix(1 0 0 1 -426.1849 787.3301)" class="st6 st3 st4">Datatype</text>
+		<text transform="matrix(1 0 0 1 -511.228 799.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 799.3301)" class="st3 st4">2</text>
+		<text transform="matrix(1 0 0 1 -426.1849 799.3301)" class="st6 st3 st4">Datatype</text>
+		<text transform="matrix(1 0 0 1 -511.228 811.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 811.3301)" class="st3 st4">3</text>
+		<text transform="matrix(1 0 0 1 -426.1849 811.3301)" class="st6 st3 st4">Datatype</text>
+		<v:paragraph  v:horizAlign="1"></v:paragraph>
+		<v:tabList></v:tabList>
+		<v:newlineChar></v:newlineChar>
+		<v:newlineChar></v:newlineChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+	</g>
+	<g id="shape35-42" transform="translate(902.74,-513.135)">
+		<path class="st0" d="M-538,847.4h178.6"/>
+	</g>
+	<g id="shape36-45" transform="translate(899.893,-712.633)">
+		<desc>Concept3 attribut1 Datatype attribut2 Datatype attribut3 Data...</desc>
+		<v:userDefs>
+			<v:ud  v:nameU="visVersion" v:val="VT0(12):26"></v:ud>
+		</v:userDefs>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="89.2913" cy="1596.76" height="102.047" width="178.59"></v:textRect>
+		<rect x="-538" y="745.3" class="st1" width="178.6" height="102"/>
+		<text transform="matrix(1 0 0 1 -470.098 763.33)" class="st3 st4">Concept3</text>
+		<text transform="matrix(1 0 0 1 -511.228 787.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 787.3301)" class="st3 st4">1</text>
+		<text transform="matrix(1 0 0 1 -426.1849 787.3301)" class="st6 st3 st4">Datatype</text>
+		<text transform="matrix(1 0 0 1 -511.228 799.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 799.3301)" class="st3 st4">2</text>
+		<text transform="matrix(1 0 0 1 -426.1849 799.3301)" class="st6 st3 st4">Datatype</text>
+		<text transform="matrix(1 0 0 1 -511.228 811.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 811.3301)" class="st3 st4">3</text>
+		<text transform="matrix(1 0 0 1 -426.1849 811.3301)" class="st6 st3 st4">Datatype</text>
+		<v:paragraph  v:horizAlign="1"></v:paragraph>
+		<v:tabList></v:tabList>
+		<v:lf></v:lf>
+		<v:newlineChar></v:newlineChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+	</g>
+	<g id="shape37-54" transform="translate(899.893,-788.982)">
+		<path class="st0" d="M-538,847.4h178.6"/>
+	</g>
+	<g id="shape38-57" transform="translate(568.239,-436.919)">
+		<desc>Concept2 attribut1 Datatype attribut2 Datatype attribut3 Data...</desc>
+		<v:userDefs>
+			<v:ud  v:nameU="visVersion" v:val="VT0(12):26"></v:ud>
+		</v:userDefs>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="89.2913" cy="1596.76" height="102.047" width="178.59"></v:textRect>
+		<rect x="-538" y="745.3" class="st1" width="178.6" height="102"/>
+		<text transform="matrix(1 0 0 1 -470.098 763.33)" class="st3 st4">Concept2</text>
+		<text transform="matrix(1 0 0 1 -511.228 787.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 787.3301)" class="st3 st4">1</text>
+		<text transform="matrix(1 0 0 1 -426.1849 787.3301)" class="st6 st3 st4">Datatype</text>
+		<text transform="matrix(1 0 0 1 -511.228 799.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 799.3301)" class="st3 st4">2</text>
+		<text transform="matrix(1 0 0 1 -426.1849 799.3301)" class="st6 st3 st4">Datatype</text>
+		<text transform="matrix(1 0 0 1 -511.228 811.3301)" class="st3 st4">attribut</text>
+		<text transform="matrix(1 0 0 1 -480.6566 811.3301)" class="st3 st4">3</text>
+		<text transform="matrix(1 0 0 1 -426.1849 811.3301)" class="st6 st3 st4">Datatype</text>
+		<v:paragraph  v:horizAlign="1"></v:paragraph>
+		<v:tabList></v:tabList>
+		<v:newlineChar></v:newlineChar>
+		<v:newlineChar></v:newlineChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+		<v:tabChar></v:tabChar>
+	</g>
+	<g id="shape39-66" transform="translate(568.239,-513.499)">
+		<path class="st0" d="M-538,847.3h178.6"/>
+	</g>
+	<g id="shape40-69" transform="translate(682.536,-762.16)">
+		<desc>1</desc>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="76" cy="1637.78" height="20" width="152"></v:textRect>
+		<rect x="-538" y="827.3" class="st7" width="152" height="20"/>
+		<text transform="matrix(1 0 0 1 -464.768 840.35)" class="st8 st3 st4">1<v:paragraph  v:horizAlign="1"></v:paragraph><v:tabList></v:tabList></text>
+	</g>
+	<g id="shape41-72" transform="translate(782.268,-762.16)">
+		<desc>0..*</desc>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="76" cy="1637.78" height="20" width="152"></v:textRect>
+		<rect x="-538" y="827.3" class="st7" width="152" height="20"/>
+		<text transform="matrix(1 0 0 1 -441.708 840.35)" class="st8 st3 st4">0..*<v:paragraph  v:horizAlign="1"></v:paragraph><v:tabList></v:tabList></text>
+	</g>
+	<g id="shape42-75" transform="translate(578.599,-687.121)">
+		<desc>0..1</desc>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="76" cy="1637.78" height="20" width="152"></v:textRect>
+		<rect x="-538" y="827.4" class="st7" width="152" height="20"/>
+		<text transform="matrix(1 0 0 1 -449.068 834.35)" class="st8 st3 st4">0..1<v:paragraph  v:horizAlign="1"></v:paragraph><v:tabList></v:tabList><v:tabChar></v:tabChar></text>
+	</g>
+	<g id="shape43-78" transform="translate(581.854,-546.066)">
+		<desc>0..2</desc>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="76" cy="1637.78" height="20" width="152"></v:textRect>
+		<rect x="-538" y="827.3" class="st7" width="152" height="20"/>
+		<text transform="matrix(1 0 0 1 -455.048 846.35)" class="st8 st3 st4">0..2<v:paragraph  v:horizAlign="1"></v:paragraph><v:tabList></v:tabList><v:newlineChar></v:newlineChar></text>
+	</g>
+	<g id="shape44-81" transform="translate(783.339,-478.346)">
+		<desc>0..1</desc>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="76" cy="1637.78" height="20" width="152"></v:textRect>
+		<rect x="-538" y="827.3" class="st7" width="152" height="20"/>
+		<text transform="matrix(1 0 0 1 -449.068 834.35)" class="st8 st3 st4">0..1<v:paragraph  v:horizAlign="1"></v:paragraph><v:tabList></v:tabList><v:tabChar></v:tabChar></text>
+	</g>
+	<g id="shape45-84" transform="translate(538.488,-407.48)">
+		<v:userDefs>
+			<v:ud  v:nameU="visVersion" v:val="VT0(12):26"></v:ud>
+		</v:userDefs>
+		<rect x="-538" y="408" class="st9" width="575.4" height="439.4"/>
+	</g>
+	<g id="shape46-86" transform="translate(584.913,-620.079)">
+		<desc>association1</desc>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="76" cy="1637.78" height="20" width="152"></v:textRect>
+		<rect x="-538" y="827.3" class="st7" width="152" height="20"/>
+		<text transform="matrix(1 0 0 1 -489.788 840.95)" class="st8 st3 st4">association1<v:paragraph  v:horizAlign="1"></v:paragraph><v:tabList></v:tabList></text>
+	</g>
+	<g id="shape47-89" transform="translate(732.913,-762.907)">
+		<desc>association3</desc>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="76" cy="1637.78" height="20" width="152"></v:textRect>
+		<rect x="-538" y="827.3" class="st7" width="152" height="20"/>
+		<text transform="matrix(1 0 0 1 -489.788 840.95)" class="st8 st3 st4">association3<v:paragraph  v:horizAlign="1"></v:paragraph><v:tabList></v:tabList></text>
+	</g>
+	<g id="shape48-92" transform="translate(745.953,-620.079)">
+		<desc>association4</desc>
+		<v:textBlock  v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"></v:textBlock>
+		<v:textRect  cx="76" cy="1637.78" height="20" width="152"></v:textRect>
+		<rect x="-538" y="827.3" class="st7" width="152" height="20"/>
+		<text transform="matrix(1 0 0 1 -489.788 840.95)" class="st8 st3 st4">association4<v:paragraph  v:horizAlign="1"></v:paragraph><v:tabList></v:tabList></text>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="120mm"
+   id="svg3420"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Kap2 - ny model - genbrugt klasse.svg">
+  <defs
+     id="defs3422" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="570.38006"
+     inkscape:cy="416.86252"
+     inkscape:current-layer="layer1"
+     id="namedview3424"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3426">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(-2.7278682e-5,0.51440446,-0.45969215,-3.0525376e-5,371.75139,175.2232)"
+       v:groupContext="shape"
+       v:mID="74"
+       id="g3495">
+      <title
+         id="title3497">Ark.74</title>
+      <path
+         style="stroke:#000000;stroke-width:0.23968174;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3499"
+         class="st1"
+         d="M -3.2468155e-4,459.20996 145.12377,459.21012" />
+    </g>
+    <g
+       id="g3543"
+       transform="matrix(0.59418755,0,0,0.59418755,194.8307,257.73535)">
+      <rect
+         x="-295.49799"
+         y="89.529045"
+         width="178.58299"
+         height="102.047"
+         class="st2"
+         id="rect3545"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m -295.49798,115.22404 178.58,0"
+         class="st1"
+         id="path3547"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.45842535,0,0,0.45842535,-227.84962,112.56612)"
+       v:groupContext="shape"
+       v:mID="73"
+       id="g3561">
+      <title
+         id="title3563">Ark.73</title>
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3565"
+         class="st1"
+         d="m 0,459.21 76.54,0" />
+    </g>
+    <g
+       transform="matrix(0,0.45842535,-0.45842535,0,17.750845,323.08099)"
+       v:groupContext="shape"
+       v:mID="77"
+       id="g3567">
+      <title
+         id="title3569">Ark.77</title>
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3571"
+         class="st1"
+         d="m 0,459.21 244.35,0" />
+    </g>
+    <g
+       transform="matrix(0.45842535,0,0,0.45842535,-192.76358,224.58478)"
+       v:groupContext="shape"
+       v:mID="78"
+       id="g3573">
+      <title
+         id="title3575">Ark.78</title>
+      <path
+         style="stroke:#808080;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3577"
+         class="st3"
+         d="m 0,459.21 77.81,0" />
+    </g>
+    <g
+       transform="matrix(0.59418755,0,0,0.59418755,371.54103,257.73535)"
+       id="g3621">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect3623"
+         class="st2"
+         height="102.047"
+         width="178.58299"
+         y="89.529045"
+         x="-295.49799" />
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3625"
+         class="st1"
+         d="m -295.49798,115.22404 178.58,0" />
+    </g>
+    <g
+       transform="matrix(0.59418755,0,0,0.59418755,283.17919,50.38536)"
+       id="g3627">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect3629"
+         class="st2"
+         height="102.047"
+         width="178.58299"
+         y="89.529045"
+         x="-295.49799" />
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3631"
+         class="st1"
+         d="m -295.49798,115.22404 178.58,0" />
+    </g>
+    <g
+       transform="matrix(0.59418755,0,0,0.59418755,424.02211,50.3836)"
+       id="g3639">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect3641"
+         class="st2"
+         height="102.047"
+         width="178.58299"
+         y="89.529045"
+         x="-295.49799" />
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3643"
+         class="st1"
+         d="m -295.49798,115.22404 178.58,0" />
+    </g>
+    <g
+       transform="matrix(0.59418755,0,0,0.59418755,564.86503,50.4461)"
+       id="g3645">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect3647"
+         class="st2"
+         height="102.047"
+         width="178.58299"
+         y="89.529045"
+         x="-295.49799" />
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3649"
+         class="st1"
+         d="m -295.49798,115.22404 178.58,0" />
+    </g>
+    <g
+       id="g3651"
+       transform="matrix(0.59418755,0,0,0.59418755,564.86501,257.73439)"
+       style="fill:#0a82ff;fill-opacity:1">
+      <rect
+         x="-295.49799"
+         y="89.529045"
+         width="178.58299"
+         height="102.047"
+         class="st2"
+         id="rect3653"
+         style="fill:#0a82ff;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m -295.49798,115.22404 178.58,0"
+         class="st1"
+         id="path3655"
+         inkscape:connector-curvature="0"
+         style="fill:#0a82ff;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.59418755,0,0,0.59418755,810.68402,257.73439)"
+       id="g3657"
+       style="fill:#0a82ff;fill-opacity:1">
+      <rect
+         style="fill:#0a82ff;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect3659"
+         class="st2"
+         height="102.047"
+         width="178.58299"
+         y="89.529045"
+         x="-295.49799" />
+      <path
+         style="fill:#0a82ff;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3661"
+         class="st1"
+         d="m -295.49798,115.22404 178.58,0" />
+    </g>
+    <g
+       id="g3663"
+       transform="matrix(0.59418755,0,0,0.59418755,951.52694,257.73439)">
+      <rect
+         x="-295.49799"
+         y="89.529045"
+         width="178.58299"
+         height="102.047"
+         class="st2"
+         id="rect3665"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m -295.49798,115.22404 178.58,0"
+         class="st1"
+         id="path3667"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.59418755,0,0,0.59418755,1092.3698,257.73439)"
+       id="g3669">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect3671"
+         class="st2"
+         height="102.047"
+         width="178.58299"
+         y="89.529045"
+         x="-295.49799" />
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3673"
+         class="st1"
+         d="m -295.49798,115.22404 178.58,0" />
+    </g>
+    <g
+       id="g3675"
+       transform="matrix(0.59418755,0,0,0.59418755,951.52694,50.3836)">
+      <rect
+         x="-295.49799"
+         y="89.529045"
+         width="178.58299"
+         height="102.047"
+         class="st2"
+         id="rect3677"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m -295.49798,115.22404 178.58,0"
+         class="st1"
+         id="path3679"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.59418755,0,0,0.59418755,1092.3698,50.3836)"
+       id="g3681">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect3683"
+         class="st2"
+         height="102.047"
+         width="178.58299"
+         y="89.529045"
+         x="-295.49799" />
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path3685"
+         class="st1"
+         d="m -295.49798,115.22404 178.58,0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="76.426682"
+       y="65.830276"
+       id="text4457"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4459"
+         x="76.426682"
+         y="65.830276"
+         style="font-size:24px;font-weight:normal;-inkscape-font-specification:Sans">Egen model</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4463"
+       y="65.829529"
+       x="731.46216"
+       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         style="font-size:24px;font-weight:normal;-inkscape-font-specification:Sans"
+         y="65.829529"
+         x="731.46216"
+         id="tspan4465"
+         sodipodi:role="line">Model fra andet emneområde</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.92000002;fill:none;stroke:#ff6600;stroke-width:0.99851382;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.99108295, 5.99108295;stroke-dashoffset:0"
+       id="path4467"
+       sodipodi:cx="560.26727"
+       sodipodi:cy="522.59344"
+       sodipodi:rx="198.69945"
+       sodipodi:ry="68.404732"
+       d="m 758.96672,522.59344 a 198.69945,68.404732 0 1 1 -397.39889,0 198.69945,68.404732 0 1 1 397.39889,0 z"
+       transform="matrix(1.0317137,0,0,1.2265033,-11.404233,-296.36915)" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="640.4964"
+       y="244.95178"
+       id="text4469"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4471"
+         x="640.4964"
+         y="244.95178"
+         style="font-size:20px;font-weight:normal;-inkscape-font-specification:Sans">Genbrugt klasse</tspan></text>
+    <image
+       y="388.25845"
+       x="-144.2063"
+       id="image4481"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABTCAYAAAB3VJLyAAAABHNCSVQICAgIfAhkiAAAAO1JREFU eJzt00ENhEAABMHbU4JBnCJiLawCkAA/6KRKwSSdGdt+nD8+7//2AJ4RKkKoCKEihIoQKkKoCKEi hIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQ KkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKo CKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoCKEihIoQKkKoiDHnPN8ewT2Pihhr LY8KuACBBwpt8x1dyQAAAABJRU5ErkJggg== "
+       height="83"
+       width="106"
+       style="fill:#ffffff;fill-opacity:1" />
+    <g
+       id="g4484"
+       v:mID="77"
+       v:groupContext="shape"
+       transform="matrix(-0.72290471,0,0,-0.45842535,248.97474,460.46313)">
+      <title
+         id="title4486">Ark.77</title>
+      <path
+         d="m 0,459.21 244.35,0"
+         class="st1"
+         id="path4488"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       id="g4490"
+       v:mID="77"
+       v:groupContext="shape"
+       transform="matrix(0,0.45842535,-0.45842535,0,17.750845,323.08099)">
+      <title
+         id="title4492">Ark.77</title>
+      <path
+         d="m 0,459.21 244.35,0"
+         class="st1"
+         id="path4494"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0,0.24934787,-0.44242163,0,452.18014,249.94222)"
+       v:groupContext="shape"
+       v:mID="77"
+       id="g4496">
+      <title
+         id="title4498">Ark.77</title>
+      <path
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path4500"
+         class="st1"
+         d="m 0,459.21 244.35,0" />
+    </g>
+    <g
+       id="g4502"
+       v:mID="77"
+       v:groupContext="shape"
+       transform="matrix(0,0.24934939,-0.4562665,0,281.82751,249.94502)">
+      <title
+         id="title4504">Ark.77</title>
+      <path
+         d="m 0,459.21 244.35,0"
+         class="st1"
+         id="path4506"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <rect
+       y="39.662704"
+       x="562.70361"
+       height="413.25723"
+       width="474.06839"
+       id="rect4552"
+       style="opacity:0.92000002;fill:none;stroke:#3f1a2b;stroke-width:0.60573876;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <image
+       y="154.09448"
+       x="-190.5"
+       id="image4566"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAABICAYAAADRR5YsAAAABHNCSVQICAgIfAhkiAAAAKpJREFU eJzt0jEBwCAAwLAyGVhABP5VDRkcJAp6dOy5/njadzuA+0yACTABmYBMQCYgE5AJyARkAjIBmYBM QCYgE5AJyARkAjIBmYBMQCYgE5AJyARkAjIBmYBMQCYgE5AJyARkAjIBmYBMQCYgE5AJyARkAjIB mYBMQCYgE5AJyARkAjIBmYBMQCYgE5AJyARkAjIBmYBMQCYgE5AJyARkAjIBmYBMQCagOlE7AhOn IZ+yAAAAAElFTkSuQmCC "
+       height="72"
+       width="129"
+       style="fill:#3f1a2b;fill-opacity:1" />
+    <rect
+       style="opacity:0.92000002;fill:none;stroke:#3f1a2b;stroke-width:0.63257623;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4569"
+       width="517.0415"
+       height="413.22925"
+       x="7.4029026"
+       y="39.67886" />
+    <rect
+       y="39.407581"
+       x="7.134357"
+       height="34.384781"
+       width="141.5786"
+       id="rect4571"
+       style="opacity:0.92000002000000003;fill:none;stroke:#3f1a2b;stroke-width:0.09548531;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.38194123,0.09548531;stroke-dashoffset:0" />
+    <rect
+       style="opacity:0.92000002;fill:none;stroke:#3f1a2b;stroke-width:0.14671499;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.58685995, 0.14671498;stroke-dashoffset:0"
+       id="rect4573"
+       width="334.75006"
+       height="34.333576"
+       x="562.96033"
+       y="39.433182" />
+    <g
+       transform="matrix(0.18520773,0,0,0.18520773,157.58342,90.52431)"
+       v:groupContext="shape"
+       v:mID="76"
+       id="g5393">
+      <title
+         id="title5395">Trekant.168</title>
+      <v:userDefs>
+        <v:ud
+           v:val="VT0(14):26"
+           v:nameU="visVersion" />
+      </v:userDefs>
+      <path
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.53993428;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path5397"
+         class="st2"
+         d="m 35.73,459.21 -19.15,-39.68 -19.15,39.68 38.3,0 z" />
+    </g>
+    <g
+       transform="matrix(0,0.18520773,0.1866591,0,328.86862,51.18523)"
+       id="g5283">
+      <g
+         id="g5285"
+         v:mID="74"
+         v:groupContext="shape"
+         transform="matrix(-5.9341195e-5,1,-1,-5.9341195e-5,905.82,178.68)">
+        <title
+           id="title5287">Ark.74</title>
+        <path
+           d="M -3.2468155e-4,459.20996 145.12377,459.21012"
+           class="st1"
+           id="path5289"
+           inkscape:connector-curvature="0"
+           style="stroke:#000000;stroke-width:0.53783107;stroke-linecap:round;stroke-linejoin:round" />
+      </g>
+      <g
+         id="g5291"
+         v:mID="76"
+         v:groupContext="shape"
+         transform="translate(430.025,-267.331)">
+        <title
+           id="title5293">Trekant.168</title>
+        <v:userDefs>
+          <v:ud
+             v:nameU="visVersion"
+             v:val="VT0(14):26" />
+        </v:userDefs>
+        <path
+           d="m 35.73,459.21 -19.15,-39.68 -19.15,39.68 38.3,0 z"
+           class="st2"
+           id="path5295"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.53783107;stroke-linecap:round;stroke-linejoin:round" />
+      </g>
+    </g>
+    <g
+       id="g5343"
+       transform="matrix(1,0,0,0.96151613,0,-164.82632)">
+      <g
+         transform="matrix(-4.9101865e-5,-0.98393056,-0.82744988,5.8387615e-5,822.31655,485.14441)"
+         v:groupContext="shape"
+         v:mID="74"
+         id="g5313">
+        <title
+           id="title5315">Ark.74</title>
+        <path
+           style="stroke:#000000;stroke-width:0.11866128;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="path5317"
+           class="st1"
+           d="M -3.2468155e-4,459.20996 145.12377,459.21012" />
+      </g>
+    </g>
+    <g
+       id="g5351"
+       transform="translate(386.66192,-178)">
+      <g
+         id="g5359"
+         v:mID="74"
+         v:groupContext="shape"
+         transform="matrix(-4.9101865e-5,-0.93230246,-0.82744988,5.5323942e-5,822.31655,477.64959)">
+        <title
+           id="title5361">Ark.74</title>
+        <path
+           d="M -3.2468155e-4,459.20996 145.12377,459.21012"
+           class="st1"
+           id="path5363"
+           inkscape:connector-curvature="0"
+           style="stroke:#000000;stroke-width:0.11866128;stroke-linecap:round;stroke-linejoin:round" />
+      </g>
+    </g>
+    <g
+       transform="matrix(1,0,0,1.0946743,527.50478,-210.40784)"
+       id="g5365">
+      <g
+         transform="matrix(-4.9101865e-5,-0.85830219,-0.82744988,5.0932677e-5,822.31655,466.90702)"
+         v:groupContext="shape"
+         v:mID="74"
+         id="g5373">
+        <title
+           id="title5375">Ark.74</title>
+        <path
+           style="stroke:#000000;stroke-width:0.11866128;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="path5377"
+           class="st1"
+           d="M -3.2468155e-4,459.20996 145.12377,459.21012" />
+      </g>
+    </g>
+    <g
+       id="g5379"
+       transform="matrix(0,0.18520773,0.1866591,0,715.51507,258.53426)">
+      <g
+         transform="matrix(-5.9341195e-5,1,-1,-5.9341195e-5,905.82,178.68)"
+         v:groupContext="shape"
+         v:mID="74"
+         id="g5381">
+        <title
+           id="title5383">Ark.74</title>
+        <path
+           style="stroke:#000000;stroke-width:0.53783107;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="path5385"
+           class="st1"
+           d="M -3.2468155e-4,459.20996 145.12377,459.21012" />
+      </g>
+      <g
+         transform="translate(430.025,-267.331)"
+         v:groupContext="shape"
+         v:mID="76"
+         id="g5387">
+        <title
+           id="title5389">Trekant.168</title>
+        <v:userDefs>
+          <v:ud
+             v:val="VT0(14):26"
+             v:nameU="visVersion" />
+        </v:userDefs>
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.53783107;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="path5391"
+           class="st2"
+           d="m 35.73,459.21 -19.15,-39.68 -19.15,39.68 38.3,0 z" />
+      </g>
+    </g>
+    <g
+       id="g5408"
+       transform="matrix(0,-0.18520773,-0.1866591,0,274.15975,216.61463)">
+      <g
+         transform="matrix(-5.9341195e-5,1,-1,-5.9341195e-5,905.82,178.68)"
+         v:groupContext="shape"
+         v:mID="74"
+         id="g5410">
+        <title
+           id="title5412">Ark.74</title>
+        <path
+           style="stroke:#000000;stroke-width:0.53783107;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="path5414"
+           class="st1"
+           d="M -3.2468155e-4,459.20996 145.12377,459.21012" />
+      </g>
+      <g
+         transform="translate(430.025,-267.331)"
+         v:groupContext="shape"
+         v:mID="76"
+         id="g5416">
+        <title
+           id="title5418">Trekant.168</title>
+        <v:userDefs>
+          <v:ud
+             v:val="VT0(14):26"
+             v:nameU="visVersion" />
+        </v:userDefs>
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.53783107;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="path5420"
+           class="st2"
+           d="m 35.73,459.21 -19.15,-39.68 -19.15,39.68 38.3,0 z" />
+      </g>
+    </g>
+    <g
+       id="g5422"
+       v:mID="76"
+       v:groupContext="shape"
+       transform="matrix(0.18520773,0,0,-0.18520773,439.26895,385.3814)">
+      <title
+         id="title5424">Trekant.168</title>
+      <v:userDefs>
+        <v:ud
+           v:nameU="visVersion"
+           v:val="VT0(14):26" />
+      </v:userDefs>
+      <path
+         d="m 35.73,459.21 -19.15,-39.68 -19.15,39.68 38.3,0 z"
+         class="st2"
+         id="path5426"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.53993428;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       transform="matrix(0.18520773,0,0,-0.18520773,825.93087,384.36058)"
+       v:groupContext="shape"
+       v:mID="76"
+       id="g5428">
+      <title
+         id="title5430">Trekant.168</title>
+      <v:userDefs>
+        <v:ud
+           v:val="VT0(14):26"
+           v:nameU="visVersion" />
+      </v:userDefs>
+      <path
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.53993428;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path5432"
+         class="st2"
+         d="m 35.73,459.21 -19.15,-39.68 -19.15,39.68 38.3,0 z" />
+    </g>
+    <g
+       id="g5434"
+       v:mID="76"
+       v:groupContext="shape"
+       transform="matrix(0.18520773,0,0,-0.18520773,966.77373,384.3621)">
+      <title
+         id="title5436">Trekant.168</title>
+      <v:userDefs>
+        <v:ud
+           v:nameU="visVersion"
+           v:val="VT0(14):26" />
+      </v:userDefs>
+      <path
+         d="m 35.73,459.21 -19.15,-39.68 -19.15,39.68 38.3,0 z"
+         class="st2"
+         id="path5438"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.53993428;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <g
+       id="g5379-3"
+       transform="matrix(0,-0.18520773,-0.1866591,0,942.67259,216.61287)">
+      <g
+         transform="matrix(-5.9341195e-5,1,-1,-5.9341195e-5,905.82,178.68)"
+         v:groupContext="shape"
+         v:mID="74"
+         id="g5381-5">
+        <title
+           id="title5383-6">Ark.74</title>
+        <path
+           style="stroke:#000000;stroke-width:0.53783107;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="path5385-1"
+           class="st1"
+           d="M -3.2468155e-4,459.20996 145.12377,459.21012" />
+      </g>
+      <g
+         transform="translate(430.025,-267.331)"
+         v:groupContext="shape"
+         v:mID="76"
+         id="g5387-1">
+        <title
+           id="title5389-9">Trekant.168</title>
+        <v:userDefs>
+          <v:ud
+             v:val="VT0(14):26"
+             v:nameU="visVersion" />
+        </v:userDefs>
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.53783107;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="path5391-5"
+           class="st2"
+           d="m 35.73,459.21 -19.15,-39.68 -19.15,39.68 38.3,0 z" />
+      </g>
+    </g>
+  </g>
+</svg>
