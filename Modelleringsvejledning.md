@@ -235,7 +235,7 @@ Ligesom ved begrebsmodellering skal der foretages afklaring af de anvendte begre
 Arbejdet med at identificere, indsamle og strukturere den viden, der skal indarbejdes i den logiske model, kan foregå på flere måder. Forskellige medarbejdere involveres med hver deres rolle i projektet. Hvilke roller de kommer til at spille i projektet, afhænger blandt andet af, hvilke forudsætninger de kommer ind i projektet med. 
 Her følger en kort beskrivelse af de trin, modelløren typisk gennemgår:
 
-![Proces for logisk datamodellering](Illustrations/kap2-proces-for-logisk-datamodellering.svg)
+![Proces for logisk datamodellering](Illustrations/kap2-7-proces-for-logisk-datamodellering.svg)
 
 _Fig 2.7: Proces for logisk datamodellering_
 
@@ -282,7 +282,7 @@ Det giver i de fleste tilfælde mening at starte med at lave en begrebsmodel, da
 
 Informationsmodeller og logiske datamodeller skal i henhold til modelreglerne baseres på velafklarede begreber. Man kan undlade at lave en eksplicit begrebsmodel, men selve den begrebsafklaring der ligger i at lave definitioner og blive enige om termer kan man ikke springe over. Ligeledes kan man undlade at lave informationsmodel, men den forretningsafklaring der ligger i en informationsmodel, får man brug for når man skal lave en logisk datamodel.
 
-![Illustration af hvad der skal afklares for at lave de forskellige modeltyper](Illustrations/kap2-Illustration-afklares-forskellige-modeltyper.svg)
+![Illustration af hvad der skal afklares for at lave de forskellige modeltyper](Illustrations/kap2-8-hvilke-afklaringer-og-modeltyper.svg)
 
 _Figur 2.8: Illustration af hvad der skal afklares for at lave de forskellige modeltyper_
 
@@ -308,13 +308,13 @@ En kernemodel er en genbrugelig model over et afgrænset emneområde, som ikke d
 
 Modellen har typisk et centralt forretningsobjekt i fokus. En model, der netop indeholder ét emneområdes begreber, er kendetegnet ved at være en samling af begreber, der hører naturligt sammen gennem høj samhørighed i modellen. Modellerne bliver mere generelt anvendelige ved at afgrænse kernemodellerne til (mindre) emneområder uden at knytte dem til specifikke anvendelser. Kernemodellerne kan ses som byggeblokke, der gør det muligt at genbruge de modelelementer, der allerede er defineret og beskrevet inden for et relevant emne. Da kernemodeller ikke overlapper, men relaterer sig til hinanden, vil de med tiden danne et komplet modelnetværk, som beskriver hele den offentlige forretning.
 
-![Eksempel på kernemodeller, der danner modelnetværk](Illustrations/kap2-Eksempel-på-kernemodeller-der-danner-modelnetværk.svg)
+![Eksempel på kernemodeller, der danner modelnetværk](Illustrations/kap2-8-modelnetværk.svg)
 
 _Figur 2.9: Eksempel på kernemodeller, der danner modelnetværk_
 
 En kernemodel kan indeholde modelelementer der ikke tilhører emneområdet, men som er nødvendige for at give kontekst til eller definere relationer fra/til de modelelementer der tilhører emneområdet. Disse modelelementer skal ideelt set være defineret i andre kernemodeller af personer, der er eksperter inden for det pågældende emneområde. Som udgangspunkt vil man kun importere elementer fra andre modeller  hvortil der oprettes en direkte relation til et af forretningens egne modelelementer. Det vil i praksis sige at man i diagrammet kun medtager ’nærmeste’ element fra den anden model - nedenfor markeret med blå.
 
-![Genbrug af klasse](Illustrations/kap2-Genbrug-af-klasse.svg)
+![Genbrug af klasse](Illustrations/kap2-genbrugt-klasse.svg)
 
 _Figur 2.10: Genbrug af klasse fra et andet emneområde i egen model_
 
