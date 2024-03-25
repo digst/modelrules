@@ -407,7 +407,7 @@ Der er en lang række kilder, man kan trække på, når man leder efter genbruge
 
 * Lovgivning
 * I egen organisation
-* I det fællesoffentlige modelkatalog
+* [I det fællesoffentlige modelkatalog](https://data.gov.dk/catalogue/models/)
 * Ved at spørge i faglige netværk og lignende
 * Fra EU:
   * ISA2 Core Vocabularies på JoinUp
