@@ -282,7 +282,7 @@ Det giver i de fleste tilfælde mening at starte med at lave en begrebsmodel, da
 
 Informationsmodeller og logiske datamodeller skal i henhold til modelreglerne baseres på velafklarede begreber. Man kan undlade at lave en eksplicit begrebsmodel, men selve den begrebsafklaring der ligger i at lave definitioner og blive enige om termer kan man ikke springe over. Ligeledes kan man undlade at lave informationsmodel, men den forretningsafklaring der ligger i en informationsmodel, får man brug for når man skal lave en logisk datamodel.
 
-![Illustration af hvad der skal afklares for at lave de forskellige modeltyper](Illustrations/kap2-8- hvilke-afklaringer-og-modeltyper.svg)
+![Illustration af hvad der skal afklares for at lave de forskellige modeltyper](Illustrations/kap2-8-hvilke-afklaringer-og-modeltyper.svg)
 
 _Figur 2.8: Illustration af hvad der skal afklares for at lave de forskellige modeltyper_
 
@@ -328,7 +328,7 @@ Dette kunne være et system, et register eller lignende, der skal understøtte e
 
 Modelelementer der indgår i en anvendelsesmodel skal således være defineret i kernemodeller. Der kan dog være projekter, hvor man ikke har tid/ressourcer til eksplicit at udarbejde kernemodellerne, hvorfor modelreglerne åbner mulighed for, at en eller flere kernemodeller kan modelleres som en del af en anvendelsesmodel ved anvendelse af forskellige namespaces i modelelementerens HTTP-URIer. Se mere [Kapitel 4: Anvendelse og udformning af HTTP-URIer](husk link).
 
-![Et antal kernemodeller](Illustrations/kap2-Et-antal-kernemodeller.svg)
+![Et antal kernemodeller](Illustrations/kap2-8- hvilke-afklaringer-og-modeltyper.svg)
 
 ![Anvendelsesmodel sammensat af kernemodelelementer](Illustrations/kap2-Anvendelsesmodel-sammensat-af-kernemodelelementerk.svg)
 
