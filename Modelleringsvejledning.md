@@ -226,7 +226,7 @@ Det er vigtigt, at der i denne proces inddrages både forretningsviden og datamo
 
 Der skal etableres sammenhæng mellem den logiske datamodel og den begrebsmodel eller informationsmodel den er baseret på. Det gør man ved at angive hvilket begreb modelelementerne er afledt af. Dette gøres ved at angive begrebets HTTP-URI i tagget ‘wasDerivedFrom’. Desuden skal namespace for begrebsmodellen fremgå i den logiske datamodels metadata - ligeledes i tagget ‘wasDerivedFrom’. Se mere i [Kapitel 6; Dokumentation af modellen](husk link).
 
-§14 - <span style="color:#AB2A0C;">Etablér sammenhæng mellem begrebsmodeller og logiske modeller</span>
+§14 - <ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem begrebsmodeller og logiske modeller</span> </ins>
 
 ##### Processen uden forudgående begrebsmodellering
 Ligesom ved begrebsmodellering skal der foretages afklaring af de anvendte begreber og de termer der bruges til at beskrive dem, og der skal udarbejdes definitioner og angives metadata for hvert modelelement. Man kommer derved til at foretage en implicit modellering af begreber, når man udarbejder en logisk datamodel. Information om hvordan man udarbejder gode definitioner og angiver metadata findes i [Kapitel 3: Termer og definitioner](husk link) og [Kapitel 5: Udarbejdelse af modeller](Husk link). I dette kapitel gennemgås kun det, der gælder særligt for logisk datamodellering.
@@ -276,7 +276,7 @@ Det er op til projektet og den modelansvarlige organisation at afklare og afgør
 
 Det er dog et krav, at der etableres sammenhæng mellem modellerne, såfremt der oprettes forskellige modeltyper for det samme emne. 
 
-Læs mere om hvordan man dokumenterer denne sammenhæng i regel 14.
+Læs mere om hvordan man dokumenterer denne sammenhæng i regel 14. (husk link)
 
 Det giver i de fleste tilfælde mening at starte med at lave en begrebsmodel, da afklaring og definition af de relevante begreber er nødvendig for semantisk velfunderede modeller og derfor en del af basis for alle modeltyperne. Begrebsmodeller er også den type model, det i de fleste tilfælde er lettest for forretningen at forholde sig til, og derfor er de særligt velegnede til at sikre at modelleringen bliver forankret i forretningen.  
 
@@ -301,7 +301,7 @@ På denne måde vil selvstændige emneområder blive beskrevet selvstændigt, og
 
 Denne vigtige skelnen mellem kernemodeller og anvendelsesmodeller gør det muligt at genbruge fremmede modeller i egen modellering, og den støtter dialogen om, hvordan modelleringen bedst koordineres, og hvordan ejerskabet og ansvaret for modellen placeres.
 
-§06 - <span style="color:#AB2A0C;"> Angiv meningsfyldte navne og beskrivelser for modeller </span>
+§06 - <ins> <span style="color:#AB2A0C;"> Angiv meningsfyldte navne og beskrivelser for modeller </span> </ins>
 
 ### Kernemodeller
 En kernemodel er en genbrugelig model over et afgrænset emneområde, som ikke definerer modelelementer, der er defineret i andre emneorienterede modeller. 
@@ -338,7 +338,7 @@ Modelelementer der indgår i en anvendelsesmodel skal således være defineret i
  </tr>
 </table>
                 
-§25 - <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span>
+§25 - <ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>
 
 ## Genbrug af eksisterende modellering
 Genbrug af eksisterende modellering fremmer sammenhængende begreber og data, fordi genbrug af modeller og modelelementer automatisk skaber interoperabilitet mellem modeller.
@@ -347,7 +347,7 @@ Kernemodeller bør ikke overlappe andre kernemodeller, og der bør kun findes é
 
 Det skal være nemt at _finde_ eksisterende modeller, og derfor er der blevet oprettet et [fællesoffentligt katalog over begrebs- og datamodeller](https://data.gov.dk/catalogue/models/), også kaldet Modelkataloget. Modelkataloget indeholder en oversigt over begrebs- og datamodeller, der er udarbejdet i offentligt regi, og som er registreret med henblik på videndeling og genbrug. Nye fællesoffentlige modeller optages løbende, og der kan også optages modeller under udarbejdelse således, at andre kan se, at der er noget under udarbejdelse, og der kan etableres kommunikation om fælles modelleringsbehov. Derudover indeholder dette katalog også oplysninger om en række anerkendte internationale modeller, som kan have en bred anvendelse i dansk administrativ og fællesoffentlig kontekst.
 
-§24 - <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span>
+§24 - <ins> <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span> </ins>
 
 ### Undgå silomodellering
 Der er i det offentlige en lang tradition for at arbejde i projekter, som har et iboende “snævert syn” på den problemstilling, som projektet arbejder med, og det kan derfor være svært at undgå silomodellering. Det er oftest meget lettere kun at tænke på projektets egne behov og ikke blive forstyrret med noget andre har beskrevet i forvejen. Hvad nu hvis det, de andre har beskrevet, ikke lige præcis er det, vi mener? Så hellere definere det selv. Det kender de fleste sikkert.
@@ -410,28 +410,28 @@ Der er en lang række kilder, man kan trække på, når man leder efter genbruge
 * [I det fællesoffentlige modelkatalog](https://data.gov.dk/catalogue/models/)
 * Ved at spørge i faglige netværk og lignende
 * Fra EU:
-  * ISA2 Core Vocabularies på JoinUp
-  * Øvrige kernemodeller fra EU på JoinUp
-  * Øvrige anvendelsesprofiler fra EU på JoinUp
-  * EU vokabularer
-  * IATE (EU termbank)
-  * SPECIAL-projektet
-  * INSPIRE datamodeller
-  * INSPIRE glossary
-  * INSPIRE kodelister
-* KLs Modelkatalog
-* Ontoportal & Bioportal
-* schema.org
+  * [ISA2 Core Vocabularies på JoinUp](https://joinup.ec.europa.eu/collection/joinup) 
+  * [Øvrige kernemodeller fra EU på JoinUp](https://joinup.ec.europa.eu/search?keys=vocabulary)
+  * [Øvrige anvendelsesprofiler fra EU på JoinUp](https://joinup.ec.europa.eu/search?keys=application+profile)
+  * [EU vokabularer](https://op.europa.eu/en/web/eu-vocabularies/)
+  * [IATE (EU termbank)9](https://iate.europa.eu/home)
+  * [SPECIAL](https://www.specialprivacy.eu/platform/ontologies-and-vocabularies)-projektet
+  * [INSPIRE datamodeller](https://github.com/INSPIRE-MIF/application-schemas)
+  * INSPIRE [glossary](http://inspire.ec.europa.eu/glossary)
+  * [INSPIRE kodelister](https://inspire.ec.europa.eu/codelist)
+* [KLs Modelkatalog](https://rammearkitektur.kl.dk/byggeblokke/modelkatalog/)
+* [Ontoportal & Bioportal](https://ontoportal.org/)
+* [schema.org](https://schema.org/)
 * Standardiseringorganisationers terminologidatabaser:
-  * ISO Online Browsing Platform (vælg Terms & Definitions)
-  * ISO/TC 211 Geolexica
-  * Electropedia (International Electrotechnical Commission)
-  * ITU Terms and Definitions (International Telecommunications Union)
-* Basel Register of Thesauri, Ontologies & Classifications
-* EIRA as controlled vocabulary in SKOS format
-* Linked Open Vocabularies - linked data søgemaskine
-* Awesome Semantic Web - GitHub repo med linked data ressourcer
-* Standarder og specifikationer, fx fra W3C
+  * [ISO Online Browsing Platform](https://www.iso.org/obp) (vælg Terms & Definitions)
+  * [ISO/TC 211 Geolexica](https://isotc211.geolexica.org/)
+  * [Electropedia](https://www.electropedia.org/) (International Electrotechnical Commission)
+  * [ITU Terms and Definitions](https://www.itu.int/br_tsb_terms/#/) (International Telecommunications Union)
+* [Basel Register of Thesauri, Ontologies & Classifications](https://bartoc.org/)
+* [EIRA as controlled vocabulary in SKOS format](https://joinup.ec.europa.eu/collection/european-interoperability-reference-architecture-eira/solution/eira/release/v400)
+* [Linked Open Vocabularies](https://lov.linkeddata.es/dataset/lov/) - linked data søgemaskine
+* [Awesome Semantic Web](https://github.com/semantalytics/awesome-semantic-web#ontologies) - GitHub repo med linked data ressourcer
+* Standarder og specifikationer, fx fra [W3C](https://www.w3.org/standards/)
 
 Der er selvfølgelig også andre kilder, der kan have beskrevet eller defineret de pågældende begreber. 
 
@@ -456,10 +456,10 @@ Man kan også komme ud for at der findes flere modelleringer af samme begreb. Fo
 
 I tilfælde hvor man har flere definitioner fra andre kilder at vælge mellem, er det op til projektet at vælge hvilken modellering der anvendes. I forbindelse med valget kan man overveje om en af definitionerne stammer fra en kilde man gerne vil være interoperabel med eller som har en særligt autoritet, som det er sandsynligt, at andre derfor også vil bruge, fx EU eller ISO/W3C-standarder med bred anvendelse. Og så kan man selvfølgelig tage hensyn til hvilken definition der er mest gennemarbejdet og bedst passer til ens behov.
 
-§24 - <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span>
+§24 - <ins> <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span> </ins>
 
 ### Afledning
-Som nævnt ovenfor kan man ikke genbruge direkte på tværs af skellet mellem begreber og datamodelelementer. Det er fordi begrebsmodeller (og informationsmodeller) modellerer virkeligheden, mens datamodeller modellerer data. Bemærk også, at internationale modeller med navne som ‘ontology’ og ‘vocabulary’, fx The Organization Ontology eller EUs Core Location Vocabulary, ofte modellerer data og derfor være at betragte som datamodeller i regi af modelreglerne. SKOS-modeller (Concept Schemes) er derimod begrebsmodeller.
+Som nævnt ovenfor kan man ikke genbruge direkte på tværs af skellet mellem begreber og datamodelelementer. Det er fordi begrebsmodeller (og informationsmodeller) modellerer virkeligheden, mens datamodeller modellerer data. Bemærk også, at internationale modeller med navne som ‘ontology’ og ‘vocabulary’, fx [The Organization Ontology](https://www.w3.org/TR/vocab-org/) eller [EUs Core Location Vocabulary](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-location-vocabulary), ofte modellerer data og derfor være at betragte som datamodeller i regi af modelreglerne. SKOS-modeller (Concept Schemes) er derimod begrebsmodeller.
 
 For at beholde sammenhængen mellem virkelighed og data er det dog en rigtig god ide at genbruge definitioner og termer. Hvis man udarbejder flere modeltyper for samme område er det et krav at man gør dette, og det er også en god måde at genbruge fra andre modeller på. I begge tilfælde anvendes feltet ‘afledt af’ til at angive det begreb eller dataelement der er kilden til definitionen.
 
@@ -473,12 +473,12 @@ Som ved direkte genbrug, kan der være overvejelser ift. eksisterende definition
 #### Anvendelse af kilder
 Kilder til definitioner bør udvælges i følgende prioriterede rækkefølge:
 
-1. Love og bekendtgørelser, se retsinformationen og EUR-Lex
-2. Nationale og internationale modeller/standarder, fx fra ISO eller INSPIRE
+1. Love og bekendtgørelser, se [retsinformationen](https://www.retsinformation.dk/) og [EUR-Lex](https://eur-lex.europa.eu/homepage.html)
+2. Nationale og internationale modeller/standarder, fx fra [ISO](https://www.iso.org/standards-catalogue/browse-by-ics.html) eller [INSPIRE](https://inspire.ec.europa.eu/)
 3. Øvrige kilder, fx og faglitteratur
 4. Egne definitioner
 
-Der henvises til juridiske kilder med et link, nærmere bestemt en ELI (European Legislation Identifier). ELIen er også webadresse på loven/bekendtgørelsen. På EUR-Lex skal man dog være opmærksom på, at det ikke er adressen på den danske oversættelse, men på lovens hovedside.
+Der henvises til juridiske kilder med et link, nærmere bestemt en ELI [(European Legislation Identifier)](https://eur-lex.europa.eu/eli-register/about.html). ELIen er også webadresse på loven/bekendtgørelsen. På EUR-Lex skal man dog være opmærksom på, at det ikke er adressen på den danske oversættelse, men på lovens hovedside.
 
 ![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
 
@@ -496,9 +496,9 @@ Kilder kan både være steder, hvor man har fundet den præcise ordrette definit
 
 Både i forbindelse med afledning og anvendelse af kilder kan det være sammenhængsskabende at genbruge definitioner selvom de ikke til fulde overholder modelreglernes krav til definitioner. Der bør dog være tale om definitioner, der er utvetydige, forståelige og egnede til at afgrænse begrebet fra andre begreber. Jo mere udbredt og veletableret en definition er, i jo højere grad kan det give mening at gå på kompromis med de formelle krav til udformningen af definitioner.
 
-Man kan i nogle tilfælde finde inspiration til sine egne definitioner i Den Danske Ordbog, Den Store Danske eller i Wikipedia. Her skal man selv sørge for at formulere definitionen, så den dels har tilstrækkelig faglighed, og følger de principper for udarbejdelse af definitioner, der gennemgås nedenfor. 
+Man kan i nogle tilfælde finde inspiration til sine egne definitioner i [Den Danske Ordbog](https://ordnet.dk/ddo), [Den Store Danske](https://denstoredanske.lex.dk/) eller i Wikipedia. Her skal man selv sørge for at formulere definitionen, så den dels har tilstrækkelig faglighed, og følger de principper for udarbejdelse af definitioner, der gennemgås nedenfor. 
 
-§23 - <span style="color:#AB2A0C;">Angiv modelelementers lovgrundlag</span>
+§23 - <ins> <span style="color:#AB2A0C;">Angiv modelelementers lovgrundlag</span> </ins>
 
 ## Udarbejdelse af nye definitioner
 Gode definitioner er en essentielle del af en god begrebsmodel. Det er her, den fælles forståelse, man er nået frem til, nedfældes, formaliseres og bliver delbar og genbrugelig. Derfor er det vigtigt, at definitionerne er entydige, forståelige og egnede til brug i andre kontekster. Regel 20-22 beskæftiger sig derfor med udarbejdelsen af definitioner.
@@ -509,7 +509,7 @@ Definitionerne skal være skrevet på korrekt dansk, der er så let forståeligt
 
 Når man selv udarbejder definitioner, er der yderligere regler man skal overholde, som beskrives her.
 
-§20 - <span style="color:#AB2A0C;">Udarbejd definitioner eller beskrivelser af modellens elementer</span>
+§20 - <ins> <span style="color:#AB2A0C;">Udarbejd definitioner eller beskrivelser af modellens elementer</span> <ins>
 
 ### Strukturerede definitioner
 Man bør udarbejde definitioner der er **koncise**, **dækkende** og **oplysende**. 
@@ -517,7 +517,8 @@ Med koncise menes at definitionerne skal være korte og præcise. De skal være 
 
 Med dækkende menes at definitionerne skal inkludere præcis de samme instanser som begrebet dækker, og de må altså ikke blive for snævre (inkludere for få instanser) eller for brede (inkludere for mange instanser). 
 
-**Ikke dækkende** definition af cykel: “ikke-motoriseret køretøj med to hjul” (inkluderer løbehjul og håndtrukne rickshaws, hvilket gør den for bred, men fx ikke elcykler eller trehjulede cykler, så den er også for smal). 
+**Ikke dækkende** definition af cykel: “ikke-motoriseret køretøj med to hjul” (inkluderer løbehjul og håndtrukne rickshaws, hvilket gør den for bred, men fx ikke elcykler eller trehjulede cykler, så den er også for smal).
+
 **Dækkende**: “køretøj der drives frem ved pedalkraft” (inkluderer elcykler, ladcykler, et- og trehjulede cykler, tandemcykler mm.)
 
 Med oplysende menes at definitionen rent faktisk skal indeholde oplysninger om, hvad begrebet _er_. En person, der ikke på forhånd kender begrebet, skal blive klogere af at læse definitionen, og en person der mener at kende begrebet skal kunne afgøre om det er præcis det begreb, vedkommende formoder, at det er. Dette udelukker fx at man bruger et synonym som definition, at man blot omskriver termen, eller at man blot tilføjer en generisk frase så som ‘henvisning til’ eller ‘angivelse af’ til termen.
@@ -582,7 +583,7 @@ I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegre
                       _overbegreb_
                                         _adskillende træk fra definition af ‘børnecykel’_
 
-§22 - <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span>
+§22 - <ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>
 
 ### Udarbejd anvendelsesneutrale definitioner
 
@@ -607,7 +608,7 @@ Dette skal ikke forstås således at den definition man udarbejder nødvendigvis
 
 En definition af ‘stel’ til brug for modellering af køretøjer skal således absolut ikke inkludere kaffe- eller middagsstel. og skal heller ikke nødvendigvis inkludere alle stel, der har det tilfælles med stel til køretøjer, at de er bærende konstruktioner som noget bygges op omkring, fx møbel- eller brillestel, hvis dette ville nødvendiggøre, at man undlader noget, der er centralt for definitionen af et stel til køretøj.
 
-§23 - <span style="color:#AB2A0C;">Udarbejd anvendelsesneutrale definitioner</span>
+§23 - <ins> <span style="color:#AB2A0C;">Udarbejd anvendelsesneutrale definitioner</span> </ins>
 
 ### Tjekliste til udarbejdelse af definitioner
 * Kan definitionen umiddelbart erstatte termen uden tab af mening?
@@ -649,7 +650,7 @@ I forbindelse med begrebsafklaringen anbefales det, at de termer, der skal indg�
    
 I nogle tilfælde kan principperne trække i forskellige retninger. Her må begrebsmodelløren og den domænekyndige sammen vurdere, hvad der giver bedst mening i det konkrete tilfælde.
 
-§18 <ins>Angiv termer i et naturligt sprog</ins>
+§18  <ins>Angiv termer i et naturligt sprog</ins>
 §19 <ins>Brug standardiserede konventioner for angivelse af navne</ins> 
 
 # Kapitel 7: Det visuelle udtryk
@@ -734,7 +735,7 @@ Generaliseringssæt (hvor flere generaliseringspile samles i en spids) kan bruge
 
 ![Generaliseringssæt](Illustrations/kap7-2-generaliseringssæt.svg)
 
-Figur 7.1: Eksempel på anvendelse af generaliseringssæt i begrebsdiagram
+_Figur 7.1: Eksempel på anvendelse af generaliseringssæt i begrebsdiagram_
 
 ### Angiv retning på begrebsrelationer
 UML-associationer kan angives med eller uden navigabilitet, der vises som en pil i enden af associationer. Dette omtales ofte mindre præcist som retning. Navigabilitet er ikke det samme som, men ofte sammenfaldende med læseretning. 
@@ -746,7 +747,7 @@ I UML er både attributter og associationsender egenskaber og kan teknisk have b
 
 ![Egenskaber](Illustrations/kap7-3-egenskaber.svg)
 
-Figur 7.2 : ??
+_Figur 7.2 : ??_
 
 Objektegenskaber har klasser som udfaldsrum, og datatypeegenskaber har datatyper som udfaldsrum. Her kan der være tale om primitive datatyper, strukturerede datatyper eller enumerationer. For strukturerede datatyper og enumerationer hjælper det læseren, hvis der oprettes en dependency mellem atrributtet og datatypen.
 
@@ -754,13 +755,13 @@ Nedenfor ses objektegenskaben ‘påLager’ med klassen ‘Cykel’ som udfalds
 
 ![Eksempel på egenskaber](Illustrations/kap7-4-egenskaber-eksempel.svg)
 
-Figur 7.3: objektegenskaber som associationsender og datatypeegenskaber som attributter. 
+_Figur 7.3: objektegenskaber som associationsender og datatypeegenskaber som attributter._
 
 ## Eksempel på UML-diagram 
 
 ![Diagrameksempel](Illustrations/kap7-5-diagrameksempel.svg)
 
-Figur 7.4: UML-diagram hvor anbefalinger følges
+_Figur 7.4: UML-diagram hvor anbefalinger følges_
 
 ## Anbefalinger til organisering og kommunikation
 ### Skab overblik med opdeling og overordnede diagrammer 
@@ -790,20 +791,20 @@ Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af E
 
 ![Kravsniveau med stereotyper](Illustrations/kap7-6-kravniveau-med-stereotyper.svg)
 
-Figur 7.5: Udsnit fra UML-diagram til DCAT-AP 2.0.1
+_Figur 7.5: Udsnit fra UML-diagram til DCAT-AP 2.0.1_
 
 ### Angiv gerne namespaces og præfikser i logiske datamodeller
 Ved at anvende en forkortelse for namespacet på den model hvor modelelementer er defineret som præfiks for UML-elementnavne, er det til enhver tid tydeligt hvor et givent element kommer fra. Se fx  [W3Cs UML-visualisering af DCAT](https://www.w3.org/TR/vocab-dcat-2/). Det er især relevant i anvendelsesmodeller som sammensættes af modelelementer fra forskellige kernemodeller. I kernemodeller kan man eksempelvis også vælge alene at forsyne de indlånte elementer med prefixes, så defaultlæsningen bliver at de øvrige klasser er modellens egne. 
 
 ![Præfixer](Illustrations/kap7-7-præfixer.svg)
 
-Figur 7.6: ??
+_Figur 7.6: ??_
 
 For at gøre det let at se hvilke modeller der er genbrugt i given model, bør man også indsætte en tekstboks med anvendte prefixes og namespaces i modellen, fx
 
 ![Tekstboks](Illustrations/kap7-8-tekstboks.svg)
 
-Figur 7.7: Tekstboks med anvendte prefixes
+_Figur 7.7: Tekstboks med anvendte prefixes_
 
 
 # Kapitel 8: Governance
