@@ -148,7 +148,7 @@ For at afdække hvilke begreber det er relevant at medtage i begrebsmodellen og 
 #### Proces for begrebsmodellering
 Et forløb for begrebsmodellering kunne se således ud:
 
-![Proces for begrebsmodellering](Illustrations/kap2 - 6 -proces-for-begrebsmodellering.svg)
+![Proces for begrebsmodellering](Illustrations/kap2-6-proces-for-begrebsmodellering.svg)
 
 Figur 2.6: Proces for begrebsmodellering
 
