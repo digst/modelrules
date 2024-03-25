@@ -31,7 +31,7 @@ Den allervigtigste grund til at anvende en fælles metoderamme er, at man dermed
 
 Det er afgørende for udviklingen af den digitalt sammenhængende og effektive offentlige sektor, at data kan genbruges, og at digitale processer bygger på sammenhængende begreber og data. Udviklingen understøttes af det fællesoffentlige arkitekturarbejde, og initiativerne under Udvalg for arkitektur og standarder. Der er behov for interoperabilitet på flere niveauer: Juridisk, organisatorisk, semantisk og teknisk. Som Figur 2 viser, adresserer De fællesoffentlige modelregler semantisk interoperabilitet, og koblingerne mellem det semantiske niveau og henholdsvis det juridiske og tekniske niveau og sikrer sammenhæng fra forretning til udvikling.
 
- ![Sammenhæng](Illustrations/kap1-sammenhaengede-modellering.svg)
+ ![Sammenhæng](Illustrations/kap1-sammenhaengende-modellering.svg)
  
 _Figur 1.2: Sammenhæng_
 
@@ -72,26 +72,26 @@ Sprogbrugen om modeltyper og deres anvendelse er forskelligartet og flertydig. I
 * **Begrebslister** er repræsentationer af begrebsmodeller udtrykt på listeform. 
 Repræsenteres begrebsmodellen som en begrebsliste, udtrykkes den i tabelformat eller efter ISO 10241 Termposter i standarder.
 
-![Eksempel på begrebsliste i tabelformat](Illustrations/kap2-modeltyper_tabe.svg)
+![Eksempel på begrebsliste i tabelformat](Illustrations/kap2-1-modeltyper_tabe.svgl.svg)
 
 _Figur 2.1: Eksempel på begrebsliste i tabelformat_
 
 * **Begrebsdiagrammer** er repræsentationer af begrebsmodeller udtrykt visuelt som diagram. 
 Der er forskellige måder at udarbejde begrebsdiagrammer. Det er ikke et krav at der udarbejdes et diagram som del af modellen. Dog betyder den systematiske og strukturerede tilgang til arbejdet med begrebsdiagrammer, at inkonsistens, eventuelle uenigheder og manglende begreber i dækning af et emneområde lettere afsløres. I denne vejledning gennemgås én metode, nemlig anvendelse af klasse- og objektdiagrammer lavet i UML (Unified Modelling Language), hvor kasser og pile fortæller om begrebernes indbyrdes sammenhæng. Diagrammer udarbejdet efter denne metode kan gøres til genstand for review i FDA-regi.
 
-![Eksempel på begrebsdiagram](Illustrations/kap2-1-modeltyper_tabe.svgl.svg)
+![Eksempel på begrebsdiagram](Illustrations/kap2-2-modeltyper_begrebsmodel.svg)
 
 _Figur 2.2: Eksempel på begrebsdiagram_
 
 **Informationsmodeller** er modeller som beskriver forretningsviden og som supplerer begreber med forretningsregler. De dokumenterer den information, der håndteres i forretningen, og beskriver den tilstrækkeligt til, at den kan anvendes i nye sammenhænge. Der er taget stilling til om et givent begreb skal repræsenteres som klasse, attribut eller andet, og der er angivet multipliciteter. Dermed ligner diagrammer i informationsmodeller mere datamodeldiagrammer end begrebsdiagrammer, men det semantiske indhold i en informationsmodel er begreber, og derfor kan der også udtrækkes en begrebsliste..
 
-![Eksempel på informationsmodel](Illustrations/kap2-eksempel-på-informationsmodel.svg)
+![Eksempel på informationsmodel](kap2-3-modeltyper-informationsmodel.svg)
 
 _Figur 2.3: Eksempel på informationsmodel_
 
 **Logiske datamodeller** beskriver dataelementers logiske sammenhænge. De logiske datamodeller udarbejdes som grundlag for dataudveksling eller lagring af data, fx i en teknologisk understøttelse af den løsning de modellerer, dog således at det er de logiske sammenhænge i data og ikke den fysiske struktur der modelleres. Logiske datamodeller kan være fuldstændigt uafhængige af implementeringsmetode, men kan også indeholde konstruktioner der vender sig mod et overordnet realiseringsparadigme, fx relationelle databaser, xml eller graf. Den samme logiske model kan beskrive flere forskellige fysiske implementering med variationer i den fysiske model.
 
-![Eksempel på logisk datamodel](Illustrations/kap2-eksempel-på-logisk-datamodel.svg)
+![Eksempel på logisk datamodel](Illustrations/kap2-4-modeltyper-logisk-datamodel.svg)
 
 _Figur 2.4: Eksempel på logisk datamodel_
 
