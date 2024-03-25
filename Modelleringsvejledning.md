@@ -358,7 +358,7 @@ Der kan ikke være tvivl om, at alle vil have stor gavn og spare mange ressource
 
 Målet er, skridt for skridt, at få etableret et sammenhængende netværk af gode kernemodeller med indbygget governance, som vi alle kan stole på og derfor også anvende som grundlag for fremtidige projekter og udvekslingsstrukturer på tværs af fagområder.
 
-![Undgå silomodellering](Illustrations/kap2-Undgå-silomodellering.svg)
+![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
 
 _Figur 2.13: Illustration af overgangen fra silomodellering til et sammenhængende netværk af kernemodeller_
 
