@@ -362,6 +362,295 @@ Målet er, skridt for skridt, at få etableret et sammenhængende netværk af go
 
 _Figur 2.13: Illustration af overgangen fra silomodellering til et sammenhængende netværk af kernemodeller_
 
+# Kapitel 3: Termer og definitioner
+Elementer i datamodeller skal være baseret på afklarede begreber med definitioner og vedtagne termer. Derfor gælder alt i dette kapitel om termer og definitioner også for elementer i datamodeller.
+
+## Hvad er termer og begreber?
+Et **begreb** er groft sagt det mentale billede vi har af en given type af ting, oftest associeret med et bestemt ord eller udtryk. I faglig kommunikation anvendes en **term** til at udtrykke et specifikt begreb med en afgrænset betydning. Termer kaldes ofte også _fagudtryk_. De faktiske ting (konkrete eller abstrakte) som “hører ind under” begrebet kaldes **instanser**. Instanser kan være forskellige på en række punkter (fx farve, alder, mærke, størrelse), men deler en eller flere egenskaber (fx funktion, opbygning) der gør at man kan sige at de er af samme slags. Disse delte egenskaber danner grundlag for begrebets **definition**. Nedenfor ses definitioner af de centrale elementer i begrebsmodellering, samt en illustration af deres indbyrdes forhold.
+
+* Et **begreb** er en mental forestilling om et bestemt fænomen. 
+* En **term** er et sprogligt udtryk, som udtrykker et specifikt begreb.
+* En **instans** er et abstrakt eller konkret fænomen i den virkelige verden, som en term refererer til.
+* En **definition** er en beskrivelse af betydningen af et begreb.
+
+![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
+
+_Figur 13: Centrale elementer i begrebsmodellering_
+
+Der vil være en mængde af fænomener i den virkelige verden der falder ind under et givet begreb, og mængden af disse fra ‘den virkelige verden’ kaldes for begrebets **instanser**. Instanser kaldes ofte _referenter_ i terminologilitteratur.
+
+Ved definering af et begreb beskrives betydningen af begrebet, og det bliver muligt at finde ud af om en given instans opfylder de betingelser som blev nævnt i definitionen.
+
+Findes der flere synonyme termer, vil én typisk foretrækkes og prioriteres, hvor andre vil være accepterede men ikke foretrukne. Der kan også være termer som aktuelt anvendes for et begreb, som frarådes, fordi de er uønskede, forældede eller direkte forkerte. En foretrukken term er en term, som vurderes at være den bedste af flere synonyme udtryk for et givet begreb. En accepteret term er en term, hvis anvendelse godtages, men ikke foretrækkes. En frarådet term er en term, som ikke bør anvendes, fordi den er uønsket, forældet eller forkert. Begrebet kan også udtrykkes med termer på flere sprog. 
+
+## Anvendelse af eksisterende begreber og definitioner
+En vigtig målsætning med fælles modelregler er øget genbrug af begreber og definitioner på tværs af den offentlige sektor for at opnå en entydig forståelse og anvendelse af begreberne i fx lovgivning, it-systemer og sagsbehandling. Derfor er det helt centralt, at man altid genbruger allerede eksisterende begreber i egen organisation samt genbruger fra andre organisationer, hvor det er muligt.
+
+Der er overordnet fire måder at genbruge eksisterende begreber og definitioner og dermed skabe sammenhæng: 
+
+* Direkte genbrug fra en anden model 
+* Afledning fra en anden type af element
+* Specialisering af et begreb fra en anden model
+* Anvendelse af kilder.
+  
+### Direkte genbrug
+Når det begreb man har brug for i sin model allerede er modelleret i en anden model med en passende definition og identifikation i form af en HTTP-URI, bør man genbruge dette.  
+Eksempelmodellen ‘Cykel’ genbruger fx begrebet ‘cykelhandler’ fra kernemodellen ‘Detailhandel’.
+Ved genbrug overtager man definition, termer, identifikator og andre informationer og man bør ikke ændre definitionen ud over at definitioner på et andet sprog end dansk oversættes til dansk. Det er tilladt at tilføje yderligere informationer, fx alternative termer eller kommentarer, der præciserer hvordan begrebet bruges i netop denne model, samt selvfølgelig dansk oversættelse når man genbruger international modellering. De tilføjede informationer må selvfølgelig ikke være i modstrid med allerede eksisterende informationer. 
+
+Ved denne form for genbrug er man ikke ansvarlig for definitionens udformning. Kvaliteten af definitioner fundet andre steder kan være varierende. For at opnå sammenhæng kan det være fordelagtigt at genbruge en definition selvom man ikke er imponeret over kvaliteten, især hvis denne kommer fra en autoritativ kilde eller allerede er bredt anvendt.
+
+I begrebsmodeller og informationsmodeller kan man genbruge direkte fra andre begrebsmodeller. I logiske datamodeller kan man genbruge direkte fra andre datamodeller. Man kan også genbruge definitioner på tværs af modeltyper, men så er der tale om en afledning (se nedenfor), ikke direkte genbrug. 
+
+#### Hvor finder man genbrugelige definitioner?
+Der er en lang række kilder, man kan trække på, når man leder efter genbrugelige definitioner, fx:
+
+* Lovgivning
+* I egen organisation
+* I det fællesoffentlige modelkatalog
+* Ved at spørge i faglige netværk og lignende
+* Fra EU:
+  * ISA2 Core Vocabularies på JoinUp
+  * Øvrige kernemodeller fra EU på JoinUp
+  * Øvrige anvendelsesprofiler fra EU på JoinUp
+  * EU vokabularer
+  * IATE (EU termbank)
+  * SPECIAL-projektet
+  * INSPIRE datamodeller
+  * INSPIRE glossary
+  * INSPIRE kodelister
+* KLs Modelkatalog
+* Ontoportal & Bioportal
+* schema.org
+* Standardiseringorganisationers terminologidatabaser:
+  * ISO Online Browsing Platform (vælg Terms & Definitions)
+  * ISO/TC 211 Geolexica
+  * Electropedia (International Electrotechnical Commission)
+  * ITU Terms and Definitions (International Telecommunications Union)
+* Basel Register of Thesauri, Ontologies & Classifications
+* EIRA as controlled vocabulary in SKOS format
+* Linked Open Vocabularies - linked data søgemaskine
+* Awesome Semantic Web - GitHub repo med linked data ressourcer
+* Standarder og specifikationer, fx fra W3C
+
+Der er selvfølgelig også andre kilder, der kan have beskrevet eller defineret de pågældende begreber. 
+
+På nuværende tidspunkt er omfanget af eksisterende fællesoffentlig modellering, der kan genbruges direkte desværre begrænset. Efterhånden som flere begrebsmodeller bliver udarbejdet i henhold til de fællesoffentlige modelregler og publiceret i det fællesoffentlige modelkatalog, forventes omfanget at stige.
+
+Det fællesoffentlige modelkatalog henviser også til internationale modeller, der beskriver forholdsvis overordnede begreber, og som formodes at være relevante for mange modeller. Modelsekretariatet kan ofte ikke vurdere kvaliteten af mere fagligt orienterede modeller, så dem er der ikke nødvendigvis henvist til. De kan dog inkluderes, hvis kilden er tilstrækkelig pålidelig, eller hvis domæneksperter siger god for dem.
+
+#### Hvad hvis begrebet er modelleret, men ikke godt nok?
+Man kan komme i en situation, hvor det begreb man har brug for er modelleret i en anden begrebsmodel, men definitionen er ikke tilstrækkelig anvendelsesneutral til, at man umiddelbart kan bruge begrebet i sin model, eller definitionen er lidt uklar, så man bliver i tvivl om det rent faktisk er det begreb man skal bruge. 
+
+
+I den situation bør man, om muligt, det vil i praksis nok primært være når der er tale om en anden dansk myndighed, kontakte den modelansvarlige organisation og få præciseret begrebets betydning, så det bliver klart om man kan genbruge det. Samtidigt vil dette give feedback til den modelansvarlige om at begrebet ikke er tydeligt, og det kan aftales at der tilføjes forklaring til begrebet, eller man kan evt. blive enige om at erstatte begrebet med et nyt fælles begreb. Er det ikke muligt, må man oprette sit eget begreb. Man opretter ligeledes sit eget begreb i situationer hvor et begreb i en anden model hedder det samme som det begreb man har brug for, men definitionen gør det klart, at der er tale om et andet begreb. 
+
+#### Begreber i datamodeller
+Datamodeller indeholder implicit information om begreber, idet elementerne i modellen er et udtryk for anvendte begreber. Gode datamodeller indeholder definitioner af elementerne. Disse definitioner kan være af svingende kvalitet, og det er op til den enkelte modellør, at vurdere om kvaliteten er tilstrækkelig til at definitionen kan genbruges. 
+
+For datamodeller udarbejdet i henhold til modelreglerne gælder dog de samme krav til definitionerne som gælder for begrebsdefinitioner, så her kan definitioner umiddelbart genbruges. 
+
+#### Hvad hvis begrebet er modelleret flere steder?
+Man kan også komme ud for at der findes flere modelleringer af samme begreb. For at opnå sammenhæng i den offentlige administration bør man, hvis en sådan findes, vælge modellering, der er anvendt og godkendt i det fællesoffentlige samarbejde eller i andet offentligt samarbejde, fx den fælleskommunale rammearkitektur. 
+
+
+I tilfælde hvor man har flere definitioner fra andre kilder at vælge mellem, er det op til projektet at vælge hvilken modellering der anvendes. I forbindelse med valget kan man overveje om en af definitionerne stammer fra en kilde man gerne vil være interoperabel med eller som har en særligt autoritet, som det er sandsynligt, at andre derfor også vil bruge, fx EU eller ISO/W3C-standarder med bred anvendelse. Og så kan man selvfølgelig tage hensyn til hvilken definition der er mest gennemarbejdet og bedst passer til ens behov.
+
+§24 - <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span>
+
+### Afledning
+Som nævnt ovenfor kan man ikke genbruge direkte på tværs af skellet mellem begreber og datamodelelementer. Det er fordi begrebsmodeller (og informationsmodeller) modellerer virkeligheden, mens datamodeller modellerer data. Bemærk også, at internationale modeller med navne som ‘ontology’ og ‘vocabulary’, fx The Organization Ontology eller EUs Core Location Vocabulary, ofte modellerer data og derfor være at betragte som datamodeller i regi af modelreglerne. SKOS-modeller (Concept Schemes) er derimod begrebsmodeller.
+
+For at beholde sammenhængen mellem virkelighed og data er det dog en rigtig god ide at genbruge definitioner og termer. Hvis man udarbejder flere modeltyper for samme område er det et krav at man gør dette, og det er også en god måde at genbruge fra andre modeller på. I begge tilfælde anvendes feltet ‘afledt af’ til at angive det begreb eller dataelement der er kilden til definitionen.
+
+### Specialisering
+Hvis begrebet kan fortolkes som en specialisering af et eksisterende begreb, skal der oprettes et nyt begreb med en specialiseringsrelation til det eksisterende overbegreb. Dette skaber sammenhæng på tværs af modeller, selvom der ikke direkte genbruges begreber. Det kan fx være internationale modelelementer der specialiseres til en dansk kontekst.
+
+Ved specialisering kan man indsnævre overbegrebets definition, men det er ikke tilladt at udvide eller på anden vis være i modstrid med den eksisterende definition.
+
+Som ved direkte genbrug, kan der være overvejelser ift. eksisterende definitioners egnethed til genbrug, og anbefalingerne gælder også her.
+
+#### Anvendelse af kilder
+Kilder til definitioner bør udvælges i følgende prioriterede rækkefølge:
+
+1. Love og bekendtgørelser, se retsinformationen og EUR-Lex
+2. Nationale og internationale modeller/standarder, fx fra ISO eller INSPIRE
+3. Øvrige kilder, fx og faglitteratur
+4. Egne definitioner
+
+Der henvises til juridiske kilder med et link, nærmere bestemt en ELI (European Legislation Identifier). ELIen er også webadresse på loven/bekendtgørelsen. På EUR-Lex skal man dog være opmærksom på, at det ikke er adressen på den danske oversættelse, men på lovens hovedside.
+
+![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
+
+_Figur 14: ELI på retsinformationen_
+
+![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
+
+_Figur 15: ELI på EUR-Lex_
+
+Hvis lovgivningen giver en definition af et givent begreb, bør denne ideelt set anvendes, også selvom den ikke opfylder modelreglernes krav til udarbejdelse af definitioner. Det kan dog forekomme, at lovgivningens definition af et begreb vurderes at være decideret uanvendelig. I så fald kan definitionen fravælges, men medtages i en kommentar med en forklaring på, hvorfor den ikke kan anvendes. Ligeledes bør lovgivningens terminologi medtages men ikke nødvendigvis foretrækkes.
+
+Også i tilfælde hvor lovgivning, der vedrører begrebet, ikke (eksplicit) definerer begrebet, kan det være relevant at henvise til denne for at øge sammenhængen mellem lovgivning og anvendelse.
+
+Kilder kan både være steder, hvor man har fundet den præcise ordrette definition, og steder hvor man har hentet begrebets betydning fra, men selv har formuleret definitionen.
+
+Både i forbindelse med afledning og anvendelse af kilder kan det være sammenhængsskabende at genbruge definitioner selvom de ikke til fulde overholder modelreglernes krav til definitioner. Der bør dog være tale om definitioner, der er utvetydige, forståelige og egnede til at afgrænse begrebet fra andre begreber. Jo mere udbredt og veletableret en definition er, i jo højere grad kan det give mening at gå på kompromis med de formelle krav til udformningen af definitioner.
+
+Man kan i nogle tilfælde finde inspiration til sine egne definitioner i Den Danske Ordbog, Den Store Danske eller i Wikipedia. Her skal man selv sørge for at formulere definitionen, så den dels har tilstrækkelig faglighed, og følger de principper for udarbejdelse af definitioner, der gennemgås nedenfor. 
+
+§23 - <span style="color:#AB2A0C;">Angiv modelelementers lovgrundlag</span>
+
+## Udarbejdelse af nye definitioner
+Gode definitioner er en essentielle del af en god begrebsmodel. Det er her, den fælles forståelse, man er nået frem til, nedfældes, formaliseres og bliver delbar og genbrugelig. Derfor er det vigtigt, at definitionerne er entydige, forståelige og egnede til brug i andre kontekster. Regel 20-22 beskæftiger sig derfor med udarbejdelsen af definitioner.
+
+Først og fremmest skal alle begreber forsynes med en definition, der entydigt og fyldestgørende forklarer begrebets betydning, således at det kan forstås uanset, om man har været involveret i begrebsarbejdet eller ej.
+
+Definitionerne skal være skrevet på korrekt dansk, der er så let forståeligt som muligt.
+
+Når man selv udarbejder definitioner, er der yderligere regler man skal overholde, som beskrives her.
+
+§20 - <span style="color:#AB2A0C;">Udarbejd definitioner eller beskrivelser af modellens elementer</span>
+
+### Strukturerede definitioner
+Man bør udarbejde definitioner der er **koncise**, **dækkende** og **oplysende**. 
+Med koncise menes at definitionerne skal være korte og præcise. De skal være så korte som muligt og så komplekse som nødvendigt. Al ekstra information skal tilføjes i en bemærkning. Definitionen beskriver kun ét begreb, dvs. ikke andre begreber, der indgår i definitionen eller over- eller underordnede begreber. 
+
+Med dækkende menes at definitionerne skal inkludere præcis de samme instanser som begrebet dækker, og de må altså ikke blive for snævre (inkludere for få instanser) eller for brede (inkludere for mange instanser). 
+
+**Ikke dækkende** definition af cykel: “ikke-motoriseret køretøj med to hjul” (inkluderer løbehjul og håndtrukne rickshaws, hvilket gør den for bred, men fx ikke elcykler eller trehjulede cykler, så den er også for smal). 
+**Dækkende**: “køretøj der drives frem ved pedalkraft” (inkluderer elcykler, ladcykler, et- og trehjulede cykler, tandemcykler mm.)
+
+Med oplysende menes at definitionen rent faktisk skal indeholde oplysninger om, hvad begrebet _er_. En person, der ikke på forhånd kender begrebet, skal blive klogere af at læse definitionen, og en person der mener at kende begrebet skal kunne afgøre om det er præcis det begreb, vedkommende formoder, at det er. Dette udelukker fx at man bruger et synonym som definition, at man blot omskriver termen, eller at man blot tilføjer en generisk frase så som ‘henvisning til’ eller ‘angivelse af’ til termen.
+
+**Ikke oplysende** definitioner af fremstillingsår: 
+* år for fremstilling 
+* produktionsår
+* reference til fremstillingsår
+* en værdi mellem 1900 og 2020
+
+**Oplysende definition:**
+* årstal hvor produktionen af enheden blev færdiggjort
+  
+Definitionerne bør derfor udarbejdes som **indholdsdefinitioner**. Dette er en metode, der understøtter, at definitionerne bliver koncise, dækkende og oplysende (omend den ikke i sig selv garanterer det). Desuden er indholdsdefinitioner egnet til sammenligning, hvilket gør det lettere at afgøre ligheder og forskelle mellem to begreber, der er defineret forskellige steder.
+
+Metoden indebærer, at man definerer et begreb ved at angive nærmeste overbegreb samt adskillende træk - også kaldet karakteristiske træk. Man bør altså anføre, hvad begrebet er for “en slags”, og hvilke karakteristika adskiller netop denne slags fra andre begreber med samme direkte overbegreb. 
+
+Nedenstående er et eksempel på en indholdsdefinition:
+
+**cykel**: <ins>køretøj</ins> der <ins>drives frem ved pedalkraft</ins>
+I dette eksempel er overbegrebet et <ins>“køretøj”</ins>, og det, der adskiller en cykel fra andre køretøjer er, at det <ins>“drives frem ved pedalkraft</ins>”.
+
+Det er væsentligt at vælge det nærmeste overbegreb, fordi man derved implicit medtager det nærmeste overbegrebs adskillende træk i definitionen. Hvis man fx skal lave en definition af ‘tandemcykel’ og bruger ’køretøj’ som overbegreb skulle man med de adskillende træk adskille ‘tandemcykel’ fra alle andre køretøjer, hvilket man kunne komme til at gøre på en måde der er inkonsistent med definitionen af ‘cykel’. Ved at bruge ‘cykel’ som overbegreb er det allerede givet at en tandemcykel er et _køretøj der drives frem ved pedalkraft_, og man kan nøjes med at tilføje _hvor to eller flere pedalerende personer sidder bag ved hinanden_. Ved altid at vælge det nærmeste overbegreb sikrer man konsistens i sin begrebsmodel.
+
+Som det ses bør definitionen ikke have stort begyndelsesbogstav, indeholde termen eller indledes med ‘det betyder at’, ‘defineres som’ eller lignende, og definitionen bør ikke afsluttes med punktum. Supplerende oplysninger skal anføres som kommentarer og må ikke indgå i definitionen. Definitionen er således en frase, som kan erstatte termen i en given tekst (ISO 2016).
+
+### Oplysende definitioner
+For at sikre sig, at de karakteristika, man bruger i definitionen, er tilstrækkeligt oplysende og rent faktisk egnede til at adskille begrebet fra andre af samme type, er der visse anvisninger, man skal følge:
+
+#### Undgå cirkulære definitioner
+
+Definitioner må **ikke være cirkulære**, hverken inden for definitionen selv eller inden for begrebsmodellen. Dvs. at de ikke må indeholde henvisninger til sig selv, samt at to (eller flere) begreber ikke må henvise til hinanden på en måde så ingen af dem reelt defineres.
+
+      Cirkulær definition (i model hvor **stel** er: bærende konstruktion som noget er bygget omkring):
+      **cykelstel**: stel som er en bærende konstruktion 
+      To definitioner, der henviser til hinanden på cirkulær vis:
+      **herrecykel**: drengecykel til voksne
+      **drengecykel**: herrecykel til børn
+
+#### Anvend ikke negative definitioner
+Definitioner må **ikke være negative**, dvs. de skal præcisere, hvad noget er, ikke hvad det ikke er. Dog kan udelukkelsen af noget være centralt for en definition.
+Negativ (dårlig) definition: 
+**børnecykel**: cykel der ikke er beregnet til voksne. 
+Definition med udelukkelse: 
+**passager**: person der er med i/på et transportmiddel uden at føre dette 
+
+#### Brug ikke opremsninger
+Definitioner bør ikke bestå af opremsninger som fx en liste af underbegreber eller af de bestanddele, sådan en ting består af. Dette er ikke god måde at udarbejde definitioner, dels fordi det ikke siger meget om, hvad begrebet er, dels fordi det er svært at være sikker på, at alle underbegreber/bestanddele er med. Desuden kan nye underbegreber opstå og bestanddele kan ændre sig over tid.
+
+        Opremsende (dårlige) definitioner:
+        **børnecykel**: pige- eller drengecykel (hvad hvis man begynder at markedsføre kønsneutrale børnecykler)
+        **cykelhjul**: nav, eger og ring (hvad er/gør de ting? Og så blev den forældet da man også begyndte at bruge                pladehjul)
+
+#### Karakteristika skal altid gælde
+De karakteristika, der bruges i definitioner, og som adskiller begrebet fra sideordnede begreber, skal beskrive noget som ALTID gælder. Ord som typisk, ofte, som regel, gerne, normalt bør derfor undgås i en definition, da de antyder at man ikke har fat i det, der reelt er det adskillende karakteristika. Fx vil en tandemcykel typisk have to ryttere, men en cykel til to ryttere der sidder ved siden af hinanden er ikke en tandemcykel, da en tandemcykel bliver defineret som en cykel, hvor to eller flere ryttere sidder på række bag ved hinanden og træder i pedaler. Derfor er ‘typisk to’ ikke egnet som adskillende træk.
+
+        **tandemcykel**: cykel hvor to eller flere pedalerende personer sidder bag ved hinanden
+
+#### Polyhierarki 
+I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegreber. Et sådant begreb vil ofte være defineret ved at være kombinationen af adskillende træk fra de to overbegreber uden at have yderligere adskillende træk. For eksempel er en ‘pigecykel’ defineret ved at være en kombination af de adskillende træk fra ‘børnecykel’ og ‘damecykel’. Man kan fx lave en definition der består af det ene overbegreb samt de adskillende træk fra det andet.
+        **pigecykel**: damecykel der er lavet i mindre størrelse og som er tiltænkt børn
+                      _overbegreb_
+                                        _adskillende træk fra definition af ‘børnecykel’_
+
+§22 - <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span>
+
+### Udarbejd anvendelsesneutrale definitioner
+
+For at opnå det største potentiale for genbrug og sammenhæng bør definitionen være så anvendelsesneutral som muligt. Dette vil samtidig være med til at gøre definitionen robust over for nogle ændringer i verden omkring os.
+
+Anvendelsesneutral vil sige, at definitionen ikke må indeholde elementer, som udtrykker en uhensigtsmæssig indsnævring af begrebet ved for eksempel at beskrive tekniske, organisatoriske eller politiske afhængigheder. Supplerende, kontekstafhængige kommentarer eller eksempler skal ikke indgå i definitionen, da disse oplysninger ikke er relevante for definitionen og kan være begrænsende for bred anvendelse af begrebet. 
+
+I forbindelse med sikring af anvendelsesneutrale definitioner bør man som _tommelfingerregel_ være kritisk over for definitioner med nedenstående kendetegn:
+
+* **Teknisk format** - eksempel: _fremstillingsdato: dato hvor produktionen af enheden blev færdiggjort udtrykt som YYYY-MM-DD_ (ved at indsnævre det tekniske format reduceres genbrugsmulighederne)
+* **Egennavn** - eksempel: _udstedelsesdato: dato hvor tilladelsen er udstedt af <ins>Trafikstyrelsen</ins>_ (ved at indsnævre til en bestemt organisatorisk enhed reduceres genbrugsmulighederne).
+* **For snævert overbegreb** - eksempel: _cykel: ikke-motoriseret køretøj der drives frem ved pedalkraft_ (her udelukkes elcykler der drives frem ved pedalkraft assisteret af en motor).
+
+Anvendelsesneutralitet betyder også, at man skal tænke over at undgå ord, der indskrænker definitionen unødvendigt, hvilket gør den sværere at genbruge. Er man fx ved at lave en begrebsmodel for cykler og i den forbindelse definerer begrebet ‘stelnummer’ bør man huske at andre typer af køretøjer også har stelnumre. Desuden kan det være nærliggende at inkludere det, at stelnumre bliver indgraveret i stellet som del af definitionen, men det bør overvejes om den konkrete teknik til markering er et nødvendigt karakteristikum, for at noget er et stelnummer.
+
+        Ikke anvendelsesneutral definition:
+        **stelnummer**: unik kombination af tal og bogstaver der indgraveres på stellet af en cykel for entydigt at kunne               identificere denne
+        Anvendelsesneutral definition:
+        **stelnummer**: unik kombination af tal og bogstaver der markeres på stellet af et køretøj for entydigt at kunne                identificere dette
+
+Dette skal ikke forstås således at den definition man udarbejder nødvendigvis skal dække alle anvendelser af det ord eller udtryk, der er den foretrukne term. Ordet kan, især hvis det også anvendes almensprogligt, have andre eller bredere betydninger, og man skal definere den betydning, det har inden for det faglige emneområde, man er i gang med at modellere.
+
+En definition af ‘stel’ til brug for modellering af køretøjer skal således absolut ikke inkludere kaffe- eller middagsstel. og skal heller ikke nødvendigvis inkludere alle stel, der har det tilfælles med stel til køretøjer, at de er bærende konstruktioner som noget bygges op omkring, fx møbel- eller brillestel, hvis dette ville nødvendiggøre, at man undlader noget, der er centralt for definitionen af et stel til køretøj.
+
+§23 - <span style="color:#AB2A0C;">Udarbejd anvendelsesneutrale definitioner</span>
+
+### Tjekliste til udarbejdelse af definitioner
+* Kan definitionen umiddelbart erstatte termen uden tab af mening?
+    * Husk lille begyndelsesbogstav og ikke at afslutte med punktum
+* Er det **nærmeste** overbegreb anvendt?
+* Er adskillende karakteristika angivet og ikke:
+    * opremsninger
+    * negative
+    * cirkulære
+* Er definitionen fri for:
+    * den foretrukne term
+    * synonymer
+    * typisk/ofte/som regel/normalt el.lign.
+    * tekniske formater
+    * egennavne
+
+## Termer
+Begreber skal forsynes med termer som afspejler forretningens sprogbrug samtidigt med at de skrives i et naturligt sprog med standardiserede konventioner og almindelig god praksis.
+
+Ved at forsyne modelelementer med termer i et naturligt sprog afspejles terminologien i emneområdet, og dermed understøttes fremsøgning og genbrug af modelelementer. Med naturligt sprog skal forstås skriftsprog der følger det pågældende sprogs retskrivning og ikke programmeringskonventioner såsom CamelCase og sammensætningen af ord med understregning eller bindestreg. Termerne skal altså ikke yderligere behandles for at kunne indgå og forstås som termer i en traditionel ordliste.
+
+Som minimum registreres den foretrukne term, men såfremt et begreb kan udtrykkes ved flere synonyme accepterede eller frarådede termer, så anbefales det at disse også registreres, selvom det ikke er et krav. Termer registreres ved hjælp af elementegenskaberne ‘foretrukken term’, ‘accepteret term’ og ‘frarådet term’. Jo flere alternative termer der angives, både accepterede og frarådede, jo nemmere bliver det for andre at finde og genkende begrebet, og dermed øger du potentialet for genbrug og sammenhæng til mulige relaterede begrebsmodeller.
+
+* Anvend substantiver i ubestemt entalsform for begreber/klasser 
+* Termer og associationsnavne angives med lille begyndelsesbogstav 
+* Termer og associationsnavne angives efter gældende retstavning
+* Anvend mellemrum til adskillelse af ord
+* Navngiv klasser og associationer i et naturligt sprog (kun begrebsdiagrammer)
+* Anvend verbalfraser i nutidsform for associationer i begrebsmodeller 
+* Anvend et almindeligt udbredt tegnsæt (Unicode)
+
+I forbindelse med begrebsafklaringen anbefales det, at de termer, der skal indgå i begrebsmodellen, kvalificeres efter nedenstående principper. Jf. Madsen (2007) og Socialstyrelsen (2010) 
+
+1. Termer bør være **passende**, dvs. termer skal være gængse og overholde etablerede og kendte konventioner for termdannelse inden for emneområdet.
+2. Termer bør være **selvforklarende**, dvs. termer skal afspejle adskillende karakteristiske træk, således at man får et helt eller delvist indtryk af definitionen alene ud fra termen.
+3. Termer bør være **systemrigtige**, dvs. termer skal være afstemt og koordineret inden for det pågældende emneområde og skal i det omfang, det er muligt, være udformet i overensstemmelse med begrebsmodellen.
+4. Termer bør være **korte**, men præcise.
+5. Termer bør være **grammatisk korrekte**.
+   
+I nogle tilfælde kan principperne trække i forskellige retninger. Her må begrebsmodelløren og den domænekyndige sammen vurdere, hvad der giver bedst mening i det konkrete tilfælde.
+
+§18 <ins>Angiv termer i et naturligt sprog</ins>
+§19 <ins>Brug standardiserede konventioner for angivelse af navne</ins> 
 
 # Kapitel 7: Det visuelle udtryk
 Af hensyn til brugbarheden bør man gøre modellerne så læsevenlige som kompleksiteten i modellen tillader det, og helt overordnet anbefales det at det visuelle udtryk i UML-modellerne ensrettes så meget som muligt. 
