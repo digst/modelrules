@@ -96,7 +96,7 @@ _Figur 2.3: Eksempel på informationsmodel_
 _Figur 2.4: Eksempel på logisk datamodel_
 
 Diagrammer der udarbejdes i forbindelse med informationsmodeller kommer som det ses til at ligne diagrammer udarbejdet i forbindelse med logiske datamodeller, da begge består af klasser, attributter og, hvor relevant, enumerationer. Der er dog et par forskelle idet en logisk datamodel angiver datatyper og navngiver associationsender fremfor associationer. Den største forskel ligger dog i hvad der modelleres. 
-Informationsmodeller modellerer virkeligheden som den ser ud fra et specifikt forretningsperspektiv, og derfor er instanser af en klasse i en informationsmodel stadig fænomener i ‘den virkelige verden’ jfr. den blå bil til venstre i Figur 7. Logiske datamodeller modellerer derimod data, (som er en repræsentation af virkeligheden, men ikke selve virkeligheden), og instanser af en klasse i en logisk datamodel er derfor datainstanser jfr. tabellen til højre i Figur 7.
+Informationsmodeller modellerer virkeligheden som den ser ud fra et specifikt forretningsperspektiv, og derfor er instanser af en klasse i en informationsmodel stadig fænomener i ‘den virkelige verden’ jfr. den blå bil til venstre i Figur 7. Logiske datamodeller modellerer derimod data, (som er en repræsentation af virkeligheden, men ikke selve virkeligheden), og instanser af en klasse i en logisk datamodel er derfor datainstanser jfr. tabellen til højre i Figur 2.5.
 
 ![Virkelighed vs. data om virkeligheden](Illustrations/kap2-5-data-om-virkeligheden.svg)
 
@@ -202,7 +202,7 @@ Det er også tænkeligt at man identificerer enkelte nye begreber der er relevan
 I tilfælde hvor der ikke er en begrebsmodel som udgangspunkt, må man starte med det begrebsafklarende og -definerende arbejde som beskrevet i kapitel 3. 
 
 ### Logiske datamodeller
-Hvor begrebs- og informationsmodeller beskriver virkeligeheden, beskriver datamodeller data om virkeligheden. Logiske datamodeller er datamodeller som beskriver datas logiske sammenhænge uafhængigt af hvilken specifik fysisk struktur og teknisk implementering der anvendes til opbevaring af data. Formålet med logiske datamodeller er at give en forståelse af data, der er gyldig for alle de fysiske formater, data måtte findes i.
+Hvor begrebs- og informationsmodeller beskriver virkeligheden, beskriver datamodeller [data om virkeligheden](indsæt link til figur 2.5). Logiske datamodeller er datamodeller som beskriver datas logiske sammenhænge uafhængigt af hvilken specifik fysisk struktur og teknisk implementering der anvendes til opbevaring af data. Formålet med logiske datamodeller er at give en forståelse af data, der er gyldig for alle de fysiske formater, data måtte findes i.
 
 En god logisk datamodel kræver forståelse af den forretning og de processer, hvor data skabes og/eller anvendes. Det er derfor vigtigt, at domæneeksperter med indgående viden om forretningen deltager i modelleringsarbejdet, ligesom der bør deltage data- eller informationsarkitekter med viden om logisk datamodellering.
 
@@ -538,8 +538,8 @@ Metoden indebærer, at man definerer et begreb ved at angive nærmeste overbegre
 
 Nedenstående er et eksempel på en indholdsdefinition:
 
-**cykel**: <ins>køretøj</ins> der <ins>drives frem ved pedalkraft</ins>
-I dette eksempel er overbegrebet et <ins>“køretøj”</ins>, og det, der adskiller en cykel fra andre køretøjer er, at det <ins>“drives frem ved pedalkraft</ins>”.
+**cykel**: _<ins>køretøj</ins> der <ins>drives frem ved pedalkraft</ins>_
+I dette eksempel er overbegrebet et _<ins>“køretøj”</ins>_, og det, der adskiller en cykel fra andre køretøjer er, at det _<ins>“drives frem ved pedalkraft</ins>_”.
 
 Det er væsentligt at vælge det nærmeste overbegreb, fordi man derved implicit medtager det nærmeste overbegrebs adskillende træk i definitionen. Hvis man fx skal lave en definition af ‘tandemcykel’ og bruger ’køretøj’ som overbegreb skulle man med de adskillende træk adskille ‘tandemcykel’ fra alle andre køretøjer, hvilket man kunne komme til at gøre på en måde der er inkonsistent med definitionen af ‘cykel’. Ved at bruge ‘cykel’ som overbegreb er det allerede givet at en tandemcykel er et _køretøj der drives frem ved pedalkraft_, og man kan nøjes med at tilføje _hvor to eller flere pedalerende personer sidder bag ved hinanden_. Ved altid at vælge det nærmeste overbegreb sikrer man konsistens i sin begrebsmodel.
 
@@ -552,11 +552,11 @@ For at sikre sig, at de karakteristika, man bruger i definitionen, er tilstrækk
 
 Definitioner må **ikke være cirkulære**, hverken inden for definitionen selv eller inden for begrebsmodellen. Dvs. at de ikke må indeholde henvisninger til sig selv, samt at to (eller flere) begreber ikke må henvise til hinanden på en måde så ingen af dem reelt defineres.
 
-      Cirkulær definition (i model hvor **stel** er: bærende konstruktion som noget er bygget omkring):
-      **cykelstel**: stel som er en bærende konstruktion 
-      To definitioner, der henviser til hinanden på cirkulær vis:
-      **herrecykel**: drengecykel til voksne
-      **drengecykel**: herrecykel til børn
+Cirkulær definition (i model hvor **stel** er: bærende konstruktion som noget er bygget omkring):
+**cykelstel**: stel som er en bærende konstruktion 
+To definitioner, der henviser til hinanden på cirkulær vis:
+**herrecykel**: drengecykel til voksne
+**drengecykel**: herrecykel til børn
 
 #### Anvend ikke negative definitioner
 Definitioner må **ikke være negative**, dvs. de skal præcisere, hvad noget er, ikke hvad det ikke er. Dog kan udelukkelsen af noget være centralt for en definition.
@@ -568,9 +568,9 @@ Definition med udelukkelse:
 #### Brug ikke opremsninger
 Definitioner bør ikke bestå af opremsninger som fx en liste af underbegreber eller af de bestanddele, sådan en ting består af. Dette er ikke god måde at udarbejde definitioner, dels fordi det ikke siger meget om, hvad begrebet er, dels fordi det er svært at være sikker på, at alle underbegreber/bestanddele er med. Desuden kan nye underbegreber opstå og bestanddele kan ændre sig over tid.
 
-        Opremsende (dårlige) definitioner:
-        **børnecykel**: pige- eller drengecykel (hvad hvis man begynder at markedsføre kønsneutrale børnecykler)
-        **cykelhjul**: nav, eger og ring (hvad er/gør de ting? Og så blev den forældet da man også begyndte at bruge                pladehjul)
+Opremsende (dårlige) definitioner:
+**børnecykel**: pige- eller drengecykel (hvad hvis man begynder at markedsføre kønsneutrale børnecykler)
+**cykelhjul**: nav, eger og ring (hvad er/gør de ting? Og så blev den forældet da man også begyndte at bruge                pladehjul)
 
 #### Karakteristika skal altid gælde
 De karakteristika, der bruges i definitioner, og som adskiller begrebet fra sideordnede begreber, skal beskrive noget som ALTID gælder. Ord som typisk, ofte, som regel, gerne, normalt bør derfor undgås i en definition, da de antyder at man ikke har fat i det, der reelt er det adskillende karakteristika. Fx vil en tandemcykel typisk have to ryttere, men en cykel til to ryttere der sidder ved siden af hinanden er ikke en tandemcykel, da en tandemcykel bliver defineret som en cykel, hvor to eller flere ryttere sidder på række bag ved hinanden og træder i pedaler. Derfor er ‘typisk to’ ikke egnet som adskillende træk.
@@ -579,9 +579,10 @@ De karakteristika, der bruges i definitioner, og som adskiller begrebet fra side
 
 #### Polyhierarki 
 I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegreber. Et sådant begreb vil ofte være defineret ved at være kombinationen af adskillende træk fra de to overbegreber uden at have yderligere adskillende træk. For eksempel er en ‘pigecykel’ defineret ved at være en kombination af de adskillende træk fra ‘børnecykel’ og ‘damecykel’. Man kan fx lave en definition der består af det ene overbegreb samt de adskillende træk fra det andet.
-        **pigecykel**: damecykel der er lavet i mindre størrelse og som er tiltænkt børn
-                      _overbegreb_
-                                        _adskillende træk fra definition af ‘børnecykel’_
+**pigecykel**: damecykel der er lavet i mindre størrelse og som er tiltænkt børn
+
+               _overbegreb_
+                                _adskillende træk fra definition af ‘børnecykel’_
 
 §22 - <ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>
 
@@ -599,10 +600,10 @@ I forbindelse med sikring af anvendelsesneutrale definitioner bør man som _tomm
 
 Anvendelsesneutralitet betyder også, at man skal tænke over at undgå ord, der indskrænker definitionen unødvendigt, hvilket gør den sværere at genbruge. Er man fx ved at lave en begrebsmodel for cykler og i den forbindelse definerer begrebet ‘stelnummer’ bør man huske at andre typer af køretøjer også har stelnumre. Desuden kan det være nærliggende at inkludere det, at stelnumre bliver indgraveret i stellet som del af definitionen, men det bør overvejes om den konkrete teknik til markering er et nødvendigt karakteristikum, for at noget er et stelnummer.
 
-        Ikke anvendelsesneutral definition:
-        **stelnummer**: unik kombination af tal og bogstaver der indgraveres på stellet af en cykel for entydigt at kunne               identificere denne
-        Anvendelsesneutral definition:
-        **stelnummer**: unik kombination af tal og bogstaver der markeres på stellet af et køretøj for entydigt at kunne                identificere dette
+Ikke anvendelsesneutral definition:
+**stelnummer**: unik kombination af tal og bogstaver der indgraveres på stellet af en cykel for entydigt at kunne           identificere denne
+Anvendelsesneutral definition:
+**stelnummer**: unik kombination af tal og bogstaver der markeres på stellet af et køretøj for entydigt at kunne            identificere dette
 
 Dette skal ikke forstås således at den definition man udarbejder nødvendigvis skal dække alle anvendelser af det ord eller udtryk, der er den foretrukne term. Ordet kan, især hvis det også anvendes almensprogligt, have andre eller bredere betydninger, og man skal definere den betydning, det har inden for det faglige emneområde, man er i gang med at modellere.
 
@@ -650,8 +651,8 @@ I forbindelse med begrebsafklaringen anbefales det, at de termer, der skal indg�
    
 I nogle tilfælde kan principperne trække i forskellige retninger. Her må begrebsmodelløren og den domænekyndige sammen vurdere, hvad der giver bedst mening i det konkrete tilfælde.
 
-§18  <ins>Angiv termer i et naturligt sprog</ins>
-§19 <ins>Brug standardiserede konventioner for angivelse af navne</ins> 
+§18 - <ins> <span style="color:#AB2A0C;">Angiv termer i et naturligt sprog</span> </ins>
+§19- <ins> <span style="color:#AB2A0C;">Brug standardiserede konventioner for angivelse af navne</span> </ins>
 
 # Kapitel 7: Det visuelle udtryk
 Af hensyn til brugbarheden bør man gøre modellerne så læsevenlige som kompleksiteten i modellen tillader det, og helt overordnet anbefales det at det visuelle udtryk i UML-modellerne ensrettes så meget som muligt. 
