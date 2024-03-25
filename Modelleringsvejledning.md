@@ -314,7 +314,7 @@ _Figur 2.9: Eksempel på kernemodeller, der danner modelnetværk_
 
 En kernemodel kan indeholde modelelementer der ikke tilhører emneområdet, men som er nødvendige for at give kontekst til eller definere relationer fra/til de modelelementer der tilhører emneområdet. Disse modelelementer skal ideelt set være defineret i andre kernemodeller af personer, der er eksperter inden for det pågældende emneområde. Som udgangspunkt vil man kun importere elementer fra andre modeller  hvortil der oprettes en direkte relation til et af forretningens egne modelelementer. Det vil i praksis sige at man i diagrammet kun medtager ’nærmeste’ element fra den anden model - nedenfor markeret med blå.
 
-![Genbrug af klasse](Illustrations/kap2-genbrugt-klasse.svg)
+![Genbrug af klasse](Illustrations/Kap2-genbrugt-klasse.svg)
 
 _Figur 2.10: Genbrug af klasse fra et andet emneområde i egen model_
 
