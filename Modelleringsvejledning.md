@@ -85,7 +85,7 @@ _Figur 2.2: Eksempel på begrebsdiagram_
 
 **Informationsmodeller** er modeller som beskriver forretningsviden og som supplerer begreber med forretningsregler. De dokumenterer den information, der håndteres i forretningen, og beskriver den tilstrækkeligt til, at den kan anvendes i nye sammenhænge. Der er taget stilling til om et givent begreb skal repræsenteres som klasse, attribut eller andet, og der er angivet multipliciteter. Dermed ligner diagrammer i informationsmodeller mere datamodeldiagrammer end begrebsdiagrammer, men det semantiske indhold i en informationsmodel er begreber, og derfor kan der også udtrækkes en begrebsliste..
 
-![Eksempel på informationsmodel](kap2-3-modeltyper-informationsmodel.svg)
+![Eksempel på informationsmodel](Illustrations/kap2-3-modeltyper-informationsmodel.svg)
 
 _Figur 2.3: Eksempel på informationsmodel_
 
@@ -98,7 +98,7 @@ _Figur 2.4: Eksempel på logisk datamodel_
 Diagrammer der udarbejdes i forbindelse med informationsmodeller kommer som det ses til at ligne diagrammer udarbejdet i forbindelse med logiske datamodeller, da begge består af klasser, attributter og, hvor relevant, enumerationer. Der er dog et par forskelle idet en logisk datamodel angiver datatyper og navngiver associationsender fremfor associationer. Den største forskel ligger dog i hvad der modelleres. 
 Informationsmodeller modellerer virkeligheden som den ser ud fra et specifikt forretningsperspektiv, og derfor er instanser af en klasse i en informationsmodel stadig fænomener i ‘den virkelige verden’ jfr. den blå bil til venstre i Figur 7. Logiske datamodeller modellerer derimod data, (som er en repræsentation af virkeligheden, men ikke selve virkeligheden), og instanser af en klasse i en logisk datamodel er derfor datainstanser jfr. tabellen til højre i Figur 7.
 
-![Virkelighed vs. data om virkeligheden](Illustrations/kap2-cirkelighed-vs-data-om-virkeligheden.svg)
+![Virkelighed vs. data om virkeligheden](Illustrations/kap2-5-data-om-virkeligheden.svg)
 
 _Figur 2.5: Virkeligheden vs. data om virkeligheden_
 
@@ -148,7 +148,7 @@ For at afdække hvilke begreber det er relevant at medtage i begrebsmodellen og 
 #### Proces for begrebsmodellering
 Et forløb for begrebsmodellering kunne se således ud:
 
-![Proces for begrebsmodellering](Illustrations/proces-for-begrebsmodellering.svg)
+![Proces for begrebsmodellering](Illustrations/kap2 - 6 -proces-for-begrebsmodellering.svg)
 
 Figur 2.6: Proces for begrebsmodellering
 
