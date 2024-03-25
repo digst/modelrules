@@ -328,7 +328,7 @@ Dette kunne være et system, et register eller lignende, der skal understøtte e
 
 Modelelementer der indgår i en anvendelsesmodel skal således være defineret i kernemodeller. Der kan dog være projekter, hvor man ikke har tid/ressourcer til eksplicit at udarbejde kernemodellerne, hvorfor modelreglerne åbner mulighed for, at en eller flere kernemodeller kan modelleres som en del af en anvendelsesmodel ved anvendelse af forskellige namespaces i modelelementerens HTTP-URIer. Se mere [Kapitel 4: Anvendelse og udformning af HTTP-URIer](husk link).
 
-![Et antal kernemodeller](Illustrations/kap2-9-omfang-kernemodel.svg) ![Anvendelsesmodel sammensat af kernemodelelementer](Illustrations/kap2-10-omfang-anvendelsesmodel.svg)
+![Et antal kernemodeller](Illustrations/omfang-kernemodel.svg) ![Anvendelsesmodel sammensat af kernemodelelementer](Illustrations/omfang-anvendelsesmodel.svg)
 
 _Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde_
 _Figur 2.12: Anvendelsesmodel sammensat af kernemodelelementer: en anvendelsesmodel kan forstås som sammensætningen af elementer fra byggeblokke til en bestemt anvendelsessituation_
