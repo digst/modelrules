@@ -282,7 +282,7 @@ Det giver i de fleste tilfælde mening at starte med at lave en begrebsmodel, da
 
 Informationsmodeller og logiske datamodeller skal i henhold til modelreglerne baseres på velafklarede begreber. Man kan undlade at lave en eksplicit begrebsmodel, men selve den begrebsafklaring der ligger i at lave definitioner og blive enige om termer kan man ikke springe over. Ligeledes kan man undlade at lave informationsmodel, men den forretningsafklaring der ligger i en informationsmodel, får man brug for når man skal lave en logisk datamodel.
 
-![Illustration af hvad der skal afklares for at lave de forskellige modeltyper](Illustrations/kap2-8-hvilke-afklaringer-og-modeltyper.svg)
+![Illustration af hvad der skal afklares for at lave de forskellige modeltyper](Illustrations/kap2-8- hvilke-afklaringer-og-modeltyper.svg)
 
 _Figur 2.8: Illustration af hvad der skal afklares for at lave de forskellige modeltyper_
 
