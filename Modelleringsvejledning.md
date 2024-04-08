@@ -584,7 +584,7 @@ I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegre
                _overbegreb_
                                 _adskillende træk fra definition af ‘børnecykel’_
 
-§22 - <ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>
+§21 - <ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>
 
 ### Udarbejd anvendelsesneutrale definitioner
 
@@ -603,13 +603,13 @@ Anvendelsesneutralitet betyder også, at man skal tænke over at undgå ord, der
 Ikke anvendelsesneutral definition:
 **stelnummer**: unik kombination af tal og bogstaver der indgraveres på stellet af en cykel for entydigt at kunne           identificere denne
 Anvendelsesneutral definition:
-**stelnummer**: unik kombination af tal og bogstaver der markeres på stellet af et køretøj for entydigt at kunne            identificere dette
+**stelnummer**: unik kombination af tal og bogstaver der markeres permanent på stellet af et køretøj for entydigt at kunne            identificere dette
 
 Dette skal ikke forstås således at den definition man udarbejder nødvendigvis skal dække alle anvendelser af det ord eller udtryk, der er den foretrukne term. Ordet kan, især hvis det også anvendes almensprogligt, have andre eller bredere betydninger, og man skal definere den betydning, det har inden for det faglige emneområde, man er i gang med at modellere.
 
 En definition af ‘stel’ til brug for modellering af køretøjer skal således absolut ikke inkludere kaffe- eller middagsstel. og skal heller ikke nødvendigvis inkludere alle stel, der har det tilfælles med stel til køretøjer, at de er bærende konstruktioner som noget bygges op omkring, fx møbel- eller brillestel, hvis dette ville nødvendiggøre, at man undlader noget, der er centralt for definitionen af et stel til køretøj.
 
-§23 - <ins> <span style="color:#AB2A0C;">Udarbejd anvendelsesneutrale definitioner</span> </ins>
+§22 - <ins> <span style="color:#AB2A0C;">Udarbejd anvendelsesneutrale definitioner</span> </ins>
 
 ### Tjekliste til udarbejdelse af definitioner
 * Kan definitionen umiddelbart erstatte termen uden tab af mening?
