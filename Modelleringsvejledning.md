@@ -1030,7 +1030,7 @@ Figur X: Eksempler på HTTP-URIer
 
 
 # Kapitel 5: Udarbejdelse af modeller
-Begrebslister
+### Begrebslister
 En begrebsmodel kan udtrykkes som en begrebsliste. Begrebslisten skal udtrykkes i det tabelformat, der er specificeret i modelreglerne, eller efter ISO 10241. Her vejledes om anvendelse af tabelformatet. Ønsker man at anvende ISO 10241-formatet henvises til denne standard for vejledning. 
 Begrebsoplysningerne opsættes som en tabel, således at hver række beskriver ét begreb. Tabellen opsættes med kolonneoverskrifter, som det er specificeret i Modelreglerne, Jf. Bilag D og E: 
 
@@ -1265,7 +1265,7 @@ Det er tilladt at anvende stereotyper udover de ovenfor nævnte. Fx er det udbre
 UML keywords vises på samme måde som stereotyper. Almindelige keywords er <<enumeration>> og <<dataType>>, men disse er altså ikke stereotyper.
 
 ### Dokumentation af modelelementer
-Modeller skal - uanset om de er begrebsmodeller eller af en anden type - være baseret på afklarede og dokumenterede begreber. Derfor skal elementer i UML-modeller dokumenteres med stort set de samme begrebsoplysninger som findes i en begrebsliste. For forklaring af disse oplysningstyper se afsnittet om Begrebslister i starten af dette kapitel.
+Modeller skal - uanset om de er begrebsmodeller eller af en anden type - være baseret på afklarede og dokumenterede begreber. Derfor skal elementer i UML-modeller dokumenteres med stort set de samme begrebsoplysninger som findes i en begrebsliste. For forklaring af disse oplysningstyper se afsnittet om [Begrebslister](#begrebslister) i starten af dette kapitel.
 Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de angives som metadata til hvert modelelement. Hver tagged value består af et tag-navn, der svarer til navnet på en kolonne i begrebslisten, og værdi for tagget det er individuelt for hvert element/begreb.
 
 Foretrukken term
@@ -1479,7 +1479,7 @@ De ovennævnte datatyper er primitive datatyper. Det vil sige, at de ikke har in
 
 Figur xx: Eksempel på enumeration over ugedage
 
-Enumerationer beskrives yderligere i afsnittet Klassifikationer og kontrollerede udfaldsrum, strukturerede datatyper beskrives nedenfor.
+Enumerationer beskrives yderligere i afsnittet [Klassifikationer og kontrollerede udfaldsrum](#klassifikationer-og-kontrollerede-udfaldsrum), strukturerede datatyper beskrives nedenfor.
 
 #### Strukturerede datatyper
 I de tilfælde, hvor der ikke findes en egnet primitiv datatype, bliver man nødt til selv at definere en datatype. Det gøres ved hjælp af en struktureret datatype. Disse anvendes oftest fordi data består af flere dele som kan beskrives individuelt. Disse forskellige dele angives som attributter på datatypen. Fx består stelnumre af et fabrikantmærke (1-4 bogstaver), et serienummer og et årstalsmærke i form af et bogstav. 
@@ -1797,7 +1797,7 @@ angivelse af model eller det modelelement, som den aktuelle ressource er afledt 
 
 Tabel 5: Modelmetadatasektionen fra begrebslisteskabelonen
 Ovenfor ses modelmetadatasektionen fra begrebslisteskabelonen. Det er de samme metadata alle modeller skal have, selvom metoden til angivelse varierer lidt afhængigt af om det er en UML-model eller en begrebsmodel i listeformat.
-Namespace udfyldes med den HTTP-URI der bruges til entydig identifikation af modellen. Se Kapitel 4: Anvendelse og udformning af HTTP-URIer for information om hvordan den udformes.
+Namespace udfyldes med den HTTP-URI der bruges til entydig identifikation af modellen. Se [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier) for information om hvordan den udformes.
 §07 - Angiv identifikation af modeller 
 
 ## Modellens indhold og kontekst
