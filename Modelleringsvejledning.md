@@ -1,141 +1,56 @@
 # Indholdsfortegnelse
-
-[Forord](#forord)
-[Læsevejledning](#læservejledning)
-[Oversigt over regler](#Oversigt-over-regler)
-[Kapitel 1: Introduktion]
-[Formål]
-[Hvorfor anvende de fællesoffentlige regler for begrebs- og datamodellering?]
-[Organisatoriske anbefalinger for modellering]
-Kapitel 2: Om modeller	12
-Hvad er en model?	12
-Modeltyper	12
-Arbejdet med terminologiske begrebsmodeller	15
-Anvendelse af begrebsmodeller	15
-Begrebsmodellens indhold og afgrænsning	15
-Proces for begrebsmodellering	16
-Informationsmodeller	17
-Proces for informationsmodellering	18
-Logiske datamodeller	18
-Anvendelse af logisk datamodellering:	18
-Proces for logisk datamodellering	18
-Processen med udgangspunkt i begrebsmodellering	19
-Processen uden forudgående begrebsmodellering	19
-Organisering af arbejdet	19
-Klassifikationsmodeller	20
-Hvilke modeltyper skal jeg udarbejde?	20
-Modelomfang (kernemodeller vs. anvendelsesmodeller)	21
-Kernemodeller	21
-Anvendelsesmodeller	22
-Genbrug af eksisterende modellering	23
-Undgå silomodellering	23
-Kapitel 3: Termer og definitioner	25
-Hvad er termer og begreber?	25
-Anvendelse af eksisterende begreber og definitioner	26
-Direkte genbrug	26
-Hvor finder man genbrugelige definitioner?	26
-Der er en lang række kilder, man kan trække på, når man leder efter genbrugelige definitioner:	26
-Hvad hvis begrebet er modelleret, men ikke godt nok?	27
-Begreber i datamodeller	27
-Hvad hvis begrebet er modelleret flere steder?	28
-Afledning	28
-Specialisering	28
-Anvendelse af kilder	28
-Udarbejdelse af nye definitioner	29
-Strukturerede definitioner	30
-Oplysende definitioner	31
-Undgå cirkulære definitioner	31
-Anvend ikke negative definitioner	31
-Brug ikke opremsninger	31
-Karakteristika skal altid gælde	32
-Polyhierarki	32
-Udarbejd anvendelsesneutrale definitioner	32
-Tjekliste til udarbejdelse af definitioner	33
-Termer	33
-Kapitel 4: Anvendelse og udformning af HTTP-URIer	35
-Kapitel 5: Udarbejdelse af modeller	37
-Begrebslister	37
-UML-modellering	38
-UML-elementer der anvendes i alle modeltyper	38
-Yderligere UML-elementer	40
-Pakker	42
-Stereotyper	43
-Dokumentation af modelelementer	43
-Gennemgang af UML-elementer	45
-Klasser	45
-Generaliseringer	45
-Generaliseringssæt	46
-Egenskaber	46
-Attributter	47
-Associationer	47
-Associationsnavne	48
-Associationsender	48
-Multiplicitet	48
-Datatyper	50
-Strukturerede datatyper	51
-Objekter	52
-Kompositioner	53
-Tilknytningsklasser	53
-Diagrammer	53
-Diagrammering af store modeller	53
-Genbrug af modelelementer	54
-Genbrug med anvendelsesnote	55
-Fravær af HTTP-URI	55
-Markering af genbrugte elementer	55
-Mangel på genbrugeligt element	55
-Anvendelsesmodellering	56
-Multiplicitet	56
-Øget specificitet	56
-Præcisere anvendelsen	57
-Indsnævre udfaldsrum	57
-Indsnævring af multiplicitet	58
-Implicitte kernemodeller	58
-Anvendelsesmodel baseret på en anden anvendelsesmodel	59
-Klassifikationer og kontrollerede udfaldsrum	59
-Formålet med at lave og bruge klassifikationer	60
-Begrebsafklaring som grundlag for gode klassifikationer	60
-Modellering af klassifikationer i UML	61
-Valg af enumeration eller klassifikationsklasse og instanser	61
-Modellering af klassifikationer med enumerationer	62
-Modellering af klassifikationer med klassifikationsklasser	63
-Klassifikationer med flere niveauer	63
-Anvend generaliseringssæt til at vise inddelingskriterier	64
-Store klassifikationer	64
-Anvendelse af klassifikation som udfaldsrum	65
-Brug af eksterne klassifikationer	66
-Kapitel 6: Dokumentation af modellen	68
-Modellens indhold og kontekst	69
-Modelstatus og versionering	69
-Forretningsgodkendelse og modelansvar	70
-Modellens kilder	71
-Eksempel på udfyldte metadata	72
-Kapitel 7: Det visuelle udtryk	73
-Anbefalinger til grafisk opsætning og præsentation	73
-Undgå krydsende streger hvor det er muligt	73
-Foretræk vinkelrette knæk fremfor skrå streger	73
-Ensret klassernes størrelser og justeringer	73
-Sørg for at al tekst er læsbar	74
-Brug anbefalede farver	74
-Placer overordnede klasser over deres specialiseringer	75
-Anvend generaliseringssæt	75
-Angiv retning på begrebsrelationer	75
-Brug associationer til klasser og attributter til datatyper	75
-Eksempel på UML-diagram	76
-Anbefalinger til organisering og kommunikation	77
-Skab overblik med opdeling og overordnede diagrammer	77
-Organiser diagrammet ift. rækkefølge hvor relevant	77
-Lav også alternative visuelle diagrammer til kommunikationsformål	77
-Yderligere best practices i international modellering	77
-Angivelse af kravniveau med supplerende stereotyper	77
-Angiv gerne namespaces og præfikser i logiske datamodeller	78
-Kapitel 8: Governance	79
-Forretningsgodkendelse	79
-Modelteknisk review	79
-Proces for review	80
-Selve reviewindleveringen	80
-Udstilling	81
-Modelkataloget	81
-Referencer	83
+- [Forord](#forord)
+- [Læsevejledning](#læservejledning)
+- [Oversigt over regler](#oversigt-over-regler)
+- [Kapitel 1: Introduktion](#kapitel-1-introduktion)
+  - [Formål](#formål)
+  - [Hvorfor anvende de fællesoffentlige regler for begrebs- og datamodellering?](#hvorfor-anvende-de-fællesoffentlige-regler-for-begrebs--og-datamodellering)
+  - [Organisatoriske anbefalinger for modellering](#organisatoriske-anbefalinger-for-modellering)
+- [Kapitel 2: Om modeller](#kapitel-2-om-modeller)
+  - [Hvad er en model?](#hvad-er-en-model)
+  - [Modeltyper](#modeltyper)
+  - [Arbejdet med terminologiske begrebsmodeller](#arbejdet-med-terminologiske-begrebsmodeller)
+  - [Anvendelse af begrebsmodeller](#anvendelse-af-begrebsmodeller)
+  - [Begrebsmodellens indhold og afgrænsning](#begrebsmodellens-indhold-og-afgrænsning)
+  - [Proces for begrebsmodellering](#proces-for-begrebsmodellering)
+  - [Informationsmodeller](#informationsmodeller)
+  - [Proces for informationsmodellering](#proces-for-informationsmodellering)
+  - [Logiske datamodeller](#logiske-datamodeller)
+  - [Anvendelse af logisk datamodellering](#anvendelse-af-logisk-datamodellering)
+  - [Proces for logisk datamodellering](#proces-for-logisk-datamodellering)
+  - [Processen med udgangspunkt i begrebsmodellering](#processen-med-udgangspunkt-i-begrebsmodellering)
+  - [Processen uden forudgående begrebsmodellering](#processen-uden-forudgående-begrebsmodellering)
+  - [Organisering af arbejdet](#organisering-af-arbejdet)
+  - [Klassifikationsmodeller](#klassifikationsmodeller)
+  - [Hvilke modeltyper skal jeg udarbejde?](#hvilke-modeltyper-skal-jeg-udarbejde)
+  - [Modelomfang (kernemodeller vs. anvendelsesmodeller)](#modelomfang-kernemodeller-vs-anvendelsesmodeller)
+  - [Kernemodeller](#kernemodeller)
+  - [Anvendelsesmodeller](#anvendelsesmodeller)
+  - [Genbrug af eksisterende modellering](#genbrug-af-eksisterende-modellering)
+  - [Undgå silomodellering](#undgå-silomodellering)
+- [Kapitel 3: Termer og definitioner](#kapitel-3-termer-og-definitioner)
+  - [Hvad er termer og begreber?](#hvad-er-termer-og-begreber)
+  - [Anvendelse af eksisterende begreber og definitioner](#anvendelse-af-eksisterende-begreber-og-definitioner)
+  - [Direkte genbrug](#direkte-genbrug)
+  - [Hvor finder man genbrugelige definitioner?](#hvor-finder-man-genbrugelige-definitioner)
+  - [Hvad hvis begrebet er modelleret, men ikke godt nok?](#hvad-hvis-begrebet-er-modelleret-men-ikke-godt-nok)
+  - [Begreber i datamodeller](#begreber-i-datamodeller)
+  - [Hvad hvis begrebet er modelleret flere steder?](#hvad-hvis-begrebet-er-modelleret-flere-steder)
+  - [Afledning](#afledning)
+  - [Specialisering](#specialisering)
+  - [Anvendelse af kilder](#anvendelse-af-kilder)
+  - [Udarbejdelse af nye definitioner](#udarbejdelse-af-nye-definitioner)
+  - [Strukturerede definitioner](#strukturerede-definitioner)
+  - [Oplysende definitioner](#oplysende-definitioner)
+  - [Undgå cirkulære definitioner](#undgå-cirkulære-definitioner)
+  - [Anvend ikke negative definitioner](#anvend-ikke-negative-definitioner)
+  - [Brug ikke opremsninger](#brug-ikke-opremsninger)
+  - [Karakteristika skal altid gælde](#karakteristika-skal-altid-gælde)
+  - [Polyhierarki](#polyhierarki)
+  - [Udarbejd anvendelsesneutrale definitioner](#udarbejd-anvendelsesneutrale-definitioner)
+  - [Tjekliste til udarbejdelse af definitioner](#tjekliste-til-udarbejdelse-af-definitioner)
+  - [Termer](#termer)
+- [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier)
 
 
 # Forord
@@ -147,30 +62,30 @@ Læsevejledning
 Vejledningens kapitler har forskellige målgrupper. Her er en oversigt over kapitlernes indhold og deres målgrupper: 
 
 
-Kapitel 1: Introduktion
-Giver en introduktion og beskriver formålet med begrebs- og datamodellering, hvorfor man skal følge modelreglerne samt anbefalinger til organisering af arbejdet med modellering. 
-Henvender sig til alle med en interesse for emnet.
-Kapitel 2: Om modeller
-Beskriver hvilke modeltyper der gives vejledning til, processen ved udarbejdelse af modellerne og hvordan man sikrer sammenhængende modeller ved genbrug.
-Henvender sig til alle med et kendskab til eller brug for at arbejde med modellering af begreber eller data.
-Kapitel 3: Termer og definitioner
-Giver vejledning til hvordan man genbruger og arbejder videre med allerede definerede begreber samt hvordan man udarbejder nye definitioner, hvor det er hensigtsmæssigt.
-Henvender sig til alle med kendskab til eller brug for at arbejde med beskrivelse af begreber og/eller data.
-Kapitel 4: Anvendelse og udformning af HTTP-URIer
-Beskriver hvad en HTTP-URI er og giver vejledning til hvordan man opbygger et namespace til en model i henhold til Retningslinjer for stabile HTTP-URIer.
-Henvender sig til alle med et kendskab til eller behov for at udarbejde modeller.
-Kapitel 5: Udarbejdelse af modeller
-Giver vejledning til hvordan man udarbejder modeller - herunder modelleringsprocessen, begrebslister, anvendelse af UML-klassediagrammer, udarbejdelse af klassifikationer og definition af kontrollerede udfaldsrum iht. Modelreglerne.
-Henvender sig til alle med kendskab til og praktisk erfaring med modellering af data ved hjælp af UML-klassediagrammer eller har kendskab til og brug for at arbejde med kontrollerede udfaldsrum.
-Kapitel 6: Dokumentation af modellen
-Beskriver hvordan en model dokumenteres ved hjælp af metadata.
-Henvender sig til alle med et kendskab til eller behov for at udarbejde modeller.
-Kapitel 7: Det visuelle udtryk
-Præsenterer en række anbefalinger til modellernes visuelle udtryk.
-Henvender sig til alle med kendskab til eller brug for at arbejde med beskrivelse af begreber og/eller data i UML.
-Kapitel 8: Governance Review, godkendelse og udstilling
-Beskriver de processer, modeller gennemgår forud for udstilling, herunder review, godkendelse og udstilling.
-Henvender sig til alle som udfører en rolle i disse processer.
+- **Kapitel 1: Introduktion**
+  - Giver en introduktion og beskriver formålet med begrebs- og datamodellering, hvorfor man skal følge modelreglerne samt anbefalinger til organisering af arbejdet med modellering.
+  -  Henvender sig til alle med en interesse for emnet.
+- **Kapitel 2: Om modeller**
+  - Beskriver hvilke modeltyper der gives vejledning til, processen ved udarbejdelse af modellerne og hvordan man sikrer sammenhængende modeller ved genbrug.
+  - Henvender sig til alle med et kendskab til eller brug for at arbejde med modellering af begreber eller data.
+- **Kapitel 3: Termer og definitioner**
+  - Giver vejledning til hvordan man genbruger og arbejder videre med allerede definerede begreber samt hvordan man udarbejder nye definitioner, hvor det er hensigtsmæssigt.
+  - Henvender sig til alle med kendskab til eller brug for at arbejde med beskrivelse af begreber og/eller data.
+- **Kapitel 4: Anvendelse og udformning af HTTP-URIer**
+  - Beskriver hvad en HTTP-URI er og giver vejledning til hvordan man opbygger et namespace til en model i henhold til Retningslinjer for stabile HTTP-URIer.
+  - Henvender sig til alle med et kendskab til eller behov for at udarbejde modeller.
+- **Kapitel 5: Udarbejdelse af modeller**
+  - Giver vejledning til hvordan man udarbejder modeller - herunder modelleringsprocessen, begrebslister, anvendelse af UML-klassediagrammer, udarbejdelse af klassifikationer og definition af kontrollerede udfaldsrum iht. Modelreglerne.
+  - Henvender sig til alle med kendskab til og praktisk erfaring med modellering af data ved hjælp af UML-klassediagrammer eller har kendskab til og brug for at arbejde med kontrollerede udfaldsrum.
+- **Kapitel 6: Dokumentation af modellen**
+  - Beskriver hvordan en model dokumenteres ved hjælp af metadata.
+  - Henvender sig til alle med et kendskab til eller behov for at udarbejde modeller.
+- **Kapitel 7: Det visuelle udtryk**
+  - Præsenterer en række anbefalinger til modellernes visuelle udtryk.
+  - Henvender sig til alle med kendskab til eller brug for at arbejde med beskrivelse af begreber og/eller data i UML.
+- **Kapitel 8: Governance Review, godkendelse og udstilling**
+  - Beskriver de processer, modeller gennemgår forud for udstilling, herunder review, godkendelse og udstilling.
+  - Henvender sig til alle som udfører en rolle i disse processer.
 
 Kapitel 3-6 indeholder afsnit, som beskriver konkrete trin i modelleringsprocessen. I de kapitler er der referencer til Modelreglerne, der er fremhævet som vist herunder, hvor regelnavnet fungerer som link til webudstillingen af den pågældende regel. Her kan man finde en beskrivelse af reglen, rationalet, implikationer og eksempler. 
 
@@ -437,7 +352,7 @@ Afhængigt af detaljeringsniveau og scope af den eksisterende begrebsmodellering
 
 Det er vigtigt, at der i denne proces inddrages både forretningsviden og datamodelleringskompentencer, så det sikres at de logiske strukturer er forankret i forretningsviden og at de samtidig er et fornuftigt udgangspunkt for den faktiske implementering.
 
-Der skal etableres sammenhæng mellem den logiske datamodel og den begrebsmodel eller informationsmodel den er baseret på. Det gør man ved at angive hvilket begreb modelelementerne er afledt af. Dette gøres ved at angive begrebets HTTP-URI i tagget ‘wasDerivedFrom’. Desuden skal namespace for begrebsmodellen fremgå i den logiske datamodels metadata - ligeledes i tagget ‘wasDerivedFrom’. Se mere i [Kapitel 6; Dokumentation af modellen](husk link).
+Der skal etableres sammenhæng mellem den logiske datamodel og den begrebsmodel eller informationsmodel den er baseret på. Det gør man ved at angive hvilket begreb modelelementerne er afledt af. Dette gøres ved at angive begrebets HTTP-URI i tagget ‘wasDerivedFrom’. Desuden skal namespace for begrebsmodellen fremgå i den logiske datamodels metadata - ligeledes i tagget ‘wasDerivedFrom’. Se mere i [Kapitel 6; Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen)(husk link).
 
 §14 - <ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem begrebsmodeller og logiske modeller</span> </ins>
 
