@@ -13,7 +13,7 @@
 
 &nbsp;&nbsp; [Organisatoriske anbefalinger for modellering](#organisatoriske-anbefalinger-for-modellering)
 
-**[Kapitel 2: Om modeller](#kapitel-2-om-modeller)**
+**[Kapitel 2: Om modeller](#kapitel-2-modeltyper-og-proces)**
 
 &nbsp;&nbsp; [Hvad er en model?](#hvad-er-en-model)
 
