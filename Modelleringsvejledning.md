@@ -313,7 +313,7 @@ Kapitel 3-6 indeholder afsnit, som beskriver konkrete trin i modelleringsprocess
 §regelnummer - Regelnavn
 
 
-Oversigt over regler
+## Oversigt over regler
 Generelt:
 01 - Brug UML som det visuelle modelsprog 
 02 - Brug kun udvalgte UML-elementer 
