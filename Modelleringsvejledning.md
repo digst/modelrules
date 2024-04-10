@@ -487,7 +487,7 @@ Det er altså i høj grad pragmatiske vurderinger i forhold til formålet med mo
 Som sagt er der ingen faste regler for emneafgrænsning, men et par tommelfingerregler kan dog nævnes:
 * Hvis dine begreber fordeler sig i to grupper med mange relationer inden for hver gruppe og ganske få mellem grupperne burde det muligvis være to modeller 
 
-* Hvis din model har mange elementer fra andre emneorienterede modeller sammen med en mængde du selv definerer, er det muligt du er i gang med at lave en blanding af en anvendelsesmodel og en emneorienteret model (se også afsnit om [modelomfang](#modelomfang)).
+* Hvis din model har mange elementer fra andre emneorienterede modeller sammen med en mængde du selv definerer, er det muligt du er i gang med at lave en blanding af en anvendelsesmodel og en emneorienteret model (se også afsnit om [modelomfang](#modelomfang-kernemodeller-vs-anvendelsesmodeller)).
 
 Hvis der foretages begrebsarbejde med henblik på videre datamodellering, kan det være fordelagtigt at fokusere på de helt centrale begreber samt evt. særlige grupper af begreber hvor der savnes præcision og afklaring i forvaltningen og kommunikationen. Derudover kan det være en god idé, såfremt der er mulighed for det, at lade begrebsarbejdet og datamodelleringsarbejdet forløbe i sideløbende processer, så det er muligt for begrebsmodellører og datamodellører at sparre og tilrette modellerne undervejs.
 
