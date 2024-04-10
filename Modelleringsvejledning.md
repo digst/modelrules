@@ -1,7 +1,7 @@
 # Indholdsfortegnelse
 **[Forord](#forord)**
 
-&nbsp;&nbsp; [Læsevejledning](#læservejledning)
+&nbsp;&nbsp; [Læsevejledning](#læsevejledning)
 
 &nbsp;&nbsp; [Oversigt over regler](#oversigt-over-regler)
 
