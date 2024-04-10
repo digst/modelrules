@@ -278,7 +278,8 @@ Formålet med denne vejledning er at understøtte god modellering og dokumentati
 Denne vejledning bygger på De fællesoffentlige regler for begrebs- og datamodellering - i daglig tale modelreglerne, der operationaliserer arkitektur regel 6.2 fra Hvidbog om fællesoffentlig digital arkitektur: Anvend fælles regler for dokumentation af data.
 Vejledningen passer til version 2.1.0 af modelreglerne og er udarbejdet i regi af Fællesoffentlig Digital Arkitektur i et samarbejde mellem KL, KOMBIT og Digitaliseringsstyrelsen og følgegruppen for Modelreglerne.
 De fællesoffentlige modelregler ejes af Udvalget for arkitektur og standarder, som er en del af den fællesoffentlige governance for samarbejde på digitaliseringsområdet. 
-Læsevejledning 
+
+## Læsevejledning 
 Vejledningens kapitler har forskellige målgrupper. Her er en oversigt over kapitlernes indhold og deres målgrupper: 
 
 
