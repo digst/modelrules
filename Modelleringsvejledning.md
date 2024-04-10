@@ -487,7 +487,7 @@ Det er altså i høj grad pragmatiske vurderinger i forhold til formålet med mo
 Som sagt er der ingen faste regler for emneafgrænsning, men et par tommelfingerregler kan dog nævnes:
 * Hvis dine begreber fordeler sig i to grupper med mange relationer inden for hver gruppe og ganske få mellem grupperne burde det muligvis være to modeller 
 
-* Hvis din model har mange elementer fra andre emneorienterede modeller sammen med en mængde du selv definerer, er det muligt du er i gang med at lave en blanding af en anvendelsesmodel og en emneorienteret model (se også afsnit om [modelomfang](husk link)).
+* Hvis din model har mange elementer fra andre emneorienterede modeller sammen med en mængde du selv definerer, er det muligt du er i gang med at lave en blanding af en anvendelsesmodel og en emneorienteret model (se også afsnit om [modelomfang](#modelomfang)).
 
 Hvis der foretages begrebsarbejde med henblik på videre datamodellering, kan det være fordelagtigt at fokusere på de helt centrale begreber samt evt. særlige grupper af begreber hvor der savnes præcision og afklaring i forvaltningen og kommunikationen. Derudover kan det være en god idé, såfremt der er mulighed for det, at lade begrebsarbejdet og datamodelleringsarbejdet forløbe i sideløbende processer, så det er muligt for begrebsmodellører og datamodellører at sparre og tilrette modellerne undervejs.
 
@@ -577,7 +577,7 @@ Der skal etableres sammenhæng mellem den logiske datamodel og den begrebsmodel 
 §14 - <ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem begrebsmodeller og logiske modeller</span> </ins>
 
 ##### Processen uden forudgående begrebsmodellering
-Ligesom ved begrebsmodellering skal der foretages afklaring af de anvendte begreber og de termer der bruges til at beskrive dem, og der skal udarbejdes definitioner og angives metadata for hvert modelelement. Man kommer derved til at foretage en implicit modellering af begreber, når man udarbejder en logisk datamodel. Information om hvordan man udarbejder gode definitioner og angiver metadata findes i [Kapitel 3: Termer og definitioner](husk link) og [Kapitel 5: Udarbejdelse af modeller](Husk link). I dette kapitel gennemgås kun det, der gælder særligt for logisk datamodellering.
+Ligesom ved begrebsmodellering skal der foretages afklaring af de anvendte begreber og de termer der bruges til at beskrive dem, og der skal udarbejdes definitioner og angives metadata for hvert modelelement. Man kommer derved til at foretage en implicit modellering af begreber, når man udarbejder en logisk datamodel. Information om hvordan man udarbejder gode definitioner og angiver metadata findes i [Kapitel 3: Termer og definitioner](#kapitel-3-termer-og-definitioner) og [Kapitel 5: Udarbejdelse af modeller](#kapitel-5-udarbejdelse-af-modeller). I dette kapitel gennemgås kun det, der gælder særligt for logisk datamodellering.
 
 ##### Organisering af arbejdet
 Arbejdet med at identificere, indsamle og strukturere den viden, der skal indarbejdes i den logiske model, kan foregå på flere måder. Forskellige medarbejdere involveres med hver deres rolle i projektet. Hvilke roller de kommer til at spille i projektet, afhænger blandt andet af, hvilke forudsætninger de kommer ind i projektet med. 
