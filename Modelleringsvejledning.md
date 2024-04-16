@@ -1947,24 +1947,43 @@ For at følge modelreglerne skal klassifikationsemnerne stadig dokumenteres med,
 Notation er en alternativ måde at give den information som man i et diagram får ved hjælp af specialiseringsrelationer. Nedenfor vises hvad der kunne være et udpluk at klassifikationsemner i en klassifikation af køretøjer. Emner på øverste niveau tildeles et ciffer, dets specialisering tildeles samme ciffer + et punktum + et individuelt ciffer. For hvert niveau i klassifikation tildeles et ekstra punktum og ciffer, således at alle klassifikationsemner får en notation der består af notationen for det nærmeste overordnede emne samt et ciffer der adskiller det fra andre sideordnede emner.
 
 1 køretøj
+
 1.1 ikke-motoriseret køretøj
+
 1.2 motoriseret køretøj
+
 […]
+
 1.1.1 cykel
+
 1.1.2 hestevogn
+
 […]
+
 1.2.1 bil
+
 1.2.2 scooter
+
 [...]
+
 1.1.1.1 racercykel
+
 1.1.1.2 bycykel
+
 1.1.1.3 mountainbike
+
 1.1.1.4 tandemcykel
+
 [...]
+
 1.2.1.1 personbil
+
 1.2.1.2 lastbil
+
 [...]
+
 1.2.1.2.1 kølebil
+
 1.2.1.2.2 skraldevogn
 
 
