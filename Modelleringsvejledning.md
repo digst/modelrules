@@ -1601,44 +1601,63 @@ Datatyper angives for attributter og er en specifikation af hvordan de data, der
 
 Databasesystemer og andre fysiske dataformater har typisk deres egne datatyper. Da logiske datamodeller jo er uafhængige af specifikke fysiske implementeringer, skal der i disse anvendes en af nedenstående samlinger af datatyper. Disse er standardiserede og det er veldokumenteret hvordan de skal forstås og anvendes. De er også velegnede som udgangspunkt for systemspecifikke datatyper. Man bør ikke blande de to forskellige slags datatyper i samme model.
 
-* **XSD/RDFS** Datatypes
-Datatyperne kan tilgås fra W3Cs specifikationerne XML Schema 1.1 Part 2: Datatypes og RDF 1.1 Concepts and Abstract Syntax 
-* **ISO/TC 211** Harmonized Model 
-ISO/TC 211 Datatyperne kan tilgås fra ISO/TC211 Harmonized Model Management Group GitHub-repositorium (HMMG)
+* **XSD/RDFS** Datatypes <br>
+_Datatyperne kan tilgås fra W3Cs specifikationerne [XML Schema 1.1 Part 2: Datatypes](http://www.w3.org/TR/xmlschema11-2/) og [RDF 1.1 Concepts and Abstract Syntax](https://www.w3.org/TR/rdf11-concepts/#section-Datatypes)_ 
+* **ISO/TC 211** Harmonized Model <br>
+_ISO/TC 211 Datatyperne kan tilgås fra [ISO/TC211 Harmonized Model Management Group GitHub-repositorium](https://github.com/ISO-TC211/HMMG) (HMMG)_
+
 XSD/RDFS datatyperne er udviklet og vedligeholdes af W3C (organisation for internetstandardisering) og anvendes bredt på nettet, herunder som standard for det semantiske web (Linked Data). IISO/TC 211 datatyperne er en UML-repræsentation af udvalgte såkaldte ”language-independent data types” beskrevet i ISO/IEC 11404. De anvendes blandt andet af INSPIRE og i modelleringen af Grunddata, hvor de også skal anvendes fremadrettet. Der er udarbejdet mapning mellem de to standarder som del af Guidelines for the RDF encoding of spatial data. Selvom disse ikke er formelt vedtaget, kan mapningerne regnes for gældende i regi af FDA.
+
 Nogle af de mest almindelig datatyper ses nedenfor:
 
-XSD/RDFS
-ISO/TC 211
-Forklaring
-xsd:string
-CharacterString
-Tekststreng eller anden sekvens af tegn
-xsd:integer
-Integer
-Heltal
-xsd:decimal
-Decimal
-Tal med decimaler
-xsd:date
-Date
-Dato 
-xsd:dateTime
-DateTime
-Dato samt tidspunkt 
-xsd:boolean
-Boolean
-Angivelse af om noget er sandt eller falsk
-xsd:anyURI
-URL
-Absolut eller relativ URI eller IRI. 
+<table>
+<tr>
+<td><b>XSD/RDFS</b></td>
+<td><b>ISO/TC 211</b></td>
+<td><b>Forklaring</b></td>
+</tr>
+<tr>
+<td>xsd:string</td>
+<td>CharacterString</td>
+<td>Tekststreng eller anden sekvens af tegn</td>
+</tr>
+<tr>
+<td>xsd:integer</td>
+<td>Integer</td>
+<td>Heltal</td>
+</tr>
+<tr>
+<td>xsd:decimal</td>
+<td>Decimal</td>
+<td>Tal med decimaler</td>
+</tr>
+<tr>
+<td>xsd:date</td>
+<td>Date</td>
+<td>Dato</td>
+</tr>
+<tr>
+<td>xsd:dateTime</td>
+<td>DateTime</td>
+<td>Dato samt tidspunkt</td>
+</tr>
+<tr>
+<td>xsd:boolean</td>
+<td>Boolean</td>
+<td>Angivelse af om noget er sandt eller falsk</td>
+</tr>
+<tr>
+<td>xsd:anyURI</td>
+<td>URL</td>
+<td>Absolut eller relativ URI eller IRI.</td>
+</tr>
+</table>
 
-
-Figur X: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211
+_Figur X: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
 
 De ovennævnte datatyper er primitive datatyper. Det vil sige, at de ikke har intern struktur eller underdele. Der findes to andre slags datatyper: Strukturerede datatyper og enumerationer. En enumeration er en lukket liste over værdier der er tilladte som udfaldsrum for et attribut, fx ugens dage.
 
-Figur xx: Eksempel på enumeration over ugedage
+_Figur xx: Eksempel på enumeration over ugedage_
 
 Enumerationer beskrives yderligere i afsnittet [Klassifikationer og kontrollerede udfaldsrum](#klassifikationer-og-kontrollerede-udfaldsrum), strukturerede datatyper beskrives nedenfor.
 
