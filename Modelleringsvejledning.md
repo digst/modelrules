@@ -658,7 +658,7 @@ Det er op til projektet og den modelansvarlige organisation at afklare og afgør
 
 Det er dog et krav, at der etableres sammenhæng mellem modellerne, såfremt der oprettes forskellige modeltyper for det samme emne. 
 
-Læs mere om hvordan man dokumenterer denne sammenhæng i [regel 14]((https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r14).
+Læs mere om hvordan man dokumenterer denne sammenhæng i [regel 14](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r14).
 
 Det giver i de fleste tilfælde mening at starte med at lave en begrebsmodel, da afklaring og definition af de relevante begreber er nødvendig for semantisk velfunderede modeller og derfor en del af basis for alle modeltyperne. Begrebsmodeller er også den type model, det i de fleste tilfælde er lettest for forretningen at forholde sig til, og derfor er de særligt velegnede til at sikre at modelleringen bliver forankret i forretningen.  
 
