@@ -275,8 +275,11 @@
 
 # Forord
 Formålet med denne vejledning er at understøtte god modellering og dokumentation af begreber og data, hvilket er en forudsætning for at forvalte data effektivt, og at de anvendes hensigtsmæssigt inden for den enkelte organisation, på tværs af myndigheder samt i samarbejdet med borgere og virksomheder. 
+
 Denne vejledning bygger på De fællesoffentlige regler for begrebs- og datamodellering - i daglig tale modelreglerne, der operationaliserer arkitektur regel 6.2 fra Hvidbog om fællesoffentlig digital arkitektur: Anvend fælles regler for dokumentation af data.
+
 Vejledningen passer til version 2.1.0 af modelreglerne og er udarbejdet i regi af Fællesoffentlig Digital Arkitektur i et samarbejde mellem KL, KOMBIT og Digitaliseringsstyrelsen og følgegruppen for Modelreglerne.
+
 De fællesoffentlige modelregler ejes af Udvalget for arkitektur og standarder, som er en del af den fællesoffentlige governance for samarbejde på digitaliseringsområdet. 
 
 ## Læsevejledning 
@@ -314,37 +317,67 @@ Kapitel 3-6 indeholder afsnit, som beskriver konkrete trin i modelleringsprocess
 
 
 ## Oversigt over regler
-Generelt:
-01 - Brug UML som det visuelle modelsprog 
-02 - Brug kun udvalgte UML-elementer 
-03 - Brug UML-stereotyper
-04 - Udstil modellen online
-05 - Gør modellen tilgængelig i maskinlæsbart format 
-Modeller
-06 - Angiv meningsfyldte navne og beskrivelser for modeller 
-07 - Angiv identifikation af modeller
-08 - Angiv den modelansvarlige organisation
-09 - Angiv emneområde for modellen
-10 - Angiv modellens version
-11 - Modellen skal forretningsgodkendes
-12 - Angiv modellens modelstatus
-13 - Angiv modellens lovgrundlag
-14 - Etablér sammenhæng mellem modeller
-15 - Modeller klassifikationer til genbrug
-Modelelementer
-16 - Angiv meningsfyldte UML-navne for modelelementer 
-17 - Giv alle modelelementer en identifikator
-18 - Angiv termer i et naturligt sprog
-19 - Brug standardiserede konventioner for angivelse af navne
-20 - Udarbejd definitioner eller beskrivelser af modellens elementer
-21 - Udarbejd strukturerede definitioner på en standardiseret måde
-22 - Udarbejd anvendelsesneutrale definitioner 
-23 - Angiv modelelementers lovgrundlag
-24 - Definér kun nye modelelementer når det er nødvendigt
-25 - Sammensæt anvendelsesmodeller af elementer fra kernemodeller
-26 - Angiv om begrebet tilhører modellens emneområde
-27 - Brug standardiserede primitive datatyper
-28 - Modellér klassifikationsemner som instanser
+**Generelt:**
+
+[01 - Brug UML som det visuelle modelsprog](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r01)
+
+[02 - Brug kun udvalgte UML-elementer](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r02)
+
+[03 - Brug UML-stereotyper](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r03)
+
+[04 - Udstil modellen online](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r04)
+
+[05 - Gør modellen tilgængelig i maskinlæsbart format](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r05) 
+
+**Modeller**
+
+[06 - Angiv meningsfyldte navne og beskrivelser for modeller](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r06) 
+
+[07 - Angiv identifikation af modeller](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r07)
+
+[08 - Angiv den modelansvarlige organisation](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r08)
+
+[09 - Angiv emneområde for modellen](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r09)
+
+[10 - Angiv modellens version](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r10)
+
+[11 - Modellen skal forretningsgodkendes](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r11)
+
+[12 - Angiv modellens modelstatus](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r12)
+
+[13 - Angiv modellens lovgrundlag](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r13)
+
+[14 - Etablér sammenhæng mellem modeller](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r14)
+
+[15 - Modeller klassifikationer til genbrug](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r15)
+
+**Modelelementer**
+
+[16 - Angiv meningsfyldte UML-navne for modelelementer](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r16) 
+
+[17 - Giv alle modelelementer en identifikator](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r17)
+
+[18 - Angiv termer i et naturligt sprog](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r18)
+
+[19 - Brug standardiserede konventioner for angivelse af navne](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r19)
+
+[20 - Udarbejd definitioner eller beskrivelser af modellens elementer](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r20)
+
+[21 - Udarbejd strukturerede definitioner på en standardiseret måde](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r21)
+
+[22 - Udarbejd anvendelsesneutrale definitioner](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r22)
+
+[23 - Angiv modelelementers lovgrundlag](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r23)
+
+[24 - Definér kun nye modelelementer når det er nødvendigt](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r24)
+
+[25 - Sammensæt anvendelsesmodeller af elementer fra kernemodeller](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r25)
+
+[26 - Angiv om begrebet tilhører modellens emneområde](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r26)
+
+[27 - Brug standardiserede primitive datatyper](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r27)
+
+[28 - Modellér klassifikationsemner som instanser](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r28)
 
 
 # Kapitel 1: Introduktion
