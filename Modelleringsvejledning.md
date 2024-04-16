@@ -1116,7 +1116,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
 	<td>Anvendelsesnote</td>
 </tr>
 <tr>
-	<td>**cykel**</td>
+	<td><b>cykel</b></td>
 	<td></td>
 	<td>jernhest</td>
 	<td>køretøj der drives frem ved pedalkraft</td>
@@ -1125,7 +1125,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
 	<td></td>
 </tr>
 <tr>
-	<td>**cykelstel**</td>
+	<td><b>cykelstel</b></td>
 	<td></td>
 	<td></td>
 	<td>_stel som en cykel er bygget omkring_</td>
@@ -1134,7 +1134,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
 	<td></td>
 </tr>
 <tr>
-	<td>**stelnummer**</td>
+	<td><b>stelnummer</b></td>
 	<td>stelnr.</td>
 	<td></td>
 	<td>_unik kombination af tal og bogstaver der markeres på stellet af en køretøj for entydigt at kunne identificere_</td>
@@ -1154,7 +1154,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
      	<td>Afledt af</td>
 </tr>
 <tr>
-	<td>**cykel**</td>
+	<td><b>cykel</b></td>
  	<td>https://www.retsinformation.dk/eli/lta/2016/976</td>
   	<td></td>
    	<td>Ja</td>
@@ -1162,7 +1162,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
      	<td></td>
 </tr>
 <tr>
-	<td>**cykelstel**</td>
+	<td><b>cykelstel</b></td>
  	<td></td>
   	<td>Tværoffentlig referencegruppe for køretøjer</td>
    	<td>Ja</td>
@@ -1170,7 +1170,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
      	<td></td>
 </tr>
 <tr>
-	<td>**stelnummer**</td>
+	<td><b>stelnummer</b></td>
  	<td>https://www.retsinformation.dk/eli/lta/2009/4</td>
   	<td></td>
    	<td>Ja</td>
@@ -1222,14 +1222,16 @@ Superklasser beskriver egenskaber, som er fælles for alle subklasser. Superklas
 Navngivning ikke nødvendig
 </tr>
 <tr>
+<td>
 association
-
- 
+</td>
+<td>
 relation mellem to klasser eller begreber der beskriver at disse (og dermed deres instanser) står i relation til hinanden
 
 Associationer kan være med eller uden navigabilitet
 
 I logiske datamodeller efter de fællesoffentlige regler har dette element udelukkende betydning som den struktur, som bærer associationsenden – det er associationsenden, som beskriver klassernes indbyrdes relation.
+</td>
 </tr>
 <tr>
 <td>associationsnavn</td>
