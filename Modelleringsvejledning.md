@@ -1379,7 +1379,7 @@ Navngives med UpperCamelCase
 </td>
 <td>
 
- ![tabel over klasser og begreber](Illustrations/kap5-tabel-2-komposition.svg)
+ ![tabel over klasser og begreber](Illustrations/kap5-tabel-2-objekt.svg)
  
 </td>
 </tr>
@@ -1392,7 +1392,11 @@ association som anvendes til at beskrive en relation mellem to klasser, hvor hve
 Konstruktionen kan udelukkende anvendes i anvendelsesmodeller. Bemærk at relationen er transitiv og ikke symmetrisk. 
 Navngivning ikke nødvendig
 </td>
-<td></td>
+<td>
+
+ ![tabel over klasser og begreber](Illustrations/kap5-tabel-2-komposition.svg)
+ 
+</td>
 </tr>
 <tr>
 <td>
