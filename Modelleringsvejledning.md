@@ -1215,11 +1215,13 @@ generalisering
 	
 (specialisering)
 </td>
+<td>
 relation mellem en superklasse (overbegreb) og en subklasse (underbegreb), hvor subklassen er en type af superklassen
 
 Superklasser beskriver egenskaber, som er fælles for alle subklasser. Superklassen er en generalisering af subklasserne og hver subklasse er en specialisering af superklassen. 
 
 Navngivning ikke nødvendig
+</td>
 </tr>
 <tr>
 <td>
@@ -1234,142 +1236,210 @@ I logiske datamodeller efter de fællesoffentlige regler har dette element udelu
 </td>
 </tr>
 <tr>
-<td>associationsnavn</td>
+<td>associationsnavn
+</td>
+<td>
 navn der beskriver hvordan to  klasser eller begreber (og deres instanser) står i relation til hinanden
 
 Et associationsnavn kan angives med eller uden læseretning
 Begrebsmodeller: navngives i almindeligt sprog 
 Andre modeller: navngives med lowerCamelCase
+</td>
 </tr>
 </table>
-
 
 _Tabel X: UML-elementer der anvendes i alle modeltyper_
 
 Ovennævnte elementer er de eneste der anvendes i begrebsdiagrammer. Nedenfor ses et eksempel på et begrebsdiagram.
 
-Figur ?: Eksempel på begrebsdiagram
+![]()
+_Figur ?: Eksempel på begrebsdiagram_
 
 ### Yderligere UML-elementer 
 Nedenfor vises en oversigt over de yderligere UML-elementer, der kan anvendes i informationsmodeller og logiske datamodeller.
 
+<table>
+<tr>
+<td>
 attribut
 (datatypeegenskab)
+</td>
+<td>
 egenskab som et forretningsobjekt har og som udtrykkes ved en simpel værdi af en bestemt datatype
 
 Navngives med lowerCamelCase
-
+</td>
+<td></td>
+</tr>
+<tr>
+<td>
 associationsende
 (objektegenskab)
+</td>
+<td>
 egenskab som et forretningsobjekt har og hvor udfaldsrummet er et andet forretningsobjekt, altså en klasse
 Defineres typisk uden multiplicitet i kernemodeller og altid med multiplicitet i anvendelsesmodeller (I kernemodeller kan man tilføje multiplicitet for at håndhæve lovmæssige konstruktioner.)
 Navngives med lowerCamelCase
-
+</td>
+<td></td>
+</tr>
+<tr>
+<td>
 primitiv datatype
+</td>
+<td>
 datatype, som beskriver et udfaldsrum bestående af en enkelt værdi 
 
 Typisk udfaldsrum for et attribut.
-
+</td>
+<td></td>
+</tr>
+<tr>
+<td>
 struktureret datatype
+</td>
+<td>
 UML-element som beskriver et udfaldsrum som en sammenstilling af attributter med datatyper 
 
 En struktureret datatype adskiller sig fra en klasse ved kun at være identificeret ved sin værdi. Det anbefales, men er ikke et krav, at strukturede datatyper farves gule.
 
 Navngives med UpperCamelCase
-
+</td>
+<td></td>
+</tr>
+<tr>
+<td>
 enumeration
+</td>
+<td>
 datatype som specificerer en række (tekst)værdier som gyldigt udfaldsrum for et attribut eller associationsende
 
 Det anbefales, men er ikke et krav, at enumerationer farves grønne.
 
 Enumerationen navngives med UpperCamelCase, værdierne med lowerCamelCase
-
+</td>
+<td></td>
+</tr>
+<tr>
+<td>
 multiplicitet
-
-
-
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
 objekt
 (instans/individ)
+</td>
+<td>
 element som anvendes til at beskrive en konkret forekomst af et forretningsobjekt
 Bruges i klassifikationer til at repræsentere klassifikationens medlemmer
 Navngives med UpperCamelCase
-
-
+</td>
+<td></td>
+</tr>
+<tr>
+<td>
 komposition
-
-
+</td>
+<td>
 association som anvendes til at beskrive en relation mellem to klasser, hvor hver forekomst af den ene klasse er en del af / tilhører en forekomst af den anden klasse og ikke kan eksistere uden denne.
 Konstruktionen kan udelukkende anvendes i anvendelsesmodeller. Bemærk at relationen er transitiv og ikke symmetrisk. 
 Navngivning ikke nødvendig
-
+</td>
+<td></td>
+</tr>
+<tr>
+<td>
 tilknytningsklasse 
 
 (associationsklasse)
+</td>
+<td>
 UML-element som beskriver egenskaber ved en association
 Ofte anvendt til at angive klassifikation eller temporalitet for en association.
 Denne konstruktion kan betragtes som en ’visuel forkortelse’ for det forhold, at der findes en klasse, som er knyttet til de to associerede klasser, som udfyldes med konkrete forhold vedrørende en instantieret anvendelse af de to klasser.
 Navngives som andre klasser med UpperCamelCase
+</td>
+<td></td>
+</tr>
+</table>
 
+_Tabel X: UML-elementer der udelukkende anvendes i informations- og logiske datamodeller_
 
-Tabel X: UML-elementer der udelukkende anvendes i informations- og logiske datamodeller
 Udover de ovenstående elementer anvendes der i alle modeltyper pakker og stereotyper 
 
 ### Pakker 
 En pakke i UML er et element som kan indeholde andre UML-elementer, og som karakteriserer disse i sammenhæng. Pakker anvendes til at organisere elementerne. Der skal være en pakke der indeholder hele modellen. Denne kan desuden have underpakker, hvis man ønsker at gruppere modelelementer. Dette kan for eksempel anvendes i en anvendelsesmodel til at gruppere elementer baseret på hvilken kernemodel de kommer fra. Modellens pakke bærer desuden dennes metadata.
+
 I anvendelsesmodeller kan man med fordel organiserer elementer fra forskellige kernemodeller i forskellige underpakker i modellen. Dette gælder især hvis man laver kernemodeller i forbindelse med en anvendelsesmodel uden at kernemodellerne publiceres separat. 
 
 ### Stereotyper
 Stereotyper er en måde at specialisere UML-elementer til en bestemt kontekst. Navne på stereotyper vises mellem en type anførselstegn (guillemets) der ligner dobbelte spidse parenteser: <<stereotypenavn>>. Derudover fungerer de som ‘beholder’ for såkaldte tagged values. I modelreglerne anvendes tagged values til at dokumentere (angive metadata for) både modelelementer og pakker. Derfor er det i henhold til modelreglerne obligatorisk at anvende stereotyper for både modelelementer og modelpakker. 
+
 Til modelelementer anvendes:
-<<Concept>> i begrebsmodeller og informationsmodeller
-<<ModelElement>> i logiske datamodeller 
+* <<Concept>> i begrebsmodeller og informationsmodeller
+* <<ModelElement>> i logiske datamodeller
+  
 Elementer der ikke tildeles stereotyper, fordi de ikke skal dokumenteres med metadata: generaliseringer, associationer i begrebsmodeller og (unavngivne) associationer i logiske datamodeller.
+
 Til modelpakker anvendes afhængigt af modeltype:
-<<ConceptModel>>
-<<InformationModel>>
-<<LogicalDatamodel>>
-<<ClassificationModel>>
+* <<ConceptModel>>
+* <<InformationModel>>
+* <<LogicalDatamodel>>
+* <<ClassificationModel>>
 
 Det er ikke et krav at angive stereotyper på underpakker, men det er selvfølgelig tilladt hvor det giver mening.
+
 Det er tilladt at anvende stereotyper udover de ovenfor nævnte. Fx er det udbredt at anvende stereotyperne <<mandatory>>, <<recommended>>  og <<optional>> til at angive kravniveauer. Det er tilladt at definere egne stereotyper. Her bør man dog være meget opmærksom på om stereotypenavnene er selvforklarende og dermed tilføjer information eller blot bliver støj for udenforstående der ikke forstår dem. Ligeledes bør man være opmærksom på flere stereotyper per element kan gøre diagrammer sværere at læse.
+
 UML keywords vises på samme måde som stereotyper. Almindelige keywords er <<enumeration>> og <<dataType>>, men disse er altså ikke stereotyper.
 
 ### Dokumentation af modelelementer
 Modeller skal - uanset om de er begrebsmodeller eller af en anden type - være baseret på afklarede og dokumenterede begreber. Derfor skal elementer i UML-modeller dokumenteres med stort set de samme begrebsoplysninger som findes i en begrebsliste. For forklaring af disse oplysningstyper se afsnittet om [Begrebslister](#begrebslister) i starten af dette kapitel.
+
 Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de angives som metadata til hvert modelelement. Hver tagged value består af et tag-navn, der svarer til navnet på en kolonne i begrebslisten, og værdi for tagget det er individuelt for hvert element/begreb.
 
-Foretrukken term
-Accepteret term
-Frarådet term
-Definition
-Eksempel
-Kommentar
-Anvendelsesnote
-stelnummer
-stelnr.
+<table>
+<tr>
+<td>Foretrukken term</td>
+<td>Accepteret term</td>
+<td>Frarådet term</td>
+<td>Definition</td>
+<td>Eksempel</td>
+<td>Kommentar</td>
+<td>Anvendelsesnote</td>
+</tr>
+<tr>
+<td><b>stelnummer</b></td>
+<td>stelnr.</td>
+<td></td>
+<td><i>unik kombination af tal og bogstaver der markeres på stellet af en køretøj for entydigt at kunne identificere</i></td>
+<td>WDA1234Z</td>
+<td></td>
+<td>et stelnummer på en cykel består af fabrikantmærke (1-4 bogstaver), serienummer (bestående af tal) og årstalsmærke (et enkelt bogstav)</td>
+</tr>
+</table>
 
-
-unik kombination af tal og bogstaver der markeres på stellet af en køretøj for entydigt at kunne identificere
-WDA1234Z
-
-
-et stelnummer på en cykel består af fabrikantmærke (1-4 bogstaver), serienummer (bestående af tal) og årstalsmærke (et enkelt bogstav)
-
-
-Foretrukken term
-Juridisk kilde
-Kilde
-Tilhører emneområde
-Identifikator
-Afledt af
-stelnummer
-https://www.retsinformation.dk/eli/lta/2009/4
-
-
-Ja
-https://data.gov.dk/concept/core/transportationMeans/SerialNumber
-
-
+<table>
+<tr>
+<td>Foretrukken term</td>
+<td>Juridisk kilde</td>
+<td>Kilde</td>
+<td>Tilhører emneområde</td>
+<td>Identifikation</td>
+<td>Afledt af</td>
+</tr>
+<tr>
+<td><b>stelnummer</b></td>
+<td>https://www.retsinformation.dk/eli/lta/2009/4</td>
+<td></td>
+<td>Ja</td>
+<td>https://data.gov.dk/concept/core/transportationMeans/SerialNumber</td>
+<td></td>
+</tr>
+</table>
 
 Figur 18: Begrebet ‘stelnummer’ beskrevet i listeformat. Åbn billedet i en ny fane for at zoome ind.
 
