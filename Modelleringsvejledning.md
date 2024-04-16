@@ -1181,7 +1181,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
 
 _Figur 16: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind._
 
-Se også [Kapitel 6: Dokumentation af modellen](kapitel-6-dokumentation-af-modellen) for information om, hvilke oplysninger selve modellen bør forsynes med.
+Se også [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen) for information om, hvilke oplysninger selve modellen bør forsynes med.
 
 ## UML-modellering
 
