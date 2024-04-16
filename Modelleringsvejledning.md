@@ -67,7 +67,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvor finder man genbrugelige definitioner?](#hvor-finder-man-genbrugelige-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Der er en lang række kilder, man kan trække på, når man leder efter genbrugelige definitioner:](#der-er-en-lang-række-kilder,-man-kan-trække-på,-når-man-leder-efter-genbrugelige-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Der er en lang række kilder, man kan trække på, når man leder efter genbrugelige definitioner:](#hvor-finder-man-genbrugelige-definitioner)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvad hvis begrebet er modelleret, men ikke godt nok?](#hvad-hvis-begrebet-er-modelleret-men-ikke-godt-nok)
 
