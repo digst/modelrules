@@ -1038,129 +1038,148 @@ I nogle tilfælde kan principperne trække i forskellige retninger. Her må begr
 
 # Kapitel 4: Anvendelse og udformning af HTTP-URIer
 En URI er en entydig persistent identifikator, der bl.a. er med til at facilitere genbrug, fordi det altid bliver helt entydigt om to modeller anvender det samme element eller blot to elementer med det samme navn men potentielt forskellig semantik.
+
 En HTTP-URI følger den syntaks vi alle kender fra almindelige internetadresser - også kaldet URLs. Hvor URL står for Universal Ressource Locator, står URI for Universal Resource Identifier. En URI adskiller sig fra URLer ved at den først og fremmest har funktion som entydig identifikator. Derudover kan den også anvendes som entydig adresse (som en URL) på en webside, hvor man kan finde yderligere information om det den identificerer - i denne sammenhæng om modellen eller modelelementet, hvilket selvfølgelig er det ideelle at gøre.
+
 Den HTTP-URI en model forsynes med kaldes også dens namespace, hvilket vil sige at det grupperer en række relaterede elementer, som skal have navne, der er unikke inden for namespacet.
-Et namespace opbygges i henhold til Retningslinjer for stabile HTTP-URIer af: 
+
+Et namespace opbygges i henhold til [Retningslinjer for stabile HTTP-URIer](https://arkitektur.digst.dk/specifikationer/grundlaeggende-specifikationer/introduktion-til-retningslinjer-stabile-http-urier) af: 
 “https://” + domæne + “/” + type + “/” + emne  + “/” + reference 
-Eksempel på namespace for en model i form at en URI: https://data.gov.dk/concept/core/TransportationMeans
+
+Eksempel på namespace for en model i form at en URI:<br>https://data.gov.dk/concept/core/TransportationMeans
+
 For en detaljeret gennemgang af de forskellige delelementer henvises til retningslinjerne. Nedenfor angives, hvordan de skal anvendes til at lave namespaces for modeller udarbejdet i henhold til modelreglerne. Her gælder det at:
-domæne = ‘data.gov.dk’
-type = ‘concept’ for begrebsmodeller og informationsmodeller og ‘model’ for logiske datamodeller
-emne = ‘core’ for kernemodeller og ‘profile’ for anvendelsesmodeller
-reference identificerer den enkelte model
+
+* domæne = ‘data.gov.dk’
+* type = ‘concept’ for begrebsmodeller og informationsmodeller og ‘model’ for logiske datamodeller
+* emne = ‘core’ for kernemodeller og ‘profile’ for anvendelsesmodeller
+* reference identificerer den enkelte model
+  
 Modelelementer, inkl. begreber, forsynes med en URI bestående af modellens namespace samt et entydigt fragment der identificerer elementet inden for modellen. Husk at modelelementer defineres i kernemodeller (se mere i afsnittet [Anvendelsesmodellering](#anvendelsesmodellering)). Namespace og fragmentnavn bør adskilles enten med “/”, fx https://data.gov.dk/concept/core/TransportationMeans/bicycle. Det er også muligt at anvende “#” som fragmentskilletegn, https://data.gov.dk/concept/core/TransportationMeans#bicycle. Dette afspejler dog ikke den aktuelle konsensus om bedste praksis, hvorfor det anbefales at anvende “/”. Især i ældre modeller kan man dog  møde “#”.
+
 Fragmentet bør afspejle modelelementets navn, og vil ofte være identisk med dette. Dog kan fragmenter ikke indeholde mellemrum, så begrebsnavne der består af flere ord omskrives til CamelCase, fx https://data.gov.dk/concept/core/transportationMeans/tandemBicycle
+
 Desuden kan det være en god ide at angive fragmentet på engelsk, selvom elementnavnet er på dansk. Ved at vælge engelsk gør man det muligt at modellen og dens elementer kan genbruges internationalt og dermed øge sammenhæng ikke kun i Danmark, men også på tværs af grænserne. Det bliver også muligt at bringe sin model i spil i forhold til internationalt standardiseringsarbejde og dermed reducere risikoen for at skulle ændre sin modellering som følge af international standardisering. International brug kræver engelske definitioner og termer, som kan tilføjes senere, hvorimod URIen ikke kan ændres efter at modellen er erklæret stabil i version 1.0.0.
-Hvis modellen er udfærdiget på dansk og man ikke ønsker at den skal genbruges internationalt, kan man vælge at lave fragmentet på dansk, for at opnå den tættest muligt afspejling af modellen.
+
+Hvis modellen er udfærdiget på dansk og man ikke ønsker at den skal genbruges internationalt, kan man vælge at lave fragmentet på dansk, for at opnå den tættest muligt afspejling af modellen. <br><br>
 
 En URI er ikke beydningsbærende og kan derfor i princippet bestå af en række tilfældige tegn, og i nogle situationer giver det endda rigtig god mening, især hvis det kun er maskiner der skal læse URIerne. Når man skal genbruge modelelementer og dermed deres URIer letter det dog processen og reducerer risikoen for fejl hvis URIerne er forståelige for mennesker. Ligeledes er det rart at kunne aflæse af URIen hvor et modelelement kommer fra når det genbruges i andre modeller eller henvises til som fx overbegreb for, kilde til eller ækvivalent med et andet modelelement. Derfor anbefales det at udarbejde menneskelæselige URIer.
 
+![Figur 4.1]()
 
+_Figur 4.1: Eksempler på HTTP-URIer_
 
-Figur X: Eksempler på HTTP-URIer
-
-§07 Angiv identifikation af modeller
-§17 Giv alle modelelementer en identifikator
+§07  - <ins> <span style="color:#AB2A0C;">Angiv identifikation af modeller</span> </ins> <br>
+§17 - <ins> <span style="color:#AB2A0C;"> Giv alle modelelementer en identifikator</span> </ins>
 
 
 # Kapitel 5: Udarbejdelse af modeller
 ### Begrebslister
 En begrebsmodel kan udtrykkes som en begrebsliste. Begrebslisten skal udtrykkes i det tabelformat, der er specificeret i modelreglerne, eller efter ISO 10241. Her vejledes om anvendelse af tabelformatet. Ønsker man at anvende ISO 10241-formatet henvises til denne standard for vejledning. 
+
 Begrebsoplysningerne opsættes som en tabel, således at hver række beskriver ét begreb. Tabellen opsættes med kolonneoverskrifter, som det er specificeret i Modelreglerne, Jf. Bilag D og E: 
 
+* Foretrukken dansk term: dansk term som foretrækkes anvendt for et givet begreb
+* Accepteret dansk term: dansk term som accepteres anvendt for et givet begreb
+* Frarådet dansk term: dansk term som ikke bør anvendes for et givet begreb
+* Definition: dansk beskrivelse af betydningen af et begreb
+* Eksempel: typisk tilfælde der beskrives for at forklare eller anskueliggøre
+* Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
+* Anvendelsesnote: note der beskriver hvordan et begreb anvendes i en bestemt anvendelseskontekst
+* Juridisk kilde: reference til lovgrundlag (hjemmel)
+* Kilde: reference til ressource hvorfra begrebet er afledt
+* Tilhører emneområde: angivelse af om begrebet hører til modellens emneområde
+* Identifikator: entydig reference til begrebet i form af en HTTP-URI
+* Afledt af: reference til element som begrebet er afledt af
 
-Foretrukken dansk term: dansk term som foretrækkes anvendt for et givet begreb
-Accepteret dansk term: dansk term som accepteres anvendt for et givet begreb
-Frarådet dansk term: dansk term som ikke bør anvendes for et givet begreb
-Definition: dansk beskrivelse af betydningen af et begreb
-Eksempel: typisk tilfælde der beskrives for at forklare eller anskueliggøre
-Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
-Anvendelsesnote: note der beskriver hvordan et begreb anvendes i en bestemt anvendelseskontekst
-Juridisk kilde: reference til lovgrundlag (hjemmel)
-Kilde: reference til ressource hvorfra begrebet er afledt
-Tilhører emneområde: angivelse af om begrebet hører til modellens emneområde
-Identifikator: entydig reference til begrebet i form af en HTTP-URI
-Afledt af: reference til element som begrebet er afledt af
 Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal altid udfyldes. Resten af felterne udfyldes, hvis det er relevant. 
+
 ‘Tilhører emneområde’ kan udfyldes med en præcis reference til den model hvor begrebet er defineret, hvilket for kernemodeller kan være modellen selv. For kernemodeller kan man også nøjes med at angive om begrebet tilhører modellens emneområde med Ja/Nej. Man bør kunne se hvor begrebet stammer fra enten i feltet ‘Tilhører emneområde’ eller i et af kildefelterne.
-§26 Angiv om begrebet tilhører modellens emneområde
-§25 Sammensæt anvendelsesmodeller af elementer fra kernemodeller
+ 
+§26 - <ins> <span style="color:#AB2A0C;">Angiv om begrebet tilhører modellens emneområde</span> </ins> <br>
+§25 - <ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>
+
 Hvis man har en illustration, der kan bidrage yderligere til forståelsen af begrebet, kan denne publiceres på nettet (på en stabil adresse) og et link til illustrationen kan tilføjes i kommentarfeltet. 
+
 Den enkelte myndighed eller det enkelte projekt kan desuden tilføje yderligere kolonner, hvis der er yderligere information om begreberne, man ønsker at definere.
+
 Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, der indeholder en skabelon til begrebslister i tabelformat, og som følger specifikationerne. Nedenfor ses et eksempel på en begrebsliste.
 
-Foretrukken term
-Accepteret term
-Frarådet term
-Definition
-Eksempel
-Kommentar
-Anvendelsesnote
-cykel
+<table>
+<tr>
+	<td>Foretrukken term</td>
+	<td>Accepteret term</td>
+	<td>Frarådet term</td>
+	<td>Definition</td>
+	<td>Eksempel</td>
+	<td>Kommentar</td>
+	<td>Anvendelsesnote</td>
+</tr>
+<tr>
+	<td>**cykel**</td>
+	<td></td>
+	<td>jernhest</td>
+	<td>køretøj der drives frem ved pedalkraft</td>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>**cykelstel**</td>
+	<td></td>
+	<td></td>
+	<td>_stel som en cykel er bygget omkring_</td>
+	<td></td>
+	<td>er normalt lavet af metal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>**stelnummer**</td>
+	<td>stelnr.</td>
+	<td></td>
+	<td>_unik kombination af tal og bogstaver der markeres på stellet af en køretøj for entydigt at kunne identificere_</td>
+	<td>WDA1234Z</td>
+	<td></td>
+	<td>et stelnummer på en cykel består af fabrikantmærke (1-4 bogstaver), serienummer (bestående af tal) og årstalsmærke (et enkelt bogstav)</td>
+</tr>
+</table>
 
+<table>
+<tr>
+	<td>Foretrukken term</td>
+ 	<td>Juridisk kilde</td>
+  	<td>Kilde</td>
+   	<td>Tilhørende emneområde</td>
+    	<td>Identifikator</td>
+     	<td>Afledt af</td>
+</tr>
+<tr>
+	<td>**cykel**</td>
+ 	<td>https://www.retsinformation.dk/eli/lta/2016/976</td>
+  	<td></td>
+   	<td>Ja</td>
+    	<td>https://data.gov.dk/concept/core/transportationMeans/bicycle</td>
+     	<td></td>
+</tr>
+<tr>
+	<td>**cykelstel**</td>
+ 	<td></td>
+  	<td>Tværoffentlig referencegruppe for køretøjer</td>
+   	<td>Ja</td>
+    	<td>https://data.gov.dk/concept/core/transportationMeans/bicycleFrame</td>
+     	<td></td>
+</tr>
+<tr>
+	<td>**stelnummer**</td>
+ 	<td>https://www.retsinformation.dk/eli/lta/2009/4</td>
+  	<td></td>
+   	<td>Ja</td>
+    	<td>https://data.gov.dk/concept/core/transportationMeans/SerialNumber</td>
+     	<td></td>
+</tr>
+</table>
 
-jernhest
-køretøj der drives frem ved pedalkraft
-
-
-
-
-
-
-cykelstel
-
-
-
-
-stel som en cykel er bygget omkring
-
-
-er normalt lavet af metal
-
-
-stelnummer
-stelnr.
-
-
-unik kombination af tal og bogstaver der markeres på stellet af en køretøj for entydigt at kunne identificere
-WDA1234Z
-
-
-et stelnummer på en cykel består af fabrikantmærke (1-4 bogstaver), serienummer (bestående af tal) og årstalsmærke (et enkelt bogstav)
-
-
-Foretrukken term
-Juridisk kilde
-Kilde
-Tilhører emneområde
-Identifikator
-Afledt af
-cykel
-https://www.retsinformation.dk/eli/lta/2016/976
-
-
-Ja
-https://data.gov.dk/concept/core/transportationMeans/bicycle
-
-
-cykelstel
-
-
-Tværoffentlig referencegruppe for køretøjer
-Ja
-https://data.gov.dk/concept/core/transportationMeans/bicycleFrame
-
-
-stelnummer
-https://www.retsinformation.dk/eli/lta/2009/4
-
-
-Ja
-https://data.gov.dk/concept/core/transportationMeans/SerialNumber
-
-
-
-Figur 16: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind.
+_Figur 16: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind._
 
 Se også Kapitel 6: Dokumentation af modellen for information om, hvilke oplysninger selve modellen bør forsynes med.
 
