@@ -1475,20 +1475,23 @@ wasDerivedFrom
 
 
 
-				 Tabel X ‘stelnummer’ beskrevet med tagged values
+				 _Tabel X ‘stelnummer’ beskrevet med tagged values_
 
 Der er to forskelle mellem en UML-model og en begrebsliste, som man skal være opmærksom på. Den ene forskel er, at oplysningen om den entydige identifikator i form af en HTTP-URI bliver obligatorisk. Den anden er, at oplysningen om hvorvidt begrebet eller klassen tilhører modellens emne skal angives på en anden måde, nemlig i tagget ‘isDefinedBy’, hvor den model, hvor begrebet defineres, identificeres ved hjælp af en HTTP-URI. 
 Tilhører begrebet emnet, man modellerer, angives URIen for denne model. For begreber der ikke tilhører emnet, vil det ikke altid være muligt at angive en URI, fx hvis man har genbrugt et begreb fra en kilde der ikke anvender URIer. Det kan stadig give mening at genbruge et begreb for derved at få en fagligt valideret definition og/eller en definition, der i forvejen er bredt anerkendt. Her må man lade tagget være uudfyldt, men selvfølgelig angive, hvor begrebet stammer fra som kilde. 
 
 ### Gennemgang af UML-elementer
-Klasser 
-Anvendes i alle modeltyper
+#### Klasser 
+_Anvendes i alle modeltyper_
+
 En UML-klasse er en repræsentation af et sæt af objekter, der deler semantik og egenskaber. At de deler semantik vil sige, at der findes en definition, der dækker præcis de objekter, der er medlem af klassen, hvormed klassen også svarer til et begreb. Man kan også sige, at en klasse beskriver en kategori/type af instanser. 
 
-Figur x: Klasser der repræsenterer ting af typen cykel.
+_Figur x: Klasser der repræsenterer ting af typen cykel._
 
 Alle modeltyper anvender klasser. Der er dog den forskel, at begreber i terminologiske begrebsmodeller navngives med naturligt sprog også når begrebsmodellen visualiseres med UML, hvorimod klasser i informations- og logiske datamodeller navngives med UpperCamelCase, således at begrebet ‘ethjulet cykel’ fx bliver til klassen ‘EthjuletCykel’. Som ved begreber, er det god skik at anvende entalsformen af substantiver (navneord) til navngivelse af klasser, hvilket afspejler, at klassen typificerer et sæt af objekter.
-I forbindelse med forretnings- og løsningsarkitektur snakkes ofte om forretningsobjekter, og man kan se en UML-klasse som en repræsentation af et forretningsobjekt. Logiske modeller indeholder flere detaljer end et diagram over forretningsarkitektur normalt vil gøre, så hvis man tager udgangspunkt i sådan et, vil man, udover at lave en klasse for hvert forretningsobjekt, ofte skulle tilføje yderligere klasser, der repræsenterer forretningsobjekter, der ikke er  medtaget i forretningsarkitekturdiagrammet, og/eller opdele en overordnet klasse i flere mere specialiserede underklasser. Derudover tilføjes information om semantik, egenskaber og relationer
+
+I forbindelse med forretnings- og løsningsarkitektur snakkes ofte om forretningsobjekter, og man kan se en UML-klasse som en repræsentation af et forretningsobjekt. Logiske modeller indeholder flere detaljer end et diagram over forretningsarkitektur normalt vil gøre, så hvis man tager udgangspunkt i sådan et, vil man, udover at lave en klasse for hvert forretningsobjekt, ofte skulle tilføje yderligere klasser, der repræsenterer forretningsobjekter, der ikke er  medtaget i forretningsarkitekturdiagrammet, og/eller opdele en overordnet klasse i flere mere specialiserede underklasser. Derudover tilføjes information om semantik, egenskaber og relationer.
+
 Når man går fra forretningsmodellering til UML-modellering skal man passe på sprogforbistring i forbindelse med ‘objekt’. Hvor ordet forretningsobjekt ofte bruges om en type af objekter, repræsenterer et UML-objekt altid et enkelt konkret objekt, og typer repræsenteres af klasser. 
 
 #### Generaliseringer
@@ -1496,51 +1499,59 @@ Når man går fra forretningsmodellering til UML-modellering skal man passe på 
 _Anvendes i alle modeltyper_
 
 En særlig form for association, med indbygget semantik, er generalisering, også kaldet specialisering. Hvilken betegnelse, der anvendes, afhænger af perspektivet. Associationen forbinder to klasser, hvoraf den ene, superklassen, er overordnet og mere generel i forhold til subklassen, der til gengæld er en specialisering af superklassen. Sammenholdt med en begrebsmodel repræsenterer superklassen overbegrebet og subklassen et underbegreb. I et UML-begrebsdiagram vil dette forhold ligeledes være repræsenteret af en generalisering.
+
+
 For eksempel er ‘Cykel’ og ‘Hestevogn’ specialiseringer - mere specifikke typer - af et ‘Ikke-motoriseretKøretøj’. Som subklasser arver ‘Cykel’ og ‘Hestevogn’ alle egenskaber (både attributter og associationer) fra superklassen ‘Ikke-motoriseretKøretøj’. Derudover kan der modelleres yderligere egenskaber for den enkelte subklasse, som ikke gælder for superklassen. I eksemplet arver ‘Cykel’ og ‘Hestevogn’ attributterne ‘antalHjul’, ‘farve’ og ‘maxPassagerer’ fra ‘Ikke-motoriseretKøretøj’ samtidig med, at de hver især har attributter, der gælder kun for dem. 
 
-Figur xx: Eksempel på generalisering/specialisering
+_Figur xx: Eksempel på generalisering/specialisering_
+
 Den indbyggede semantik i generaliseringsassociationen gør, at der her ikke tilføjes metadata, associationsende, stereotype eller multiplicitet.
 
 #### Generaliseringssæt
-Anvendes i alle modeltyper
+_Anvendes i alle modeltyper_
+
 Et generaliseringssæt samler to eller flere specialiserede klasser i et sæt. Ved at samle klasser i et generaliseringssæt indikerer man at de er specialiserede efter samme inddelingskriterie. Fx er ‘personbil’, ‘varevogn’ og ‘lastbil’ specialiseringer af ‘bil’, der er inddelt i forhold til funktion, hvorimod ‘lejebil’ er en specialisering af ‘bil’ i forhold til hvordan man får retten til at bruge den. Derfor er ‘personbil’, ‘varevogn’ og ‘lastbil’ del af samme generaliseringssæt, mens ‘lejebil’ ikke er. 
 
-Figur xx: Eksempel på generaliseringssæt
+_Figur xx: Eksempel på generaliseringssæt_
 
 #### Egenskaber
 En egenskab modelleres i UML som en Property og kan være enten en associationsende eller et attribut. Der skelnes mellem to overordnede typer af egenskaber: 
-Datatypeegenskab: 
-egenskab hvor udfaldsrummet er en mængde af dataværdier
-En dataegenskabs ’værdi’ er altså altid en dataværdi af en bestemt datatype.
-Datatypeegenskaber repræsenteres bedst som attributter. 
+1. **Datatypeegenskab**: <br>
+_egenskab hvor udfaldsrummet er en mængde af <ins>dataværdier</ins>_ <br>
+En dataegenskabs ’værdi’ er altså altid en dataværdi af en bestemt datatype. <br>
+Datatypeegenskaber repræsenteres bedst som **attributter**. 
 
 
-Objektegenskab: 
-egenskab hvor udfaldsrummet er en mængde af objekter 
-En objektegenskabs ’værdi’ er altså altid et objekt - repræsenteret ved en UML-klasse. 
-Objektegenskaber repræsenteres bedst som associationsender. 
-I UML kan en relation til enten et objekt eller en dataværdi i begge tilfælde udtrykkes både som en association og som et attribut. For at få et standardiseret udtryk – og dermed et lettere aflæseligt udtryk – anbefales modellører at repræsentere objektegenskaber som associationsender og datatypeegenskaber som attributter. 
+2. **Objektegenskab**: <br>
+_egenskab hvor udfaldsrummet er en mængde af <ins>objekter</ins>_ <br>
+En objektegenskabs ’værdi’ er altså altid et objekt - repræsenteret ved en UML-klasse. <br>
+Objektegenskaber repræsenteres bedst som **associationsender**.
+
+I UML kan en relation til enten et objekt eller en dataværdi i begge tilfælde udtrykkes både som en association og som et attribut. For at få et standardiseret udtryk – og dermed et lettere aflæseligt udtryk – anbefales modellører at repræsentere objektegenskaber som _associationsender_ og datatypeegenskaber som _attributter_. 
 
 #### Attributter
 _Anvendes i informations- og logiske datamodeller_
 
 Attributter er de egenskaber en klasse har hvis værdi udtrykkes som en bogstavelig værdi (literal). Ofte antal, tekststrenge eller sandt/falsk markeringer. Objekter der er instanser af klassen vil have egenskaben med en specifik værdi. Værdier kan være unikke for et enkelt objekt eller der kan være sammenfald for mange objekter. Fx vil attributtet ‘stelnummer’ på klassen ‘Cykel’ være unikt for hver enkelt instans af klassen, da hvert stelnummer identificerer en unik cykel. For atributtet ‘farve’ må man derimod forvente mange gentagelser af fx ‘sort’, hvis der findes tilstrækkeligt mange instanser af klassen selvom værdien er specifik for hver instans. 
 
-figur x: Klassen Cykel med attributterne stelnummer, farve og størrelse
+_figur x: Klassen Cykel med attributterne stelnummer, farve og størrelse_
+
 Attributter navngives med lowerCamelCase, fx ‘stelnummer’, ‘maxPassagerer’ eller ‘antalHjul’. Navnet på klassen bør ikke medtages i attributnavnet. Dels bliver det sværere at genbruge egenskabernes semantik (‘stelnummer’ kan genbruges for fx motorcykler, men ‘cykelStelnummer’ kan ikke - selve UML-attributtet kan ikke genbruges, men egenskaben semantik (navn, definition og anden beskrivelse) kan og bør), dels bliver attributnavnene unødigt lange og svære at læse. Og informationen om at der her er tale om et stelnummer på en cykel er til stede fordi attributtet netop er placeret på klassen ‘Cykel’. 
 
 #### Associationer 
 _Anvendes i alle modeltyper_
 
-Associationer anvendes til at forbinde begreber/klasser. Ligesom en klasse er en generalisering over en gruppe af objekter så er associationen teknisk set en generalisering over hvordan objekter, der er instanser af de to klasser, kan være forbundet. En generisk association udtrykkes med fuldt optrukken streg. Den siger ikke i sig selv noget om hvordan klasserne er forbundet, blot at de er.
+Associationer anvendes til at forbinde begreber/klasser. Ligesom en klasse er en generalisering over en gruppe af objekter så er associationen teknisk set en generalisering over hvordan objekter, der er instanser af de to klasser, kan være forbundet. En generisk association udtrykkes med fuldt optrukken streg. Den siger ikke i sig selv noget om _**hvordan**_ klasserne er forbundet, blot at de er.
 
 Associationer kan angives med navigabilitet, der vises som en pil i enden af associationer. Dette omtales ofte mindre præcist som retning. Modelreglerne tillader angivelse af navigabilitet, men kræver det ikke.
 
 ##### Associationsnavne
 _Anvendes i begrebs- og informationsmodeller_
+
 En association kan gives et navn der beskriver hvordan de begreber/klasser den forbinder er relateret til hinanden, altså en betegnelse for associationens semantik. Associationsnavne bør anvendes i begrebs- og informationsmodeller, undtagen for generaliseringer og kompositioner. I begrebsmodeller angives de i naturligt sprog, men i informationsmodeller, som lowerCamelCase.
 
-Figur XX: Associationsnavn i begrebsmodel
+_Figur XX: Associationsnavn i begrebsmodel_
+
 Associationsnavnet kan forsynes med angivelse af læseretning i form af et udfyldt pilehoved der fortæller hvordan navnet skal læses, fx ‘Cykelhandler’ harPåLager ‘Cykel’, frem for ‘Cykel’ harPåLager ‘Cykelhandler’.
 
 Figur XX: Associationsnavn med læseretning i informationsmodel
@@ -1549,40 +1560,50 @@ Figur XX: Associationsnavn med læseretning i informationsmodel
 _Anvendes i logiske datamodeller_
 
 Associationsender udtrykker objektegenskaber, dvs egenskaber en klasse har hvor udfaldsrummet er en anden klasse (eller strengt taget de objekter der er instanser af den anden klasse). I praksis vil der ofte være en sammenhæng mellem et associationsnavn i en begrebs- eller informationsmodel og en associationsende i en logisk datamodel, selvom de udtrykkes på forskellig vis.
+
 Associationsenden bæres af associationen, og i logiske datamodeller er netop det at bære associationsender associationens vigtigste funktion. Associationsenden placeres i den ende af associationen der “længst væk” fra den klasse den er egenskab for, og dermed “tættest på “ den klasse der repræsenterer udfaldsrummet. I eksemplet nedenfor har ‘Cykelhandler’ egenskaben ‘påLager’ og udfaldsrummet for denne egenskab er ‘Cykel’, som er det der kan være på lager. Navne på associationsender angives i lowerCamelCase.
 
 ##### Multiplicitet
 _Anvendes i informations- og logiske datamodeller der er anvendelsesorienterede_
 
-Multiplicitet angiver hvor mange (forskellige) værdier en egenskab kan eller skal have. Angives for attributter og associationsender i anvendelsesmodeller. Kan evt. angives i kernemodeller hvis multipliciteten har særlig betydning for forståelsen og man er helt sikker på at multipliciteten dækker alle potentielle anvendelsessituationer og ikke kan ændres over tid (fx ved lovændring, som da det i 2015 blev muligt for en dansker at have dobbelt statsborgerskab).
+Multiplicitet angiver hvor mange (forskellige) værdier en egenskab kan eller skal have. Angives for attributter og associationsender i anvendelsesmodeller. Kan evt. angives i kernemodeller hvis multipliciteten har særlig betydning for forståelsen og man er helt sikker på at multipliciteten dækker alle potentielle anvendelsessituationer og ikke kan ændres over tid (fx ved lovændring, som da det i 2015 blev muligt for en dansker at have dobbelt statsborgerskab). <br>
 Multiplicitet angives med en nedre og øvre grænse:
+
 x..y: Mindst x, højst y værdier skal angives for eksempel:
-x..x: Netop x værdier skal angives - kan forkortes x
-0..1: Værdien kan være fraværende, højst en værdi kan angives
-0..*: Værdien kan være fraværende, antallet af samtidige værdier er ubegrænset - kan forkortes *
-1..1: Netop én værdi skal angives - kan forkortes 1
-1..*: Mindst én værdi skal angives, antallet af samtidige værdier er ubegrænset.
+* x..x: Netop x værdier skal angives - kan forkortes x
+* 0..1: Værdien kan være fraværende, højst en værdi kan angives
+* 0..*: Værdien kan være fraværende, antallet af samtidige værdier er ubegrænset - kan forkortes *
+* 1..1: Netop én værdi skal angives - kan forkortes 1
+* 1..*: Mindst én værdi skal angives, antallet af samtidige værdier er ubegrænset.
 
 Det første eksempel viser multiplicitet i forbindelse med attributter. Standard-UML-læsning medfører, at fravær af angivelse af multiplicitet betyder at multipliciteten er 1..1 (værdien krævet). Dette ses ofte ved attributter. 
+
 Eksemplet nedenfor viser en anvendelsessituation, hvor man altid vil have information om hvor mange passagerpladser cykeltaxaen har og hvorvidt den er overdækket, men kun i nogle tilfælde vil have oplysninger om cykeltaxaens vægt og model.
 
-Figur xx: Multiplicitet vist på attributter
+_Figur xx: Multiplicitet vist på attributter_
+
 Det følgende eksempel viser multiplicitet i forbindelse med associationsender. En cykelhandler kan have fra 0 til et ubegrænset antal cykler på lager. En specifik cykel kan være på lager hos højst en cykelhandler, men behøver ikke være på lager hos nogen. En cykel har som del netop to bremsesystemer, men et bremsesystem kan være installeret på højst en cykel.
 
-Figur xx: Multiplicitet vist på associationsender
+_Figur xx: Multiplicitet vist på associationsender_
+
 Det kan måske være fristende at læse multipliciteten efter mønsteret ‘klasse - nærmeste multiplicitet - klasse i den anden ende’, altså fx cykelhandler har 0 til 1 cykel, men dette er forkert, da multipliciteten hører til associationsenden som angives nærmest den klasse, den har som udfaldsrum. Dette betyder, at multipliciteten skal læse efter mønsteret ‘klasse - multiplicitet angivet i modsatte ende - klasse i modsatte ende’, altså fx cykelhandler har (på lager) 0 til ubegrænset antal cykler.
+
 Bemærk desuden at multiplicitet i logiske modeller skal modelleres som et snit i tid. Det vil sige at en egenskab som eksempelvis har netop én gyldig værdi ad gangen, men som godt over tid kan have forskellige værdier skal modelleres med multipliciteten 1..1 og ikke 1..*.
+
 I nogle sammenhænge bruges termen ’kardinalitet’ synonymt med multiplicitet. Ifølge UML-specifikationen betegner kardinalitet dog det konkrete antallet af instanser, der indgår i en samling i en specifik situation, hvorimod ’multiplicitet’ betegner rammerne for, hvor mange elementer, der potentielt kan indgå. Det anbefales derfor at undgå at bruge de to termer synonymt.
+
 Ved genbrug af egenskaber gælder det, at man kan gøre multipliciteten mere specifik, men ikke angive en multiplicitet, der ikke er tilladt ifølge den model, man genbruger fra. Hvis der eksempelvis er angivet 0..1 som multiplicitet, kan man godt specificere 1..1. men ikke 0..*, og 1..* kan specificeres til 1..10, men ikke 0..10.
 
 ### Datatyper
-Anvendes altid i logiske datamodeller. Anvendes normalt ikke i informationsmodeller, men det kan evt. være relevant at modellere forretningsspecifikke datatyper som strukturerede datatyper (se nedenfor)  fordi det kan være en del af forretningsforståelsen.
+_Anvendes altid i logiske datamodeller. Anvendes normalt ikke i informationsmodeller, men det kan evt. være relevant at modellere forretningsspecifikke datatyper som strukturerede datatyper (se nedenfor)  fordi det kan være en del af forretningsforståelsen._
+
 Datatyper angives for attributter og er en specifikation af hvordan de data, der kan optræde som værdi for det givne attribut, kan se ud og opføre sig, fx om det er et tal som der kan laves matematiske operationer på eller en streng af karaktere. ‘111’ vil derfor være et eksempel på forskellige datatyper afhængigt af om det er antallet af biler en organisation ejer, og derfor et tal der kan stige eller falde, eller et id-nummer for en af bilerne, der i princippet lige så godt kunne være ‘xyz’ og skal behandles som en tekststreng.
+
 Databasesystemer og andre fysiske dataformater har typisk deres egne datatyper. Da logiske datamodeller jo er uafhængige af specifikke fysiske implementeringer, skal der i disse anvendes en af nedenstående samlinger af datatyper. Disse er standardiserede og det er veldokumenteret hvordan de skal forstås og anvendes. De er også velegnede som udgangspunkt for systemspecifikke datatyper. Man bør ikke blande de to forskellige slags datatyper i samme model.
 
-XSD/RDFS Datatypes
+* **XSD/RDFS** Datatypes
 Datatyperne kan tilgås fra W3Cs specifikationerne XML Schema 1.1 Part 2: Datatypes og RDF 1.1 Concepts and Abstract Syntax 
-ISO/TC 211 Harmonized Model 
+* **ISO/TC 211** Harmonized Model 
 ISO/TC 211 Datatyperne kan tilgås fra ISO/TC211 Harmonized Model Management Group GitHub-repositorium (HMMG)
 XSD/RDFS datatyperne er udviklet og vedligeholdes af W3C (organisation for internetstandardisering) og anvendes bredt på nettet, herunder som standard for det semantiske web (Linked Data). IISO/TC 211 datatyperne er en UML-repræsentation af udvalgte såkaldte ”language-independent data types” beskrevet i ISO/IEC 11404. De anvendes blandt andet af INSPIRE og i modelleringen af Grunddata, hvor de også skal anvendes fremadrettet. Der er udarbejdet mapning mellem de to standarder som del af Guidelines for the RDF encoding of spatial data. Selvom disse ikke er formelt vedtaget, kan mapningerne regnes for gældende i regi af FDA.
 Nogle af de mest almindelig datatyper ses nedenfor:
