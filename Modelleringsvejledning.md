@@ -606,7 +606,7 @@ Afhængigt af detaljeringsniveau og scope af den eksisterende begrebsmodellering
 
 Det er vigtigt, at der i denne proces inddrages både forretningsviden og datamodelleringskompentencer, så det sikres at de logiske strukturer er forankret i forretningsviden og at de samtidig er et fornuftigt udgangspunkt for den faktiske implementering.
 
-Der skal etableres sammenhæng mellem den logiske datamodel og den begrebsmodel eller informationsmodel den er baseret på. Det gør man ved at angive hvilket begreb modelelementerne er afledt af. Dette gøres ved at angive begrebets HTTP-URI i tagget ‘wasDerivedFrom’. Desuden skal namespace for begrebsmodellen fremgå i den logiske datamodels metadata - ligeledes i tagget ‘wasDerivedFrom’. Se mere i [Kapitel 6; Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen)(#kapitel-6-dokumentation-af-modellen).
+Der skal etableres sammenhæng mellem den logiske datamodel og den begrebsmodel eller informationsmodel den er baseret på. Det gør man ved at angive hvilket begreb modelelementerne er afledt af. Dette gøres ved at angive begrebets HTTP-URI i tagget ‘wasDerivedFrom’. Desuden skal namespace for begrebsmodellen fremgå i den logiske datamodels metadata - ligeledes i tagget ‘wasDerivedFrom’. Se mere i [Kapitel 6; Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen).
 
 §14 - <ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem begrebsmodeller og logiske modeller</span> </ins>
 
@@ -1181,7 +1181,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
 
 _Figur 16: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind._
 
-Se også Kapitel 6: Dokumentation af modellen for information om, hvilke oplysninger selve modellen bør forsynes med.
+Se også [Kapitel 6: Dokumentation af modellen](kapitel-6-dokumentation-af-modellen) for information om, hvilke oplysninger selve modellen bør forsynes med.
 
 ## UML-modellering
 
