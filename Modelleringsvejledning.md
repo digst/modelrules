@@ -1392,9 +1392,9 @@ Til modelpakker anvendes afhængigt af modeltype: <br>
 
 Det er ikke et krav at angive stereotyper på underpakker, men det er selvfølgelig tilladt hvor det giver mening.
 
-Det er tilladt at anvende stereotyper udover de ovenfor nævnte. Fx er det udbredt at anvende stereotyperne <<mandatory>>, <<recommended>>  og <<optional>> til at angive kravniveauer. Det er tilladt at definere egne stereotyper. Her bør man dog være meget opmærksom på om stereotypenavnene er selvforklarende og dermed tilføjer information eller blot bliver støj for udenforstående der ikke forstår dem. Ligeledes bør man være opmærksom på flere stereotyper per element kan gøre diagrammer sværere at læse.
+Det er tilladt at anvende stereotyper udover de ovenfor nævnte. Fx er det udbredt at anvende stereotyperne << mandatory >>, << recommended >>  og << optional >> til at angive kravniveauer. Det er tilladt at definere egne stereotyper. Her bør man dog være meget opmærksom på om stereotypenavnene er selvforklarende og dermed tilføjer information eller blot bliver støj for udenforstående der ikke forstår dem. Ligeledes bør man være opmærksom på flere stereotyper per element kan gøre diagrammer sværere at læse.
 
-UML keywords vises på samme måde som stereotyper. Almindelige keywords er <<enumeration>> og <<dataType>>, men disse er altså ikke stereotyper.
+UML keywords vises på samme måde som stereotyper. Almindelige keywords er << enumeration >> og << dataType >>, men disse er altså ikke stereotyper.
 
 ### Dokumentation af modelelementer
 Modeller skal - uanset om de er begrebsmodeller eller af en anden type - være baseret på afklarede og dokumenterede begreber. Derfor skal elementer i UML-modeller dokumenteres med stort set de samme begrebsoplysninger som findes i en begrebsliste. For forklaring af disse oplysningstyper se [afsnittet om Begrebslister](#begrebslister) i starten af dette kapitel.
@@ -1441,8 +1441,7 @@ Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de
 </tr>
 </table>
 
-Figur 18: Begrebet ‘stelnummer’ beskrevet i listeformat. Åbn billedet i en ny fane for at zoome ind.
-
+_Figur 18: Begrebet ‘stelnummer’ beskrevet i listeformat. Åbn billedet i en ny fane for at zoome ind._
 
 Tag
 Værdi
@@ -1857,7 +1856,7 @@ Begreberne bag forekomsterne i en klassifikation - også benævnt emnerne -  i k
 §28  - <ins> <span style="color:#AB2A0C;">Modellér klassifikationsemner som instanser </span> </ins> <br>
 
 ### Begrebsafklaring som grundlag for gode klassifikationer
-Ved struktureret begrebsarbejde analyseres og defineres begreber ved at angive nærmeste overbegreb samt adskillende træk i forhold til et givet inddelingskriterium (se kapitlet Termer og definitioner for yderligere information). Man anfører, hvad begrebet er for “en slags”, og hvilke karakteristika netop denne slags har i forhold til andre begreber med samme direkte overbegreb (under samme inddelingskriterium). 
+Ved struktureret begrebsarbejde analyseres og defineres begreber ved at angive nærmeste overbegreb samt adskillende træk i forhold til et givet inddelingskriterium (se kapitlet [Termer og definitioner](#termer-og-definitioner) for yderligere information). Man anfører, hvad begrebet er for “en slags”, og hvilke karakteristika netop denne slags har i forhold til andre begreber med samme direkte overbegreb (under samme inddelingskriterium). 
 
 Et inddelingskriterium angiver et særligt perspektiv, som begreberne inden for en gruppe bliver betragtet ud fra, og hvorved de adskiller sig fra hinanden. Fx i forhold til egenskaber, tilstand, formål, indhold, udformning, anvendelse m.v. Transportmidler kan fx inddeles efter tiltænkt anvendelse (godstransport, persontransport, fritids/sportsbrug), fremdriftsmiddel (benzin, diesel, el, hybrid), ejerforhold (eje, leje, leasing, dele) mm.  
 
