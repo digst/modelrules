@@ -1186,48 +1186,63 @@ Se også Kapitel 6: Dokumentation af modellen for information om, hvilke oplysni
 ## UML-modellering
 
 UML står for Unified Modelling Language og er en udbredt standard til informations- og datamodellering. Modelreglerne er mere restriktive end UML-specifikationen både med hensyn til hvilke elementer man har til rådighed og med hensyn til fortolkningen af visse af disse. Dette er for at sikre, at modeller udarbejdet i henhold til reglerne er utvetydige og lette at forstå, og dermed kan deles og genbruges uden, at der kan opstå betydningen af begretvivlsspørgsmål om den rette fortolkning. Nedenfor gives en oversigt over de tilladte elementer og derefter gennemgås hvordan de hver især bruges i henhold til modelreglerne. Det er dog uden for scope af denne vejledning at give en grundig indføring i UML-modellering.
+
 UML kan også anvendes til visualisering af begrebsmodeller med diagrammer. I modelreglerne og derfor denne vejledning er det begrænset hvilke elementer der er tilladt for at det stemmer overens med de ting man bør udtrykke i en begrebsmodel. Begrebsdiagrammer, der følger modelreglerne kan gøres til genstand for review og optages i modelkataloget. Derudover opnås et ensartet, genkendeligt og derfor let forståeligt udtryk på tværs af organisationer og domæner.
 
 ### UML-elementer der anvendes i alle modeltyper
 
 Nedenfor ses en oversigt over de UML-elementer, der kan anvendes i alle modeltyper med definitioner, kommentarer, information om hvordan navne skrives og billedeksempler.
 
+<table>
+<tr>
+<td>
 klasse
+	
 (begreb/forretningsobjekt)
+</td>
+<td>
 repræsentation af et begreb eller et sæt objekter der deler egenskaber og semantik
 
 Klasser der repræsenterer begreber eller forretningsobjekter som tilhører et andet emneområde markeres med blåt
 
 Begrebsmodeller: Navngives i naturligt sprog
 Andre modeller: Navngives med UpperCamelCase
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 generalisering
+	
 (specialisering)
+</td>
 relation mellem en superklasse (overbegreb) og en subklasse (underbegreb), hvor subklassen er en type af superklassen
+
 Superklasser beskriver egenskaber, som er fælles for alle subklasser. Superklassen er en generalisering af subklasserne og hver subklasse er en specialisering af superklassen. 
+
 Navngivning ikke nødvendig
-         
+</tr>
+<tr>
 association
 
  
 relation mellem to klasser eller begreber der beskriver at disse (og dermed deres instanser) står i relation til hinanden
+
 Associationer kan være med eller uden navigabilitet
+
 I logiske datamodeller efter de fællesoffentlige regler har dette element udelukkende betydning som den struktur, som bærer associationsenden – det er associationsenden, som beskriver klassernes indbyrdes relation.
-
-
-
-
-associationsnavn
+</tr>
+<tr>
+<td>associationsnavn</td>
 navn der beskriver hvordan to  klasser eller begreber (og deres instanser) står i relation til hinanden
 
 Et associationsnavn kan angives med eller uden læseretning
 Begrebsmodeller: navngives i almindeligt sprog 
 Andre modeller: navngives med lowerCamelCase
+</tr>
+</table>
 
 
-Tabel X: UML-elementer der anvendes i alle modeltyper
+_Tabel X: UML-elementer der anvendes i alle modeltyper_
 
 Ovennævnte elementer er de eneste der anvendes i begrebsdiagrammer. Nedenfor ses et eksempel på et begrebsdiagram.
 
