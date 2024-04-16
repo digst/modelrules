@@ -2001,7 +2001,7 @@ _Figur xx: Henvisning til klassifikationsklasse via associationsende_
 #### Brug af eksterne klassifikationer
 Når man vil genbruge en eksisterende klassifikation der er udstillet eksternt skal man oprette en klassifikationsklasse som ovenfor, men i stedet for at oprette de tilhørende klassifikationsemner som UML-objekter indsættes i stedet en entydig reference til definitionen af klassifikationens udfaldsrum i tagget ‘rdfs:isDefinedBy’ (er defineret af). Referencen skal være en resolverbar og persistent HTTP-URI, hvor anvendere kan slå klassifikationen og dens indhold op.
 
-Figur XX: Henvisning til ekstern klassifikation 
+_Figur XX: Henvisning til ekstern klassifikation_
 
 Det kan være relevant at genbruge en specifik del af en (ekstern) klassifikation frem for den hele. I så fald må man modellere en anvendelsesmodel på baggrund af den genbrugte klassifikation, der viser hvilke dele man anvender. 
 
@@ -2010,176 +2010,245 @@ _Figur XX: Eksempel på anvendelse af del af ekstern klassifikation_
 
 # Kapitel 6: Dokumentation af modellen
 Modelreglerne 6-13 omhandler dokumentation af modellen, der bidrager til den overordnede forståelse af modellen og dens kontekst. Det er en forudsætning for at modellerne kan genbruges og gør det lettere at finde begrebs- og datamodeller og vurdere deres egnethed til genbrug, når de beskrives på en struktureret og standardiseret måde. Samtidig forpligter det dem, der skaber modellen, til at tage ejerskab over modellens indhold. 
+
 Dokumentation består af metadata, der svarer på spørgsmål om modellen, fx. Hvad hedder den? Hvad handler den om? Hvem er ansvarlig for dens indhold? Hvornår blev den senest opdateret? Hvad er dens status?
 
-Felt
-Definition
-Namespace 
-(namespace)*
-logisk område, indenfor hvilket elementer navngives unikt, og som tjener som overordnet reference til de navngivne elementer
-Modelnavn 
-(label)*
-det eller de ord der betegner en model
-Beskrivelse 
-(comment)*
-supplerende bemærkning eller oplysning vedrørende elementet
-Modelsprog 
-(language) *
-angivelse af modellens primære sprog, som UML-repræsentationen fremhæver
-Modelomfang 
-(modelScope) *
-angivelse af en models omfang og orientering mod enten et bestemt emne eller en bestemt anvendelse
-Emne 
-(theme) *
-oplysning som klassificerer en ressource i en tematisk kategori
-Godkendelsesstatus 
-(approvalStatus) *
-status som angiver hvorvidt en model er accepteret og erklæret som gældende i et - for emneområdet - relevant forum
-Godkendt af 
-(isApprovedBy)
-angivelse af det emnespecifikke forum som har accepteret og erklæret modellen som gældende.
-Modelansvarlig 
-(responsibleEntity) *
-organisation der står inde for modellens indhold og struktur på udgivelsestidspunktet
-Modelstatus 
-(modelStatus) *
-status som angiver modellens gyldighed, her forstået som hvor komplet og færdig og dermed anvendelig modellen er
-Versionnummer 
-(versionInfo) *
-unik identifikation af en specifik version
-Seneste opdateringsdato 
-(dateModified) *
-den dato hvor der senest blev foretaget ændringer
-Ændringshistorik
-(versionNotes)
-beskrivelse af forskellene mellem den aktuelle version og den forrige version af modellen.
-Juridisk kilde 
-(hasLegalResource)
-reference til lovgrundlag som danner grundlag for modellen
-Kilde 
-(source)
-reference til ressource hvorfra modellen er afledt
-Afledt af
-(wasDerivedFrom)
-angivelse af model eller det modelelement, som den aktuelle ressource er afledt af
+<table>
+  <tr>
+    <td><b>Felt</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+  <tr>
+    <td>Namespace <br>(namespace)* </td>
+    <td>logisk område, indenfor hvilket elementer navngives unikt, og som tjener som overordnet reference til de navngivne elementer </td>
+  </tr>
+  <tr>
+    <td>Modelnavn <br>(label)* </td>
+    <td>det eller de ord der betegner en model</td>
+  </tr>
+  <tr>
+    <td>Beskrivelse <br>(comment)* </td>
+    <td>supplerende bemærkning eller oplysning vedrørende elementet</td>
+  </tr>
+  <tr>
+    <td>Modelsprog <br>(language)* </td>
+    <td>angivelse af modellens primære sprog, som UML-repræsentationen fremhæver</td>
+  </tr>
+  <tr>
+    <td>Modelomfang <br>(modelScope)* </td>
+    <td>angivelse af en models omfang og orientering mod enten et bestemt emne eller en bestemt anvendelse</td>
+  </tr>
+  <tr>
+    <td>Emne <br>(theme)* </td>
+    <td>oplysning som klassificerer en ressource i en tematisk kategori</td>
+  </tr>
+  <tr>
+    <td>Godkendelsesstatus <br>(approvalStatus)*</td>
+    <td>status som angiver hvorvidt en model er accepteret og erklæret som gældende i et - for emneområdet - relevant forum</td>
+  </tr>
+  <tr>
+    <td>Godkendt af <br>(isApprovedBy)</td>
+    <td>angivelse af det emnespecifikke forum som har accepteret og erklæret modellen som gældende.</td>
+  </tr>
+  <tr>
+    <td>Modelansvarlig <br>(responsibleEntity)*</td>
+    <td>organisation der står inde for modellens indhold og struktur på udgivelsestidspunktet</td>
+  </tr>
+  <tr>
+    <td>Modelstatus <br>(modelStatus)*</td>
+    <td>status som angiver modellens gyldighed, her forstået som hvor komplet og færdig og dermed anvendelig modellen er</td>
+  </tr>
+  <tr>
+    <td>Versionnummer <br>(versionInfo)*</td>
+    <td>unik identifikation af en specifik version</td>
+  </tr>
+  <tr>
+    <td>Seneste opdateringsdato <br>(dateModified)*</td>
+    <td>den dato hvor der senest blev foretaget ændringer</td>
+  </tr>
+  <tr>
+    <td>Ændringshistorik <br>(versionNotes)</td>
+    <td>beskrivelse af forskellene mellem den aktuelle version og den forrige version af modellen.</td>
+  </tr>
+  <tr>
+    <td>Juridisk kilde <br>(hasLegalResource)</td>
+    <td>reference til lovgrundlag som danner grundlag for modellen</td>
+  </tr>
+  <tr>
+    <td>Kilde <br>(source)</td>
+    <td>reference til ressource hvorfra modellen er afledt</td>
+  </tr>
+  <tr>
+    <td>Afledt af <br>(wasDerivedFrom)</td>
+    <td>angivelse af model eller det modelelement, som den aktuelle ressource er afledt af</td>
+  </tr>
+</table>
 
-Tabel 5: Modelmetadatasektionen fra begrebslisteskabelonen
+
+_Tabel 5: Modelmetadatasektionen fra begrebslisteskabelonen_
+
 Ovenfor ses modelmetadatasektionen fra begrebslisteskabelonen. Det er de samme metadata alle modeller skal have, selvom metoden til angivelse varierer lidt afhængigt af om det er en UML-model eller en begrebsmodel i listeformat.
-Namespace udfyldes med den HTTP-URI der bruges til entydig identifikation af modellen. Se [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier) for information om hvordan den udformes.
-§07 - Angiv identifikation af modeller 
+
+**Namespace** udfyldes med den HTTP-URI der bruges til entydig identifikation af modellen. Se [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier) for information om hvordan den udformes.
+
+§27 - <ins> <span style="color:#AB2A0C;">Angiv identifikation af modeller </span> </ins> 
 
 ## Modellens indhold og kontekst
 En del af modellens metadata skal beskrive modellens indhold. Det primære formål med dette er at bidrage til den overordnede forståelse af modellen og dens kontekst. Dermed får andre modellører mulighed for at fremsøge modeller, der kan være relevante for dem, og vurdere modellernes indholdsmæssige relevans for genbrug.
-Modelnavn er en meningsfyldt betegnelse for modellen, der afspejler, hvad man kan forvente at finde modelleret. For emneorienterede modeller bør modelnavnet referere til det specifikke emneområde og/eller modellens centrale forretningsbegreb. Ofte vil det være hensigtsmæssigt at tage udgangspunkt i navnet på det mest centrale element i modellen, som modellens andre elementer på en eller anden måde relaterer sig til. Det bør ikke referere til planlagte anvendelser eller eventuelle systemer, der skal anvende begreberne. 
-For anvendelsesorienterede modeller vil modelnavnet derimod tage udgangspunkt i den specifikke anvendelse, modelleringen er rettet imod. 
-Desuden kan det lette andres umiddelbare forståelse af modellen at inkludere modeltypen i navnet, fx Begrebsmodel for … eller Informationsmodel for … .
+
+**Modelnavn** er en meningsfyldt betegnelse for modellen, der afspejler, hvad man kan forvente at finde modelleret. For emneorienterede modeller bør modelnavnet referere til det specifikke emneområde og/eller modellens centrale forretningsbegreb. Ofte vil det være hensigtsmæssigt at tage udgangspunkt i navnet på det mest centrale element i modellen, som modellens andre elementer på en eller anden måde relaterer sig til. Det bør ikke referere til planlagte anvendelser eller eventuelle systemer, der skal anvende begreberne. <br>
+For anvendelsesorienterede modeller vil modelnavnet derimod tage udgangspunkt i den specifikke anvendelse, modelleringen er rettet imod. <br>
+Desuden kan det lette andres umiddelbare forståelse af modellen at inkludere modeltypen i navnet, fx _Begrebsmodel for_ … eller _Informationsmodel for_ … .
+
 Derudover forsynes modellen med en kort fritekst beskrivelse af modellens indhold og formål. Her kan man også kort beskrive valg, der er foretaget i forbindelse med emneafgrænsning. Hvis typen af model ikke fremgår af titlen, bør den fremgå af beskrivelsen. 
-Modellens primære sprog - det sprog der er anvendt til navngivning af modellen og dens elementer - angives i modelsprog. Sproget angives med en kode der følger RFC5646, fx ‘da’ for dansk eller ‘en’ for engelsk. RFC5646 indeholder bl.a. alle ISO 639-1 sprogkoder, og giver desuden mulighed for at tilføje regionskoder, fx ‘en-UK’ eller ‘en-US’, hvis man har behov for dette. 
-Modelomfang er en angivelse af, om modellen er en kernemodel, dvs. orienteret omkring et specifikt emne, eller en anvendelsesmodel, dvs. orienteret mod en bestemt anvendelse. Se Kapitel 2: Om modeller for mere information om de forskellige modeltyper.
-Med angivelse af emne klassificeres modellen i forhold til en etableret emnesystematik. I det offentlige er de mest relevante emnesystematikker FORM og KLE. Det er dog tilladt at anvende andre systematikker, hvis de to nævnte ikke er passende for modellen.
-§03 - Brug UML-stereotyper 
-§06 - Angiv meningsfyldte navne og beskrivelser for modeller 
-§09 - Angiv emneområde for modellen 
+
+Modellens primære sprog - det sprog der er anvendt til navngivning af modellen og dens elementer - angives i **modelsprog**. Sproget angives med en kode der følger [RFC5646](https://tools.ietf.org/html/rfc5646), fx ‘_da_’ for _dansk_ eller ‘_en_’ for _engelsk_. RFC5646 indeholder bl.a. alle ISO 639-1 sprogkoder, og giver desuden mulighed for at tilføje regionskoder, fx ‘_en-UK_’ eller ‘_en-US_’, hvis man har behov for dette. 
+
+**Modelomfang** er en angivelse af, om modellen er en kernemodel, dvs. orienteret omkring et specifikt emne, eller en anvendelsesmodel, dvs. orienteret mod en bestemt anvendelse. Se [Kapitel 2: Om modeller](#kapitel-2-modeltyper-og-proces) for mere information om de forskellige modeltyper.
+
+Med angivelse af **emne** klassificeres modellen i forhold til en etableret emnesystematik. I det offentlige er de mest relevante emnesystematikker [FORM](https://form-online.dk/soegning) og [KLE](http://kle-online.dk/soegning). Det er dog tilladt at anvende andre systematikker, hvis de to nævnte ikke er passende for modellen.
+
+§03 - <ins> <span style="color:#AB2A0C;">Brug UML-stereotyper </span> </ins> <br>
+§06 - <ins> <span style="color:#AB2A0C;">Angiv meningsfyldte navne og beskrivelser for modeller</span> </ins> <br>
+§09 - <ins> <span style="color:#AB2A0C;">Angiv emneområde for modellen</span> </ins> 
+
 
 ## Modelstatus og versionering
-Modelstatus er en angivelse af, hvor modellen er i sin livscyklus, og er en indikation af, hvor pålidelig den er. Der er fire valgmuligheder:
-Under udvikling (development), der anvendes mens modellen har en foreløbig og ukomplet udformning
-Endelig (completed), der anvendes når modellen er færdigudviklet og stabil
-Forældet (deprecated), der anvendes når modellen tidligere har været gældende, men at den sidenhen er blevet erstattet af en anden model eller overflødiggjort
-Trukket tilbage (withdrawn), der anvendes når modellen tidligere har været gældende, men at den ikke vurderes at være anvendelig længere da den er fejlbehæftet eller mangelfuld
+**Modelstatus** er en angivelse af, hvor modellen er i sin livscyklus, og er en indikation af, hvor pålidelig den er. Der er fire valgmuligheder:
+
+* **Under udvikling** (development), der anvendes mens modellen har en foreløbig og ukomplet udformning
+* **Endelig** (completed), der anvendes når modellen er færdigudviklet og stabil
+* **Forældet** (deprecated), der anvendes når modellen tidligere har været gældende, men at den sidenhen er blevet erstattet af en anden model eller overflødiggjort
+* **Trukket tilbage** (withdrawn), der anvendes når modellen tidligere har været gældende, men at den ikke vurderes at være anvendelig længere da den er fejlbehæftet eller mangelfuld
+  
 De sidste to anvendes for modeller, der har været gyldige, men ikke længere er det. Forskellen er, at forældede modeller er blevet erstattet af nyere modeller eller ikke længere fundet relevante, men stadig anses for at have været korrekte. Derimod er modeller, der er trukket tilbage, decideret fejlbehæftede. Modellens status giver vigtig information til parter, der har genbrugt modellen, om hvor kritisk det er, at de opdaterer deres egne modeller.
-Versionsnummer angiver modellens version. Der skal bruges semantisk versionering, hvilket vil sige at versionsnummeret består af tre tal adskilt af punktummer efter mønstret MAJOR.MINOR.PATCH. Den første færdige version af en model tildeles versionsnummeret 1.0.0. Det sidste af  tallene, PATCH, stiger hvis den nye version blot indeholder fejlrettelser og er fuldt bagudkompatibel. Det midterste tal, MINOR, stiger ved mindre bagudkompatible ændringer. En ny version er bagudkompatibel, når andre der har genbrugt elementer fra modellen stadig kan genbruge elementerne uden problemer. I praksis er tilføjelser typisk bagudkompatible, mens sletninger og ændringer i definitioner ikke er det. Det første tal, MAJOR,. stiger ved ikke bagudkompatible ændringer. I udviklingsfasen kan versionsnumre, der starter med 0 anvendes, fx 0.3.12.
-Seneste opdateringsdato er den dato, hvor man sidst har lavet ændringer i modellen. Denne oplysning hjælper andre anvendere med at vurdere, om indholdet stadig kan betragtes som gyldigt. Dato skal angives efter formatet YYYY-MM-DD. fx 2019-09-30. 
-Desuden er det god praksis, omend ikke regelsat, kort at beskrive de ændringer der er sket siden sidste version, når man laver en ny version af en eksisterende model (altså for modeller med et versionsnummer højere end 1.0.0). Dette kan gøres i feltet Ændringshistorik. 
+
+**Versionsnummer** angiver modellens version. Der skal bruges [semantisk versionering](https://semver.org/), hvilket vil sige at versionsnummeret består af tre tal adskilt af punktummer efter mønstret MAJOR.MINOR.PATCH. Den første færdige version af en model tildeles versionsnummeret 1.0.0. Det sidste af  tallene, PATCH, stiger hvis den nye version blot indeholder fejlrettelser og er fuldt bagudkompatibel. Det midterste tal, MINOR, stiger ved mindre bagudkompatible ændringer. En ny version er bagudkompatibel, når andre der har genbrugt elementer fra modellen stadig kan genbruge elementerne uden problemer. I praksis er tilføjelser typisk bagudkompatible, mens sletninger og ændringer i definitioner ikke er det. Det første tal, MAJOR,. stiger ved ikke bagudkompatible ændringer. I udviklingsfasen kan versionsnumre, der starter med 0 anvendes, fx 0.3.12.
+
+**Seneste opdateringsdato** er den dato, hvor man sidst har lavet ændringer i modellen. Denne oplysning hjælper andre anvendere med at vurdere, om indholdet stadig kan betragtes som gyldigt. Dato skal angives efter formatet YYYY-MM-DD. fx 2019-09-30. 
+
+Desuden er det god praksis, omend ikke regelsat, kort at beskrive de ændringer der er sket siden sidste version, når man laver en ny version af en eksisterende model (altså for modeller med et versionsnummer højere end 1.0.0). Dette kan gøres i feltet **Ændringshistorik**. 
+
 Der er en vis sammenhæng mellem modelstatus og versionering, sådan at en model med et versionsnummer der er mindre en 1.0.0. - altså starter med 0, altid vil have status ‘Under udvikling’, og får status ‘Endelig’ samtidig med at versionsnummeret opdateres til 1.0.0. Deraf kan man dog ikke udlede, at modeller med et versionsnummer over 1.0.0 ikke kan være under udvikling. I forbindelse med modellering af en ny version af en model, vil der typisk være en fase, hvor den nye version er under udvikling. Hvis man ønsker at udtrykke, at modelversionen er under udvikling, kan man tilføje -alpha eller -beta til versionsnummeret. Dette er dog ikke nødvendigt for at overholde modelreglerne, blot man angiver modelstatus til ‘Under udvikling’.
-§10 - Angiv modellens version 
-§12 - Angiv modellens modelstatus
+
+§10 - <ins> <span style="color:#AB2A0C;">Angiv modellens version</span> </ins> <br>
+§12 - <ins> <span style="color:#AB2A0C;">Angiv modellens modelstatus</span> </ins> 
 
 ## Forretningsgodkendelse og modelansvar
-Godkendelsesstatus, Godkendt af
-For at sikre faglig validitet samt forankring i forretningen skal begrebs- og datamodeller godkendes af et fagligt relevant forum. Det er relevant for potentielle anvendere at vide hvilket forum, der har godkendt modellen, hvorfor dette skal angives i feltet Godkendt af. Dette felt bør også udfyldes selvom godkendelsen reelt ikke er sket endnu, blot forum for godkendelsen er identificeret. Hvor modellen aktuelt befinder sig i godkendelsesflowet indikeres med Godkendelsesstatus, som har udfaldsrummet:
-Afventer godkendelse/awaiting approval
-Godkendt/Approved
-Godkendt med bemærkninger/Approved with remarks
-Ikke relevant/Not relevant
-Hvis modellen er ‘godkendt med bemærkninger’ bør disse bemærkninger være tilgængelige, fx ved at de inkluderes i feltet Beskrivelse. Forretningsgodkendelse er nærmere beskrevet nedenfor. Der kan være enkelte modeller, hvor der ikke kan identificeres et relevant fagligt forum. I så fald kan statussen ‘Ikke relevant’ anvendes.
-Modelansvarlig er navnet på den organisation, der har ansvaret for modellen og står inde for det faglige indhold i og strukturen af modellen på udgivelsestidspunktet. Det vil være den organisation der har taget initiativ til udarbejdelsen af modellen, uanset om organisationen selv har udarbejdet modellen eller har hyret andre til at gøre det. Det er også den organisation der har ansvaret for at modellens faglige indhold er godkendt af personer med tilstrækkelige faglige kompetencer til at kunne vurdere kvaliteten. Organisationen påtager sig ikke et ansvar for at opdatere eller ændre modellen, hvis der sker ændringer i forretningsområdet, ud over det ansvar den evt. allerede måtte have som en del af dens myndighedsudøvelse. I og med at organisationen ikke påtager sig et fremtidigt ansvar, er det muligt at angive en midlertidig organisation,som fx en projektgruppe, der går på tværs af flere myndigheder.
-§08 - Angiv den modelansvarlige organisation 
-§11 - Modellen skal forretningsgodkendes 
+**Godkendelsesstatus, Godkendt af**
+
+For at sikre faglig validitet samt forankring i forretningen skal begrebs- og datamodeller godkendes af et fagligt relevant forum. Det er relevant for potentielle anvendere at vide hvilket forum, der har godkendt modellen, hvorfor dette skal angives i feltet **Godkendt af**. Dette felt bør også udfyldes selvom godkendelsen reelt ikke er sket endnu, blot forum for godkendelsen er identificeret. Hvor modellen aktuelt befinder sig i godkendelsesflowet indikeres med **Godkendelsesstatus**, som har udfaldsrummet:
+
+* Afventer godkendelse/awaiting approval
+* Godkendt/Approved
+* Godkendt med bemærkninger/Approved with remarks
+* Ikke relevant/Not relevant
+  
+Hvis modellen er ‘godkendt med bemærkninger’ bør disse bemærkninger være tilgængelige, fx ved at de inkluderes i feltet **Beskrivelse**. Forretningsgodkendelse er nærmere beskrevet nedenfor. Der kan være enkelte modeller, hvor der ikke kan identificeres et relevant fagligt forum. I så fald kan statussen ‘Ikke relevant’ anvendes.
+
+**Modelansvarlig** er navnet på den organisation, der har ansvaret for modellen og står inde for det faglige indhold i og strukturen af modellen på udgivelsestidspunktet. Det vil være den organisation der har taget initiativ til udarbejdelsen af modellen, uanset om organisationen selv har udarbejdet modellen eller har hyret andre til at gøre det. Det er også den organisation der har ansvaret for at modellens faglige indhold er godkendt af personer med tilstrækkelige faglige kompetencer til at kunne vurdere kvaliteten. Organisationen påtager sig ikke et ansvar for at opdatere eller ændre modellen, hvis der sker ændringer i forretningsområdet, ud over det ansvar den evt. allerede måtte have som en del af dens myndighedsudøvelse. I og med at organisationen ikke påtager sig et fremtidigt ansvar, er det muligt at angive en midlertidig organisation,som fx en projektgruppe, der går på tværs af flere myndigheder.
+
+§08 - <ins> <span style="color:#AB2A0C;">Angiv den modelansvarlige organisation</span> </ins> <br>
+§11 - <ins> <span style="color:#AB2A0C;">Modellen skal forretningsgodkendes</span> </ins>
 
 ## Modellens kilder
-Når man udarbejder en model baserer man sig på eksisterende viden og det øger sammenhæng, at anvendere ved hvilke kilder man har hentet viden fra. Især er det vigtigt at afsøge modellens lovgrundlag, dvs. de love, forordninger, bekendtgørelser mm., der enten danner grundlag for udarbejdelsen af modellen eller omhandler begreber/elementer der indgår i modellen. Dette lovgrundlag angives som Juridisk kilde. En model kan sagtens have flere juridiske kilder, og i så fald gentages oplysningstypen (med flere rækker i tabelformat eller flere tagged values af samme type i en UML-model). 
+Når man udarbejder en model baserer man sig på eksisterende viden og det øger sammenhæng, at anvendere ved hvilke kilder man har hentet viden fra. Især er det vigtigt at afsøge modellens lovgrundlag, dvs. de love, forordninger, bekendtgørelser mm., der enten danner grundlag for udarbejdelsen af modellen eller omhandler begreber/elementer der indgår i modellen. Dette lovgrundlag angives som **Juridisk kilde**. En model kan sagtens have flere juridiske kilder, og i så fald gentages oplysningstypen (med flere rækker i tabelformat eller flere tagged values af samme type i en UML-model). 
+
 En juridisk kilde skal angives ved hjælp af en ELI. ELIer fungerer både som entydige identifikatorer og som webadresse på loven/bekendtgørelsen på enten retsinformationen erl EUR-Lex. På EUR-Lex skal man dog være opmærksom på, at det ikke er adressen på den danske oversættelse, men på lovens hovedside.
 
 
-Figur xx: ELI på retsinformation
+_Figur xx: ELI på retsinformation_
 
 
 
-Figur xx: ELI på EUR-Lex
-Nationale og internationale standarder er også ofte relevante kilder for modeller. Disse angives i Kilde, og her kan også angives andre typer af kilder, der måtte være relevante. Som ved juridisk kilde kan der være flere per model og i så fald gentages feltet/tagget. Da langt fra alle kilder har en identifier i stil med ELI, er der større frihed for hvordan kilden angives, selvom en HTTP-URI stadig er ideel. Er kilden online kan man angive et link til den, ellers må man angive titel, forfatter m.m., så andre kan identificere kilden.
+_Figur xx: ELI på EUR-Lex_
+
+Nationale og internationale standarder er også ofte relevante kilder for modeller. Disse angives i **Kilde**, og her kan også angives andre typer af kilder, der måtte være relevante. Som ved juridisk kilde kan der være flere per model og i så fald gentages feltet/tagget. Da langt fra alle kilder har en identifier i stil med ELI, er der større frihed for hvordan kilden angives, selvom en HTTP-URI stadig er ideel. Er kilden online kan man angive et link til den, ellers må man angive titel, forfatter m.m., så andre kan identificere kilden.
+
 Endelig kan andre modeller være en væsentligt kilde til den model man har udarbejdet. Det gælder især, når man udarbejder en informationsmodel eller en datamodel på baggrund af en begrebsmodel eller eventuelt en begrebsmodel med udgangspunkt i en datamodel. Her anvendes Afledt af, hvor den HTTP-URI der er identifikator for ophavsmodellen angives. Juridiske og andre kilder skal stadig angives, selvom modellen er afledt af en anden.
-§13 - Angiv modellens lovgrundlag 
-§14 - Etablér sammenhæng mellem modeller 
+
+§13 - <ins> <span style="color:#AB2A0C;">Angiv modellens lovgrundlag</span> </ins> <br>
+§14 - <ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem modeller </span> </ins>
 
 ## Eksempel på udfyldte metadata
 Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
 
-Felt
-Definition
-Namespace 
-(namespace)*
-https://data.gov.dk/concept/core/transportationMeans/
-Modelnavn 
-(label)*
-Begrebsmodel for transportmidler
-Beskrivelse 
-(comment)*
-Begrebsmodel over transportmidler udarbejdet som eksempelmodel i forbindelse modelleringsvejledningen til de fællesoffentlige regler for begrebs- og datamodellering. Modelleringen er derfor ikke fyldestgørende eller fagligt valideret, og modellens metadata er eksempler uden reel gyldighed.
-Modelsprog 
-(language) *
-da
-Modelomfang 
-(modelScope) *
-kernemodel
-Emne 
-(theme) *
-59.02.05 Overordnede opgaver vedrørende trafik og transport
-Godkendelsesstatus 
-(approvalStatus) *
-Afventer godkendelse
-Godkendt af 
-(isApprovedBy)
-Rådet for Sikker Trafik
-Modelansvarlig 
-(responsibleEntity) *
-Trafik-, Bygge- og Boligstyrelsen
-Modelstatus 
-(modelStatus) *
-Under udvikling
-Versionnummer 
-(versionInfo) *
-0.1.0
-Seneste opdateringsdato 
-(dateModified) *
-2020-11-06
-Ændringshistorik
-(versionNotes)
-Dette er første udgave af modellen
-Juridisk kilde 
-(hasLegalResource)
-https://www.retsinformation.dk/eli/lta/2016/976
-Juridisk kilde 
-(hasLegalResource)
-http://data.europa.eu/eli/reg/2013/168/oj
-Kilde 
-(source)
-ISO 4210 Cycles — Safety requirements for bicycles (https://www.iso.org/standard/78075.html)
-Afledt af
-(wasDerivedFrom)
-https://data.gov.dk/model/core/transportationMeans/
+<table>
+  <tr>
+    <td><b>Felt</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+  <tr>
+    <td>Namespace <br>(namespace)* </td>
+    <td>https://data.gov.dk/concept/core/transportationMeans/</td>
+  </tr>
+  <tr>
+    <td>Modelnavn <br>(label)* </td>
+    <td>Begrebsmodel for transportmidler</td>
+  </tr>
+  <tr>
+    <td>Beskrivelse <br>(comment)* </td>
+    <td>Begrebsmodel over transportmidler udarbejdet som eksempelmodel i forbindelse modelleringsvejledningen til de fællesoffentlige regler for begrebs- og datamodellering. Modelleringen er derfor ikke fyldestgørende eller fagligt valideret, og modellens metadata er eksempler uden reel gyldighed.</td>
+  </tr>
+  <tr>
+    <td>Modelsprog <br>(language) *</td>
+    <td>da</td>
+  </tr>
+  <tr>
+    <td>Modelomfang <br>(modelScope) *</td>
+    <td>kernemodel</td>
+  </tr>
+  <tr>
+    <td>Emne <br>(theme) *</td>
+    <td>59.02.05 Overordnede opgaver vedrørende trafik og transport</td>
+  </tr>
+  <tr>
+    <td>Godkendelsesstatus <br>(approvalStatus) *</td>
+    <td>Afventer godkendelse</td>
+  </tr>
+  <tr>
+    <td>Godkendt af <br>(isApprovedBy)</td>
+    <td>Rådet for Sikker Trafik</td>
+  </tr>
+  <tr>
+    <td>Modelansvarlig <br>(responsibleEntity) *</td>
+    <td>Trafik-, Bygge- og Boligstyrelsen</td>
+  </tr>
+  <tr>
+    <td>Modelstatus <br>(modelStatus) *</td>
+    <td>Under udvikling</td>
+  </tr>
+  <tr>
+    <td>Versionnummer <br>(versionInfo) *</td>
+    <td>0.1.0</td>
+  </tr>
+  <tr>
+    <td>Seneste opdateringsdato <br>(dateModified) *</td>
+    <td>2020-11-06</td>
+  </tr>
+  <tr>
+    <td>Ændringshistorik <br>(versionNotes)</td>
+    <td>Dette er første udgave af modellen</td>
+  </tr>
+  <tr>
+    <td>Juridisk kilde <br>(hasLegalResource)</td>
+    <td>https://www.retsinformation.dk/eli/lta/2016/976</td>
+  </tr>
+  <tr>
+    <td>Juridisk kilde <br>(hasLegalResource)</td>
+    <td>http://data.europa.eu/eli/reg/2013/168/oj</td>
+  </tr>
+  <tr>
+    <td>Kilde <br>(source)</td>
+    <td>ISO 4210 Cycles — Safety requirements for bicycles (<a href="https://www.iso.org/standard/78075.html">https://www.iso.org/standard/78075.html</a>)</td>
+  </tr>
+  <tr>
+    <td>Afledt af <br>(wasDerivedFrom)</td>
+    <td>https://data.gov.dk/model/core/transportationMeans/</td>
+  </tr>
+</table>
 
-Tabel 6: Fiktivt eksempel på metadata om en model
+_Tabel 6: Fiktivt eksempel på metadata om en model_
 
 
 # Kapitel 7: Det visuelle udtryk
