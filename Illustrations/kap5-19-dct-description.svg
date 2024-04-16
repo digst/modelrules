@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5589"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="797.20703"
+   height="236.85001"
+   sodipodi:docname="H:\Modelregler\Konsolideret vejledning\Illustrationer\dct-description.svg">
+  <metadata
+     id="metadata5671">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5669" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1665"
+     inkscape:window-height="961"
+     id="namedview5667"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0396203"
+     inkscape:cx="353.04724"
+     inkscape:cy="183.85111"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5589" />
+  <path
+     style="stroke:#000000;stroke-width:1px"
+     d="m 0.5,0.5 390,0"
+     id="path5591"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#efefef;stroke:none"
+     d="m 0.5,30.5 390,0 0,-30 -390,0 0,30"
+     id="path5593"
+     inkscape:connector-curvature="0" />
+  <text
+     x="5.5"
+     y="20.5"
+     style="font-weight:bold"
+     id="text5595">Term Name: description</text>
+  <path
+     style="stroke:#efefef;stroke-width:0.69999999px"
+     d="m 115.5,0.5 0,236"
+     id="path5597"
+     inkscape:connector-curvature="0" />
+  <path
+     style="stroke:#efefef;stroke-width:0.69999999px"
+     d="m 0.5,0.5 0,236"
+     id="path5599"
+     inkscape:connector-curvature="0" />
+  <path
+     style="stroke:#efefef;stroke-width:0.69999999px"
+     d="m 390.5,0.5 0,236"
+     id="path5601"
+     inkscape:connector-curvature="0" />
+  <text
+     x="75.5"
+     y="50.5"
+     style="font-weight:bold"
+     id="text5603">URI</text>
+  <text
+     x="120.5"
+     y="50.5"
+     id="text5605">http://purl.org/dc/terms/description</text>
+  <path
+     style="stroke:#efefef;stroke-width:0.69999999px"
+     d="m 0.5,58.5 390,0"
+     id="path5607"
+     inkscape:connector-curvature="0" />
+  <text
+     x="65.5"
+     y="76.5"
+     style="font-weight:bold"
+     id="text5609">Label</text>
+  <text
+     x="120.5"
+     y="76.5"
+     id="text5611">description</text>
+  <path
+     style="stroke:#efefef;stroke-width:0.69999999px"
+     d="m 0.5,84.5 390,0"
+     id="path5613"
+     inkscape:connector-curvature="0" />
+  <text
+     x="38.5"
+     y="104.5"
+     style="font-weight:bold"
+     id="text5615">Definition</text>
+  <text
+     x="120.5"
+     y="104.5"
+     id="text5617">An account of the ressource</text>
+  <path
+     style="stroke:#efefef;stroke-width:0.69999999px"
+     d="m 0.5,118.5 390,0"
+     id="path5619"
+     inkscape:connector-curvature="0" />
+  <text
+     x="38.5"
+     y="135.5"
+     style="font-weight:bold"
+     id="text5621">Comment</text>
+  <text
+     x="120.5"
+     y="135.5"
+     id="text5623">Description may include but is not <tspan
+   x="120.5"
+   y="153.5"
+   id="tspan5625">limited to: an abstract, a table of contents,</tspan>
+<tspan
+   x="120.5"
+   y="171.5"
+   id="tspan5627">a graphical representation, or a free-text</tspan>
+<tspan
+   x="120.5"
+   y="189.5"
+   id="tspan5629">account of the resource.</tspan>
+</text>
+  <path
+     style="stroke:#efefef;stroke-width:0.69999999px"
+     d="m 0.5,203.5 390,0"
+     id="path5631"
+     inkscape:connector-curvature="0" />
+  <text
+     x="18.5"
+     y="222.5"
+     style="font-weight:bold"
+     id="text5633">Type of Term</text>
+  <text
+     x="120.5"
+     y="222.5"
+     id="text5635">Property</text>
+  <path
+     style="stroke:#efefef;stroke-width:0.69999999px"
+     d="m 0.5,236.5 390,0"
+     id="path5637"
+     inkscape:connector-curvature="0" />
+  <rect
+     style="fill:#fefaf7;stroke:#000000;stroke-width:1px"
+     x="415.5"
+     y="0.5"
+     width="100"
+     height="70"
+     id="rect5639" />
+  <path
+     style="stroke:#000000;stroke-width:1px"
+     d="m 415.5,30.5 100,0"
+     id="path5641"
+     inkscape:connector-curvature="0" />
+  <text
+     style="font-size:13px;font-style:normal;font-variant:normal;font-weight:700;fill:#000000;font-family:Calibri"
+     x="445.5"
+     y="20.5"
+     id="text5643">Cykel</text>
+  <text
+     style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#3c3c3c;font-family:Calibri"
+     x="420.5"
+     y="45.5"
+     id="text5645">beskrivelse</text>
+	 
+   <path style="stroke:#940027;stroke-width:2px; fill: none;"
+	d="M 471,43 L 477,43 M 481,43 L 487,43 M 491,43 L 497,43 M 501,43 L 507,43 M 511,43 L 517,43 M 521,43 L 527,43 M 531,43 L 537,43" />
+	
+   <path style="stroke:#940027;stroke-width:2px; fill: none;"
+	d="M 537,47 L 537,53 M 537,57 L 537,63 M 537,67 L 537,73 M 537,77 L 537,83 " />
+
+  <g
+     transform="translate(415.5,85)"
+     id="g5647">
+    <text
+       dx="10"
+	   dy="20"
+       style="font-weight:400"
+       id="text5649">URI:</text>
+    <text
+       dx="130"
+       dy="20"
+       id="text5651">http://purl.org/dc/terms/description</text>
+    <text
+       dx="10"
+	   dy="50"
+       id="text5653">foretrukken term:</text>
+    <text
+       dx="130"
+       dy="50"
+       id="text5655">beskrivelse</text>
+    <text
+       dx="10"
+       dy="80"
+       id="text5657">definition:</text>
+    <text
+       dx="130"
+       dy="80"
+       id="text5659">en forklaring af ressourcen</text>
+    <text
+	   dx="10"
+       dy="110"
+       id="text5661">anvendelsesnote:</text>
+    <text
+       dx="130"
+       dy="110"
+       id="text5663">Anvendes til at beskrive den enkelte</text>
+    <text
+       dx="130"
+       dy="130"
+       id="text5665">cykels karakterisktika</text>
+	<path
+     style="stroke:#940027;stroke-width:2px; fill: none; "
+	 
+     d="m 0,0 L 370,0 L 370,145 L 0,145 L 0,0"
+	
+     id="path5642"/>
+  </g>
+ 
+</svg>

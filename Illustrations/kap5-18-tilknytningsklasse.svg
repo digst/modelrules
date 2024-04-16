@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="118.7196mm"
+   height="52.831998mm"
+   id="svg93"
+   sodipodi:docname="kap5 - 18 tilknytningsklasse.wmf">
+  <metadata
+     id="metadata97">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview95" />
+  <defs
+     id="defs3">
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0530704px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 327.5049,124.87341    C 327.5049,123.69451 328.44785,122.73882 329.61104,122.73882    L 420.1751,122.73882    C 421.33829,122.73882 422.28124,123.69451 422.28124,124.87341    L 422.28124,170.76706    C 422.28124,171.94596 421.33829,172.90165 420.1751,172.90165    L 329.61104,172.90165    C 328.44785,172.90165 327.5049,171.94596 327.5049,170.76706    z  "
+     id="path17" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,363.309296,132.344471)"
+     x="0.000000"
+     y="9.746338"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">Cykel</tspan></tspan></text>
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0530704px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 26.326761,122.73882    C 26.326761,121.55992 27.269712,120.60424 28.432901,120.60424    L 118.99696,120.60424    C 120.16015,120.60424 121.1031,121.55992 121.1031,122.73882    L 121.1031,168.63247    C 121.1031,169.81137 120.16015,170.76706 118.99696,170.76706    L 28.432901,170.76706    C 27.269712,170.76706 26.326761,169.81137 26.326761,168.63247    z  "
+     id="path29" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,45.282028,130.209882)"
+     x="0.000000"
+     y="9.746338"
+     id="text37"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan35"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan33">Cykelhandler</tspan></tspan></text>
+
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0530704px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 176.91583,39.489882    C 176.91583,38.310982 177.85878,37.355294 179.02197,37.355294    L 269.58603,37.355294    C 270.74922,37.355294 271.69217,38.310982 271.69217,39.489882    L 271.69217,101.39294    C 271.69217,102.57184 270.74922,103.52753 269.58603,103.52753    L 179.02197,103.52753    C 177.85878,103.52753 176.91583,102.57184 176.91583,101.39294    z  "
+     id="path41" />
+
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,185.340394,46.960941)"
+     x="0.000000"
+     y="9.746338"
+     id="text49"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan47"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan45">Tilknytningsklasse</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0530704px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 176.91583,66.172235   L 270.6391,66.172235  "
+     id="path51" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,182.181183,70.441412)"
+     x="0.000000"
+     y="9.746338"
+     id="text57"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan55"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan53">modtagetDato</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0530704px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 327.5049,146.21929   L 121.1031,145.152  "
+     id="path59" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0530704px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 224.304,145.152   L 224.304,137.68094   M 224.304,133.41176   L 224.304,125.94071   M 224.304,121.67153   L 224.304,114.20047   M 224.304,109.93129   L 224.304,103.52753  "
+     id="path61" />
+
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,285.382085,127.008000)"
+     x="0.000000"
+     y="9.746338"
+     id="text79"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan77"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan75">påLager</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,285.382085,127.008000)"
+     x="22.114479"
+     y="34.294103"
+     id="text85"><tspan
+       sodipodi:role="line"
+       x="22.114479"
+       y="34.294103"
+       id="tspan83"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan81">0..*</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,285.382085,127.008000)"
+     x="-161.119775"
+     y="33.226808"
+     id="text91"><tspan
+       sodipodi:role="line"
+       x="-161.119775"
+       y="33.226808"
+       id="tspan89"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan87">0..1</tspan></tspan></text>
+</svg>

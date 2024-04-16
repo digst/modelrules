@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="171.75479mm"
+   height="58.928mm"
+   id="svg129"
+   sodipodi:docname="Klassifikationer - valg.wmf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview131"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs3">
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+
+  <path
+     style="fill:#e8fde3;fill-rule:evenodd;fill-opacity:1;stroke:#b0b0b0;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 26.600656,37.281531   L 146.83562,37.281531   L 146.83562,146.99575   L 26.600656,146.99575   z "
+     id="path15" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:128.775028%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:center;text-anchor:middle;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,54.265338,46.868211)"
+     x="40.562286"
+     y="9.862366"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="40.562286"
+       y="9.862366"
+       id="tspan19"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan17">«enumeration»</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="40.224765"
+       y="23.709792"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">Cykeltype</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#b0b0b0;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 26.600656,79.888995   L 145.77159,79.888995  "
+     id="path27" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,39.368970,88.410488)"
+     x="0.000000"
+     y="9.862366"
+     id="text33"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.862366"
+       id="tspan31"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan29">«ModelElement»</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:130.328714%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,39.368970,88.410488)"
+     x="-7.448184"
+     y="23.709792"
+     id="text47"><tspan
+       sodipodi:role="line"
+       x="-7.448184"
+       y="23.709792"
+       id="tspan37"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan35">bycykel</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="-7.448184"
+       y="37.557217"
+       id="tspan41"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan39">crosscykel</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="-7.448184"
+       y="51.404643"
+       id="tspan45"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan43">racercykel</tspan></tspan></text>
+  <path
+     style="fill:#e8fde3;fill-rule:evenodd;fill-opacity:1;stroke:#b0b0b0;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 376.66529,37.281531   L 483.06791,37.281531   L 483.06791,90.540861   L 376.66529,90.540861   z "
+     id="path49" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,418.162308,46.868211)"
+     x="0.000000"
+     y="9.862366"
+     id="text55"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.862366"
+       id="tspan53"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan51">Cykel</tspan></tspan></text>
+  <path
+     style="fill:#e1e1e1;fill-rule:evenodd;fill-opacity:1;stroke:#b0b0b0;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 381.98542,152.32168   L 477.74778,152.32168   L 477.74778,195.99433   L 381.98542,195.99433   z "
+     id="path57" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,392.625679,161.908364)"
+     x="0.000000"
+     y="9.862366"
+     id="text63"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.862366"
+       id="tspan61"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan59">Crosscykel: Cykel</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 392.62568,174.6906   L 467.10751,174.6906  "
+     id="path65" />
+  <path
+     style="fill:#e1e1e1;fill-rule:evenodd;fill-opacity:1;stroke:#b0b0b0;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 237.27785,152.32168   L 333.04021,152.32168   L 333.04021,194.92915   L 237.27785,194.92915   z "
+     id="path67" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,253.238243,161.908364)"
+     x="0.000000"
+     y="9.862366"
+     id="text73"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.862366"
+       id="tspan71"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan69">Bycykel: Cykel</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 253.23824,174.6906   L 316.01579,174.6906  "
+     id="path75" />
+  <path
+     style="fill:#e1e1e1;fill-rule:evenodd;fill-opacity:1;stroke:#b0b0b0;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 526.69298,152.32168   L 622.45534,152.32168   L 622.45534,195.99433   L 526.69298,195.99433   z "
+     id="path77" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,536.269220,161.908364)"
+     x="0.000000"
+     y="9.862366"
+     id="text83"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.862366"
+       id="tspan81"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan79">Racercykel: Cykel</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 536.26922,174.6906   L 612.87911,174.6906  "
+     id="path85" />
+  <path
+     style="fill:none;stroke:#4b4b4b;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5,5;stroke-opacity:1;"
+     d="  M  429.8666,152.32168 L  429.8666,90.540861 "
+     id="path87" />
+  <path
+     style="fill:none;stroke:#4b4b4b;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 429.8666,90.540861   L 435.18673,106.51866   M 429.8666,90.540861   L 424.54647,106.51866  "
+     id="path89" />
+  <path
+     style="fill:none;stroke:#4b4b4b;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5,5;stroke-opacity:1;"
+     d="   M 376.66529,88.410488  L 293.67124,152.32168  "
+     id="path91" />
+  <path
+     style="fill:none;stroke:#4b4b4b;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 376.66529,88.410488   L 367.08905,102.25791   M 376.66529,88.410488   L 360.70489,93.736421  "
+     id="path93" />
+  <path
+     style="fill:none;stroke:#4b4b4b;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5,5;stroke-opacity:1;"
+     d="  M 568.19001,152.32168   L 483.06791,86.280115  "
+     id="path95" />
+  <path
+     style="fill:none;stroke:#4b4b4b;stroke-width:1.0640262px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 483.06791,86.280115   L 499.0283,91.606048   M 483.06791,86.280115   L 492.64414,100.12754  "
+     id="path97" />
+
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,420.290361,106.518660)"
+     x="0.000000"
+     y="9.862366"
+     id="text107"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.862366"
+       id="tspan105"><tspan
+         dx="12.000000"
+         dy="2.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan103">type</tspan></tspan></text>
+
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,516.052721,104.388287)"
+     x="0.000000"
+     y="9.862366"
+     id="text117"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.862366"
+       id="tspan115"><tspan
+         dx="13.000000"
+         dy="4.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan113">type</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,325.592026,105.453474)"
+     x="0.000000"
+     y="9.862366"
+     id="text127"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.862366"
+       id="tspan125"><tspan
+         dx="-7.000000"
+         dy="2.000000"
+         style="fill:#000000;font-size:10.625000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan123">type</tspan></tspan></text>
+</svg>

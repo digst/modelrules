@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="34.798001mm"
+   height="79.6544mm"
+   id="svg63"
+   sodipodi:docname="klasser or begreber.wmf">
+  <metadata
+     id="metadata67">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview65" />
+
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,34.690093    C 23.468571,33.654482 24.30915,32.814953 25.346057,32.814953    L 106.07794,32.814953    C 107.11485,32.814953 107.95543,33.654482 107.95543,34.690093    L 107.95543,62.817196    C 107.95543,63.852808 107.11485,64.692336 106.07794,64.692336    L 25.346057,64.692336    C 24.30915,64.692336 23.468571,63.852808 23.468571,62.817196    z  "
+     id="path17" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,34.690093    C 23.468571,33.654482 24.30915,32.814953 25.346057,32.814953    L 106.07794,32.814953    C 107.11485,32.814953 107.95543,33.654482 107.95543,34.690093    L 107.95543,62.817196    C 107.95543,63.852808 107.11485,64.692336 106.07794,64.692336    L 25.346057,64.692336    C 24.30915,64.692336 23.468571,63.852808 23.468571,62.817196    z  "
+     id="path19" />
+  <text
+     xml:space="preserve"
+     style="font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,51.630857,41.253084)"
+     x="0.000000"
+     y="8.702087"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="8.702087"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">begreb</tspan></tspan></text>
+  <path
+     style="fill:#87cefa;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,82.506168    C 23.468571,81.470557 24.30915,80.631028 25.346057,80.631028    L 106.07794,80.631028    C 107.11485,80.631028 107.95543,81.470557 107.95543,82.506168    L 107.95543,110.63327    C 107.95543,111.66888 107.11485,112.50841 106.07794,112.50841    L 25.346057,112.50841    C 24.30915,112.50841 23.468571,111.66888 23.468571,110.63327    z  "
+     id="path29" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,82.506168    C 23.468571,81.470557 24.30915,80.631028 25.346057,80.631028    L 106.07794,80.631028    C 107.11485,80.631028 107.95543,81.470557 107.95543,82.506168    L 107.95543,110.63327    C 107.95543,111.66888 107.11485,112.50841 106.07794,112.50841    L 25.346057,112.50841    C 24.30915,112.50841 23.468571,111.66888 23.468571,110.63327    z  "
+     id="path31" />
+  <text
+     xml:space="preserve"
+     style="font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,38.488457,89.069159)"
+     x="0.000000"
+     y="8.702087"
+     id="text37"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="8.702087"
+       id="tspan35"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan33">indlånt begreb</tspan></tspan></text>
+  <path
+     style="fill:#87cefa;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,213.76598    C 23.468571,212.73037 24.30915,211.89084 25.346057,211.89084    L 106.07794,211.89084    C 107.11485,211.89084 107.95543,212.73037 107.95543,213.76598    L 107.95543,275.64561    C 107.95543,276.68122 107.11485,277.52075 106.07794,277.52075    L 25.346057,277.52075    C 24.30915,277.52075 23.468571,276.68122 23.468571,275.64561    z  "
+     id="path41" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,213.76598    C 23.468571,212.73037 24.30915,211.89084 25.346057,211.89084    L 106.07794,211.89084    C 107.11485,211.89084 107.95543,212.73037 107.95543,213.76598    L 107.95543,275.64561    C 107.95543,276.68122 107.11485,277.52075 106.07794,277.52075    L 25.346057,277.52075    C 24.30915,277.52075 23.468571,276.68122 23.468571,275.64561    z  "
+     id="path43" />
+  <text
+     xml:space="preserve"
+     style="font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,40.365943,220.328972)"
+     x="0.000000"
+     y="8.702087"
+     id="text49"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="8.702087"
+       id="tspan47"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan45">IndlåntKlasse</tspan></tspan></text>
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,130.32224    C 23.468571,129.28663 24.30915,128.4471 25.346057,128.4471    L 106.07794,128.4471    C 107.11485,128.4471 107.95543,129.28663 107.95543,130.32224    L 107.95543,192.20187    C 107.95543,193.23748 107.11485,194.07701 106.07794,194.07701    L 25.346057,194.07701    C 24.30915,194.07701 23.468571,193.23748 23.468571,192.20187    z  "
+     id="path53" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,130.32224    C 23.468571,129.28663 24.30915,128.4471 25.346057,128.4471    L 106.07794,128.4471    C 107.11485,128.4471 107.95543,129.28663 107.95543,130.32224    L 107.95543,192.20187    C 107.95543,193.23748 107.11485,194.07701 106.07794,194.07701    L 25.346057,194.07701    C 24.30915,194.07701 23.468571,193.23748 23.468571,192.20187    z  "
+     id="path55" />
+  <text
+     xml:space="preserve"
+     style="font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,53.508343,136.885234)"
+     x="0.000000"
+     y="8.702087"
+     id="text61"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="8.702087"
+       id="tspan59"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan57">Klasse</tspan></tspan></text>
+</svg>

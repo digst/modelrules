@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="601.23694"
+   height="119.38564"
+   id="svg65"
+   sodipodi:docname="URIer.svg"
+   inkscape:version="0.48.4 r9939">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="namedview67"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="mm"
+     fit-margin-right="1"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-bottom="1"
+     inkscape:zoom="1.5208438"
+     inkscape:cx="400.86167"
+     inkscape:cy="-6.6725346"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg65" />
+  <defs
+     id="defs3">
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <path
+     style="fill:#fefaf7;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:0.54698181px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 265.38621,56.096376 73.29556,0 0,38.09724 -73.29556,0 z"
+     id="path15"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:700;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri"
+     x="296.01721"
+     y="66.099846"
+     id="text21"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="296.01721"
+       y="66.099846"
+       id="tspan19"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:700;fill:#000000;font-family:Calibri"
+         id="tspan17">Cykel</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#b0b0b0;stroke-width:0.54698181px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 265.38621,70.791026 72.74858,0"
+     id="path23"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:400;text-align:start;line-height:128.63999605%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri"
+     x="268.12115"
+     y="78.073235"
+     id="text33"
+     sodipodi:linespacing="128.64%"><tspan
+       sodipodi:role="line"
+       x="268.12115"
+       y="78.073235"
+       id="tspan27"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#3c3c3c;font-family:Calibri"
+         id="tspan25">stelnummer: StelnummerCykel</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="268.12115"
+       y="85.148438"
+       id="tspan31"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#3c3c3c;font-family:Calibri"
+         id="tspan29">størrelse: xsd:integer</tspan></tspan></text>
+  <path
+     style="fill:#fefaf7;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:0.54698181px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 125.35886,56.096376 73.29556,0 0,38.09724 -73.29556,0 z"
+     id="path35"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:700;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri"
+     x="147.23814"
+     y="66.099846"
+     id="text41"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="147.23814"
+       y="66.099846"
+       id="tspan39"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:700;fill:#000000;font-family:Calibri"
+         id="tspan37">Cykelhandler</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#b0b0b0;stroke-width:0.54698181px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 125.35886,70.791026 72.74858,0"
+     id="path43"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:400;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri"
+     x="128.09377"
+     y="78.073235"
+     id="text49"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="128.09377"
+       y="78.073235"
+       id="tspan47"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#3c3c3c;font-family:Calibri"
+         id="tspan45">juridiskNavn: xsd:string</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#4b4b4b;stroke-width:0.54698181px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 265.38621,75.154356 -66.73179,0"
+     id="path51"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#4b4b4b;stroke-width:0.54698181px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 265.38621,75.144996 -8.20473,-3.26548 m 8.20473,3.26548 -8.20473,3.26548"
+     id="path53"
+     inkscape:connector-curvature="0" />
+  <g
+     id="g57"
+     transform="translate(111.68432,37.047766)">
+    <rect
+       style="fill:#ffffff;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       width="22.432373"
+       height="5.9726558"
+       x="0"
+       y="0.276611"
+       transform="translate(125.80582,26.123815)"
+       id="rect55" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:400;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri"
+     x="237.49013"
+     y="68.276787"
+     id="text63"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="237.49013"
+       y="68.276787"
+       id="tspan61"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:5.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#000000;font-family:Calibri"
+         id="tspan59">påLager</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="3.0589321"
+     y="104.15873"
+     id="text3008"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3010"
+       x="3.0589321"
+       y="104.15873">http://www.w3.org/ns/legal#legalName</tspan><tspan
+       sodipodi:role="line"
+       x="3.0589321"
+       y="114.15873"
+       id="tspan3012">(<tspan
+   style="font-size:6px"
+   id="tspan3014">genbrugt egenskab med eksisterende HTTP-URI)</tspan></tspan></text>
+  <path
+     style="fill:#999999;stroke:#6e6e6e;stroke-width:0.6448819;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="M 63.851895,96.229226 132.13383,79.489136"
+     id="path3016"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="4.8130589"
+     y="37.22467"
+     id="text3089"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3091"
+       x="4.8130589"
+       y="37.22467">https://data.gov.dk/model/core/TransportationMeans/BicycleShop</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="124.55803"
+     y="9.3675261"
+     id="text3093"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3095"
+       x="124.55803"
+       y="9.3675261">https://data.gov.dk/model/core/TransportationMeans/inStock</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="362.6702"
+     y="77.22467"
+     id="text3101"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3103"
+       x="362.6702"
+       y="77.22467">https://data.gov.dk/model/core/TransportationMeans/serialNumber</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="379.09879"
+     y="105.08181"
+     id="text3105"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3107"
+       x="379.09879"
+       y="105.08181"></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="264.58539"
+     y="37.22467"
+     id="text3097"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3099"
+       x="264.58539"
+       y="37.22467">https://data.gov.dk/model/core/TransportationMeans/Bicycle</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="264.58539"
+     y="114.15873"
+     id="text3109"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3111"
+       x="264.58539"
+       y="114.15873">https://data.gov.dk/model/core/TransportationMeans/size</tspan></text>
+  <path
+     style="fill:none;stroke:#999999;stroke-width:0.6448819;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 162.00703,59.457716 0,-20.298806"
+     id="path3899"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#999999;stroke-width:0.6448819;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 247.4757,13.162189 c 0.35612,47.720007 0.35612,47.720007 0.35612,47.720007"
+     id="path3901"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#999999;stroke-width:0.6448819;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 329.7393,41.295626 -25.28448,18.16209"
+     id="path3905"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#999999;stroke-width:0.6448819;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 361.43393,76.195336 -23.50388,0"
+     id="path3907"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#999999;stroke-width:0.6448819;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 281.66317,106.10936 0,-18.874324"
+     id="path3911"
+     inkscape:connector-curvature="0" />
+</svg>

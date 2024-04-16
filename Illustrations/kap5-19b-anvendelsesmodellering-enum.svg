@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="170mm"
+   height="52.831998mm"
+   id="svg95"
+   sodipodi:docname="kap5 -19b anvendelsesmodellering enum.wmf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview97"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs3">
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  
+    <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 26.321526,39.489882    C 26.321526,38.310982 27.26429,37.355294 28.427248,37.355294    L 165.29918,37.355294    C 166.46214,37.355294 167.4049,38.310982 167.4049,39.489882    L 167.4049,129.14259    C 167.4049,130.32149 166.46214,131.27718 165.29918,131.27718    L 28.427248,131.27718    C 27.26429,131.27718 26.321526,130.32149 26.321526,129.14259    z  "
+     id="path63" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,85.281744,46.960941)"
+     x="0.000000"
+     y="9.746338"
+     id="text71"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan69"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan67">Cykel</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 26.321526,66.172235   L 166.35204,66.172235  "
+     id="path73" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:132.141176%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,31.585831,70.441412)"
+     x="0.000000"
+     y="9.746338"
+     id="text87"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan77"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan75">stelnummer: xsd:string</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="23.621161"
+       id="tspan81"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan79">farve: xsd:string</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="37.495985"
+       id="tspan85"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan83">størrelse: xsd:string</tspan></tspan></text>
+		<path 
+		style="fill:none;stroke:#000000;stroke-width:1.5"
+		d="M 240,90 L 190,90 L 190,80 L 240,80  " />	 
+	<path 
+		style="fill:none;stroke:#000000;stroke-width:1.5"
+		d="M 235,75 L 245,85 L 235,95 " />
+		 
+<g transform="translate(250,0)">
+  <path
+     style="fill:#e8fde3;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 253.73951,39.489882    C 253.73951,38.310982 254.68227,37.355294 255.84523,37.355294    L 357.97275,37.355294    C 359.13571,37.355294 360.07847,38.310982 360.07847,39.489882    L 360.07847,170.76706    C 360.07847,171.94596 359.13571,172.90165 357.97275,172.90165    L 255.84523,172.90165    C 254.68227,172.90165 253.73951,171.94596 253.73951,170.76706    z  "
+     id="path17" />
+
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,274.796730,46.960941)"
+     x="0.000000"
+     y="9.746338"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">«enumeration»</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,274.796730,46.960941)"
+     x="18.951499"
+     y="23.621161"
+     id="text31"><tspan
+       sodipodi:role="line"
+       x="18.951499"
+       y="23.621161"
+       id="tspan29"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan27">Farve</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 253.73951,80.047059   L 359.02561,80.047059  "
+     id="path33" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:132.141176%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,259.003815,84.316235)"
+     x="0.000000"
+     y="9.746338"
+     id="text59"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan37"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan35">blå</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="23.621161"
+       id="tspan41"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan39">grøn</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="37.495985"
+       id="tspan45"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan43">hvid</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="51.370808"
+       id="tspan49"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan47">pink</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="65.245632"
+       id="tspan53"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan51">rød</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="79.120456"
+       id="tspan57"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan55">sort</tspan></tspan></text>
+
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 26.321526,39.489882    C 26.321526,38.310982 27.26429,37.355294 28.427248,37.355294    L 165.29918,37.355294    C 166.46214,37.355294 167.4049,38.310982 167.4049,39.489882    L 167.4049,129.14259    C 167.4049,130.32149 166.46214,131.27718 165.29918,131.27718    L 28.427248,131.27718    C 27.26429,131.27718 26.321526,130.32149 26.321526,129.14259    z  "
+     id="path63" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,85.281744,46.960941)"
+     x="0.000000"
+     y="9.746338"
+     id="text71"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan69"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan67">Cykel</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 26.321526,66.172235   L 166.35204,66.172235  "
+     id="path73" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:132.141176%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,31.585831,70.441412)"
+     x="0.000000"
+     y="9.746338"
+     id="text87"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan77"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan75">stelnummer: xsd:string</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="23.621161"
+       id="tspan81"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan79">farve: Farve</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="37.495985"
+       id="tspan85"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan83">størrelse: xsd:string</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 167.4049,90.72   M 253.73951,91.787294   L 246.36948,91.787294   M 242.15804,91.787294   L 234.78801,91.787294   M 230.57657,91.787294   L 223.20654,91.787294   M 218.9951,91.787294   L 211.62507,91.787294   M 207.41362,91.787294   L 200.0436,91.787294   M 195.83215,91.787294   L 188.46213,91.787294   M 184.25068,91.787294   L 176.88065,91.787294   M 172.66921,91.787294   L 167.4049,90.72  "
+     id="path89" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 253.73951,91.787294   M 167.4049,90.72   L 164.24632,90.72   L 164.24632,96.056471   L 154.77057,96.056471   M 167.4049,90.72   L 164.24632,90.72   L 164.24632,85.383529   L 154.77057,85.383529  "
+     id="path91" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0528611px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 253.73951,91.787294   L 237.94659,97.123765   M 253.73951,91.787294   L 237.94659,86.450824  "
+     id="path93" />
+</g>	 
+</svg>

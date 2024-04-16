@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="51.460401mm"
+   height="14.503401mm"
+   id="svg53"
+   sodipodi:docname="henvisning til klassifikation med associationsende.wmf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.54301673px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 13.575419,20.045941    C 13.575419,19.447505 14.061653,18.962376 14.661453,18.962376    L 61.360894,18.962376    C 61.960694,18.962376 62.446927,19.447505 62.446927,20.045941    L 62.446927,40.091881    C 62.446927,40.690317 61.960694,41.175446 61.360894,41.175446    L 14.661453,41.175446    C 14.061653,41.175446 13.575419,40.690317 13.575419,40.091881    z  "
+     id="path17" />
+  <text
+     xml:space="preserve"
+     style="font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,30.951955,23.838416)"
+     x="0.000000"
+     y="5.047211"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="5.047211"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">Class1</tspan></tspan></text>
+
+  <path
+     style="fill:#e8fde3;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.54301673px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 131.95307,20.045941    C 131.95307,19.447505 132.43931,18.962376 133.03911,18.962376    L 179.73855,18.962376    C 180.33835,18.962376 180.82458,19.447505 180.82458,20.045941    L 180.82458,40.091881    C 180.82458,40.690317 180.33835,41.175446 179.73855,41.175446    L 133.03911,41.175446    C 132.43931,41.175446 131.95307,40.690317 131.95307,40.091881    z  "
+     id="path29" />
+
+  <text
+     xml:space="preserve"
+     style="font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,149.329609,23.838416)"
+     x="0.000000"
+     y="5.047211"
+     id="text37"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="5.047211"
+       id="tspan35"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan33">Type1</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.54301673px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 62.446927,29.79802   L 131.95307,29.79802  "
+     id="path39" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.54301673px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  L 123.80782,33.048713   M 131.95307,29.79802   L 123.80782,26.547327  "
+     id="path41" />
+
+  <text
+     xml:space="preserve"
+     style="font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,111.861453,21.129505)"
+     x="0.000000"
+     y="5.047211"
+     id="text51"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="5.047211"
+       id="tspan49"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan47">type</tspan></tspan></text>
+</svg>

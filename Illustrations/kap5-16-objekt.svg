@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="170mm"
+   height="38.1508mm"
+   id="svg45"
+   sodipodi:docname="kap5 - 16 objekt.wmf">
+  <metadata
+     id="metadata49">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview47" />
+  <defs
+     id="defs3">
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+
+  <path
+     style="fill:#dcdcdc;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0527847px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 26.319617,39.492978    C 26.319617,38.313985 27.262313,37.358222 28.425187,37.358222    L 191.60681,37.358222    C 192.76969,37.358222 193.71238,38.313985 193.71238,39.492978    L 193.71238,75.2768    C 193.71238,76.45579 192.76969,77.41156 191.60681,77.41156    L 28.425187,77.41156    C 27.262313,77.41156 26.319617,76.45579 26.319617,75.2768    z  "
+     id="path17" />
+ 
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,57.903158,46.964622)"
+     x="0.000000"
+     y="9.746338"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="10.000000"
+       y="9.746338"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">CykelAK951847M</tspan></tspan></text>
+  <path
+     style="fill:#dcdcdc;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0527847px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 226.319617,39.492978    C 226.319617,38.313985 227.262313,37.358222 228.425187,37.358222    L 391.60681,37.358222    C 392.76969,37.358222 393.71238,38.313985 393.71238,39.492978    L 393.71238,75.2768    C 393.71238,76.45579 392.76969,77.41156 391.60681,77.41156    L 228.425187,77.41156    C 227.262313,77.41156 226.319617,76.45579 226.319617,75.2768    z  "
+     id="path17" />
+ 
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,57.903158,46.964622)"
+     x="0.000000"
+     y="9.746338"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="200"
+       y="9.746338"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">CykelAK951847M: Cykel</tspan></tspan></text>
+			
+  <path
+     style="fill:#dcdcdc;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0527847px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 426.319617,39.492978    C 426.319617,38.313985 427.262313,37.358222 428.425187,37.358222    L 591.60681,37.358222    C 592.76969,37.358222 593.71238,38.313985 593.71238,39.492978    L 593.71238,115.2768    C 593.71238,116.45579 592.76969,117.41156 591.60681,117.41156    L 428.425187,117.41156    C 427.262313,117.41156 426.319617,116.45579 426.319617,115.2768    z  "
+     id="path17" />
+ 
+
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,57.903158,46.964622)"
+     x="0.000000"
+     y="9.746338"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="400"
+       y="9.746338"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">CykelAK951847M: Cykel</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0527847px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 257.903158,59.773156   L 362.12884,59.773156  "
+     id="path27" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0527847px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 426.319617,66.177422   L 592.6596,66.177422  "
+     id="path29" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:132.151534%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,31.583541,70.446933)"
+     x="0.000000"
+     y="9.746338"
+     id="text43"><tspan
+       sodipodi:role="line"
+       x="400"
+       y="9.746338"
+       id="tspan33"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan31">stelnummer = AK951847M</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="400"
+       y="23.622249"
+       id="tspan37"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan35">størrelse = 28</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="400"
+       y="37.498160"
+       id="tspan41"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan39">farve = rød</tspan></tspan></text>
+</svg>

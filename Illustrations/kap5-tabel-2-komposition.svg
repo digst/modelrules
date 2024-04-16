@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="34.798001mm"
+   height="55.0926mm"
+   id="svg43"
+   sodipodi:docname="kap5 - tabel 2 -komposition.wmf">
+  <metadata
+     id="metadata47">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview45" />
+  <defs
+     id="defs3">
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+
+  <path
+     style="fill:#fefaf7;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,34.688    C 23.468571,33.652451 24.30915,32.812973 25.346057,32.812973    L 106.07794,32.812973    C 107.11485,32.812973 107.95543,33.652451 107.95543,34.688    L 107.95543,84.376216    C 107.95543,85.411765 107.11485,86.251243 106.07794,86.251243    L 25.346057,86.251243    C 24.30915,86.251243 23.468571,85.411765 23.468571,84.376216    z  "
+     id="path19" />
+  <text
+     xml:space="preserve"
+     style="font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,32.856000,41.250595)"
+     x="0.000000"
+     y="8.702087"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="8.702087"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">UafhængigKlasse</tspan></tspan></text>
+
+  <path
+     style="fill:#fefaf7;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 23.468571,133.12692    C 23.468571,132.09137 24.30915,131.25189 25.346057,131.25189    L 106.07794,131.25189    C 107.11485,131.25189 107.95543,132.09137 107.95543,133.12692    L 107.95543,182.81514    C 107.95543,183.85068 107.11485,184.69016 106.07794,184.69016    L 25.346057,184.69016    C 24.30915,184.69016 23.468571,183.85068 23.468571,182.81514    z  "
+     id="path31" />
+  <text
+     xml:space="preserve"
+     style="font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,35.672229,139.689514)"
+     x="0.000000"
+     y="8.702087"
+     id="text37"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="8.702087"
+       id="tspan35"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan33">AfhængigKlasse</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 65.712,131.25189   L 65.712,86.251243  "
+     id="path39" />
+  <path
+     style="fill:#000000;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.93874288px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 70.405714,95.626378   L 65.712,86.251243   L 61.018286,95.626378   L 65.712,105.00151  z "
+     id="path41" />
+</svg>
