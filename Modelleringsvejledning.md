@@ -1856,7 +1856,7 @@ Begreberne bag forekomsterne i en klassifikation - også benævnt emnerne -  i k
 §28  - <ins> <span style="color:#AB2A0C;">Modellér klassifikationsemner som instanser </span> </ins> <br>
 
 ### Begrebsafklaring som grundlag for gode klassifikationer
-Ved struktureret begrebsarbejde analyseres og defineres begreber ved at angive nærmeste overbegreb samt adskillende træk i forhold til et givet inddelingskriterium (se kapitlet [Termer og definitioner](#termer-og-definitioner) for yderligere information). Man anfører, hvad begrebet er for “en slags”, og hvilke karakteristika netop denne slags har i forhold til andre begreber med samme direkte overbegreb (under samme inddelingskriterium). 
+Ved struktureret begrebsarbejde analyseres og defineres begreber ved at angive nærmeste overbegreb samt adskillende træk i forhold til et givet inddelingskriterium (se kapitlet [Termer og definitioner](#kapitel-3-termer-og-definitioner) for yderligere information). Man anfører, hvad begrebet er for “en slags”, og hvilke karakteristika netop denne slags har i forhold til andre begreber med samme direkte overbegreb (under samme inddelingskriterium). 
 
 Et inddelingskriterium angiver et særligt perspektiv, som begreberne inden for en gruppe bliver betragtet ud fra, og hvorved de adskiller sig fra hinanden. Fx i forhold til egenskaber, tilstand, formål, indhold, udformning, anvendelse m.v. Transportmidler kan fx inddeles efter tiltænkt anvendelse (godstransport, persontransport, fritids/sportsbrug), fremdriftsmiddel (benzin, diesel, el, hybrid), ejerforhold (eje, leje, leasing, dele) mm.  
 
