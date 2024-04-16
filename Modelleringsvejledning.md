@@ -1,273 +1,273 @@
 # Indholdsfortegnelse
 **[Forord](#forord)**
 
-&nbsp;&nbsp; [Læsevejledning](#læsevejledning)
+&nbsp;&nbsp;&nbsp;&nbsp; [Læsevejledning](#læsevejledning)
 
-&nbsp;&nbsp; [Oversigt over regler](#oversigt-over-regler)
+&nbsp;&nbsp;&nbsp;&nbsp; [Oversigt over regler](#oversigt-over-regler)
 
 **[Kapitel 1: Introduktion](#kapitel-1-introduktion)**
 
-&nbsp;&nbsp; [Formål](#formål)
+&nbsp;&nbsp;&nbsp;&nbsp; [Formål](#formål)
 
-&nbsp;&nbsp; [Hvorfor anvende de fællesoffentlige regler for begrebs- og datamodellering?](#hvorfor-anvende-de-fællesoffentlige-regler-for-begrebs--og-datamodellering)
+&nbsp;&nbsp;&nbsp;&nbsp; [Hvorfor anvende de fællesoffentlige regler for begrebs- og datamodellering?](#hvorfor-anvende-de-fællesoffentlige-regler-for-begrebs--og-datamodellering)
 
-&nbsp;&nbsp; [Organisatoriske anbefalinger for modellering](#organisatoriske-anbefalinger-for-modellering)
+&nbsp;&nbsp;&nbsp;&nbsp; [Organisatoriske anbefalinger for modellering](#organisatoriske-anbefalinger-for-modellering)
 
 **[Kapitel 2: Om modeller](#kapitel-2-modeltyper-og-proces)**
 
-&nbsp;&nbsp; [Hvad er en model?](#hvad-er-en-model)
+&nbsp;&nbsp;&nbsp;&nbsp; [Hvad er en model?](#hvad-er-en-model)
 
-&nbsp;&nbsp; [Modeltyper](#modeltyper)
+&nbsp;&nbsp;&nbsp;&nbsp; [Modeltyper](#modeltyper)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Arbejdet med terminologiske begrebsmodeller](#arbejdet-med-terminologiske-begrebsmodeller)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Arbejdet med terminologiske begrebsmodeller](#arbejdet-med-terminologiske-begrebsmodeller)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af begrebsmodeller](#anvendelse-af-begrebsmodeller)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af begrebsmodeller](#anvendelse-af-begrebsmodeller)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Begrebsmodellens indhold og afgrænsning](#begrebsmodellens-indhold-og-afgrænsning)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Begrebsmodellens indhold og afgrænsning](#begrebsmodellens-indhold-og-afgrænsning)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Proces for begrebsmodellering](#proces-for-begrebsmodellering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Proces for begrebsmodellering](#proces-for-begrebsmodellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Informationsmodeller](#informationsmodeller)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Informationsmodeller](#informationsmodeller)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Proces for informationsmodellering](#proces-for-informationsmodellering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Proces for informationsmodellering](#proces-for-informationsmodellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Logiske datamodeller](#logiske-datamodeller)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Logiske datamodeller](#logiske-datamodeller)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af logisk datamodellering](#anvendelse-af-logisk-datamodellering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af logisk datamodellering](#anvendelse-af-logisk-datamodellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Proces for logisk datamodellering](#proces-for-logisk-datamodellering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Proces for logisk datamodellering](#proces-for-logisk-datamodellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Processen med udgangspunkt i begrebsmodellering](#processen-med-udgangspunkt-i-begrebsmodellering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Processen med udgangspunkt i begrebsmodellering](#processen-med-udgangspunkt-i-begrebsmodellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Processen uden forudgående begrebsmodellering](#processen-uden-forudgående-begrebsmodellering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Processen uden forudgående begrebsmodellering](#processen-uden-forudgående-begrebsmodellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Organisering af arbejdet](#organisering-af-arbejdet)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Organisering af arbejdet](#organisering-af-arbejdet)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Klassifikationsmodeller](#klassifikationsmodeller)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Klassifikationsmodeller](#klassifikationsmodeller)
 
-&nbsp;&nbsp; [Hvilke modeltyper skal jeg udarbejde?](#hvilke-modeltyper-skal-jeg-udarbejde)
+&nbsp;&nbsp;&nbsp;&nbsp; [Hvilke modeltyper skal jeg udarbejde?](#hvilke-modeltyper-skal-jeg-udarbejde)
 
-&nbsp;&nbsp; [Modelomfang (kernemodeller vs. anvendelsesmodeller)](#modelomfang-kernemodeller-vs-anvendelsesmodeller)
+&nbsp;&nbsp;&nbsp;&nbsp; [Modelomfang (kernemodeller vs. anvendelsesmodeller)](#modelomfang-kernemodeller-vs-anvendelsesmodeller)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Kernemodeller](#kernemodeller)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Kernemodeller](#kernemodeller)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelsesmodeller](#anvendelsesmodeller)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelsesmodeller](#anvendelsesmodeller)
 
-&nbsp;&nbsp; [Genbrug af eksisterende modellering](#genbrug-af-eksisterende-modellering)
+&nbsp;&nbsp;&nbsp;&nbsp; [Genbrug af eksisterende modellering](#genbrug-af-eksisterende-modellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Undgå silomodellering](#undgå-silomodellering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Undgå silomodellering](#undgå-silomodellering)
 
 **[Kapitel 3: Termer og definitioner](#kapitel-3-termer-og-definitioner)**
 
-&nbsp;&nbsp; [Hvad er termer og begreber?](#hvad-er-termer-og-begreber)
+&nbsp;&nbsp;&nbsp;&nbsp; [Hvad er termer og begreber?](#hvad-er-termer-og-begreber)
 
-&nbsp;&nbsp; [Anvendelse af eksisterende begreber og definitioner](#anvendelse-af-eksisterende-begreber-og-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af eksisterende begreber og definitioner](#anvendelse-af-eksisterende-begreber-og-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Direkte genbrug](#direkte-genbrug)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Direkte genbrug](#direkte-genbrug)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvor finder man genbrugelige definitioner?](#hvor-finder-man-genbrugelige-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvor finder man genbrugelige definitioner?](#hvor-finder-man-genbrugelige-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Der er en lang række kilder, man kan trække på, når man leder efter genbrugelige definitioner:](#der-er-en-lang-række-kilder,-man-kan-trække-på,-når-man-leder-efter-genbrugelige-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Der er en lang række kilder, man kan trække på, når man leder efter genbrugelige definitioner:](#der-er-en-lang-række-kilder,-man-kan-trække-på,-når-man-leder-efter-genbrugelige-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvad hvis begrebet er modelleret, men ikke godt nok?](#hvad-hvis-begrebet-er-modelleret-men-ikke-godt-nok)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvad hvis begrebet er modelleret, men ikke godt nok?](#hvad-hvis-begrebet-er-modelleret-men-ikke-godt-nok)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Begreber i datamodeller](#begreber-i-datamodeller)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Begreber i datamodeller](#begreber-i-datamodeller)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvad hvis begrebet er modelleret flere steder?](#hvad-hvis-begrebet-er-modelleret-flere-steder)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvad hvis begrebet er modelleret flere steder?](#hvad-hvis-begrebet-er-modelleret-flere-steder)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Afledning](#afledning)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Afledning](#afledning)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Specialisering](#specialisering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Specialisering](#specialisering)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af kilder](#anvendelse-af-kilder)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af kilder](#anvendelse-af-kilder)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Udarbejdelse af nye definitioner](#udarbejdelse-af-nye-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Udarbejdelse af nye definitioner](#udarbejdelse-af-nye-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Strukturerede definitioner](#strukturerede-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Strukturerede definitioner](#strukturerede-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Oplysende definitioner](#oplysende-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Oplysende definitioner](#oplysende-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Undgå cirkulære definitioner](#undgå-cirkulære-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Undgå cirkulære definitioner](#undgå-cirkulære-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvend ikke negative definitioner](#anvend-ikke-negative-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvend ikke negative definitioner](#anvend-ikke-negative-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Brug ikke opremsninger](#brug-ikke-opremsninger)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Brug ikke opremsninger](#brug-ikke-opremsninger)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Karakteristika skal altid gælde](#karakteristika-skal-altid-gælde)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Karakteristika skal altid gælde](#karakteristika-skal-altid-gælde)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Polyhierarki](#polyhierarki)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Polyhierarki](#polyhierarki)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Udarbejd anvendelsesneutrale definitioner](#udarbejd-anvendelsesneutrale-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Udarbejd anvendelsesneutrale definitioner](#udarbejd-anvendelsesneutrale-definitioner)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Tjekliste til udarbejdelse af definitioner](#tjekliste-til-udarbejdelse-af-definitioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tjekliste til udarbejdelse af definitioner](#tjekliste-til-udarbejdelse-af-definitioner)
 
-&nbsp;&nbsp; [Termer](#termer)
+&nbsp;&nbsp;&nbsp;&nbsp; [Termer](#termer)
 
 **[Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier)**
 
 **[Kapitel 5: Udarbejdelse af modeller](#kapitel-5-udarbejdelse-af-modeller)**
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Begrebslister](#begrebslister)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Begrebslister](#begrebslister)
 
-&nbsp;&nbsp; [UML-modellering](#uml-modellering)
+&nbsp;&nbsp;&nbsp;&nbsp; [UML-modellering](#uml-modellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [UML-elementer der anvendes i alle modeltyper](#uml-elementer-der-anvendes-i-alle-modeltyper)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [UML-elementer der anvendes i alle modeltyper](#uml-elementer-der-anvendes-i-alle-modeltyper)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Yderligere UML-elementer](#yderligere-uml-elementer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Yderligere UML-elementer](#yderligere-uml-elementer)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Pakker](#pakker)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pakker](#pakker)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Stereotyper](#stereotyper)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Stereotyper](#stereotyper)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Dokumentation af modelelementer](#dokumentation-af-modelelementer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Dokumentation af modelelementer](#dokumentation-af-modelelementer)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Gennemgang af UML-elementer](#gennemgang-af-uml-elementer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Gennemgang af UML-elementer](#gennemgang-af-uml-elementer)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Klasser](#klasser)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Klasser](#klasser)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Generaliseringer](#generaliseringer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Generaliseringer](#generaliseringer)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Generaliseringssæt](#generaliseringssæt)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Generaliseringssæt](#generaliseringssæt)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Egenskaber](#egenskaber)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Egenskaber](#egenskaber)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Attributter](#attributter)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Attributter](#attributter)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Associationer](#associationer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Associationer](#associationer)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Associationsnavne](#associationsnavne)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Associationsnavne](#associationsnavne)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Associationsender](#associationsender)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Associationsender](#associationsender)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Multiplicitet](#multiplicitet)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Datatyper](#datatyper)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Strukturerede datatyper](#strukturerede-datatyper)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Objekter](#objekter)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Kompositioner](#kompositioner)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tilknytningsklasser](#tilknytningsklasser)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagrammer](#diagrammer)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagrammering af store modeller](#diagrammering-af-store-modeller)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Genbrug af modelelementer](#genbrug-af-modelelementer)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Genbrug med anvendelsesnote](#genbrug-med-anvendelsesnote)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Fravær af HTTP-URI](#fravær-af-http-uri)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Markering af genbrugte elementer](#markering-af-genbrugte-elementer)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Mangel på genbrugeligt element](#mangel-på-genbrugeligt-element)
+
+&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelsesmodellering](#anvendelsesmodellering)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Multiplicitet](#multiplicitet)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Datatyper](#datatyper)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Øget specificitet](#øget-specificitet)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Strukturerede datatyper](#strukturerede-datatyper)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Præcisere anvendelsen](#præcisere-anvendelsen)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Objekter](#objekter)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Indsnævre udfaldsrum](#indsnævre-udfaldsrum)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Kompositioner](#kompositioner)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Indsnævring af multiplicitet](#indsnævring-af-multiplicitet)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tilknytningsklasser](#tilknytningsklasser)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Implicitte kernemodeller](#implicitte-kernemodeller)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Diagrammer](#diagrammer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelsesmodel baseret på en anden anvendelsesmodel](#anvendelsesmodel-baseret-på-en-anden-anvendelsesmodel)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagrammering af store modeller](#diagrammering-af-store-modeller)
+&nbsp;&nbsp;&nbsp;&nbsp; [Klassifikationer og kontrollerede udfaldsrum](#klassifikationer-og-kontrollerede-udfaldsrum)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Genbrug af modelelementer](#genbrug-af-modelelementer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Formålet med at lave og bruge klassifikationer](#formålet-med-at-lave-og-bruge-klassifikationer)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Genbrug med anvendelsesnote](#genbrug-med-anvendelsesnote)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Begrebsafklaring som grundlag for gode klassifikationer](#begrebsafklaring-som-grundlag-for-gode-klassifikationer)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Fravær af HTTP-URI](#fravær-af-http-uri)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modellering af klassifikationer i UML](#modellering-af-klassifikationer-i-uml)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Markering af genbrugte elementer](#markering-af-genbrugte-elementer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Valg af enumeration eller klassifikationsklasse og instanser](#valg-af-enumeration-eller-klassifikationsklasse-og-instanser)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Mangel på genbrugeligt element](#mangel-på-genbrugeligt-element)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modellering af klassifikationer med enumerationer](#modellering-af-klassifikationer-med-enumerationer)
 
-&nbsp;&nbsp; [Anvendelsesmodellering](#anvendelsesmodellering)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modellering af klassifikationer med klassifikationsklasser](#modellering-af-klassifikationer-med-klassifikationsklasser)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Multiplicitet](#multiplicitet)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Klassifikationer med flere niveauer](#klassifikationer-med-flere-niveauer)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Øget specificitet](#øget-specificitet)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvend generaliseringssæt til at vise inddelingskriterier](#anvend-generaliseringssæt-til-at-vise-inddelingskriterier)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Præcisere anvendelsen](#præcisere-anvendelsen)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Store klassifikationer](#store-klassifikationer)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Indsnævre udfaldsrum](#indsnævre-udfaldsrum)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af klassifikation som udfaldsrum](#anvendelse-af-klassifikation-som-udfaldsrum)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Indsnævring af multiplicitet](#indsnævring-af-multiplicitet)
-
-&nbsp;&nbsp;&nbsp;&nbsp; [Implicitte kernemodeller](#implicitte-kernemodeller)
-
-&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelsesmodel baseret på en anden anvendelsesmodel](#anvendelsesmodel-baseret-på-en-anden-anvendelsesmodel)
-
-&nbsp;&nbsp; [Klassifikationer og kontrollerede udfaldsrum](#klassifikationer-og-kontrollerede-udfaldsrum)
-
-&nbsp;&nbsp;&nbsp;&nbsp; [Formålet med at lave og bruge klassifikationer](#formålet-med-at-lave-og-bruge-klassifikationer)
-
-&nbsp;&nbsp;&nbsp;&nbsp; [Begrebsafklaring som grundlag for gode klassifikationer](#begrebsafklaring-som-grundlag-for-gode-klassifikationer)
-
-&nbsp;&nbsp;&nbsp;&nbsp; [Modellering af klassifikationer i UML](#modellering-af-klassifikationer-i-uml)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Valg af enumeration eller klassifikationsklasse og instanser](#valg-af-enumeration-eller-klassifikationsklasse-og-instanser)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modellering af klassifikationer med enumerationer](#modellering-af-klassifikationer-med-enumerationer)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modellering af klassifikationer med klassifikationsklasser](#modellering-af-klassifikationer-med-klassifikationsklasser)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Klassifikationer med flere niveauer](#klassifikationer-med-flere-niveauer)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvend generaliseringssæt til at vise inddelingskriterier](#anvend-generaliseringssæt-til-at-vise-inddelingskriterier)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Store klassifikationer](#store-klassifikationer)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvendelse af klassifikation som udfaldsrum](#anvendelse-af-klassifikation-som-udfaldsrum)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Brug af eksterne klassifikationer](#brug-af-eksterne-klassifikationer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Brug af eksterne klassifikationer](#brug-af-eksterne-klassifikationer)
 
 **[Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen)**
 
-&nbsp;&nbsp; [Modellens indhold og kontekst](#modellens-indhold-og-kontekst)
+&nbsp;&nbsp;&nbsp;&nbsp; [Modellens indhold og kontekst](#modellens-indhold-og-kontekst)
 
-&nbsp;&nbsp; [Modelstatus og versionering](#modelstatus-og-versionering)
+&nbsp;&nbsp;&nbsp;&nbsp; [Modelstatus og versionering](#modelstatus-og-versionering)
 
-&nbsp;&nbsp; [Forretningsgodkendelse og modelansvar](#forretningsgodkendelse-og-modelansvar)
+&nbsp;&nbsp;&nbsp;&nbsp; [Forretningsgodkendelse og modelansvar](#forretningsgodkendelse-og-modelansvar)
 
-&nbsp;&nbsp; [Modellens kilder](#modellens-kilder)
+&nbsp;&nbsp;&nbsp;&nbsp; [Modellens kilder](#modellens-kilder)
 
-&nbsp;&nbsp; [Eksempel på udfyldte metadata](#eksempel-på-udfyldte-metadata)
+&nbsp;&nbsp;&nbsp;&nbsp; [Eksempel på udfyldte metadata](#eksempel-på-udfyldte-metadata)
     
 **[Kapitel 7: Det visuelle udtryk](#kapitel-7-det-visuelle-udtryk)**
 
-&nbsp;&nbsp; [Anbefalinger til grafisk opsætning og præsentation](#anbefalinger-til-grafisk-opsætning-og-præsentation)
+&nbsp;&nbsp;&nbsp;&nbsp; [Anbefalinger til grafisk opsætning og præsentation](#anbefalinger-til-grafisk-opsætning-og-præsentation)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Undgå krydsende streger hvor det er muligt](#undgå-krydsende-streger-hvor-det-er-muligt)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Undgå krydsende streger hvor det er muligt](#undgå-krydsende-streger-hvor-det-er-muligt)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Foretræk vinkelrette knæk fremfor skrå streger](#foretræk-vinkelrette-knæk-fremfor-skrå-streger)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Foretræk vinkelrette knæk fremfor skrå streger](#foretræk-vinkelrette-knæk-fremfor-skrå-streger)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Ensret klassernes størrelser og justeringer](#ensret-klassernes-størrelser-og-justeringer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ensret klassernes størrelser og justeringer](#ensret-klassernes-størrelser-og-justeringer)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Sørg for at al tekst er læsbar](#sørg-for-at-al-tekst-er-læsbar)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Sørg for at al tekst er læsbar](#sørg-for-at-al-tekst-er-læsbar)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Brug anbefalede farver](#brug-anbefalede-farver)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Brug anbefalede farver](#brug-anbefalede-farver)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Placer overordnede klasser over deres specialiseringer](#placer-overordnede-klasser-over-deres-specialiseringer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Placer overordnede klasser over deres specialiseringer](#placer-overordnede-klasser-over-deres-specialiseringer)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Anvend generaliseringssæt](#anvend-generaliseringssæt)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Anvend generaliseringssæt](#anvend-generaliseringssæt)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Angiv retning på begrebsrelationer](#angiv-retning-på-begrebsrelationer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Angiv retning på begrebsrelationer](#angiv-retning-på-begrebsrelationer)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Brug associationer til klasser og attributter til datatyper](#brug-associationer-til-klasser-og-attributter-til-datatyper)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Brug associationer til klasser og attributter til datatyper](#brug-associationer-til-klasser-og-attributter-til-datatyper)
 
-&nbsp;&nbsp; [Eksempel på UML-diagram](#eksempel-på-uml-diagram)
+&nbsp;&nbsp;&nbsp;&nbsp; [Eksempel på UML-diagram](#eksempel-på-uml-diagram)
 
-&nbsp;&nbsp; [Anbefalinger til organisering og kommunikation](#anbefalinger-til-organisering-og-kommunikation)
+&nbsp;&nbsp;&nbsp;&nbsp; [Anbefalinger til organisering og kommunikation](#anbefalinger-til-organisering-og-kommunikation)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Skab overblik med opdeling og overordnede diagrammer](#skab-overblik-med-opdeling-og-overordnede-diagrammer)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Skab overblik med opdeling og overordnede diagrammer](#skab-overblik-med-opdeling-og-overordnede-diagrammer)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Organiser diagrammet ift. rækkefølge hvor relevant](#organiser-diagrammet-ift-rækkefølge-hvor-relevant)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Organiser diagrammet ift. rækkefølge hvor relevant](#organiser-diagrammet-ift-rækkefølge-hvor-relevant)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Lav også alternative visuelle diagrammer til kommunikationsformål](#lav-også-alternative-visuelle-diagrammer-til-kommunikationsformål)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lav også alternative visuelle diagrammer til kommunikationsformål](#lav-også-alternative-visuelle-diagrammer-til-kommunikationsformål)
 
-&nbsp;&nbsp; [Yderligere best practices i international modellering](#yderligere-best-practices-i-international-modellering)
+&nbsp;&nbsp;&nbsp;&nbsp; [Yderligere best practices i international modellering](#yderligere-best-practices-i-international-modellering)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Angivelse af kravniveau med supplerende stereotyper](#angivelse-af-kravniveau-med-supplerende-stereotyper)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Angivelse af kravniveau med supplerende stereotyper](#angivelse-af-kravniveau-med-supplerende-stereotyper)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Angiv gerne namespaces og præfikser i logiske datamodeller](#angiv-gerne-namespaces-og-præfikser-i-logiske-datatyper)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Angiv gerne namespaces og præfikser i logiske datamodeller](#angiv-gerne-namespaces-og-præfikser-i-logiske-datatyper)
 
 **[Kapitel 8: Governance](#kapitel-8-governance)**
 
-&nbsp;&nbsp; [Forretningsgodkendelse](#forretningsgodkendelse)
+&nbsp;&nbsp;&nbsp;&nbsp; [Forretningsgodkendelse](#forretningsgodkendelse)
 
-&nbsp;&nbsp; [Modelteknisk review](#modelteknisk-review)
+&nbsp;&nbsp;&nbsp;&nbsp; [Modelteknisk review](#modelteknisk-review)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Proces for review](#proces-for-review)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Proces for review](#proces-for-review)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Selve reviewindleveringen](#selve-reviewindleveringen)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Selve reviewindleveringen](#selve-reviewindleveringen)
 
-&nbsp;&nbsp; [Udstilling](#udstilling)
+&nbsp;&nbsp;&nbsp;&nbsp; [Udstilling](#udstilling)
 
-&nbsp;&nbsp; [Modelkataloget](#modelkataloget)
+&nbsp;&nbsp;&nbsp;&nbsp; [Modelkataloget](#modelkataloget)
 
 **[Referencer](#referencer)**
 
