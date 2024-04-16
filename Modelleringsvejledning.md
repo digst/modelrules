@@ -2191,11 +2191,11 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
     <td>Begrebsmodel over transportmidler udarbejdet som eksempelmodel i forbindelse modelleringsvejledningen til de fællesoffentlige regler for begrebs- og datamodellering. Modelleringen er derfor ikke fyldestgørende eller fagligt valideret, og modellens metadata er eksempler uden reel gyldighed.</td>
   </tr>
   <tr>
-    <td>Modelsprog <br>(language) *</td>
+    <td>Modelsprog <br>(language)*</td>
     <td>da</td>
   </tr>
   <tr>
-    <td>Modelomfang <br>(modelScope) *</td>
+    <td>Modelomfang <br>(modelScope)*</td>
     <td>kernemodel</td>
   </tr>
   <tr>
@@ -2203,7 +2203,7 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
     <td>59.02.05 Overordnede opgaver vedrørende trafik og transport</td>
   </tr>
   <tr>
-    <td>Godkendelsesstatus <br>(approvalStatus) *</td>
+    <td>Godkendelsesstatus <br>(approvalStatus)*</td>
     <td>Afventer godkendelse</td>
   </tr>
   <tr>
@@ -2211,19 +2211,19 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
     <td>Rådet for Sikker Trafik</td>
   </tr>
   <tr>
-    <td>Modelansvarlig <br>(responsibleEntity) *</td>
+    <td>Modelansvarlig <br>(responsibleEntity)*</td>
     <td>Trafik-, Bygge- og Boligstyrelsen</td>
   </tr>
   <tr>
-    <td>Modelstatus <br>(modelStatus) *</td>
+    <td>Modelstatus <br>(modelStatus)*</td>
     <td>Under udvikling</td>
   </tr>
   <tr>
-    <td>Versionnummer <br>(versionInfo) *</td>
+    <td>Versionnummer <br>(versionInfo)*</td>
     <td>0.1.0</td>
   </tr>
   <tr>
-    <td>Seneste opdateringsdato <br>(dateModified) *</td>
+    <td>Seneste opdateringsdato <br>(dateModified)*</td>
     <td>2020-11-06</td>
   </tr>
   <tr>
