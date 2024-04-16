@@ -1378,17 +1378,17 @@ I anvendelsesmodeller kan man med fordel organiserer elementer fra forskellige k
 ### Stereotyper
 Stereotyper er en måde at specialisere UML-elementer til en bestemt kontekst. Navne på stereotyper vises mellem en type anførselstegn (guillemets) der ligner dobbelte spidse parenteser: <<stereotypenavn>>. Derudover fungerer de som ‘beholder’ for såkaldte tagged values. I modelreglerne anvendes tagged values til at dokumentere (angive metadata for) både modelelementer og pakker. Derfor er det i henhold til modelreglerne obligatorisk at anvende stereotyper for både modelelementer og modelpakker. 
 
-Til modelelementer anvendes:
-* <<Concept>> i begrebsmodeller og informationsmodeller
-* <<ModelElement>> i logiske datamodeller
+Til modelelementer anvendes: 
+* << Concept >> i begrebsmodeller og informationsmodeller 
+* << ModelElement >> i logiske datamodeller
   
 Elementer der ikke tildeles stereotyper, fordi de ikke skal dokumenteres med metadata: generaliseringer, associationer i begrebsmodeller og (unavngivne) associationer i logiske datamodeller.
 
-Til modelpakker anvendes afhængigt af modeltype:
-* <<ConceptModel>>
-* <<InformationModel>>
-* <<LogicalDatamodel>>
-* <<ClassificationModel>>
+Til modelpakker anvendes afhængigt af modeltype: <br>
+* << ConceptModel >> 
+* << InformationModel >> 
+* << LogicalDatamodel >> 
+* << ClassificationModel >>
 
 Det er ikke et krav at angive stereotyper på underpakker, men det er selvfølgelig tilladt hvor det giver mening.
 
