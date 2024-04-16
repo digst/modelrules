@@ -1065,7 +1065,7 @@ Hvis modellen er udfærdiget på dansk og man ikke ønsker at den skal genbruges
 
 En URI er ikke beydningsbærende og kan derfor i princippet bestå af en række tilfældige tegn, og i nogle situationer giver det endda rigtig god mening, især hvis det kun er maskiner der skal læse URIerne. Når man skal genbruge modelelementer og dermed deres URIer letter det dog processen og reducerer risikoen for fejl hvis URIerne er forståelige for mennesker. Ligeledes er det rart at kunne aflæse af URIen hvor et modelelement kommer fra når det genbruges i andre modeller eller henvises til som fx overbegreb for, kilde til eller ækvivalent med et andet modelelement. Derfor anbefales det at udarbejde menneskelæselige URIer.
 
-![Figur 4.1]()
+![Eksempler på HTTP-URIer](Illustrations/Kap4-URIer.svg)
 
 _Figur 4.1: Eksempler på HTTP-URIer_
 
@@ -1202,11 +1202,16 @@ klasse
 </td>
 <td>
 repræsentation af et begreb eller et sæt objekter der deler egenskaber og semantik
+	
+_Klasser der repræsenterer begreber eller forretningsobjekter som tilhører et andet emneområde markeres med blåt_
 
-Klasser der repræsenterer begreber eller forretningsobjekter som tilhører et andet emneområde markeres med blåt
-
-Begrebsmodeller: Navngives i naturligt sprog
+Begrebsmodeller: Navngives i naturligt sprog <br>
 Andre modeller: Navngives med UpperCamelCase
+</td>
+<td>
+
+![tabel over klasser og begreber](Illustrations/kap5-tabel-1-klasser-og-begreber.svg)
+	
 </td>
 </tr>
 <tr>
@@ -1218,9 +1223,14 @@ generalisering
 <td>
 relation mellem en superklasse (overbegreb) og en subklasse (underbegreb), hvor subklassen er en type af superklassen
 
-Superklasser beskriver egenskaber, som er fælles for alle subklasser. Superklassen er en generalisering af subklasserne og hver subklasse er en specialisering af superklassen. 
+_Superklasser beskriver egenskaber, som er fælles for alle subklasser. Superklassen er en generalisering af subklasserne og hver subklasse er en specialisering af superklassen._
 
 Navngivning ikke nødvendig
+</td>
+<td>
+
+![tabel over klasser og begreber](Illustrations/kap5-tabel-1-UML-generaliseringspil.svg)
+ 
 </td>
 </tr>
 <tr>
@@ -1234,6 +1244,11 @@ Associationer kan være med eller uden navigabilitet
 
 I logiske datamodeller efter de fællesoffentlige regler har dette element udelukkende betydning som den struktur, som bærer associationsenden – det er associationsenden, som beskriver klassernes indbyrdes relation.
 </td>
+<td>
+
+![tabel over klasser og begreber](Illustrations/Kap5-tabel 1-UML-associationer.svg)
+ 
+</td>
 </tr>
 <tr>
 <td>associationsnavn
@@ -1245,6 +1260,11 @@ Et associationsnavn kan angives med eller uden læseretning
 Begrebsmodeller: navngives i almindeligt sprog 
 Andre modeller: navngives med lowerCamelCase
 </td>
+<td>
+
+![tabel over klasser og begreber](Illustrations/kap5-tabel-1-klasser-og-begreber.svg)
+ 
+</td>
 </tr>
 </table>
 
@@ -1252,7 +1272,7 @@ _Tabel X: UML-elementer der anvendes i alle modeltyper_
 
 Ovennævnte elementer er de eneste der anvendes i begrebsdiagrammer. Nedenfor ses et eksempel på et begrebsdiagram.
 
-![]()
+![Eksempel på begrebsdiagram](Illustrations/Kap5-1-begrebsdiagram-for-cykel.svg)
 _Figur ?: Eksempel på begrebsdiagram_
 
 ### Yderligere UML-elementer 
@@ -1269,7 +1289,11 @@ egenskab som et forretningsobjekt har og som udtrykkes ved en simpel værdi af e
 
 Navngives med lowerCamelCase
 </td>
-<td></td>
+<td>
+
+![Attributter](Illustrations/Kap5-tabel-2-attributter.svg)
+ 
+</td>
 </tr>
 <tr>
 <td>
@@ -1281,7 +1305,11 @@ egenskab som et forretningsobjekt har og hvor udfaldsrummet er et andet forretni
 Defineres typisk uden multiplicitet i kernemodeller og altid med multiplicitet i anvendelsesmodeller (I kernemodeller kan man tilføje multiplicitet for at håndhæve lovmæssige konstruktioner.)
 Navngives med lowerCamelCase
 </td>
-<td></td>
+<td>
+
+![Associationsende](Illustrations/Kap5-tabel-2-associationsende.svg)
+ 
+</td>
 </tr>
 <tr>
 <td>
@@ -1290,7 +1318,7 @@ primitiv datatype
 <td>
 datatype, som beskriver et udfaldsrum bestående af en enkelt værdi 
 
-Typisk udfaldsrum for et attribut.
+_Typisk udfaldsrum for et attribut._
 </td>
 <td></td>
 </tr>
@@ -1305,7 +1333,11 @@ En struktureret datatype adskiller sig fra en klasse ved kun at være identifice
 
 Navngives med UpperCamelCase
 </td>
-<td></td>
+<td>
+
+![Struktureret datatype](Illustrations/Kap5-tabel-2-struktureret-datatype.svg)
+
+</td>
 </tr>
 <tr>
 <td>
@@ -1318,14 +1350,22 @@ Det anbefales, men er ikke et krav, at enumerationer farves grønne.
 
 Enumerationen navngives med UpperCamelCase, værdierne med lowerCamelCase
 </td>
-<td></td>
+<td>
+
+![Enumeration](Illustrations/kap5-tabel-2-enumeration.svg)
+ 
+</td>
 </tr>
 <tr>
 <td>
 multiplicitet
 </td>
 <td></td>
-<td></td>
+<td>
+
+![tabel over klasser og begreber](Illustrations/kap5-tabel-2-multiplicitet.svg)
+ 
+</td>
 </tr>
 <tr>
 <td>
@@ -1337,7 +1377,11 @@ element som anvendes til at beskrive en konkret forekomst af et forretningsobjek
 Bruges i klassifikationer til at repræsentere klassifikationens medlemmer
 Navngives med UpperCamelCase
 </td>
-<td></td>
+<td>
+
+ ![tabel over klasser og begreber](Illustrations/kap5-tabel-2-komposition.svg)
+ 
+</td>
 </tr>
 <tr>
 <td>
@@ -1362,7 +1406,11 @@ Ofte anvendt til at angive klassifikation eller temporalitet for en association.
 Denne konstruktion kan betragtes som en ’visuel forkortelse’ for det forhold, at der findes en klasse, som er knyttet til de to associerede klasser, som udfyldes med konkrete forhold vedrørende en instantieret anvendelse af de to klasser.
 Navngives som andre klasser med UpperCamelCase
 </td>
-<td></td>
+<td>
+
+ ![tabel over klasser og begreber](Illustrations/kap5-tabel-2-tilknytningsklasse.svg)
+ 
+</td>
 </tr>
 </table>
 
