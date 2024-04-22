@@ -2558,7 +2558,7 @@ Madsen, Bodil Nistrup 2007, ”Terminologi 1 - Principper og metoder”, Hans Re
 
 [OMG (2005): “OMG Unified Modeling Language TM (OMG UML) - version 2.0”](http://www.omg.org/spec/UML/2.0/)
 
-(Udbetaling Danmark, KL og KOMBIT 2015: ”Metodehåndbog - Begrebsmodeller, Informationsmodeller og Begrebsdefinitioner”.)[http://www.kombit.dk/metodeh%C3%A5ndb%C3%B8ger] 
+[Udbetaling Danmark, KL og KOMBIT 2015: ”Metodehåndbog - Begrebsmodeller, Informationsmodeller og Begrebsdefinitioner”.](http://www.kombit.dk/metodeh%C3%A5ndb%C3%B8ger)
 
 SDFE 2001: “Datamodelvejledning”, Arne Simonsen. Jesper Vinther Christensen, Anders Friis-Christensen, Jan Hjelmager  
 
