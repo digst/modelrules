@@ -2531,29 +2531,29 @@ I praksis får man modeller optaget ved at henvende sig til modelsekretariatet (
 
 # Referencer
 Allemang, Dean 2008: “Semantic Web for the Working Ontologist", Morgan Kaufmann Publishers
-Bellekens, Geert 2011: “UML Best Practice: Attribute or Association
-Bellekens, Geert 2012: “UML Best Practice: 5 rules for better UML diagrams
-Europa-Kommissionen ISA 2015: “Core vocabularies”
-Gómez-Pérez et al. 2011: "Style Guidelines for Naming and Labeling Ontologies in the Multilingual Web", Proc. Int’l Conf. on Dublin Core and Metadata Applications 2011 
-INSPIRE 2016: “Data Specifications” 
+[Bellekens, Geert 2011: “UML Best Practice: Attribute or Association](https://bellekens.com/2011/08/10/uml-best-practice-attribute-or-association/)
+[Bellekens, Geert 2012: “UML Best Practice: 5 rules for better UML diagrams](https://bellekens.com/2012/02/21/uml-best-practice-5-rules-for-better-uml-diagrams/)
+[Europa-Kommissionen ISA 2015: “Core vocabularies”](https://joinup.ec.europa.eu/asset/core_vocabularies/description)
+[Gómez-Pérez et al. 2011: "Style Guidelines for Naming and Labeling Ontologies in the Multilingual Web", Proc. Int’l Conf. on Dublin Core and Metadata Applications 2011](http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/47/15) 
+[INSPIRE 2016: “Data Specifications”](http://inspire.ec.europa.eu/data-specifications/)
 ISO 704 Terminology Work - Principles and methods
 ISO 1087-1 Terminology Work -- Vocabulary -- Part 1: Theory and application
 ISO 10241 International terminology standards – Preparation and layout 
 ISO 1087-2 Terminology Work -- Vocabulary -- Part 2: Computer applications
-ISO 2017: Online Browsing Platform (OBP) 
-ISO 2016: How to write standards 
+[ISO 2017: Online Browsing Platform (OBP)](https://www.iso.org/obp/ui/)
+[ISO 2016: How to write standards](https://www.iso.org/iso/how-to-write-standards.pdf)
 Madsen, Bodil Nistrup 2007, ”Terminologi 1 - Principper og metoder”, Hans Reitzels Forlag.
-OMG (2005): “OMG Unified Modeling Language TM (OMG UML) - version 2.0”
-Udbetaling Danmark, KL og KOMBIT 2015: ”Metodehåndbog - Begrebsmodeller, Informationsmodeller og Begrebsdefinitioner”. 
+[OMG (2005): “OMG Unified Modeling Language TM (OMG UML) - version 2.0”](http://www.omg.org/spec/UML/2.0/)
+(Udbetaling Danmark, KL og KOMBIT 2015: ”Metodehåndbog - Begrebsmodeller, Informationsmodeller og Begrebsdefinitioner”.)[http://www.kombit.dk/metodeh%C3%A5ndb%C3%B8ger] 
 SDFE 2001: “Datamodelvejledning”, Arne Simonsen. Jesper Vinther Christensen, Anders Friis-Christensen, Jan Hjelmager  
-Socialstyrelsen (2010): “Vurdering af begrebssystemer”
- http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf
-W3C 2008: “Best Practice Recipes for Publishing RDF Vocabularies”
-W3C 2010: “CURIE Syntax 1.0 - A syntax for expressing Compact URIs”
-W3C 2012: “Web Ontology Language (OWL)” 
-W3C 2014a: “Resource Description Framework (RDF)”
-W3C 2014b: “RDF 1.1 Concepts and Abstract Syntax” 
-W3C 2014c: “RDF Schema 1.1”
-W3C 2014d: “RDF 1.1 Turtle ”
-W3C 2014e: “Best Practices for Publishing Linked Data” 
-W3C 2015: “RDF vocabularies Current Status”
+[Socialstyrelsen (2010): “Vurdering af begrebssystemer”](http://www.socialebegreber.dk/begrebsarbejde/vurderingsskema-1)
+[http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf](http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf)
+[W3C 2008: “Best Practice Recipes for Publishing RDF Vocabularies”](https://www.w3.org/TR/swbp-vocab-pub/#recipe3)
+[W3C 2010: “CURIE Syntax 1.0 - A syntax for expressing Compact URIs”](https://www.w3.org/TR/curie/)
+[W3C 2012: “Web Ontology Language (OWL)”](https://www.w3.org/OWL/)
+[W3C 2014a: “Resource Description Framework (RDF)”](https://www.w3.org/RDF/)
+[W3C 2014b: “RDF 1.1 Concepts and Abstract Syntax”](http://www.w3.org/TR/rdf11-concepts) 
+[W3C 2014c: “RDF Schema 1.1”](http://www.w3.org/TR/rdf-schema/)
+[W3C 2014d: “RDF 1.1 Turtle ”](https://www.w3.org/TR/turtle/)
+[W3C 2014e: “Best Practices for Publishing Linked Data”](https://www.w3.org/TR/ld-bp/)
+[W3C 2015: “RDF vocabularies Current Status”](https://www.w3.org/standards/techs/rdfvocabs#w3c_all)
