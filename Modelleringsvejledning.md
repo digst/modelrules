@@ -2538,7 +2538,7 @@ Allemang, Dean 2008: “Semantic Web for the Working Ontologist", Morgan Kaufman
 
 [Europa-Kommissionen ISA 2015: “Core vocabularies”](https://joinup.ec.europa.eu/asset/core_vocabularies/description)
 
-[Gómez-Pérez et al. 2011: "Style Guidelines for Naming and Labeling Ontologies in the Multilingual Web", Proc. Int’l Conf. on Dublin Core and Metadata Applications 2011]([URL](http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/47/15)
+[Gómez-Pérez et al. 2011: "Style Guidelines for Naming and Labeling Ontologies in the Multilingual Web", Proc. Int’l Conf. on Dublin Core and Metadata Applications 2011](http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/47/15)
 
 [INSPIRE 2016: “Data Specifications”](http://inspire.ec.europa.eu/data-specifications/)
 
