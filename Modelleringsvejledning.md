@@ -608,7 +608,7 @@ Det er vigtigt, at der i denne proces inddrages både forretningsviden og datamo
 
 Der skal etableres sammenhæng mellem den logiske datamodel og den begrebsmodel eller informationsmodel den er baseret på. Det gør man ved at angive hvilket begreb modelelementerne er afledt af. Dette gøres ved at angive begrebets HTTP-URI i tagget ‘wasDerivedFrom’. Desuden skal namespace for begrebsmodellen fremgå i den logiske datamodels metadata - ligeledes i tagget ‘wasDerivedFrom’. Se mere i [Kapitel 6; Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen).
 
-§14 - <ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem begrebsmodeller og logiske modeller</span> </ins>
+§14 - [<ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem begrebsmodeller og logiske modeller</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/etabler-sammenhaeng-mellem-begrebsmodeller-og-logiske)
 
 ##### Processen uden forudgående begrebsmodellering
 Ligesom ved begrebsmodellering skal der foretages afklaring af de anvendte begreber og de termer der bruges til at beskrive dem, og der skal udarbejdes definitioner og angives metadata for hvert modelelement. Man kommer derved til at foretage en implicit modellering af begreber, når man udarbejder en logisk datamodel. Information om hvordan man udarbejder gode definitioner og angiver metadata findes i [Kapitel 3: Termer og definitioner](#kapitel-3-termer-og-definitioner) og [Kapitel 5: Udarbejdelse af modeller](#kapitel-5-udarbejdelse-af-modeller). I dette kapitel gennemgås kun det, der gælder særligt for logisk datamodellering.
@@ -683,7 +683,7 @@ På denne måde vil selvstændige emneområder blive beskrevet selvstændigt, og
 
 Denne vigtige skelnen mellem kernemodeller og anvendelsesmodeller gør det muligt at genbruge fremmede modeller i egen modellering, og den støtter dialogen om, hvordan modelleringen bedst koordineres, og hvordan ejerskabet og ansvaret for modellen placeres.
 
-§06 - <ins> <span style="color:#AB2A0C;"> Angiv meningsfyldte navne og beskrivelser for modeller </span> </ins>
+§06 - [<ins> <span style="color:#AB2A0C;"> Angiv meningsfyldte navne og beskrivelser for modeller </span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-meningsfyldte-navne-og-beskrivelser-modeller)
 
 ### Kernemodeller
 En kernemodel er en genbrugelig model over et afgrænset emneområde, som ikke definerer modelelementer, der er defineret i andre emneorienterede modeller. 
@@ -720,7 +720,7 @@ Modelelementer der indgår i en anvendelsesmodel skal således være defineret i
  </tr>
 </table>
                 
-§25 - <ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>
+§25 - [<ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/sammensaet-anvendelsesmodeller-af-elementer-fra)
 
 ## Genbrug af eksisterende modellering
 Genbrug af eksisterende modellering fremmer sammenhængende begreber og data, fordi genbrug af modeller og modelelementer automatisk skaber interoperabilitet mellem modeller.
@@ -729,7 +729,7 @@ Kernemodeller bør ikke overlappe andre kernemodeller, og der bør kun findes é
 
 Det skal være nemt at _finde_ eksisterende modeller, og derfor er der blevet oprettet et [fællesoffentligt katalog over begrebs- og datamodeller](https://data.gov.dk/catalogue/models/), også kaldet Modelkataloget. Modelkataloget indeholder en oversigt over begrebs- og datamodeller, der er udarbejdet i offentligt regi, og som er registreret med henblik på videndeling og genbrug. Nye fællesoffentlige modeller optages løbende, og der kan også optages modeller under udarbejdelse således, at andre kan se, at der er noget under udarbejdelse, og der kan etableres kommunikation om fælles modelleringsbehov. Derudover indeholder dette katalog også oplysninger om en række anerkendte internationale modeller, som kan have en bred anvendelse i dansk administrativ og fællesoffentlig kontekst.
 
-§24 - <ins> <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span> </ins>
+§24 - [<ins> <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/definer-kun-nye-modelelementer-naar-det-er-noedvendigt)
 
 ### Undgå silomodellering
 Der er i det offentlige en lang tradition for at arbejde i projekter, som har et iboende “snævert syn” på den problemstilling, som projektet arbejder med, og det kan derfor være svært at undgå silomodellering. Det er oftest meget lettere kun at tænke på projektets egne behov og ikke blive forstyrret med noget andre har beskrevet i forvejen. Hvad nu hvis det, de andre har beskrevet, ikke lige præcis er det, vi mener? Så hellere definere det selv. Det kender de fleste sikkert.
@@ -838,7 +838,7 @@ Man kan også komme ud for at der findes flere modelleringer af samme begreb. Fo
 
 I tilfælde hvor man har flere definitioner fra andre kilder at vælge mellem, er det op til projektet at vælge hvilken modellering der anvendes. I forbindelse med valget kan man overveje om en af definitionerne stammer fra en kilde man gerne vil være interoperabel med eller som har en særligt autoritet, som det er sandsynligt, at andre derfor også vil bruge, fx EU eller ISO/W3C-standarder med bred anvendelse. Og så kan man selvfølgelig tage hensyn til hvilken definition der er mest gennemarbejdet og bedst passer til ens behov.
 
-§24 - <ins> <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span> </ins>
+§24 - [<ins> <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/definer-kun-nye-modelelementer-naar-det-er-noedvendigt)
 
 ### Afledning
 Som nævnt ovenfor kan man ikke genbruge direkte på tværs af skellet mellem begreber og datamodelelementer. Det er fordi begrebsmodeller (og informationsmodeller) modellerer virkeligheden, mens datamodeller modellerer data. Bemærk også, at internationale modeller med navne som ‘ontology’ og ‘vocabulary’, fx [The Organization Ontology](https://www.w3.org/TR/vocab-org/) eller [EUs Core Location Vocabulary](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-location-vocabulary), ofte modellerer data og derfor være at betragte som datamodeller i regi af modelreglerne. SKOS-modeller (Concept Schemes) er derimod begrebsmodeller.
@@ -880,7 +880,7 @@ Både i forbindelse med afledning og anvendelse af kilder kan det være sammenh�
 
 Man kan i nogle tilfælde finde inspiration til sine egne definitioner i [Den Danske Ordbog](https://ordnet.dk/ddo), [Den Store Danske](https://denstoredanske.lex.dk/) eller i Wikipedia. Her skal man selv sørge for at formulere definitionen, så den dels har tilstrækkelig faglighed, og følger de principper for udarbejdelse af definitioner, der gennemgås nedenfor. 
 
-§23 - <ins> <span style="color:#AB2A0C;">Angiv modelelementers lovgrundlag</span> </ins>
+§23 - [<ins> <span style="color:#AB2A0C;">Angiv modelelementers lovgrundlag</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-modelelementers-lovgrundlag)
 
 ## Udarbejdelse af nye definitioner
 Gode definitioner er en essentielle del af en god begrebsmodel. Det er her, den fælles forståelse, man er nået frem til, nedfældes, formaliseres og bliver delbar og genbrugelig. Derfor er det vigtigt, at definitionerne er entydige, forståelige og egnede til brug i andre kontekster. Regel 20-22 beskæftiger sig derfor med udarbejdelsen af definitioner.
@@ -891,7 +891,7 @@ Definitionerne skal være skrevet på korrekt dansk, der er så let forståeligt
 
 Når man selv udarbejder definitioner, er der yderligere regler man skal overholde, som beskrives her.
 
-§20 - <ins> <span style="color:#AB2A0C;">Udarbejd definitioner eller beskrivelser af modellens elementer</span> <ins>
+§20 - [<ins> <span style="color:#AB2A0C;">Udarbejd definitioner eller beskrivelser af modellens elementer</span> <ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udarbejd-strukturerede-definitioner-paa-en-standardiseret)
 
 ### Strukturerede definitioner
 Man bør udarbejde definitioner der er **koncise**, **dækkende** og **oplysende**. 
@@ -966,7 +966,7 @@ I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegre
                _overbegreb_
                                 _adskillende træk fra definition af ‘børnecykel’_
 
-§21 - <ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>
+§21 - [<ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udarbejd-strukturerede-definitioner-paa-en-standardiseret)
 
 ### Udarbejd anvendelsesneutrale definitioner
 
@@ -991,7 +991,7 @@ Dette skal ikke forstås således at den definition man udarbejder nødvendigvis
 
 En definition af ‘stel’ til brug for modellering af køretøjer skal således absolut ikke inkludere kaffe- eller middagsstel. og skal heller ikke nødvendigvis inkludere alle stel, der har det tilfælles med stel til køretøjer, at de er bærende konstruktioner som noget bygges op omkring, fx møbel- eller brillestel, hvis dette ville nødvendiggøre, at man undlader noget, der er centralt for definitionen af et stel til køretøj.
 
-§22 - <ins> <span style="color:#AB2A0C;">Udarbejd anvendelsesneutrale definitioner</span> </ins>
+§22 - [<ins> <span style="color:#AB2A0C;">Udarbejd anvendelsesneutrale definitioner</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udarbejd-anvendelsesneutrale-definitioner)
 
 ### Tjekliste til udarbejdelse af definitioner
 * Kan definitionen umiddelbart erstatte termen uden tab af mening?
@@ -1033,8 +1033,8 @@ I forbindelse med begrebsafklaringen anbefales det, at de termer, der skal indg�
    
 I nogle tilfælde kan principperne trække i forskellige retninger. Her må begrebsmodelløren og den domænekyndige sammen vurdere, hvad der giver bedst mening i det konkrete tilfælde.
 
-§18 - <ins> <span style="color:#AB2A0C;">Angiv termer i et naturligt sprog</span> </ins>
-§19- <ins> <span style="color:#AB2A0C;">Brug standardiserede konventioner for angivelse af navne</span> </ins>
+§18 - [<ins> <span style="color:#AB2A0C;">Angiv termer i et naturligt sprog</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-termer-i-et-naturligt-sprog)
+§19- [<ins> <span style="color:#AB2A0C;">Brug standardiserede konventioner for angivelse af navne</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/brug-standardiserede-konventioner-angivelse-af-navne)
 
 # Kapitel 4: Anvendelse og udformning af HTTP-URIer
 En URI er en entydig persistent identifikator, der bl.a. er med til at facilitere genbrug, fordi det altid bliver helt entydigt om to modeller anvender det samme element eller blot to elementer med det samme navn men potentielt forskellig semantik.
@@ -1069,8 +1069,8 @@ En URI er ikke beydningsbærende og kan derfor i princippet bestå af en række 
 
 _Figur 4.1: Eksempler på HTTP-URIer_
 
-§07  - <ins> <span style="color:#AB2A0C;">Angiv identifikation af modeller</span> </ins> <br>
-§17 - <ins> <span style="color:#AB2A0C;"> Giv alle modelelementer en identifikator</span> </ins>
+§07  - [<ins> <span style="color:#AB2A0C;">Angiv identifikation af modeller</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-identifikation-af-modeller) <br>
+§17 - [<ins> <span style="color:#AB2A0C;"> Giv alle modelelementer en identifikator</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/giv-alle-modelelementer-en-identifikator)
 
 
 # Kapitel 5: Udarbejdelse af modeller
@@ -1096,8 +1096,8 @@ Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal 
 
 ‘Tilhører emneområde’ kan udfyldes med en præcis reference til den model hvor begrebet er defineret, hvilket for kernemodeller kan være modellen selv. For kernemodeller kan man også nøjes med at angive om begrebet tilhører modellens emneområde med Ja/Nej. Man bør kunne se hvor begrebet stammer fra enten i feltet ‘Tilhører emneområde’ eller i et af kildefelterne.
  
-§26 - <ins> <span style="color:#AB2A0C;">Angiv om begrebet tilhører modellens emneområde</span> </ins> <br>
-§25 - <ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>
+§26 - [<ins> <span style="color:#AB2A0C;">Angiv om begrebet tilhører modellens emneområde</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-om-begrebet-tilhoerer-modellens-emneomraade) <br>
+§25 - [<ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/sammensaet-anvendelsesmodeller-af-elementer-fra)
 
 Hvis man har en illustration, der kan bidrage yderligere til forståelsen af begrebet, kan denne publiceres på nettet (på en stabil adresse) og et link til illustrationen kan tilføjes i kommentarfeltet. 
 
@@ -1905,7 +1905,7 @@ For at opnå disse fordele kræver det først og fremmest, at klassifikationen e
 
 Begreberne bag forekomsterne i en klassifikation - også benævnt emnerne -  i klassifikationen skal derfor dokumenteres på lige fod med øvrige begreber, så betydningen er velbeskrevet. Dette giver mulighed for genbrug og for at klassifikationen kan anvendes som et fælles så sprog. 
 
-§28  - <ins> <span style="color:#AB2A0C;">Modellér klassifikationsemner som instanser </span> </ins> <br>
+§28  - [<ins> <span style="color:#AB2A0C;">Modellér klassifikationsemner som instanser </span> </ins>](https://arkitektur.digst.dk/node/1091#r28)
 
 ### Begrebsafklaring som grundlag for gode klassifikationer
 Ved struktureret begrebsarbejde analyseres og defineres begreber ved at angive nærmeste overbegreb samt adskillende træk i forhold til et givet inddelingskriterium (se kapitlet [Termer og definitioner](#kapitel-3-termer-og-definitioner) for yderligere information). Man anfører, hvad begrebet er for “en slags”, og hvilke karakteristika netop denne slags har i forhold til andre begreber med samme direkte overbegreb (under samme inddelingskriterium). 
@@ -2143,7 +2143,7 @@ Ovenfor ses modelmetadatasektionen fra begrebslisteskabelonen. Det er de samme m
 
 **Namespace** udfyldes med den HTTP-URI der bruges til entydig identifikation af modellen. Se [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier) for information om hvordan den udformes.
 
-§27 - <ins> <span style="color:#AB2A0C;">Angiv identifikation af modeller </span> </ins> 
+§07 - [<ins> <span style="color:#AB2A0C;">Angiv identifikation af modeller </span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-identifikation-af-modeller)
 
 ## Modellens indhold og kontekst
 En del af modellens metadata skal beskrive modellens indhold. Det primære formål med dette er at bidrage til den overordnede forståelse af modellen og dens kontekst. Dermed får andre modellører mulighed for at fremsøge modeller, der kan være relevante for dem, og vurdere modellernes indholdsmæssige relevans for genbrug.
@@ -2160,9 +2160,9 @@ Modellens primære sprog - det sprog der er anvendt til navngivning af modellen 
 
 Med angivelse af **emne** klassificeres modellen i forhold til en etableret emnesystematik. I det offentlige er de mest relevante emnesystematikker [FORM](https://form-online.dk/soegning) og [KLE](http://kle-online.dk/soegning). Det er dog tilladt at anvende andre systematikker, hvis de to nævnte ikke er passende for modellen.
 
-§03 - <ins> <span style="color:#AB2A0C;">Brug UML-stereotyper </span> </ins> <br>
-§06 - <ins> <span style="color:#AB2A0C;">Angiv meningsfyldte navne og beskrivelser for modeller</span> </ins> <br>
-§09 - <ins> <span style="color:#AB2A0C;">Angiv emneområde for modellen</span> </ins> 
+§03 - [<ins> <span style="color:#AB2A0C;">Brug UML-stereotyper </span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/brug-uml-stereotyper) <br>
+§06 - [<ins> <span style="color:#AB2A0C;">Angiv meningsfyldte navne og beskrivelser for modeller</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-meningsfyldte-navne-og-beskrivelser-modeller) <br>
+§09 - [<ins> <span style="color:#AB2A0C;">Angiv emneområde for modellen</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-emneomraade-modellen) 
 
 
 ## Modelstatus og versionering
@@ -2183,8 +2183,8 @@ Desuden er det god praksis, omend ikke regelsat, kort at beskrive de ændringer 
 
 Der er en vis sammenhæng mellem modelstatus og versionering, sådan at en model med et versionsnummer der er mindre en 1.0.0. - altså starter med 0, altid vil have status ‘Under udvikling’, og får status ‘Endelig’ samtidig med at versionsnummeret opdateres til 1.0.0. Deraf kan man dog ikke udlede, at modeller med et versionsnummer over 1.0.0 ikke kan være under udvikling. I forbindelse med modellering af en ny version af en model, vil der typisk være en fase, hvor den nye version er under udvikling. Hvis man ønsker at udtrykke, at modelversionen er under udvikling, kan man tilføje -alpha eller -beta til versionsnummeret. Dette er dog ikke nødvendigt for at overholde modelreglerne, blot man angiver modelstatus til ‘Under udvikling’.
 
-§10 - <ins> <span style="color:#AB2A0C;">Angiv modellens version</span> </ins> <br>
-§12 - <ins> <span style="color:#AB2A0C;">Angiv modellens modelstatus</span> </ins> 
+§10 - [<ins> <span style="color:#AB2A0C;">Angiv modellens version</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-modellens-version) <br>
+§12 - [<ins> <span style="color:#AB2A0C;">Angiv modellens modelstatus</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-modellens-modelstatus) 
 
 ## Forretningsgodkendelse og modelansvar
 **Godkendelsesstatus, Godkendt af**
@@ -2200,8 +2200,8 @@ Hvis modellen er ‘godkendt med bemærkninger’ bør disse bemærkninger være
 
 **Modelansvarlig** er navnet på den organisation, der har ansvaret for modellen og står inde for det faglige indhold i og strukturen af modellen på udgivelsestidspunktet. Det vil være den organisation der har taget initiativ til udarbejdelsen af modellen, uanset om organisationen selv har udarbejdet modellen eller har hyret andre til at gøre det. Det er også den organisation der har ansvaret for at modellens faglige indhold er godkendt af personer med tilstrækkelige faglige kompetencer til at kunne vurdere kvaliteten. Organisationen påtager sig ikke et ansvar for at opdatere eller ændre modellen, hvis der sker ændringer i forretningsområdet, ud over det ansvar den evt. allerede måtte have som en del af dens myndighedsudøvelse. I og med at organisationen ikke påtager sig et fremtidigt ansvar, er det muligt at angive en midlertidig organisation,som fx en projektgruppe, der går på tværs af flere myndigheder.
 
-§08 - <ins> <span style="color:#AB2A0C;">Angiv den modelansvarlige organisation</span> </ins> <br>
-§11 - <ins> <span style="color:#AB2A0C;">Modellen skal forretningsgodkendes</span> </ins>
+§08 - [<ins> <span style="color:#AB2A0C;">Angiv den modelansvarlige organisation</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-den-modelansvarlige-organisation) <br>
+§11 - [<ins> <span style="color:#AB2A0C;">Modellen skal forretningsgodkendes</span>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/modellen-skal-forretningsgodkendes) </ins>
 
 ## Modellens kilder
 Når man udarbejder en model baserer man sig på eksisterende viden og det øger sammenhæng, at anvendere ved hvilke kilder man har hentet viden fra. Især er det vigtigt at afsøge modellens lovgrundlag, dvs. de love, forordninger, bekendtgørelser mm., der enten danner grundlag for udarbejdelsen af modellen eller omhandler begreber/elementer der indgår i modellen. Dette lovgrundlag angives som **Juridisk kilde**. En model kan sagtens have flere juridiske kilder, og i så fald gentages oplysningstypen (med flere rækker i tabelformat eller flere tagged values af samme type i en UML-model). 
@@ -2219,8 +2219,8 @@ Nationale og internationale standarder er også ofte relevante kilder for modell
 
 Endelig kan andre modeller være en væsentligt kilde til den model man har udarbejdet. Det gælder især, når man udarbejder en informationsmodel eller en datamodel på baggrund af en begrebsmodel eller eventuelt en begrebsmodel med udgangspunkt i en datamodel. Her anvendes Afledt af, hvor den HTTP-URI der er identifikator for ophavsmodellen angives. Juridiske og andre kilder skal stadig angives, selvom modellen er afledt af en anden.
 
-§13 - <ins> <span style="color:#AB2A0C;">Angiv modellens lovgrundlag</span> </ins> <br>
-§14 - <ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem modeller </span> </ins>
+§13 - [<ins> <span style="color:#AB2A0C;">Angiv modellens lovgrundlag</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-modellens-lovgrundlag) <br>
+§14 - [<ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem modeller </span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/etabler-sammenhaeng-mellem-begrebsmodeller-og-logiske)
 
 ## Eksempel på udfyldte metadata
 Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
@@ -2472,8 +2472,7 @@ Forummet skal godkende det semantiske indhold af modellen. Dette kræver at mode
 
 Mange projekter vælger at foretage forretningsgodkendelse efter det modeltekniske review. I de tilfælde medsendes information om det planlagte godkendelsesflow til reviewet.
 
-<code style="color : rgb(171,42,12)"> [§11 - Modellen skal forretningsgodkendes](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r11) </code>
-
+§11 - [<ins> <span style="color:#AB2A0C;">Modellen skal forretningsgodkendes</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/modellen-skal-forretningsgodkendes)
 
 ## Modelteknisk review
 For at understøtte anvendelsen af de fællesoffentlige modelregler, og at fælles begrebs- og datamodeller genbruges og tænkes ind i udviklingen af it-løsninger, udføres modelreviews for initiativer i fællesoffentlige digitaliseringsstrategier med væsentligt indhold af datamodellering og datadeling. Projekter der som led i det fællesoffentlige samarbejde gennemgår et arkitekturreview vil blive tjekket for, om de har (eller bør have) en eller flere modeller, der bør gennemgå et modelreview. For modeller der ikke er udarbejdet i regi af en fællesoffentlig digitaliseringsstrategi, kan review aftales med modelsekretariatet, afhængigt af dets ressourcer. Det kan især give mening for tværgående projekter, der skal understøtte datadeling mellem flere offentlige parter. 
@@ -2519,9 +2518,9 @@ Man udstiller sin model på sin organisations egen hjemmeside eller server. Man 
 
 <a name="xmi"></a>For at andre kan få det maksimale udbytte af modellen, skal det være muligt at læse den, at skabe sig et overblik over dens indhold, og at indlæse modellen i modelleringsværktøjer m.m. Derfor skal modellen, når den er færdig, udstilles i (mindst) to formater. Dels et menneskevendt format der kan læses i en almindelig browser, dvs. en repræsentation af modellen i listeform eller som grafisk illustration. Dels et maskinlæsbart format, nemlig XMI, som er et format, der er udviklet til at udveksle modeller mellem forskellige systemer. Derudover kan man også publicere modellen i andre formater, hvis man har mulighed for det - jo flere jo bedre. Hvis man har udviklet sin model i RDF, kan modelsekretariatet, efter aftale, bistå med konvertering til XMI.
 
-<code style="color : rgb(171,42,12)"> [§04 - Udstil modellen online](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r04) </code>
+§04 - [<ins> <span style="color:#AB2A0C;">Udstil modellen online</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udstil-modellen-online) <br>
 
-<code style="color : rgb(171,42,12)"> [§05 - Gør modellen tilgængelig i maskinlæsbart format](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r05) </code>  
+§05 - [<ins> <span style="color:#AB2A0C;">Gør modellen tilgængelig i maskinlæsbart format</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/goer-modellen-tilgaengelig-i-maskinlaesbart-format) 
 
 ## Modelkataloget
 [Det fællesoffentlige katalog over begrebs- og datamodeller (modelkataloget)](https://data.gov.dk/catalogue/models/) er en oversigt over begrebs- og datamodeller der er udarbejdet eller relevante i offentlig regi og som er registreret med henblik på videndeling og genbrug. Kataloget indeholder metadata om og links til udstilling af de registrerede modeller, men ikke modellerne selv.
@@ -2529,3 +2528,32 @@ Man udstiller sin model på sin organisations egen hjemmeside eller server. Man 
 I forhold til registrering af modeller, er tilgangen indtil videre at sikre bredest mulig videndeling. Modellerne registreres med henblik på inspiration og potentielt genbrug, og derfor kan alle udstillede modeller optages i kataloget. Dermed kan både modeller under udvikling og modeller, der ikke overholder modelreglerne optages. Der er heller ingen krav til hvilket format modellerne skal have, blot at de skal være offentligt tilgængelige. Bemærk at registrering i Modelkataloget dermed ikke er ensbetydende med, at modellen får status som anbefalet og optaget i FDA.
 
 I praksis får man modeller optaget ved at henvende sig til modelsekretariatet (arkitektur@digst.dk) med et link til udstillingen af modellen og oplysninger om et kontaktpunkt (mailadresse, gerne en funktionspostkasse), hvor man kan henvende sig hvis man har spørgsmål til modellen samt angivelse af vilkårene for genanvendelse af modellen ved angivelse af en specifik licens. Modelsekretariatet anbefaler [Creative Commons — CC0 1.0 Universal (CC0)](https://creativecommons.org/publicdomain/zero/1.0/), som er en åben licens, der tillader enhver form for brug og dermed er velegnet til at understøtte genbrug af modeller. Man kan dog også vælge en anden licens, og hvis man har brug for hjælp til at vælge, kan man fx benytte [Creative Commons licensvælger](https://www.google.com/url?q=https://creativecommons.org/choose/&sa=D&source=docs&ust=1709039583509040&usg=AOvVaw2QJ9pp3yDtcB0uTv_y_Y9K) eller [Joinup Licensing Assistant (EU)](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses). Derudover bruges modelmetadata (som beskrevet i [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen)) til at beskrive modeller i kataloget. Hvis de ikke allerede er udfyldt i modellen, må de meget gerne medsendes i det omfang det er muligt; især er det vigtigt at kende modelstatus.
+
+# Referencer
+Allemang, Dean 2008: “Semantic Web for the Working Ontologist", Morgan Kaufmann Publishers
+Bellekens, Geert 2011: “UML Best Practice: Attribute or Association
+Bellekens, Geert 2012: “UML Best Practice: 5 rules for better UML diagrams
+Europa-Kommissionen ISA 2015: “Core vocabularies”
+Gómez-Pérez et al. 2011: "Style Guidelines for Naming and Labeling Ontologies in the Multilingual Web", Proc. Int’l Conf. on Dublin Core and Metadata Applications 2011 
+INSPIRE 2016: “Data Specifications” 
+ISO 704 Terminology Work - Principles and methods
+ISO 1087-1 Terminology Work -- Vocabulary -- Part 1: Theory and application
+ISO 10241 International terminology standards – Preparation and layout 
+ISO 1087-2 Terminology Work -- Vocabulary -- Part 2: Computer applications
+ISO 2017: Online Browsing Platform (OBP) 
+ISO 2016: How to write standards 
+Madsen, Bodil Nistrup 2007, ”Terminologi 1 - Principper og metoder”, Hans Reitzels Forlag.
+OMG (2005): “OMG Unified Modeling Language TM (OMG UML) - version 2.0”
+Udbetaling Danmark, KL og KOMBIT 2015: ”Metodehåndbog - Begrebsmodeller, Informationsmodeller og Begrebsdefinitioner”. 
+SDFE 2001: “Datamodelvejledning”, Arne Simonsen. Jesper Vinther Christensen, Anders Friis-Christensen, Jan Hjelmager  
+Socialstyrelsen (2010): “Vurdering af begrebssystemer”
+ http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf
+W3C 2008: “Best Practice Recipes for Publishing RDF Vocabularies”
+W3C 2010: “CURIE Syntax 1.0 - A syntax for expressing Compact URIs”
+W3C 2012: “Web Ontology Language (OWL)” 
+W3C 2014a: “Resource Description Framework (RDF)”
+W3C 2014b: “RDF 1.1 Concepts and Abstract Syntax” 
+W3C 2014c: “RDF Schema 1.1”
+W3C 2014d: “RDF 1.1 Turtle ”
+W3C 2014e: “Best Practices for Publishing Linked Data” 
+W3C 2015: “RDF vocabularies Current Status”
