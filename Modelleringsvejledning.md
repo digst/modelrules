@@ -1723,6 +1723,8 @@ Nogle af de mest almindelig datatyper ses nedenfor:
 </tr>
 </table>
 
+![Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211](Illustrations/kap5-13-cykeltaxa-simple-datatyper.svg)
+
 _Figur X: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
 
 De ovennævnte datatyper er primitive datatyper. Det vil sige, at de ikke har intern struktur eller underdele. Der findes to andre slags datatyper: Strukturerede datatyper og enumerationer. En enumeration er en lukket liste over værdier der er tilladte som udfaldsrum for et attribut, fx ugens dage.
