@@ -957,14 +957,15 @@ Opremsende (dårlige) definitioner:
 #### Karakteristika skal altid gælde
 De karakteristika, der bruges i definitioner, og som adskiller begrebet fra sideordnede begreber, skal beskrive noget som ALTID gælder. Ord som typisk, ofte, som regel, gerne, normalt bør derfor undgås i en definition, da de antyder at man ikke har fat i det, der reelt er det adskillende karakteristika. Fx vil en tandemcykel typisk have to ryttere, men en cykel til to ryttere der sidder ved siden af hinanden er ikke en tandemcykel, da en tandemcykel bliver defineret som en cykel, hvor to eller flere ryttere sidder på række bag ved hinanden og træder i pedaler. Derfor er ‘typisk to’ ikke egnet som adskillende træk.
 
-        **tandemcykel**: cykel hvor to eller flere pedalerende personer sidder bag ved hinanden
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**tandemcykel**: cykel hvor to eller flere pedalerende personer sidder bag ved hinanden
 
 #### Polyhierarki 
 I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegreber. Et sådant begreb vil ofte være defineret ved at være kombinationen af adskillende træk fra de to overbegreber uden at have yderligere adskillende træk. For eksempel er en ‘pigecykel’ defineret ved at være en kombination af de adskillende træk fra ‘børnecykel’ og ‘damecykel’. Man kan fx lave en definition der består af det ene overbegreb samt de adskillende træk fra det andet.
-**pigecykel**: damecykel der er lavet i mindre størrelse og som er tiltænkt børn
 
-               _overbegreb_
-                                _adskillende træk fra definition af ‘børnecykel’_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**pigecykel**: damecykel der er lavet i mindre størrelse og som er tiltænkt børn
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_overbegreb_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_adskillende træk fra definition af ‘børnecykel’_
 
 §21 - [<ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udarbejd-strukturerede-definitioner-paa-en-standardiseret)
 
@@ -1526,7 +1527,7 @@ wasDerivedFrom
 
 
 
-				 _Tabel X ‘stelnummer’ beskrevet med tagged values_
+_Tabel X ‘stelnummer’ beskrevet med tagged values_
 
 Der er to forskelle mellem en UML-model og en begrebsliste, som man skal være opmærksom på. Den ene forskel er, at oplysningen om den entydige identifikator i form af en HTTP-URI bliver obligatorisk. Den anden er, at oplysningen om hvorvidt begrebet eller klassen tilhører modellens emne skal angives på en anden måde, nemlig i tagget ‘isDefinedBy’, hvor den model, hvor begrebet defineres, identificeres ved hjælp af en HTTP-URI. 
 Tilhører begrebet emnet, man modellerer, angives URIen for denne model. For begreber der ikke tilhører emnet, vil det ikke altid være muligt at angive en URI, fx hvis man har genbrugt et begreb fra en kilde der ikke anvender URIer. Det kan stadig give mening at genbruge et begreb for derved at få en fagligt valideret definition og/eller en definition, der i forvejen er bredt anerkendt. Her må man lade tagget være uudfyldt, men selvfølgelig angive, hvor begrebet stammer fra som kilde. 
