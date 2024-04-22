@@ -2540,7 +2540,7 @@ Allemang, Dean 2008: “Semantic Web for the Working Ontologist", Morgan Kaufman
 
 [Gómez-Pérez et al. 2011: "Style Guidelines for Naming and Labeling Ontologies in the Multilingual Web", Proc. Int’l Conf. on Dublin Core and Metadata Applications 2011](http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/47/15) 
 
-<a href="http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/47/15" download>Gómez-Pérez et al. 2011: "Style Guidelines for Naming and Labeling Ontologies in the Multilingual Web", Proc. Int’l Conf. on Dublin Core and Metadata Applications 2011</a>
+<a id="raw-url" href="http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/47/15">Download FILE</a>
 
 [INSPIRE 2016: “Data Specifications”](http://inspire.ec.europa.eu/data-specifications/)
 
