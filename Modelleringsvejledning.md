@@ -1648,11 +1648,11 @@ Det første eksempel viser multiplicitet i forbindelse med attributter. Standard
 
 Eksemplet nedenfor viser en anvendelsessituation, hvor man altid vil have information om hvor mange passagerpladser cykeltaxaen har og hvorvidt den er overdækket, men kun i nogle tilfælde vil have oplysninger om cykeltaxaens vægt og model.
 
-![]()
-
 _Figur xx: Multiplicitet vist på attributter_
 
 Det følgende eksempel viser multiplicitet i forbindelse med associationsender. En cykelhandler kan have fra 0 til et ubegrænset antal cykler på lager. En specifik cykel kan være på lager hos højst en cykelhandler, men behøver ikke være på lager hos nogen. En cykel har som del netop to bremsesystemer, men et bremsesystem kan være installeret på højst en cykel.
+
+![Multiplicitet vist på associationsender_](Illustrations/kap5-12-multiplicitet-ender.svg)
 
 _Figur xx: Multiplicitet vist på associationsender_
 
