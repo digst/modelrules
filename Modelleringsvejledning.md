@@ -1785,7 +1785,7 @@ En tilknytningsklasse er tilknyttet en association og giver mulighed for at tilf
 _Figur xx: Eksempel på tilknytningsklasse_
 
 ### Diagrammer
-_Diagrammering af store modeller_
+##### Diagrammering af store modeller
 
 Hvis den model man udarbejder indeholder mange begreber/klasser, er det ikke nødvendigvis hensigtsmæssigt at inkludere dem alle på samme diagram. Der er ingen regler for, hvordan eller hvornår man bør opdele sin model i flere diagrammer. Det kan dog anbefales at lave en slags oversigts- eller indflyvningsdiagram, der indeholder de mest centrale begreber/klasse og sammenhænge, og som kan fungere som en introduktion til modellen. Et givent modelelement kan optræde på flere diagrammer, men oprettes kun en gang..
 
