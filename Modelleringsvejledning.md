@@ -2015,9 +2015,13 @@ _Figur xx: Klassifikationsmodel med klassifikationsklasse (associationer er valg
 #### Klassifikationer med flere niveauer
 En klassifikation kan indeholde mange niveauer af klassifikationsemner, der er specialiseringer af hinanden. 
 
+![Dele af en større klassifikation](Kap5-21c-klassifiktation-mange-niveauer.svg)
+
 _Figur x: Dele af en større klassifikation_
 
 Egentlig burde alle klassifikationsemner illustreres med et objekt i UML, da alle er instanser af den klassifikationsklasse der beskriver hele klassifikationen. Dette er dog ikke muligt da UML ikke tillader relationer mellem objekter. Derfor må alle niveauer undtagen det allermest detaljerede vises med klasser. Et objekt arver alle egenskaber fra den klasse det er et objekt af, og giver mulighed for evt. at instantiere en eller flere egenskaber med den specifikke værdi der gælder for objektet.
+
+![Objekter med egenskaber instantieret](Illustrations/kap5 - 21d - Klassifikationer - nedarvning objekt.svg)
 
 _Figur x: Objekter med nogle egenskaber instantieret_
 
@@ -2030,7 +2034,7 @@ Egenskaben isCovering har udfaldsrummet ‘complete’ (komplet) / ‘incomplete
 
 Egenskaben isDisjoint har udfaldsrummet ‘udelukkende’ (disjoint) / ‘overlappende’ (overlapping) og angiver om klassifikationsemnerne er gensidigt udelukkende eller ikke. Hvis de er gensidigt udelukkende kan intet høre til / være instans af mere end et klassifikationsemne. Hvis klassifikationsemnerne derimod er overlappende, kan en enkelt instans potentielt beskrives af mere end ét klassifikationsemne. Hvis intet er angivet er default-læsning i henhold til version 2.5 af UML-standarden ‘overlappende’. Default-læsninger har dog tidligere været ‘udelukkende’ og for nogle typer af klassifikationer, herunder enumerationer, er det desuden god praksis at klassifikationsemner under samme inddelingskriterium udelukker hinanden. Dermed kan man formode at der kan opstå tvivl om default-læsningen, og det giver derfor god mening at angive eksplicit om generaliseringssæt er udelukkende eller ej.
 
-
+![Generaliseringssæt](Illustrations/kap5-5-generaliseringssæt.svg)
 
 _Figur xx: Eksempel som viser anvendelse af generaliseringssæt_
 
@@ -2084,17 +2088,23 @@ Notation er en alternativ måde at give den information som man i et diagram få
 
 ### Anvendelse af klassifikation som udfaldsrum
 Henviser man til en klassifikation fra et attribut vælges enumerationen eller klassifikationsklassen som attributtets udfaldsrum/datatype som det ses i illustration til venstre herunder. 
+
+![Henvisning via attribut](Illustrations/kap5-22-Henvisning-til-enum-fra-attribut.svg) ![tydeligere henvisning til enumeration via attribut](Illustrations/kap5-23-Henvisning-til-enum-fra-attribut-med-dependency.svg)
                                  
-_Figur xx: henvisning via attribut_		   _Figur xx: tydeligere henvisning til enumeration via attribut_
+_Figur xx: Henvisning via attribut_		   _Figur xx: Tydeligere henvisning til enumeration via attribut_
 
 Til venstre er der skabt sammenhæng mellem attributtet og klassifikationen, men det er også muligt at vise relationen mellem en enumeration og en attribut mere tydeligt i UML-diagrammet med en dependency-relation som det ses i illustrationen til højre.
 
 Henviser man fra en klasse til en klassifikationsklasse ved hjælp af en association gives associationsenden en passende betegnelse samt relevante metadata.
 
+![Henvisning til klassifikationsklasse via associationsende](Illustrations/kap5-24-henvisning-til-klassifikation-med-associationsende.svg)
+
 _Figur xx: Henvisning til klassifikationsklasse via associationsende_
 
 #### Brug af eksterne klassifikationer
 Når man vil genbruge en eksisterende klassifikation der er udstillet eksternt skal man oprette en klassifikationsklasse som ovenfor, men i stedet for at oprette de tilhørende klassifikationsemner som UML-objekter indsættes i stedet en entydig reference til definitionen af klassifikationens udfaldsrum i tagget ‘rdfs:isDefinedBy’ (er defineret af). Referencen skal være en resolverbar og persistent HTTP-URI, hvor anvendere kan slå klassifikationen og dens indhold op.
+
+![]()
 
 _Figur XX: Henvisning til ekstern klassifikation_
 
