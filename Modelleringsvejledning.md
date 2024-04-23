@@ -1230,8 +1230,8 @@ Navngivning ikke nødvendig
 </td>
 <td>
 
-![tabel over klasser og begreber](Illustrations/kap5-tabel-1-UML-generaliseringspil.svg)
- 
+<img src="Illustrations/kap5-tabel-1-UML-generaliseringspil.svg" alt="tabel over klasser og begreber" style="width:30px;"/>
+
 </td>
 </tr>
 <tr>
