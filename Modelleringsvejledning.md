@@ -1205,9 +1205,9 @@ klasse
 (begreb/forretningsobjekt)
 </td>
 <td>
-repræsentation af et begreb eller et sæt objekter der deler egenskaber og semantik
+repræsentation af et begreb eller et sæt objekter<br>der deler egenskaber og semantik
 	
-_Klasser der repræsenterer begreber eller forretningsobjekter som tilhører et andet emneområde markeres med blåt_
+_Klasser der repræsenterer begreber eller<br>forretningsobjekter som tilhører et andet<br>emneområde markeres med blåt_
 
 Begrebsmodeller: Navngives i naturligt sprog <br>
 Andre modeller: Navngives med UpperCamelCase
@@ -1225,9 +1225,9 @@ generalisering
 (specialisering)
 </td>
 <td>
-relation mellem en superklasse (overbegreb) og en subklasse (underbegreb), hvor subklassen er en type af superklassen
+relation mellem en superklasse (overbegreb) og<br>en subklasse (underbegreb), hvor subklassen er<br>en type af superklassen
 
-_Superklasser beskriver egenskaber, som er fælles for alle subklasser. Superklassen er en generalisering af subklasserne og hver subklasse er en specialisering af superklassen._
+_Superklasser beskriver egenskaber, som er<br>fælles for alle subklasser. Superklassen er<br>en generalisering af subklasserne og hver<br>subklasse er en specialisering af superklassen._
 
 Navngivning ikke nødvendig
 </td>
@@ -1242,11 +1242,11 @@ Navngivning ikke nødvendig
 association
 </td>
 <td>
-relation mellem to klasser eller begreber der beskriver at disse (og dermed deres instanser) står i relation til hinanden
+relation mellem to klasser eller begreber der<br>beskriver at disse (og dermed deres instanser)<br>står i relation til hinanden
 
-_Associationer kan være med eller uden navigabilitet_
+_Associationer kan være med eller uden<br>navigabilitet_
 
-_I logiske datamodeller efter de fællesoffentlige regler har dette element udelukkende betydning som den struktur, som bærer associationsenden – det er associationsenden, som beskriver klassernes indbyrdes relation._
+_I logiske datamodeller efter de fællesoffentlige<br>regler har dette element udelukkende betydning<br>som den struktur, som bærer associationsenden<br>– det er associationsenden, som beskriver<br>klassernes indbyrdes relation._
 </td>
 <td>
 
@@ -1258,11 +1258,13 @@ _I logiske datamodeller efter de fællesoffentlige regler har dette element udel
 <td>associationsnavn
 </td>
 <td>
-navn der beskriver hvordan to  klasser eller begreber (og deres instanser) står i relation til hinanden
+navn der beskriver hvordan to  klasser eller<br>begreber (og deres instanser) står i relation til<br>hinanden
 
-Et associationsnavn kan angives med eller uden læseretning
-Begrebsmodeller: navngives i almindeligt sprog 
-Andre modeller: navngives med lowerCamelCase
+Et associationsnavn kan angives med<br>eller uden læseretning
+
+Begrebsmodeller: navngives i<br>almindeligt sprog 
+
+Andre modeller: navngives med<br>lowerCamelCase
 </td>
 <td>
 
