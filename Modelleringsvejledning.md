@@ -395,7 +395,7 @@ Entydige begreber og datamodellering kan anvendes til udarbejdelse af krav til i
 
 Modellering er et solidt grundlag for klar kommunikation med borgere, erhvervsdrivende, leverandører, sagsbehandlere og andre, der er involverede i sager med berøring til domænet. Arbejdet med afklaring af robuste, meningsfyldte begreber er en god forberedelse til udvikling og implementering af de brugerrettede dele af et it-system. En fælles forståelse af data hos alle, der føder data ind i systemet og alle, der anvender data, er et vigtigt skridt i forhold til sikring af datakvalitet. Den fælles forståelse af data illustreres af Figur 1, hvor de to personer tænker på et køretøj og er enige om, at det er en personbil.
 
-![Fælles forståelse for et begreb](Illustrations/kap1-samme-begreb-samme-forstaaelse.svg)
+<img src="Illustrations/kap1-samme-begreb-samme-forstaaelse.svg" alt="Fælles forståelse for et begreb" style="width:400px;"/>
 
 _Figur 1.1: Samme begreb - samme forståelse_
 
@@ -454,26 +454,26 @@ Sprogbrugen om modeltyper og deres anvendelse er forskelligartet og flertydig. I
 * **Begrebslister** er repræsentationer af begrebsmodeller udtrykt på listeform. 
 Repræsenteres begrebsmodellen som en begrebsliste, udtrykkes den i tabelformat eller efter ISO 10241 Termposter i standarder.
 
-![Eksempel på begrebsliste i tabelformat](Illustrations/kap2-1-modeltyper_tabe.svgl.svg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Illustrations/kap2-1-modeltyper_tabe.svgl.svg" alt="Eksempel på begrebsliste i tabelformat]" style="width:400px;"/>
 
-_Figur 2.1: Eksempel på begrebsliste i tabelformat_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Figur 2.1: Eksempel på begrebsliste i tabelformat_
 
 * **Begrebsdiagrammer** er repræsentationer af begrebsmodeller udtrykt visuelt som diagram. 
 Der er forskellige måder at udarbejde begrebsdiagrammer. Det er ikke et krav at der udarbejdes et diagram som del af modellen. Dog betyder den systematiske og strukturerede tilgang til arbejdet med begrebsdiagrammer, at inkonsistens, eventuelle uenigheder og manglende begreber i dækning af et emneområde lettere afsløres. I denne vejledning gennemgås én metode, nemlig anvendelse af klasse- og objektdiagrammer lavet i UML (Unified Modelling Language), hvor kasser og pile fortæller om begrebernes indbyrdes sammenhæng. Diagrammer udarbejdet efter denne metode kan gøres til genstand for review i FDA-regi.
 
-![Eksempel på begrebsdiagram](Illustrations/kap2-2-modeltyper_begrebsmodel.svg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Illustrations/kap2-2-modeltyper_begrebsmodel.svg" alt="Eksempel på begrebsdiagram" style="width:400px;"/>
 
-_Figur 2.2: Eksempel på begrebsdiagram_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Figur 2.2: Eksempel på begrebsdiagram_
 
-**Informationsmodeller** er modeller som beskriver forretningsviden og som supplerer begreber med forretningsregler. De dokumenterer den information, der håndteres i forretningen, og beskriver den tilstrækkeligt til, at den kan anvendes i nye sammenhænge. Der er taget stilling til om et givent begreb skal repræsenteres som klasse, attribut eller andet, og der er angivet multipliciteter. Dermed ligner diagrammer i informationsmodeller mere datamodeldiagrammer end begrebsdiagrammer, men det semantiske indhold i en informationsmodel er begreber, og derfor kan der også udtrækkes en begrebsliste..
+**Informationsmodeller** er modeller som beskriver forretningsviden og som supplerer begreber med forretningsregler. De dokumenterer den information, der håndteres i forretningen, og beskriver den tilstrækkeligt til, at den kan anvendes i nye sammenhænge. Der er taget stilling til om et givent begreb skal repræsenteres som klasse, attribut eller andet, og der er angivet multipliciteter. Dermed ligner diagrammer i informationsmodeller mere datamodeldiagrammer end begrebsdiagrammer, men det semantiske indhold i en informationsmodel er begreber, og derfor kan der også udtrækkes en begrebsliste.
 
-![Eksempel på informationsmodel](Illustrations/kap2-3-modeltyper-informationsmodel.svg)
+<img src="Illustrations/kap2-3-modeltyper-informationsmodel.svg" alt="Eksempel på informationsmodel" style="width:400px;"/>
 
 _Figur 2.3: Eksempel på informationsmodel_
 
 **Logiske datamodeller** beskriver dataelementers logiske sammenhænge. De logiske datamodeller udarbejdes som grundlag for dataudveksling eller lagring af data, fx i en teknologisk understøttelse af den løsning de modellerer, dog således at det er de logiske sammenhænge i data og ikke den fysiske struktur der modelleres. Logiske datamodeller kan være fuldstændigt uafhængige af implementeringsmetode, men kan også indeholde konstruktioner der vender sig mod et overordnet realiseringsparadigme, fx relationelle databaser, xml eller graf. Den samme logiske model kan beskrive flere forskellige fysiske implementering med variationer i den fysiske model.
 
-![Eksempel på logisk datamodel](Illustrations/kap2-4-modeltyper-logisk-datamodel.svg)
+<img src="Illustrations/kap2-4-modeltyper-logisk-datamodel.svg" alt="Eksempel på logisk datamodel" style="width:400px;"/>
 
 _Figur 2.4: Eksempel på logisk datamodel_
 
