@@ -1909,9 +1909,11 @@ Hvor det normalt ikke giver mening at markere genbrugte elementer visuelt i en a
 ### Anvendelsesmodel baseret på en anden anvendelsesmodel
 Udover at sammensætte sin anvendelsesmodel direkte på kernemodellering, kan der være situationer hvor det giver mening at basere sin anvendelsesmodel på en allerede eksisterende anvendelsesmodel. Dette vil være hvis der findes en model rettet mod en anvendelsessituation der er mere generel end, men fuldt inkluderer, den man har brug for at modellere. Eksempler inkluderer tilpasning af en international model til nationale forhold, som i eksemplet nedenfor, eller oprettelse af en anvendelsesmodel for en sektor eller et specifikt system baseret på en fællesoffentlig model.
 
-**International kernemodel**: DCAT _(Data Catalog Vocabulary)_
-**Fælleseuropæisk anvendelsesmodel**: DCAT-AP _(Application Profile for Data Portals in Europe)_
-**Dansk anvendelsesmodel**: DCAT-DK-AP _(Dansk anvendelsesprofil til beskrivelse af datasæt og datakataloger)_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**International kernemodel**: DCAT _(Data Catalog Vocabulary)_
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Fælleseuropæisk anvendelsesmodel**: DCAT-AP _(Application Profile for Data Portals in Europe)_
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Dansk anvendelsesmodel**: DCAT-DK-AP _(Dansk anvendelsesprofil til beskrivelse af datasæt og datakataloger)_
 
 Der vil normalt være tale om mindre ændringer. Man kan øge specificiteten som beskrevet ovenfor, og derudover kan man tilføje elementer. Her skal man være opmærksom på at de tilføjede elementer skal være defineret i en kernemodel. Og selvfølgelig kan de ikke udveksles med systemer eller anvendere der bruger den mere generelle model man baserer sig på. 
  
