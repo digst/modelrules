@@ -824,7 +824,6 @@ Det fællesoffentlige modelkatalog henviser også til internationale modeller, d
 #### Hvad hvis begrebet er modelleret, men ikke godt nok?
 Man kan komme i en situation, hvor det begreb man har brug for er modelleret i en anden begrebsmodel, men definitionen er ikke tilstrækkelig anvendelsesneutral til, at man umiddelbart kan bruge begrebet i sin model, eller definitionen er lidt uklar, så man bliver i tvivl om det rent faktisk er det begreb man skal bruge. 
 
-
 I den situation bør man, om muligt, det vil i praksis nok primært være når der er tale om en anden dansk myndighed, kontakte den modelansvarlige organisation og få præciseret begrebets betydning, så det bliver klart om man kan genbruge det. Samtidigt vil dette give feedback til den modelansvarlige om at begrebet ikke er tydeligt, og det kan aftales at der tilføjes forklaring til begrebet, eller man kan evt. blive enige om at erstatte begrebet med et nyt fælles begreb. Er det ikke muligt, må man oprette sit eget begreb. Man opretter ligeledes sit eget begreb i situationer hvor et begreb i en anden model hedder det samme som det begreb man har brug for, men definitionen gør det klart, at der er tale om et andet begreb. 
 
 #### Begreber i datamodeller
@@ -862,11 +861,11 @@ Kilder til definitioner bør udvælges i følgende prioriterede rækkefølge:
 
 Der henvises til juridiske kilder med et link, nærmere bestemt en ELI [(European Legislation Identifier)](https://eur-lex.europa.eu/eli-register/about.html). ELIen er også webadresse på loven/bekendtgørelsen. På EUR-Lex skal man dog være opmærksom på, at det ikke er adressen på den danske oversættelse, men på lovens hovedside.
 
-![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
+![ELI på retsinformationen](Illustrations/kap3-ELI-retsinformationen.png)
 
 _Figur 14: ELI på retsinformationen_
 
-![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
+![ELI på EUR-Lex](/Illustrations/kap3-ELI-EUR-Lex.png)
 
 _Figur 15: ELI på EUR-Lex_
 
@@ -918,10 +917,11 @@ Definitionerne bør derfor udarbejdes som **indholdsdefinitioner**. Dette er en 
 
 Metoden indebærer, at man definerer et begreb ved at angive nærmeste overbegreb samt adskillende træk - også kaldet karakteristiske træk. Man bør altså anføre, hvad begrebet er for “en slags”, og hvilke karakteristika adskiller netop denne slags fra andre begreber med samme direkte overbegreb. 
 
-Nedenstående er et eksempel på en indholdsdefinition:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nedenstående er et eksempel på en indholdsdefinition:
 
-**cykel**: _<ins>køretøj</ins> der <ins>drives frem ved pedalkraft</ins>_
-I dette eksempel er overbegrebet et _<ins>“køretøj”</ins>_, og det, der adskiller en cykel fra andre køretøjer er, at det _<ins>“drives frem ved pedalkraft</ins>_”.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**cykel**: _<ins>køretøj</ins> der <ins>drives frem ved pedalkraft</ins>_
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I dette eksempel er overbegrebet et _<ins>“køretøj”</ins>_, og det, der adskiller en cykel fra andre køretøjer er, at det _<ins>“drives frem ved pedalkraft</ins>_”.
 
 Det er væsentligt at vælge det nærmeste overbegreb, fordi man derved implicit medtager det nærmeste overbegrebs adskillende træk i definitionen. Hvis man fx skal lave en definition af ‘tandemcykel’ og bruger ’køretøj’ som overbegreb skulle man med de adskillende træk adskille ‘tandemcykel’ fra alle andre køretøjer, hvilket man kunne komme til at gøre på en måde der er inkonsistent med definitionen af ‘cykel’. Ved at bruge ‘cykel’ som overbegreb er det allerede givet at en tandemcykel er et _køretøj der drives frem ved pedalkraft_, og man kan nøjes med at tilføje _hvor to eller flere pedalerende personer sidder bag ved hinanden_. Ved altid at vælge det nærmeste overbegreb sikrer man konsistens i sin begrebsmodel.
 
@@ -934,29 +934,31 @@ For at sikre sig, at de karakteristika, man bruger i definitionen, er tilstrækk
 
 Definitioner må **ikke være cirkulære**, hverken inden for definitionen selv eller inden for begrebsmodellen. Dvs. at de ikke må indeholde henvisninger til sig selv, samt at to (eller flere) begreber ikke må henvise til hinanden på en måde så ingen af dem reelt defineres.
 
-Cirkulær definition (i model hvor **stel** er: bærende konstruktion som noget er bygget omkring):
-**cykelstel**: stel som er en bærende konstruktion 
-To definitioner, der henviser til hinanden på cirkulær vis:
-**herrecykel**: drengecykel til voksne
-**drengecykel**: herrecykel til børn
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cirkulær definition (i model hvor **stel** er: bærende konstruktion som noget er bygget omkring): <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**cykelstel**: stel som er en bærende konstruktion 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To definitioner, der henviser til hinanden på cirkulær vis: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**herrecykel**: drengecykel til voksne <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**drengecykel**: herrecykel til børn
 
 #### Anvend ikke negative definitioner
 Definitioner må **ikke være negative**, dvs. de skal præcisere, hvad noget er, ikke hvad det ikke er. Dog kan udelukkelsen af noget være centralt for en definition.
-Negativ (dårlig) definition: 
-**børnecykel**: cykel der ikke er beregnet til voksne. 
-Definition med udelukkelse: 
-**passager**: person der er med i/på et transportmiddel uden at føre dette 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Negativ (dårlig) definition: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**børnecykel**: cykel der ikke er beregnet til voksne. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definition med udelukkelse: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**passager**: person der er med i/på et transportmiddel uden at føre dette 
 
 #### Brug ikke opremsninger
 Definitioner bør ikke bestå af opremsninger som fx en liste af underbegreber eller af de bestanddele, sådan en ting består af. Dette er ikke god måde at udarbejde definitioner, dels fordi det ikke siger meget om, hvad begrebet er, dels fordi det er svært at være sikker på, at alle underbegreber/bestanddele er med. Desuden kan nye underbegreber opstå og bestanddele kan ændre sig over tid.
 
-Opremsende (dårlige) definitioner:
-**børnecykel**: pige- eller drengecykel (hvad hvis man begynder at markedsføre kønsneutrale børnecykler)
-**cykelhjul**: nav, eger og ring (hvad er/gør de ting? Og så blev den forældet da man også begyndte at bruge                pladehjul)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opremsende (dårlige) definitioner: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**børnecykel**: pige- eller drengecykel (hvad hvis man begynder at markedsføre kønsneutrale børnecykler) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**cykelhjul**: nav, eger og ring (hvad er/gør de ting? Og så blev den forældet da man også begyndte at bruge pladehjul)
 
 #### Karakteristika skal altid gælde
 De karakteristika, der bruges i definitioner, og som adskiller begrebet fra sideordnede begreber, skal beskrive noget som ALTID gælder. Ord som typisk, ofte, som regel, gerne, normalt bør derfor undgås i en definition, da de antyder at man ikke har fat i det, der reelt er det adskillende karakteristika. Fx vil en tandemcykel typisk have to ryttere, men en cykel til to ryttere der sidder ved siden af hinanden er ikke en tandemcykel, da en tandemcykel bliver defineret som en cykel, hvor to eller flere ryttere sidder på række bag ved hinanden og træder i pedaler. Derfor er ‘typisk to’ ikke egnet som adskillende træk.
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**tandemcykel**: cykel hvor to eller flere pedalerende personer sidder bag ved hinanden
 
@@ -983,10 +985,11 @@ I forbindelse med sikring af anvendelsesneutrale definitioner bør man som _tomm
 
 Anvendelsesneutralitet betyder også, at man skal tænke over at undgå ord, der indskrænker definitionen unødvendigt, hvilket gør den sværere at genbruge. Er man fx ved at lave en begrebsmodel for cykler og i den forbindelse definerer begrebet ‘stelnummer’ bør man huske at andre typer af køretøjer også har stelnumre. Desuden kan det være nærliggende at inkludere det, at stelnumre bliver indgraveret i stellet som del af definitionen, men det bør overvejes om den konkrete teknik til markering er et nødvendigt karakteristikum, for at noget er et stelnummer.
 
-Ikke anvendelsesneutral definition:
-**stelnummer**: unik kombination af tal og bogstaver der indgraveres på stellet af en cykel for entydigt at kunne           identificere denne
-Anvendelsesneutral definition:
-**stelnummer**: unik kombination af tal og bogstaver der markeres permanent på stellet af et køretøj for entydigt at kunne            identificere dette
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ikke anvendelsesneutral definition: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**stelnummer**: unik kombination af tal og bogstaver der indgraveres på stellet af en cykel for entydigt at kunne identificere denne
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anvendelsesneutral definition: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**stelnummer**: unik kombination af tal og bogstaver der markeres permanent på stellet af et køretøj for entydigt at kunne identificere dette
 
 Dette skal ikke forstås således at den definition man udarbejder nødvendigvis skal dække alle anvendelser af det ord eller udtryk, der er den foretrukne term. Ordet kan, især hvis det også anvendes almensprogligt, have andre eller bredere betydninger, og man skal definere den betydning, det har inden for det faglige emneområde, man er i gang med at modellere.
 
