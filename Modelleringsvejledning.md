@@ -1289,7 +1289,7 @@ attribut
 (datatypeegenskab)
 </td>
 <td>
-egenskab som et forretningsobjekt har og som udtrykkes ved en simpel værdi af en bestemt datatype
+egenskab som et forretningsobjekt har og som <br> udtrykkes ved en simpel værdi af en bestemt <br> datatype
 
 Navngives med lowerCamelCase
 </td>
@@ -1305,8 +1305,9 @@ associationsende
 (objektegenskab)
 </td>
 <td>
-egenskab som et forretningsobjekt har og hvor udfaldsrummet er et andet forretningsobjekt, altså en klasse
-Defineres typisk uden multiplicitet i kernemodeller og altid med multiplicitet i anvendelsesmodeller (I kernemodeller kan man tilføje multiplicitet for at håndhæve lovmæssige konstruktioner.)
+egenskab som et forretningsobjekt har og hvor <br> udfaldsrummet er et andet forretningsobjekt,<br>altså en klasse
+Defineres typisk uden multiplicitet<br>i kernemodeller og altid med multiplicitet<br>i anvendelsesmodeller (I kernemodeller kan<br>man tilføje multiplicitet for at håndhæve<br>lovmæssige konstruktioner.)
+	
 Navngives med lowerCamelCase
 </td>
 <td>
@@ -1320,7 +1321,7 @@ Navngives med lowerCamelCase
 primitiv datatype
 </td>
 <td>
-datatype, som beskriver et udfaldsrum bestående af en enkelt værdi 
+datatype, som beskriver et udfaldsrum<br>bestående af en enkelt værdi 
 
 _Typisk udfaldsrum for et attribut._
 </td>
@@ -1335,9 +1336,9 @@ _Typisk udfaldsrum for et attribut._
 struktureret datatype
 </td>
 <td>
-UML-element som beskriver et udfaldsrum som en sammenstilling af attributter med datatyper 
+UML-element som beskriver et udfaldsrum<br>som en sammenstilling af attributter med<br>datatyper 
 
-En struktureret datatype adskiller sig fra en klasse ved kun at være identificeret ved sin værdi. Det anbefales, men er ikke et krav, at strukturede datatyper farves gule.
+_En struktureret datatype adskiller sig fra en<br>klasse ved kun at være identificeret ved sin<br>værdi. Det anbefales, men er ikke et krav, at<br>strukturede datatyper farves gule._
 
 Navngives med UpperCamelCase
 </td>
@@ -1352,11 +1353,11 @@ Navngives med UpperCamelCase
 enumeration
 </td>
 <td>
-datatype som specificerer en række (tekst)værdier som gyldigt udfaldsrum for et attribut eller associationsende
+datatype som specificerer en række<br>(tekst)værdier som gyldigt udfaldsrum for et<br>attribut eller associationsende
 
-Det anbefales, men er ikke et krav, at enumerationer farves grønne.
+_Det anbefales, men er ikke et krav, at<br>enumerationer farves grønne._
 
-Enumerationen navngives med UpperCamelCase, værdierne med lowerCamelCase
+Enumerationen navngives med<br>UpperCamelCase, værdierne med<br>lowerCamelCase
 </td>
 <td>
 
@@ -1381,8 +1382,10 @@ objekt
 (instans/individ)
 </td>
 <td>
-element som anvendes til at beskrive en konkret forekomst af et forretningsobjekt
-Bruges i klassifikationer til at repræsentere klassifikationens medlemmer
+element som anvendes til at beskrive en<br>konkret forekomst af et forretningsobjekt
+	
+_Bruges i klassifikationer til at repræsentere<br>klassifikationens medlemmer_
+
 Navngives med UpperCamelCase
 </td>
 <td>
@@ -1396,8 +1399,10 @@ Navngives med UpperCamelCase
 komposition
 </td>
 <td>
-association som anvendes til at beskrive en relation mellem to klasser, hvor hver forekomst af den ene klasse er en del af / tilhører en forekomst af den anden klasse og ikke kan eksistere uden denne.
-Konstruktionen kan udelukkende anvendes i anvendelsesmodeller. Bemærk at relationen er transitiv og ikke symmetrisk. 
+association som anvendes til at beskrive en<br>relation mellem to klasser, hvor hver<br>forekomst af den ene klasse er en del af /<br>tilhører en forekomst af den anden klasse og<br>ikke kan eksistere uden denne.
+	
+_Konstruktionen kan udelukkende anvendes i<br>anvendelsesmodeller. Bemærk at relationen er<br>transitiv og ikke symmetrisk._
+
 Navngivning ikke nødvendig
 </td>
 <td>
@@ -1413,9 +1418,12 @@ tilknytningsklasse
 (associationsklasse)
 </td>
 <td>
-UML-element som beskriver egenskaber ved en association
-Ofte anvendt til at angive klassifikation eller temporalitet for en association.
-Denne konstruktion kan betragtes som en ’visuel forkortelse’ for det forhold, at der findes en klasse, som er knyttet til de to associerede klasser, som udfyldes med konkrete forhold vedrørende en instantieret anvendelse af de to klasser.
+UML-element som beskriver egenskaber ved<br>en association
+	
+_Ofte anvendt til at angive klassifikation eller<br>temporalitet for en association._
+
+_Denne konstruktion kan betragtes som en<br>’visuel forkortelse’ for det forhold, at der<br>findes en klasse, som er knyttet til de to<br>associerede klasser, som udfyldes med<br>konkrete forhold vedrørende en instantieret<br>anvendelse af de to klasser._
+
 Navngives som andre klasser med UpperCamelCase
 </td>
 <td>
