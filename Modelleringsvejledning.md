@@ -1750,6 +1750,8 @@ Dette er dog ikke den eneste valgmulighed. Man kan sagtens vælge at modellere e
 
 Navnet på strukturerede datatyper angives ved det attribut den er datatype for ligesom primitive datatyper. Derudover kan man synliggøre relationen mellem attributtet og datatypen ved hjælp af den relationstype der hedder ‘dependency’. Brugen af dependency gør det typisk nemmere at læse diagrammet, men er ikke strengt nødvendig.
 
+![Gul datatype som udfaldsrum](Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg)
+
 
 #### Objekter
 _Anvendes i logiske datamodeller_
@@ -1760,7 +1762,7 @@ I logiske modeller er man oftest på et abstraktionsniveau, der gør, at man ikk
 
 Objekter adskiller sig visuelt fra klasser ved at navnet er understreget. For at tydeliggøre forskellen kan man desuden med fordel anvende en lysegrå farve. Det er muligt at medtage navnet på den klasse objektet er en instans af. Dette gøres i så fald efter objektets navn, adskilt med kolon. Dette kan anbefales i tilfælde hvor klassen ikke ellers er medtaget i diagrammer. Hvis der hører attributter til klassen, kan disse vises på objektet instantieret med de værdier der gælder for den specifikke instans.
 
-
+![Objekt](Illustrations/kap5-16-objekt.svg)
 
 _Figur xx: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier_
 
@@ -1770,6 +1772,7 @@ _Anvendes i informations- og logiske datamodeller_
 En anden association med indbygget semantik er komposition. Den betyder, at instanser af den ene af de forbundne klasser er en del af/tilhører instanser af den anden forbundne klasse. Implikationen af dette er, at instanser af den “afhængige” klasse ikke kan oprettes i et datasæt uden at være forbundet til en instans af den “uafhængige” klasse, samt at når en instans af den “uafhængige” klasse slettes, slettes også forbundne instanser af den “afhængige” klasse. <br>
 En komposition angives med en association, der har en udfyldt rombe i den ende, der peger på den uafhængige klasse.
 
+![Komposition](Illustrations/kap5-17-komposition.svg)
 
 _Figur xx: Eksempel på komposition_
 
@@ -1781,6 +1784,8 @@ Note om multiplicitet: Instanser af afhængige klasser kan altid kun indgå i en
 _Anvendes i informations- og logiske datamodeller_
 
 En tilknytningsklasse er tilknyttet en association og giver mulighed for at tilføje information til associationen i form af tilknytningsklassens attributter. Dette illustreres med en stiplet linje mellem association og tilknytningsklasse. Nedenfor ses en tilknytningsklasse med attributtet ‘modtagetDato’ som beskriver hvornår associationen mellem cykelhandleren og den enkelte cykel er opstået, altså hvornår den er kommet ‘påLager’.
+
+![Tilknytningsklasse](Illustrations/kap5-18-tilknytningsklasse.svg)
 
 _Figur xx: Eksempel på tilknytningsklasse_
 
@@ -1794,7 +1799,7 @@ Genbrug forstås i modelreglerne som genbrug af et modelelements semantik, dvs. 
 
 Modelreglerne foreskriver genbrug af (semantikken fra) både klasser og egenskaber, hvis der findes eksisterende modellering, der opfylder relevante behov. For klasser kan genbrugen eventuelt i praksis ske ved genbrug af et UML-element, hvor semantikken allerede er dokumenteret, men for egenskaber - samt klasser der ikke tidligere er oprettet i systemet - sker genbrugen ved at anføre HTTP-URI (identifikator) for det genbrugte element, samt at kopiere definition mm.
 
-
+![Genbrug af egenskaben 'description'](Illustrations/kap5-19-dct-description.svg)
 _Figur X: Genbrug af egenskaben ‘description’ fra vokabularet DCMI Metadata Terms (dct) som attribut på klassen ‘Cykel’_
 
 Når det genbrugte element stammer fra en international model, vil der ofte mangle danske termer og dansk definition. For generelt anvendelige elementer kan det tænkes, at der er oprettet oversættelse i andre fællesoffentlige modeller, og nogle internationale modeller har danske oversættelser eller profiler, fx [DCAT-AP-DK](https://digst.github.io/DCAT-AP-DK/releases/v.2.0/docs/). I så fald er det en god ide at genbruge disse oversættelser. Ellers må man selv oversætte.
@@ -1834,6 +1839,8 @@ Dette kunne være et it-system, et register eller lignende, der skal understøtt
 
 Nedenfor ses en (forsimplet) anvendelsesmodel for et it-system til understøttelse af cykeludlejning. Den er sammensat af elementer fra kernemodeller for cykel, kunde og kalender
 
+![Anvendelsesmodel](Illustrations/kap5-19a-anvendelsesmodel.svg)
+
 I anvendelsesmodeller giver det - i modsætning til kernemodeller - ikke mening at markere genbrugte elementer visuelt, da alle elementer nødvendigvis skal være genbrugte. 
 
 Derudover genbruges modelelementer på samme måde som beskrevet ovenfor med den metadata, herunder identifikator, definition og termer, som de er definerede, med i kernemodeller. 
@@ -1870,13 +1877,20 @@ En anden måde at indsnævre et udfaldsrum er ved at udpege en relevant klassifi
 
 _Eksempel på tilføjelse af enumeration_
 
-Attributtet ‘farve’ på klassen ‘Cykel’ er defineret med datatypen xsd:string i kernemodellen, men hvis man ved at der i den konkrete anvendelse vil være tale om, at cykler kan have seks specifikke farver, kan man tilføje en enumeration for farve. 
+Attributtet ‘farve’ på klassen ‘Cykel’ er defineret med datatypen xsd:string i kernemodellen, men hvis man ved at der i den konkrete anvendelse vil være tale om, at cykler kan have seks specifikke farver, kan man tilføje en enumeration for farve.
+
+![Anvendelsesmodellering](Illustrations/kap5-19b-anvendelsesmodellering-enum.svg)
+
 
 _Eksempel på begrænsning af mulige værdier_
 
 Hvis der i en kernemodel findes en enumeration over cykeltyper med fire forskellige typer, og man ved at der i den konkrete anvendelse kun er to der er relevante kunne man begrænse enumerationen som vist nedenfor.
 
+![Anvendelsesmodellering reduceret](Illustrations/kap5-19c-anvendelsesmodellering-reduceret-enum.svg)
+
 Man kan også tilføje en struktureret datatype til erstatning for en simpel datatype, når de værdier beskrevet af den strukturerede datatype stadig vil kunne beskrives af den simple datatype, fx for at specificere at en tekststreng skal have en bestemt struktur. Fx kan man i en anvendelsesmodel der beskriver cykler specificere at attributtet ‘stelnummer’ i stedet for ‘xsd:string’ skal have den strukturerede datatype ‘StelnummerCykel’ som udfaldsrum.
+
+![Gul datatype som udfaldsrum](Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg)
 
 #### Indsnævring af multiplicitet 
 Hvis kernemodellen har angivet multiplicitet (eller man baserer sin anvendelsesmodel på en anden anvendelsesmodel), kan man gøre multipliciteten mere, men ikke mindre, specifik. Det vil sige at man ikke kan angive en multiplicitet der ikke er tilladt ifølge den model, man genbruger fra. Hvis der eksempelvis er angivet 0..1 som multiplicitet, kan man godt specificere 1..1. men ikke 0..*, og 1..* kan specificeres til 1..10, men ikke 0..10.
@@ -1949,9 +1963,13 @@ For mindre klassifikationer kan det være meningsfuldt at repræsentere og visua
 #### Valg af enumeration eller klassifikationsklasse og instanser
 En enumeration, hvor klassifikationsemnerne repræsenteres af enumerationsværdier, eller en klassifikationsklasse, hvor emnerne repræsenteres af instanser, kan i mange situationer repræsentere den samme information, som i eksemplet nedenfor.
 
+![Klassfikationer valg](Illustrations/kap5-20a-Klassifikationer-valg.svg)
+
 Så hvilken modelleringsmetode skal man vælge? Enumerationer er primært egnede til små simple klassifikationer, der kan forventes at være stabile over længere tid. Det kunne fx være klassifikationer med ugedage, godkendelsesstatus eller filtilladelser.
 
 Kvalifikationsklasser og instanser er bedre egnet til store og/eller dynamiske klassifikationer. Desuden giver denne metode mulighed for at lave klassifikationer med hierarkier samt at berige dem med attributter. Det er ikke altid hensigtsmæssigt at modellere store klassifikationer visuelt, dvs. med UML. Vi vender tilbage til dette længere nede.
+
+![Klassifikationer valg](Illustrations/kap5-20b-Klassifikationer-valg2.svg)
 
 #### Modellering af klassifikationer med enumerationer
 En enumeration specificerer en række værdier i form af tekststrenge som gyldigt udfaldsrum for et attribut. Anvendes en enumeration, vil klassifikationsemnerne være værdierne i denne enumeration.
@@ -1965,7 +1983,7 @@ Sådan oprettes en klassifikationsmodel som en enumeration i UML:
 5. Anvend enumerationen som udfaldsrum for den relevante egenskab <br>
 (se mere nedenfor)
 
-
+![Klassifikation med enumaration](Illustrations/kap5-21a-enumeration.svg)
 
 _Figur xx: Klassifikationsmodel med enumeration_
 
@@ -1975,6 +1993,7 @@ Ligeledes bør man undgå at beskrive mere end et inddelingskriterie i en enkelt
 
 Man kunne måske forestille sig at lave en enumeration over kombinationerne, såsom ‘herre racercykel’, ‘dame racercykel’, ‘børne racercykel’, ‘herre bycykel’, ‘dame bycykel’ etc., men det giver større overskuelighed. Samtidig er det nemmere at vedligeholde og genbruge, hvis enummerationerne deles op i to.
 
+![]()
 
 #### Modellering af klassifikationer med klassifikationsklasser 
 Anvendes en klassifikationsklasse, vil klassifikationsemnerne være instanser af denne klasse. 
@@ -1988,6 +2007,7 @@ Sådan oprettes en klassifikationsmodel ved brug af en klassifikationsklasse:
 5. Anvend klassifikationsklassen som udfaldsrum for den relevante egenskab <br>
 (se mere nedenfor)
 
+![Klassifikationsmodel med klassifikationsklasse](Illustrations/kap5-21b-Klassifikation-med-klassifikationsklasse.svg)
 
 _Figur xx: Klassifikationsmodel med klassifikationsklasse (associationer er valgfrie)_
 
