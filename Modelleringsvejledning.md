@@ -1268,7 +1268,7 @@ Andre modeller: navngives med<br>lowerCamelCase
 </td>
 <td>
 
-<img src="Illustrations/kap5-tabel-1-klasser-og-begreber.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
+<img src="Illustrations/kap5-tabel1-associationsnavn.svg" alt="associationsnavn" style="width:200px;"/>
  
 </td>
 </tr>
@@ -1297,7 +1297,7 @@ Navngives med lowerCamelCase
 </td>
 <td>
 
-![Attributter](Illustrations/Kap5-tabel-2-attributter.svg)
+<img src="Illustrations/Kap5-tabel-2-attributter.svg" alt="Attributter" style="width:200px;"/>
  
 </td>
 </tr>
@@ -1314,7 +1314,7 @@ Navngives med lowerCamelCase
 </td>
 <td>
 
-![Associationsende](Illustrations/Kap5-tabel-2-associationsende.svg)
+<img src="Illustrations/Kap5-tabel-2-associationsende.svg" alt="Associationsende" style="width:200px;"/>
  
 </td>
 </tr>
@@ -1346,7 +1346,7 @@ Navngives med UpperCamelCase
 </td>
 <td>
 
-![Struktureret datatype](Illustrations/Kap5-tabel-2-struktureret-datatype.svg)
+<img src="Illustrations/Kap5-tabel-2-struktureret-datatype.svg" alt="Struktureret datatype" style="width:200px;"/>
 
 </td>
 </tr>
@@ -1363,7 +1363,7 @@ Enumerationen navngives med<br>UpperCamelCase, værdierne med<br>lowerCamelCase
 </td>
 <td>
 
-![Enumeration](Illustrations/kap5-tabel-2-enumeration.svg)
+<img src="Illustrations/kap5-tabel-2-enumeration.svg" alt="Enumeration" style="width:200px;"/>
  
 </td>
 </tr>
@@ -1374,7 +1374,7 @@ multiplicitet
 <td></td>
 <td>
 
-![tabel over klasser og begreber](Illustrations/kap5-tabel-2-multiplicitet.svg)
+<img src="Illustrations/kap5-tabel-2-multiplicitet.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
  
 </td>
 </tr>
@@ -1392,7 +1392,8 @@ Navngives med UpperCamelCase
 </td>
 <td>
 
- ![tabel over klasser og begreber](Illustrations/kap5-tabel-2-objekt.svg)
+<img src="Illustrations/kap5-tabel-2-objekt.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
+ ![]()
  
 </td>
 </tr>
@@ -1409,7 +1410,7 @@ Navngivning ikke nødvendig
 </td>
 <td>
 
- ![tabel over klasser og begreber](Illustrations/kap5-tabel-2-komposition.svg)
+<img src="Illustrations/kap5-tabel-2-komposition.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
  
 </td>
 </tr>
@@ -1430,7 +1431,7 @@ Navngives som andre klasser med UpperCamelCase
 </td>
 <td>
 
- ![tabel over klasser og begreber](Illustrations/kap5-tabel-2-tilknytningsklasse.svg)
+<img src="Illustrations/kap5-tabel-2-tilknytningsklasse.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
  
 </td>
 </tr>
