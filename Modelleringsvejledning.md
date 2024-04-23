@@ -1241,13 +1241,13 @@ association
 <td>
 relation mellem to klasser eller begreber der beskriver at disse (og dermed deres instanser) står i relation til hinanden
 
-Associationer kan være med eller uden navigabilitet
+_Associationer kan være med eller uden navigabilitet_
 
-I logiske datamodeller efter de fællesoffentlige regler har dette element udelukkende betydning som den struktur, som bærer associationsenden – det er associationsenden, som beskriver klassernes indbyrdes relation.
+_I logiske datamodeller efter de fællesoffentlige regler har dette element udelukkende betydning som den struktur, som bærer associationsenden – det er associationsenden, som beskriver klassernes indbyrdes relation._
 </td>
 <td>
 
-![tabel over klasser og begreber](Illustrations/Kap5-tabel 1-UML-associationer.svg)
+<img src="Illustrations/Kap5-tabel-1-UML-associationer.svg" alt="tabel over klasser og begreber" style="width:100px;"/>
  
 </td>
 </tr>
@@ -1263,7 +1263,7 @@ Andre modeller: navngives med lowerCamelCase
 </td>
 <td>
 
-![tabel over klasser og begreber](Illustrations/kap5-tabel-1-klasser-og-begreber.svg)
+<img src="Illustrations/kap5-tabel-1-klasser-og-begreber.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
  
 </td>
 </tr>
