@@ -2106,7 +2106,7 @@ _Figur xx: Henvisning til klassifikationsklasse via associationsende_
 #### Brug af eksterne klassifikationer
 Når man vil genbruge en eksisterende klassifikation der er udstillet eksternt skal man oprette en klassifikationsklasse som ovenfor, men i stedet for at oprette de tilhørende klassifikationsemner som UML-objekter indsættes i stedet en entydig reference til definitionen af klassifikationens udfaldsrum i tagget ‘rdfs:isDefinedBy’ (er defineret af). Referencen skal være en resolverbar og persistent HTTP-URI, hvor anvendere kan slå klassifikationen og dens indhold op.
 
-![]()
+![Henvisning til ekstern klassifikation](Illustrations/Kap5-26-Ekstern-klassifikation.svg)
 
 _Figur XX: Henvisning til ekstern klassifikation_
 
