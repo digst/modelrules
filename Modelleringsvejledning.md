@@ -740,7 +740,7 @@ Der kan ikke være tvivl om, at alle vil have stor gavn og spare mange ressource
 
 Målet er, skridt for skridt, at få etableret et sammenhængende netværk af gode kernemodeller med indbygget governance, som vi alle kan stole på og derfor også anvende som grundlag for fremtidige projekter og udvekslingsstrukturer på tværs af fagområder.
 
-![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
+<img src="Illustrations/kap2-11-undgaa-silomodellering.svg" alt="Undgå silomodellering" style="width:1000px;"/>
 
 _Figur 2.13: Illustration af overgangen fra silomodellering til et sammenhængende netværk af kernemodeller_
 
@@ -755,7 +755,7 @@ Et **begreb** er groft sagt det mentale billede vi har af en given type af ting,
 * En **instans** er et abstrakt eller konkret fænomen i den virkelige verden, som en term refererer til.
 * En **definition** er en beskrivelse af betydningen af et begreb.
 
-![Undgå silomodellering](Illustrations/kap2-11-undgaa-silomodellering.svg)
+<img src="Illustrations/kap3-centrale-elementer-i-begrebsmodellering.svg" alt="Centrale elementer i begrebsmodellering" style="width:600px;"/>
 
 _Figur 13: Centrale elementer i begrebsmodellering_
 
