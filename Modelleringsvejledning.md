@@ -1324,7 +1324,11 @@ datatype, som beskriver et udfaldsrum bestående af en enkelt værdi
 
 _Typisk udfaldsrum for et attribut._
 </td>
-<td></td>
+<td>
+	
+<img src="Illustrations/kap5-27-primitiv-datatype.svg" alt="Primitiv datatype" style="width:200px;"/>
+
+</td>
 </tr>
 <tr>
 <td>
