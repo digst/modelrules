@@ -1214,7 +1214,7 @@ Andre modeller: Navngives med UpperCamelCase
 </td>
 <td>
 
-![tabel over klasser og begreber](Illustrations/kap5-tabel-1-klasser-og-begreber.svg)
+<img src="Illustrations/kap5-tabel-1-klasser-og-begreber.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
 	
 </td>
 </tr>
@@ -1278,7 +1278,8 @@ _Tabel X: UML-elementer der anvendes i alle modeltyper_
 
 Ovennævnte elementer er de eneste der anvendes i begrebsdiagrammer. Nedenfor ses et eksempel på et begrebsdiagram.
 
-![Eksempel på begrebsdiagram](Illustrations/Kap5-1-begrebsdiagram-for-cykel.svg)
+<img src="Illustrations/Kap5-1-begrebsdiagram-for-cykel.svg" alt="Eksempel på begrebsdiagram" style="width:200px;"/>
+
 _Figur ?: Eksempel på begrebsdiagram_
 
 ### Yderligere UML-elementer 
