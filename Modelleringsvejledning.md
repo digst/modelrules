@@ -1098,7 +1098,7 @@ Begrebsoplysningerne opsættes som en tabel, således at hver række beskriver �
 
 Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal altid udfyldes. Resten af felterne udfyldes, hvis det er relevant. 
 
-‘Tilhører emneområde’ kan udfyldes med en præcis reference til den model hvor begrebet er defineret, hvilket for kernemodeller kan være modellen selv. For kernemodeller kan man også nøjes med at angive om begrebet tilhører modellens emneområde med Ja/Nej. Man bør kunne se hvor begrebet stammer fra enten i feltet ‘Tilhører emneområde’ eller i et af kildefelterne.
+<a id="emne"></a>‘Tilhører emneområde’ kan udfyldes med en præcis reference til den model hvor begrebet er defineret, hvilket for kernemodeller kan være modellen selv. For kernemodeller kan man også nøjes med at angive om begrebet tilhører modellens emneområde med Ja/Nej. Man bør kunne se hvor begrebet stammer fra enten i feltet ‘Tilhører emneområde’ eller i et af kildefelterne.
  
 §26 - [<ins> <span style="color:#AB2A0C;">Angiv om begrebet tilhører modellens emneområde</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-om-begrebet-tilhoerer-modellens-emneomraade) <br>
 §25 - [<ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/sammensaet-anvendelsesmodeller-af-elementer-fra)
