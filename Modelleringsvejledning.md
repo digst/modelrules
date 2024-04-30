@@ -1702,7 +1702,7 @@ I logiske modeller er man oftest på et abstraktionsniveau, der gør, at man ikk
 
 Objekter adskiller sig visuelt fra klasser ved at navnet er understreget. For at tydeliggøre forskellen kan man desuden med fordel anvende en lysegrå farve. Det er muligt at medtage navnet på den klasse objektet er en instans af. Dette gøres i så fald efter objektets navn, adskilt med kolon. Dette kan anbefales i tilfælde hvor klassen ikke ellers er medtaget i diagrammer. Hvis der hører attributter til klassen, kan disse vises på objektet instantieret med de værdier der gælder for den specifikke instans.
 
-![Objekt](Illustrations/kap5-16-objekt.svg)
+<img src="Illustrations/kap5-16-objekt.svg" alt="Objekt" style="width:1000px;"/>
 
 _Figur xx: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier_
 
@@ -1739,7 +1739,8 @@ Genbrug forstås i modelreglerne som genbrug af et modelelements semantik, dvs. 
 
 Modelreglerne foreskriver genbrug af (semantikken fra) både klasser og egenskaber, hvis der findes eksisterende modellering, der opfylder relevante behov. For klasser kan genbrugen eventuelt i praksis ske ved genbrug af et UML-element, hvor semantikken allerede er dokumenteret, men for egenskaber - samt klasser der ikke tidligere er oprettet i systemet - sker genbrugen ved at anføre HTTP-URI (identifikator) for det genbrugte element, samt at kopiere definition mm.
 
-![Genbrug af egenskaben 'description'](Illustrations/kap5-19-dct-description.svg)
+<img src="Illustrations/kap5-19-dct-description.svg" alt="Genbrug af egenskaben 'description'" style="width:1000px;"/>
+
 _Figur X: Genbrug af egenskaben ‘description’ fra vokabularet DCMI Metadata Terms (dct) som attribut på klassen ‘Cykel’_
 
 Når det genbrugte element stammer fra en international model, vil der ofte mangle danske termer og dansk definition. For generelt anvendelige elementer kan det tænkes, at der er oprettet oversættelse i andre fællesoffentlige modeller, og nogle internationale modeller har danske oversættelser eller profiler, fx [DCAT-AP-DK](https://digst.github.io/DCAT-AP-DK/releases/v.2.0/docs/). I så fald er det en god ide at genbruge disse oversættelser. Ellers må man selv oversætte.
@@ -1779,7 +1780,8 @@ Dette kunne være et it-system, et register eller lignende, der skal understøtt
 
 Nedenfor ses en (forsimplet) anvendelsesmodel for et it-system til understøttelse af cykeludlejning. Den er sammensat af elementer fra kernemodeller for cykel, kunde og kalender
 
-![Anvendelsesmodel](Illustrations/kap5-19a-anvendelsesmodel.svg)
+<img src="Illustrations/kap5-19a-anvendelsesmodel.svg" alt="Anvendelsesmodel" style="width:1000px;"/>
+
 
 I anvendelsesmodeller giver det - i modsætning til kernemodeller - ikke mening at markere genbrugte elementer visuelt, da alle elementer nødvendigvis skal være genbrugte. 
 
@@ -1819,18 +1821,17 @@ _Eksempel på tilføjelse af enumeration_
 
 Attributtet ‘farve’ på klassen ‘Cykel’ er defineret med datatypen xsd:string i kernemodellen, men hvis man ved at der i den konkrete anvendelse vil være tale om, at cykler kan have seks specifikke farver, kan man tilføje en enumeration for farve.
 
-![Anvendelsesmodellering](Illustrations/kap5-19b-anvendelsesmodellering-enum.svg)
-
+<img src="Illustrations/kap5-19b-anvendelsesmodellering-enum.svg" alt="Anvendelsesmodellering" style="width:1000px;"/>
 
 _Eksempel på begrænsning af mulige værdier_
 
 Hvis der i en kernemodel findes en enumeration over cykeltyper med fire forskellige typer, og man ved at der i den konkrete anvendelse kun er to der er relevante kunne man begrænse enumerationen som vist nedenfor.
 
-![Anvendelsesmodellering reduceret](Illustrations/kap5-19c-anvendelsesmodellering-reduceret-enum.svg)
+<img src="Illustrations/kap5-19c-anvendelsesmodellering-reduceret-enum.svg" alt="Anvendelsesmodellering reduceret" style="width:400px;"/>
 
 Man kan også tilføje en struktureret datatype til erstatning for en simpel datatype, når de værdier beskrevet af den strukturerede datatype stadig vil kunne beskrives af den simple datatype, fx for at specificere at en tekststreng skal have en bestemt struktur. Fx kan man i en anvendelsesmodel der beskriver cykler specificere at attributtet ‘stelnummer’ i stedet for ‘xsd:string’ skal have den strukturerede datatype ‘StelnummerCykel’ som udfaldsrum.
 
-![Gul datatype som udfaldsrum](Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg)
+<img src="Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg" alt="Gul datatype som udfaldsrum" style="width:400px;"/>
 
 #### Indsnævring af multiplicitet 
 Hvis kernemodellen har angivet multiplicitet (eller man baserer sin anvendelsesmodel på en anden anvendelsesmodel), kan man gøre multipliciteten mere, men ikke mindre, specifik. Det vil sige at man ikke kan angive en multiplicitet der ikke er tilladt ifølge den model, man genbruger fra. Hvis der eksempelvis er angivet 0..1 som multiplicitet, kan man godt specificere 1..1. men ikke 0..*, og 1..* kan specificeres til 1..10, men ikke 0..10.
@@ -1925,7 +1926,7 @@ Sådan oprettes en klassifikationsmodel som en enumeration i UML:
 5. Anvend enumerationen som udfaldsrum for den relevante egenskab <br>
 (se mere nedenfor)
 
-![Klassifikation med enumaration](Illustrations/kap5-21a-enumeration.svg)
+<img src="Illustrations/kap5-21a-enumeration.svg" alt="Klassifikation med enumaration" style="width:200px;"/>
 
 _Figur xx: Klassifikationsmodel med enumeration_
 
@@ -1934,8 +1935,6 @@ En enumeration er en flad liste uden struktur. Derfor bør alle værdierne i en 
 Ligeledes bør man undgå at beskrive mere end et inddelingskriterie i en enkelt enumeration. Cykler kan fx opdeles både efter tiltænkt anvendelse og efter tiltænkte anvendere. Både ‘racercykel’ og ‘damecykel’ er direkte underbegreber til ‘cykel’ og dermed på samme niveau, men fordi de er opdelt efter forskellige inddelingskriterier specificerer de cykler ud fra forskellige dimensioner, og samme cykel kan fx være både en racercykel og en damecykel. 
 
 Man kunne måske forestille sig at lave en enumeration over kombinationerne, såsom ‘herre racercykel’, ‘dame racercykel’, ‘børne racercykel’, ‘herre bycykel’, ‘dame bycykel’ etc., men det giver større overskuelighed. Samtidig er det nemmere at vedligeholde og genbruge, hvis enummerationerne deles op i to.
-
-![]()
 
 #### Modellering af klassifikationer med klassifikationsklasser 
 Anvendes en klassifikationsklasse, vil klassifikationsemnerne være instanser af denne klasse. 
@@ -2052,7 +2051,7 @@ _Figur XX: Henvisning til ekstern klassifikation_
 
 Det kan være relevant at genbruge en specifik del af en (ekstern) klassifikation frem for den hele. I så fald må man modellere en anvendelsesmodel på baggrund af den genbrugte klassifikation, der viser hvilke dele man anvender. 
 
-<img src="Illustrations/kap5-27-klassifikationer-genbrug.svg" alt="ELI på EUR-Lex" style="width:1000px;"/>
+<img src="Illustrations/Kap5-27-klassifikationer-delvis-genbrug.svg" alt="ELI på EUR-Lex" style="width:1000px;"/>
 
 _Figur XX: Eksempel på anvendelse af del af ekstern klassifikation_
 
