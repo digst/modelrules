@@ -1255,7 +1255,7 @@ _I logiske datamodeller efter de fællesoffentlige<br>regler har dette element u
 <td>
 
 <p align="center">
-<img src="Illustrations/Kap5-tabel-1-UML-associationer.svg" alt="tabel over klasser og begreber" style="width:100px;"/>
+<img src="Illustrations/Kap5-tabel-1-UML-associationer.svg" alt="tabel over klasser og begreber" style="width:180px;"/>
 </p>
 
 </td>
