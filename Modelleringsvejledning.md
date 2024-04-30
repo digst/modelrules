@@ -1219,7 +1219,7 @@ _Tabel X: UML-elementer der anvendes i alle modeltyper_
 
 Ovennævnte elementer er de eneste der anvendes i begrebsdiagrammer. Nedenfor ses et eksempel på et begrebsdiagram.
 
-<img src="Illustrations/Kap5-1-begrebsdiagram-for-cykel.svg" alt="Eksempel på begrebsdiagram" style="width:200px;"/>
+<img src="Illustrations/Kap5-1-begrebsdiagram-for-cykel.svg" alt="Eksempel på begrebsdiagram" style="width:1000px;"/>
 
 _Figur ?: Eksempel på begrebsdiagram_
 
