@@ -1477,7 +1477,7 @@ _Anvendes i alle modeltyper_
 
 En UML-klasse er en repræsentation af et sæt af objekter, der deler semantik og egenskaber. At de deler semantik vil sige, at der findes en definition, der dækker præcis de objekter, der er medlem af klassen, hvormed klassen også svarer til et begreb. Man kan også sige, at en klasse beskriver en kategori/type af instanser. 
 
-<img src="Illustrations/kap5-3-cykel.svg" alt="Klasser der repræsenterer ting af typen cykel" style="width:200px;"/>
+<img src="Illustrations/kap5-3-cykel.svg" alt="Klasser der repræsenterer ting af typen cykel" style="width:150px;"/>
 
 _Figur x: Klasser der repræsenterer ting af typen cykel._
 
@@ -1496,8 +1496,7 @@ En særlig form for association, med indbygget semantik, er generalisering, ogs�
 
 For eksempel er ‘Cykel’ og ‘Hestevogn’ specialiseringer - mere specifikke typer - af et ‘Ikke-motoriseretKøretøj’. Som subklasser arver ‘Cykel’ og ‘Hestevogn’ alle egenskaber (både attributter og associationer) fra superklassen ‘Ikke-motoriseretKøretøj’. Derudover kan der modelleres yderligere egenskaber for den enkelte subklasse, som ikke gælder for superklassen. I eksemplet arver ‘Cykel’ og ‘Hestevogn’ attributterne ‘antalHjul’, ‘farve’ og ‘maxPassagerer’ fra ‘Ikke-motoriseretKøretøj’ samtidig med, at de hver især har attributter, der gælder kun for dem. 
 
-![Eksempel på generalisering/specialisering](Illustrations/kap5-4-generalisering-nedarvning.svg)
-
+<img src="Illustrations/kap5-4-generalisering-nedarvning.svg" alt="Eksempel på generalisering/specialisering" style="width:800px;"/>
 _Figur xx: Eksempel på generalisering/specialisering_
 
 Den indbyggede semantik i generaliseringsassociationen gør, at der her ikke tilføjes metadata, associationsende, stereotype eller multiplicitet.
@@ -1507,8 +1506,7 @@ _Anvendes i alle modeltyper_
 
 Et generaliseringssæt samler to eller flere specialiserede klasser i et sæt. Ved at samle klasser i et generaliseringssæt indikerer man at de er specialiserede efter samme inddelingskriterie. Fx er ‘personbil’, ‘varevogn’ og ‘lastbil’ specialiseringer af ‘bil’, der er inddelt i forhold til funktion, hvorimod ‘lejebil’ er en specialisering af ‘bil’ i forhold til hvordan man får retten til at bruge den. Derfor er ‘personbil’, ‘varevogn’ og ‘lastbil’ del af samme generaliseringssæt, mens ‘lejebil’ ikke er. 
 
-![Eksempel på generaliseringssæt](Illustrations/kap5-5-generaliseringssæt.svg)
-
+<img src="Illustrations/kap5-5-generaliseringssæt.svg" alt="Eksempel på generaliseringssæt" style="width:800px;"/>
 _Figur xx: Eksempel på generaliseringssæt_
 
 #### Egenskaber
@@ -1531,8 +1529,7 @@ _Anvendes i informations- og logiske datamodeller_
 
 Attributter er de egenskaber en klasse har hvis værdi udtrykkes som en bogstavelig værdi (literal). Ofte antal, tekststrenge eller sandt/falsk markeringer. Objekter der er instanser af klassen vil have egenskaben med en specifik værdi. Værdier kan være unikke for et enkelt objekt eller der kan være sammenfald for mange objekter. Fx vil attributtet ‘stelnummer’ på klassen ‘Cykel’ være unikt for hver enkelt instans af klassen, da hvert stelnummer identificerer en unik cykel. For atributtet ‘farve’ må man derimod forvente mange gentagelser af fx ‘sort’, hvis der findes tilstrækkeligt mange instanser af klassen selvom værdien er specifik for hver instans. 
 
-![Klassen Cykrl med attributter, stelnummer, farve og størrelse](Illustrations/kap5-5.1cykel-m-attributter.svg)
-
+<img src="Illustrations/kap5-5.1cykel-m-attributter.svg" alt="Klassen Cykel med attributter, stelnummer, farve og størrelse" style="width:200px;"/>
 _figur x: Klassen Cykel med attributterne stelnummer, farve og størrelse_
 
 Attributter navngives med lowerCamelCase, fx ‘stelnummer’, ‘maxPassagerer’ eller ‘antalHjul’. Navnet på klassen bør ikke medtages i attributnavnet. Dels bliver det sværere at genbruge egenskabernes semantik (‘stelnummer’ kan genbruges for fx motorcykler, men ‘cykelStelnummer’ kan ikke - selve UML-attributtet kan ikke genbruges, men egenskaben semantik (navn, definition og anden beskrivelse) kan og bør), dels bliver attributnavnene unødigt lange og svære at læse. Og informationen om at der her er tale om et stelnummer på en cykel er til stede fordi attributtet netop er placeret på klassen ‘Cykel’. 
@@ -1542,24 +1539,24 @@ _Anvendes i alle modeltyper_
 
 Associationer anvendes til at forbinde begreber/klasser. Ligesom en klasse er en generalisering over en gruppe af objekter så er associationen teknisk set en generalisering over hvordan objekter, der er instanser af de to klasser, kan være forbundet. En generisk association udtrykkes med fuldt optrukken streg. Den siger ikke i sig selv noget om _**hvordan**_ klasserne er forbundet, blot at de er.
 
-![cykelhandler relation til cykel](Illustrations/kap5-6-cykelhander-rel-cykel-1.svg)
+<img src="Illustrations/kap5-6-cykelhander-rel-cykel-1.svg" alt="cykelhandler relation til cykel" style="width:400px;"/>
 
 Associationer kan angives med navigabilitet, der vises som en pil i enden af associationer. Dette omtales ofte mindre præcist som retning. Modelreglerne tillader angivelse af navigabilitet, men kræver det ikke.
 
-![cykelhandler relation til cykel med pil](Illustrations/kap5-7-cykelhander-rel-cykel-2.svg)
+<img src="Illustrations/kap5-7-cykelhander-rel-cykel-2.svg" alt="cykelhandler relation til cykel med pil" style="width:400px;"/>
 
 ##### Associationsnavne
 _Anvendes i begrebs- og informationsmodeller_
 
 En association kan gives et navn der beskriver hvordan de begreber/klasser den forbinder er relateret til hinanden, altså en betegnelse for associationens semantik. Associationsnavne bør anvendes i begrebs- og informationsmodeller, undtagen for generaliseringer og kompositioner. I begrebsmodeller angives de i naturligt sprog, men i informationsmodeller, som lowerCamelCase.
 
-![cykelhandler relation til cykel med pil og 'har på lager'](Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg)
+<img src="Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
 
 _Figur XX: Associationsnavn i begrebsmodel_
 
 Associationsnavnet kan forsynes med angivelse af læseretning i form af et udfyldt pilehoved der fortæller hvordan navnet skal læses, fx ‘Cykelhandler’ harPåLager ‘Cykel’, frem for ‘Cykel’ harPåLager ‘Cykelhandler’.
 
-![cykelhandler relation til cykel med pil og 'har på lager'](Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg)
+<img src="Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
 
 Figur XX: Associationsnavn med læseretning i informationsmodel
 
@@ -1570,7 +1567,7 @@ Associationsender udtrykker objektegenskaber, dvs egenskaber en klasse har hvor 
 
 Associationsenden bæres af associationen, og i logiske datamodeller er netop det at bære associationsender associationens vigtigste funktion. Associationsenden placeres i den ende af associationen der “længst væk” fra den klasse den er egenskab for, og dermed “tættest på “ den klasse der repræsenterer udfaldsrummet. I eksemplet nedenfor har ‘Cykelhandler’ egenskaben ‘påLager’ og udfaldsrummet for denne egenskab er ‘Cykel’, som er det der kan være på lager. Navne på associationsender angives i lowerCamelCase.
 
-![cykelhandler relation til cykel med pil og 'har på lager'](Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg)
+<img src="Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
 
 ##### Multiplicitet
 _Anvendes i informations- og logiske datamodeller der er anvendelsesorienterede_
@@ -1666,7 +1663,7 @@ Nogle af de mest almindelig datatyper ses nedenfor:
 </tr>
 </table>
 
-![Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211](Illustrations/kap5-13-cykeltaxa-simple-datatyper.svg)
+<img src="Illustrations/kap5-13-cykeltaxa-simple-datatyper.svg" alt="Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211" style="width:600px;"/>
 
 _Figur X: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
 
