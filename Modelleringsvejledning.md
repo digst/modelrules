@@ -1464,7 +1464,7 @@ URI
 https://data.gov.dk/concept/core/TransportationMeans/VIN-number
 wasDerivedFrom
 
-<img src="Illustrations/kap5-tags.svg" alt="‘stelnummer’ beskrevet med tagged values" style="width:1000px;"/>
+<img src="Illustrations/kap5-2-tags.svg" alt="‘stelnummer’ beskrevet med tagged values" style="width:200px;"/>
 
 _Tabel X ‘stelnummer’ beskrevet med tagged values_
 
@@ -1477,7 +1477,7 @@ _Anvendes i alle modeltyper_
 
 En UML-klasse er en repræsentation af et sæt af objekter, der deler semantik og egenskaber. At de deler semantik vil sige, at der findes en definition, der dækker præcis de objekter, der er medlem af klassen, hvormed klassen også svarer til et begreb. Man kan også sige, at en klasse beskriver en kategori/type af instanser. 
 
-![Klasser der repræsenterer ting af typen cykel](Illustrations/kap5-3-cykel.svg)
+<img src="Illustrations/kap5-3-cykel.svg" alt="Klasser der repræsenterer ting af typen cykel" style="width:200px;"/>
 
 _Figur x: Klasser der repræsenterer ting af typen cykel._
 
