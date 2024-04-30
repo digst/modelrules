@@ -1214,8 +1214,10 @@ Andre modeller: Navngives med UpperCamelCase
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/kap5-tabel-1-klasser-og-begreber.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
-	
+</p>
+ 
 </td>
 </tr>
 <tr>
@@ -1233,7 +1235,9 @@ Navngivning ikke nødvendig
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/kap5-tabel-1-UML-generaliseringspil.svg" alt="tabel over klasser og begreber" style="width:30px;"/>
+</p>
 
 </td>
 </tr>
@@ -1250,8 +1254,10 @@ _I logiske datamodeller efter de fællesoffentlige<br>regler har dette element u
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/Kap5-tabel-1-UML-associationer.svg" alt="tabel over klasser og begreber" style="width:100px;"/>
- 
+</p>
+
 </td>
 </tr>
 <tr>
@@ -1268,8 +1274,10 @@ Andre modeller: navngives med<br>lowerCamelCase
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/kap5-tabel1-associationsnavn.svg" alt="associationsnavn" style="width:200px;"/>
- 
+</p>
+
 </td>
 </tr>
 </table>
@@ -1278,7 +1286,9 @@ _Tabel X: UML-elementer der anvendes i alle modeltyper_
 
 Ovennævnte elementer er de eneste der anvendes i begrebsdiagrammer. Nedenfor ses et eksempel på et begrebsdiagram.
 
+<p align="center">
 <img src="Illustrations/Kap5-1-begrebsdiagram-for-cykel.svg" alt="Eksempel på begrebsdiagram" style="width:200px;"/>
+</p>
 
 _Figur ?: Eksempel på begrebsdiagram_
 
@@ -1298,8 +1308,10 @@ Navngives med lowerCamelCase
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/Kap5-tabel-2-attributter.svg" alt="Attributter" style="width:200px;"/>
- 
+</p>
+
 </td>
 </tr>
 <tr>
@@ -1315,7 +1327,9 @@ Navngives med lowerCamelCase
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/Kap5-tabel-2-associationsende.svg" alt="Associationsende" style="width:200px;"/>
+</p>
  
 </td>
 </tr>
@@ -1329,8 +1343,10 @@ datatype, som beskriver et udfaldsrum<br>bestående af en enkelt værdi
 _Typisk udfaldsrum for et attribut._
 </td>
 <td>
-	
+
+ <p align="center">
 <img src="Illustrations/kap5-27-primitiv-datatype.svg" alt="Primitiv datatype" style="width:200px;"/>
+ </p>
 
 </td>
 </tr>
@@ -1347,7 +1363,9 @@ Navngives med UpperCamelCase
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/Kap5-tabel-2-struktureret-datatype.svg" alt="Struktureret datatype" style="width:200px;"/>
+</p>
 
 </td>
 </tr>
@@ -1364,7 +1382,9 @@ Enumerationen navngives med<br>UpperCamelCase, værdierne med<br>lowerCamelCase
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/kap5-tabel-2-enumeration.svg" alt="Enumeration" style="width:200px;"/>
+</p>
  
 </td>
 </tr>
@@ -1375,7 +1395,9 @@ multiplicitet
 <td></td>
 <td>
 
+<p align="center">
 <img src="Illustrations/kap5-tabel-2-multiplicitet.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
+</p>
  
 </td>
 </tr>
@@ -1393,8 +1415,9 @@ Navngives med UpperCamelCase
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/kap5-tabel-2-objekt.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
- ![]()
+</p>
  
 </td>
 </tr>
@@ -1411,7 +1434,9 @@ Navngivning ikke nødvendig
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/kap5-tabel-2-komposition.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
+</p>
  
 </td>
 </tr>
@@ -1432,7 +1457,9 @@ Navngives som andre klasser med UpperCamelCase
 </td>
 <td>
 
+<p align="center">
 <img src="Illustrations/kap5-tabel-2-tilknytningsklasse.svg" alt="tabel over klasser og begreber" style="width:200px;"/>
+</p>
  
 </td>
 </tr>
