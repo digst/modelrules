@@ -1995,13 +1995,13 @@ _Figur xx: Klassifikationsmodel med klassifikationsklasse (associationer er valg
 #### Klassifikationer med flere niveauer
 En klassifikation kan indeholde mange niveauer af klassifikationsemner, der er specialiseringer af hinanden. 
 
-![Dele af en større klassifikation](Kap5-21c-klassifiktation-mange-niveauer.svg)
+![Dele af en større klassifikation](Illustrations/Kap5-21c-klassifikation-mange-niveauer.svg)
 
 _Figur x: Dele af en større klassifikation_
 
 Egentlig burde alle klassifikationsemner illustreres med et objekt i UML, da alle er instanser af den klassifikationsklasse der beskriver hele klassifikationen. Dette er dog ikke muligt da UML ikke tillader relationer mellem objekter. Derfor må alle niveauer undtagen det allermest detaljerede vises med klasser. Et objekt arver alle egenskaber fra den klasse det er et objekt af, og giver mulighed for evt. at instantiere en eller flere egenskaber med den specifikke værdi der gælder for objektet.
 
-![Objekter med egenskaber instantieret](Illustrations/kap5 - 21d - Klassifikationer - nedarvning objekt.svg)
+![Objekter med egenskaber instantieret](Illustrations/kap5-21d-Klassifikationer-nedarvning-objekt.svg)
 
 _Figur x: Objekter med nogle egenskaber instantieret_
 
