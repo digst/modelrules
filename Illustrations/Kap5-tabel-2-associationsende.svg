@@ -5,11 +5,10 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-
    version="1.0"
-
-   id="svg111">
-
+   id="svg111"
+   viewBox="23.472727 15 84.501823 25">
+   
   <metadata
      id="metadata115">
     <rdf:RDF>
@@ -22,23 +21,19 @@
     </rdf:RDF>
   </metadata>
 
+  <path style="fill:#fefaf7;stroke:none;"
+  	d =" M 23.472727,40 L 23.472727,34.674286 C 23.472727,33.639146 24.313455,32.8 25.350545,32.8  L 106.09673,32.8 C 107.13382,32.8 107.97455,33.639146 107.97455,34.674286 L 107.97455,40" />
 
-<path style="fill:#fefaf7;stroke:none;"
-	d =" M 23.472727,40 L 23.472727,34.674286 C 23.472727,33.639146 24.313455,32.8 25.350545,32.8  L 106.09673,32.8 C 107.13382,32.8 107.97455,33.639146 107.97455,34.674286 L 107.97455,40 L 23.472727,40" />
-	
-<path style="fill:none;stroke:#000000;"
-	d =" M 23.472727,40 L 23.472727,34.674286 C 23.472727,33.639146 24.313455,32.8 25.350545,32.8  L 106.09673,32.8 C 107.13382,32.8 107.97455,33.639146 107.97455,34.674286 L 107.97455,40 " />
+  <path style="fill:none;stroke:#000000;"
+  	d =" M 23.472727,40 L 23.472727,34.674286 C 23.472727,33.639146 24.313455,32.8 25.350545,32.8  L 106.09673,32.8 C 107.13382,32.8 107.97455,33.639146 107.97455,34.674286 L 107.97455,40 " />
 
-<path style="stroke:#000000;"
-	d =" M 65,33 L 65,15" />
-	
+  <path style="stroke:#000000;"
+  	d =" M 65,33 L 65,15" />
 
   <text
      xml:space="preserve"
      style="font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
-
      x="68"
      y="30"
      id="text77">associationsende</text>
- 
 </svg>
