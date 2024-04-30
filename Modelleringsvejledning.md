@@ -1663,7 +1663,7 @@ Nogle af de mest almindelig datatyper ses nedenfor:
 </tr>
 </table>
 
-<img src="Illustrations/kap5-13-cykeltaxa-simple-datatyper.svg" alt="Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211" style="width:600px;"/>
+<img src="Illustrations/kap5-13-cykeltaxa-simple-datatyper.svg" alt="Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211" style="width:400px;"/>
 
 _Figur X: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
 
@@ -1678,8 +1678,7 @@ Enumerationer beskrives yderligere i afsnittet [Klassifikationer og kontrollered
 #### Strukturerede datatyper
 I de tilfælde, hvor der ikke findes en egnet primitiv datatype, bliver man nødt til selv at definere en datatype. Det gøres ved hjælp af en struktureret datatype. Disse anvendes oftest fordi data består af flere dele som kan beskrives individuelt. Disse forskellige dele angives som attributter på datatypen. Fx består stelnumre af et fabrikantmærke (1-4 bogstaver), et serienummer og et årstalsmærke i form af et bogstav. 
 
-![Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel](Illustrations/kap5-14-gul-datatype.svg)
-
+<img src="Illustrations/kap5-14-gul-datatype.svg" alt="Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel" style="width:200px;"/>
 _Figur xx: Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel_
 
 Man kan dog også definere en struktureret datatype med kun et enkelt attribut, hvis der ikke er individuelle dele, men man ønsker at definere en datatype, der er mere specifik end de primitive datatyper giver mulighed for. Man kunne fx forestille sig at definere CPR-nummer som en datatype. I sådanne tilfælde skal man overveje om det giver en reel værdi eller om de yderligere restriktioner er noget det er så implemteringsnært og måske endda systemspecifikt at det hører til i en fysisk model.
@@ -1692,8 +1691,7 @@ Dette er dog ikke den eneste valgmulighed. Man kan sagtens vælge at modellere e
 
 Navnet på strukturerede datatyper angives ved det attribut den er datatype for ligesom primitive datatyper. Derudover kan man synliggøre relationen mellem attributtet og datatypen ved hjælp af den relationstype der hedder ‘dependency’. Brugen af dependency gør det typisk nemmere at læse diagrammet, men er ikke strengt nødvendig.
 
-![Gul datatype som udfaldsrum](Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg)
-
+<img src="Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg" alt="Gul datatype som udfaldsrum" style="width:400px;"/>
 
 #### Objekter
 _Anvendes i logiske datamodeller_
