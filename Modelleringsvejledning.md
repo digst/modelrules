@@ -1675,6 +1675,8 @@ Associationsender udtrykker objektegenskaber, dvs egenskaber en klasse har hvor 
 
 Associationsenden bæres af associationen, og i logiske datamodeller er netop det at bære associationsender associationens vigtigste funktion. Associationsenden placeres i den ende af associationen der “længst væk” fra den klasse den er egenskab for, og dermed “tættest på “ den klasse der repræsenterer udfaldsrummet. I eksemplet nedenfor har ‘Cykelhandler’ egenskaben ‘påLager’ og udfaldsrummet for denne egenskab er ‘Cykel’, som er det der kan være på lager. Navne på associationsender angives i lowerCamelCase.
 
+![cykelhandler relation til cykel med pil og 'har på lager'](Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg)
+
 ##### Multiplicitet
 _Anvendes i informations- og logiske datamodeller der er anvendelsesorienterede_
 
