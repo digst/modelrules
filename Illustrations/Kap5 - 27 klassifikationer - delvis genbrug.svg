@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="184.988401mm"
+   height="45.491401mm"
+   id="svg83"
+   sodipodi:docname="Kap5 - 27 klassifikationer - delvis genbrug.svg"
+   inkscape:version="0.48.4 r9939">
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="namedview85"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0493458"
+     inkscape:cx="193.45387"
+     inkscape:cy="80.595001"
+     inkscape:window-width="1169"
+     inkscape:window-height="799"
+     inkscape:window-x="182"
+     inkscape:window-y="182"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg83" />
+  <defs
+     id="defs3">
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <text
+     style="font-size:15px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     x="20"
+     y="20"
+     id="text6">
+	Oprindelig klassifikation
+	</text>
+  <text
+     style="font-size:15px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     x="230"
+     y="20"
+     id="text8">
+	Anvendt klassifikation
+	</text>
+  <path
+     style="fill:#e8fde3;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.05285251px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 46.321311,39.49118 c 0,-1.178939 0.942757,-2.134658 2.105705,-2.134658 l 90.545314,0 c 1.16295,0 2.1057,0.955719 2.1057,2.134658 l 0,103.53093 c 0,1.17894 -0.94275,2.13466 -2.1057,2.13466 l -90.545314,0 c -1.162948,0 -2.105705,-0.95572 -2.105705,-2.13466 z"
+     id="path17"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:400;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri"
+     x="61.061245"
+     y="56.70882"
+     id="text25"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="61.061245"
+       y="56.70882"
+       id="tspan23"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#000000;font-family:Calibri"
+         id="tspan21">«enumeration»</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:700;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri"
+     x="72.642624"
+     y="70.584099"
+     id="text31"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="72.642624"
+       y="70.584099"
+       id="tspan29"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:700;fill:#000000;font-family:Calibri"
+         id="tspan27">Cykeltype</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.05285251px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 46.321311,80.049689 93.703869,0"
+     id="path33"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:400;text-align:start;line-height:132.14552402%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri"
+     x="51.585575"
+     y="94.065346"
+     id="text51"
+     sodipodi:linespacing="132.14552%"><tspan
+       sodipodi:role="line"
+       x="51.585575"
+       y="94.065346"
+       id="tspan37"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#3c3c3c;font-family:Calibri"
+         id="tspan35">bycykel</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="51.585575"
+       y="107.94063"
+       id="tspan41"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#3c3c3c;font-family:Calibri"
+         id="tspan39">crosscykel</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="51.585575"
+       y="121.8159"
+       id="tspan45"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#3c3c3c;font-family:Calibri"
+         id="tspan43">mountainbike</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="51.585575"
+       y="135.69118"
+       id="tspan49"><tspan
+         dx="0"
+         dy="0"
+         style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:400;fill:#3c3c3c;font-family:Calibri"
+         id="tspan47">racercykel</tspan></tspan></text>
+  
+  <g transform="translate(50, 0)">
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.5"
+     d="M 235,75 L 245,85 L 235,95 "
+     id="path27" />
+  <path
+     style="fill:#e8fde3;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0528525px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 200.04197,39.49118    C 200.04197,38.312241 200.98472,37.356522 202.14767,37.356522    L 292.69298,37.356522    C 293.85593,37.356522 294.79869,38.312241 294.79869,39.49118    L 294.79869,115.27155    C 294.79869,116.45049 293.85593,117.40621 292.69298,117.40621    L 202.14767,117.40621    C 200.98472,117.40621 200.04197,116.45049 200.04197,115.27155    z  "
+     id="path55" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     x="0.000000"
+     y="9.746338"
+     id="text63"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,214.781902,46.962484)"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan61"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan59">«enumeration»</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     x="11.581377"
+     y="23.621617"
+     id="text69"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,214.781902,46.962484)"><tspan
+       sodipodi:role="line"
+       x="11.581377"
+       y="23.621617"
+       id="tspan67"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan65">Cykeltype</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.0528525px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 200.04197,80.049689   L 293.74584,80.049689  "
+     id="path71" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:132.145519%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     x="0.000000"
+     y="9.746338"
+     id="text81"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,205.306230,84.319006)"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="9.746338"
+       id="tspan75"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan73">bycykel</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="23.621617"
+       id="tspan79"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#3C3C3C;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+         id="tspan77">racercykel</tspan></tspan></text>
+	</g>
+</svg>
