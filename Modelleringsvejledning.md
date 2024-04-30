@@ -1503,7 +1503,7 @@ URI
 https://data.gov.dk/concept/core/TransportationMeans/VIN-number
 wasDerivedFrom
 
-
+<img src="Illustrations/kap5-tags.svg" alt="‘stelnummer’ beskrevet med tagged values" style="width:1000px;"/>
 
 _Tabel X ‘stelnummer’ beskrevet med tagged values_
 
@@ -1628,6 +1628,8 @@ Det første eksempel viser multiplicitet i forbindelse med attributter. Standard
 
 Eksemplet nedenfor viser en anvendelsessituation, hvor man altid vil have information om hvor mange passagerpladser cykeltaxaen har og hvorvidt den er overdækket, men kun i nogle tilfælde vil have oplysninger om cykeltaxaens vægt og model.
 
+<img src="Illustrations/kap5-11-cykeltaxa-multiplicitet.svg" alt="ELI på EUR-Lex" style="width:1000px;"/>
+
 _Figur xx: Multiplicitet vist på attributter_
 
 Det følgende eksempel viser multiplicitet i forbindelse med associationsender. En cykelhandler kan have fra 0 til et ubegrænset antal cykler på lager. En specifik cykel kan være på lager hos højst en cykelhandler, men behøver ikke være på lager hos nogen. En cykel har som del netop to bremsesystemer, men et bremsesystem kan være installeret på højst en cykel.
@@ -1708,6 +1710,8 @@ Nogle af de mest almindelig datatyper ses nedenfor:
 _Figur X: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
 
 De ovennævnte datatyper er primitive datatyper. Det vil sige, at de ikke har intern struktur eller underdele. Der findes to andre slags datatyper: Strukturerede datatyper og enumerationer. En enumeration er en lukket liste over værdier der er tilladte som udfaldsrum for et attribut, fx ugens dage.
+
+<img src="ugedag.svg" alt="Eksempel på enumeration over ugedage" style="width:1000px;"/>
 
 _Figur xx: Eksempel på enumeration over ugedage_
 
@@ -2091,6 +2095,8 @@ Når man vil genbruge en eksisterende klassifikation der er udstillet eksternt s
 _Figur XX: Henvisning til ekstern klassifikation_
 
 Det kan være relevant at genbruge en specifik del af en (ekstern) klassifikation frem for den hele. I så fald må man modellere en anvendelsesmodel på baggrund af den genbrugte klassifikation, der viser hvilke dele man anvender. 
+
+<img src="Illustrations/kap5-27-klassifikationer-genbrug.svg" alt="ELI på EUR-Lex" style="width:1000px;"/>
 
 _Figur XX: Eksempel på anvendelse af del af ekstern klassifikation_
 
