@@ -1109,9 +1109,9 @@ Den enkelte myndighed eller det enkelte projekt kan desuden tilføje yderligere 
 
 Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, der indeholder en skabelon til begrebslister i tabelformat, og som følger specifikationerne. Nedenfor ses et eksempel på en begrebsliste.
 
-![cykelhandler relation til cykel med pil og 'har på lager'](Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg)
+![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-eksempel-på-udfyldt-begrebsliste.svg)
 
-![cykelhandler relation til cykel med pil og 'har på lager'](Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg)
+![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-Begrebet-‘stelnummer’-beskrevet-i-listeformat.svg)
 
 _Figur 16: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind._
 
