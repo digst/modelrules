@@ -1711,7 +1711,7 @@ _Figur X: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
 
 De ovennævnte datatyper er primitive datatyper. Det vil sige, at de ikke har intern struktur eller underdele. Der findes to andre slags datatyper: Strukturerede datatyper og enumerationer. En enumeration er en lukket liste over værdier der er tilladte som udfaldsrum for et attribut, fx ugens dage.
 
-<img src="ugedag.svg" alt="Eksempel på enumeration over ugedage" style="width:1000px;"/>
+<img src="Illustrations/ugedag.svg" alt="Eksempel på enumeration over ugedage" style="width:400px;"/>
 
 _Figur xx: Eksempel på enumeration over ugedage_
 
