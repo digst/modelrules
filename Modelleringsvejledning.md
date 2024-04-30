@@ -285,7 +285,6 @@ De fællesoffentlige modelregler ejes af Udvalget for arkitektur og standarder, 
 ## Læsevejledning 
 Vejledningens kapitler har forskellige målgrupper. Her er en oversigt over kapitlernes indhold og deres målgrupper: 
 
-
 - **Kapitel 1: Introduktion**
   - Giver en introduktion og beskriver formålet med begrebs- og datamodellering, hvorfor man skal følge modelreglerne samt anbefalinger til organisering af arbejdet med modellering.
   -  Henvender sig til alle med en interesse for emnet.
@@ -454,6 +453,7 @@ Sprogbrugen om modeltyper og deres anvendelse er forskelligartet og flertydig. I
 * **Begrebslister** er repræsentationer af begrebsmodeller udtrykt på listeform. 
 Repræsenteres begrebsmodellen som en begrebsliste, udtrykkes den i tabelformat eller efter ISO 10241 Termposter i standarder.
 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Illustrations/kap2-1-modeltyper_tabe.svgl.svg" alt="Eksempel på begrebsliste i tabelformat]" style="width:400px;"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Figur 2.1: Eksempel på begrebsliste i tabelformat_
@@ -462,25 +462,26 @@ Repræsenteres begrebsmodellen som en begrebsliste, udtrykkes den i tabelformat 
 Der er forskellige måder at udarbejde begrebsdiagrammer. Det er ikke et krav at der udarbejdes et diagram som del af modellen. Dog betyder den systematiske og strukturerede tilgang til arbejdet med begrebsdiagrammer, at inkonsistens, eventuelle uenigheder og manglende begreber i dækning af et emneområde lettere afsløres. I denne vejledning gennemgås én metode, nemlig anvendelse af klasse- og objektdiagrammer lavet i UML (Unified Modelling Language), hvor kasser og pile fortæller om begrebernes indbyrdes sammenhæng. Diagrammer udarbejdet efter denne metode kan gøres til genstand for review i FDA-regi.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Illustrations/kap2-2-modeltyper_begrebsmodel.svg" alt="Eksempel på begrebsdiagram" style="width:400px;"/>
-
+	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Figur 2.2: Eksempel på begrebsdiagram_
+
 
 **Informationsmodeller** er modeller som beskriver forretningsviden og som supplerer begreber med forretningsregler. De dokumenterer den information, der håndteres i forretningen, og beskriver den tilstrækkeligt til, at den kan anvendes i nye sammenhænge. Der er taget stilling til om et givent begreb skal repræsenteres som klasse, attribut eller andet, og der er angivet multipliciteter. Dermed ligner diagrammer i informationsmodeller mere datamodeldiagrammer end begrebsdiagrammer, men det semantiske indhold i en informationsmodel er begreber, og derfor kan der også udtrækkes en begrebsliste.
 
-<img src="Illustrations/kap2-3-modeltyper-informationsmodel.svg" alt="Eksempel på informationsmodel" style="width:400px;"/>
+<img src="Illustrations/kap2-3-modeltyper-informationsmodel.svg" alt="Eksempel på informationsmodel" style="width:600px;"/>
 
 _Figur 2.3: Eksempel på informationsmodel_
 
 **Logiske datamodeller** beskriver dataelementers logiske sammenhænge. De logiske datamodeller udarbejdes som grundlag for dataudveksling eller lagring af data, fx i en teknologisk understøttelse af den løsning de modellerer, dog således at det er de logiske sammenhænge i data og ikke den fysiske struktur der modelleres. Logiske datamodeller kan være fuldstændigt uafhængige af implementeringsmetode, men kan også indeholde konstruktioner der vender sig mod et overordnet realiseringsparadigme, fx relationelle databaser, xml eller graf. Den samme logiske model kan beskrive flere forskellige fysiske implementering med variationer i den fysiske model.
 
-<img src="Illustrations/kap2-4-modeltyper-logisk-datamodel.svg" alt="Eksempel på logisk datamodel" style="width:400px;"/>
+<img src="Illustrations/kap2-4-modeltyper-logisk-datamodel.svg" alt="Eksempel på logisk datamodel" style="width:600px;"/>
 
 _Figur 2.4: Eksempel på logisk datamodel_
 
 Diagrammer der udarbejdes i forbindelse med informationsmodeller kommer som det ses til at ligne diagrammer udarbejdet i forbindelse med logiske datamodeller, da begge består af klasser, attributter og, hvor relevant, enumerationer. Der er dog et par forskelle idet en logisk datamodel angiver datatyper og navngiver associationsender fremfor associationer. Den største forskel ligger dog i hvad der modelleres. 
 Informationsmodeller modellerer virkeligheden som den ser ud fra et specifikt forretningsperspektiv, og derfor er instanser af en klasse i en informationsmodel stadig fænomener i ‘den virkelige verden’ jfr. den blå bil til venstre i Figur 7. Logiske datamodeller modellerer derimod data, (som er en repræsentation af virkeligheden, men ikke selve virkeligheden), og instanser af en klasse i en logisk datamodel er derfor datainstanser jfr. tabellen til højre i Figur 2.5.
 
-![Virkelighed vs. data om virkeligheden](Illustrations/kap2-5-data-om-virkeligheden.svg)
+<img src="Illustrations/kap2-5-data-om-virkeligheden.svg" alt="Virkelighed vs. data om virkeligheden" style="width:800px;"/>
 
 _Figur 2.5: Virkeligheden vs. data om virkeligheden_
 
@@ -664,7 +665,7 @@ Det giver i de fleste tilfælde mening at starte med at lave en begrebsmodel, da
 
 Informationsmodeller og logiske datamodeller skal i henhold til modelreglerne baseres på velafklarede begreber. Man kan undlade at lave en eksplicit begrebsmodel, men selve den begrebsafklaring der ligger i at lave definitioner og blive enige om termer kan man ikke springe over. Ligeledes kan man undlade at lave informationsmodel, men den forretningsafklaring der ligger i en informationsmodel, får man brug for når man skal lave en logisk datamodel.
 
-![Illustration af hvad der skal afklares for at lave de forskellige modeltyper](Illustrations/kap2-8-hvilke-afklaringer-og-modeltyper.svg)
+<img src="Illustrations/kap2-8-hvilke-afklaringer-og-modeltyper.svg" alt="Illustration af hvad der skal afklares for at lave de forskellige modeltyper" style="width:600px;"/>
 
 _Figur 2.8: Illustration af hvad der skal afklares for at lave de forskellige modeltyper_
 
@@ -708,12 +709,14 @@ En anvendelsesmodel er en model, som er rettet mod en specifik anvendelse i en a
 
 Dette kunne være et system, et register eller lignende, der skal understøtte et forretningsområde. Anvendelsesmodeller afspejler og afgrænses af behovet for information i en bestemt anvendelsessituation og sammensættes af elementer fra en eller flere kernemodeller. Anvendelsesmodeller kan forstås som sammensætningen af forskellige byggeblokke til en bestemt anvendelse.
 
-Modelelementer der indgår i en anvendelsesmodel skal således være defineret i kernemodeller. Der kan dog være projekter, hvor man ikke har tid/ressourcer til eksplicit at udarbejde kernemodellerne, hvorfor modelreglerne åbner mulighed for, at en eller flere kernemodeller kan modelleres som en del af en anvendelsesmodel ved anvendelse af forskellige namespaces i modelelementerens HTTP-URIer. Se mere [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier).
+Modelelementer der indgår i en anvendelsesmodel skal således være defineret i kernemodeller. Der kan dog være projekter, hvor man ikke har tid/ressourcer til eksplicit at udarbejde kernemodellerne, hvorfor modelreglerne åbner mulighed for, at en eller flere kernemodeller kan modelleres som en del af en anvendelsesmodel ved anvendelse af forskellige namespaces i modelelementerens HTTP-URIer. <br> Se mere [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier).
 
-![Et antal kernemodeller](Illustrations/omfang-kernemodel.svg) ![Anvendelsesmodel sammensat af kernemodelelementer](Illustrations/omfang-anvendelsesmodel.svg)
+<p align="center">
+    <img alt="Et antal kernemodeller" src="Illustrations/omfang-kernemodel.svg">
+	<img alt="Anvendelsesmodel sammensat af kernemodelelementer" src="Illustrations/omfang-anvendelsesmodel.svg">
+</p>
 
-
-<table border="0">
+<table style="border: none;">
  <tr>
     <td>_Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde_</td>
     <td>_Figur 2.12: Anvendelsesmodel sammensat af kernemodelelementer: en anvendelsesmodel kan forstås som sammensætningen af elementer fra byggeblokke til en bestemt anvendelsessituation_</td>
