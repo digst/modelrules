@@ -716,7 +716,7 @@ Modelelementer der indgår i en anvendelsesmodel skal således være defineret i
 	<img alt="Anvendelsesmodel sammensat af kernemodelelementer" src="Illustrations/omfang-anvendelsesmodel.svg">
 </p>
 
-<table style="border: none;">
+<table>
  <tr>
     <td>_Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde_</td>
     <td>_Figur 2.12: Anvendelsesmodel sammensat af kernemodelelementer: en anvendelsesmodel kan forstås som sammensætningen af elementer fra byggeblokke til en bestemt anvendelsessituation_</td>
@@ -758,7 +758,7 @@ Et **begreb** er groft sagt det mentale billede vi har af en given type af ting,
 * En **instans** er et abstrakt eller konkret fænomen i den virkelige verden, som en term refererer til.
 * En **definition** er en beskrivelse af betydningen af et begreb.
 
-<img src="Illustrations/kap3-centrale-elementer-i-begrebsmodellering.svg" alt="Centrale elementer i begrebsmodellering" style="width:600px;"/>
+<img src="Illustrations/kap3-centrale-elementer-i-begrebsmodellering.svg" alt="Centrale elementer i begrebsmodellering" style="width:1000px;"/>
 
 _Figur 13: Centrale elementer i begrebsmodellering_
 
@@ -864,11 +864,13 @@ Kilder til definitioner bør udvælges i følgende prioriterede rækkefølge:
 
 Der henvises til juridiske kilder med et link, nærmere bestemt en ELI [(European Legislation Identifier)](https://eur-lex.europa.eu/eli-register/about.html). ELIen er også webadresse på loven/bekendtgørelsen. På EUR-Lex skal man dog være opmærksom på, at det ikke er adressen på den danske oversættelse, men på lovens hovedside.
 
-![ELI på retsinformationen](Illustrations/kap3-ELI-retsinformationen.png)
+![]()
+<img src="Illustrations/kap3-ELI-retsinformationen.png" alt="ELI på retsinformationen" style="width:1000px;"/>
 
 _Figur 14: ELI på retsinformationen_
 
-![ELI på EUR-Lex](/Illustrations/kap3-ELI-EUR-Lex.png)
+
+<img src="Illustrations/kap3-ELI-EUR-Lex.png" alt="ELI på EUR-Lex" style="width:1000px;"/>
 
 _Figur 15: ELI på EUR-Lex_
 
@@ -1072,7 +1074,7 @@ Hvis modellen er udfærdiget på dansk og man ikke ønsker at den skal genbruges
 
 En URI er ikke beydningsbærende og kan derfor i princippet bestå af en række tilfældige tegn, og i nogle situationer giver det endda rigtig god mening, især hvis det kun er maskiner der skal læse URIerne. Når man skal genbruge modelelementer og dermed deres URIer letter det dog processen og reducerer risikoen for fejl hvis URIerne er forståelige for mennesker. Ligeledes er det rart at kunne aflæse af URIen hvor et modelelement kommer fra når det genbruges i andre modeller eller henvises til som fx overbegreb for, kilde til eller ækvivalent med et andet modelelement. Derfor anbefales det at udarbejde menneskelæselige URIer.
 
-![Eksempler på HTTP-URIer](Illustrations/Kap4-URIer.svg)
+<img src="Illustrations/Kap4-URIer.svg" alt="Eksempler på HTTP-URIer" style="width:1000px;"/>
 
 _Figur 4.1: Eksempler på HTTP-URIer_
 
