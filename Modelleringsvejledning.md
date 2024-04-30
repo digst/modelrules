@@ -1109,79 +1109,9 @@ Den enkelte myndighed eller det enkelte projekt kan desuden tilføje yderligere 
 
 Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, der indeholder en skabelon til begrebslister i tabelformat, og som følger specifikationerne. Nedenfor ses et eksempel på en begrebsliste.
 
-<table>
-<tr>
-	<td>Foretrukken term</td>
-	<td>Accepteret term</td>
-	<td>Frarådet term</td>
-	<td>Definition</td>
-	<td>Eksempel</td>
-	<td>Kommentar</td>
-	<td>Anvendelsesnote</td>
-</tr>
-<tr>
-	<td><b>cykel</b></td>
-	<td></td>
-	<td>jernhest</td>
-	<td>køretøj der drives frem ved pedalkraft</td>
-	<td></td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td><b>cykelstel</b></td>
-	<td></td>
-	<td></td>
-	<td>_stel som en cykel er bygget omkring_</td>
-	<td></td>
-	<td>er normalt lavet af metal</td>
-	<td></td>
-</tr>
-<tr>
-	<td><b>stelnummer</b></td>
-	<td>stelnr.</td>
-	<td></td>
-	<td>_unik kombination af tal og bogstaver der markeres på stellet af en køretøj for entydigt at kunne identificere_</td>
-	<td>WDA1234Z</td>
-	<td></td>
-	<td>et stelnummer på en cykel består af fabrikantmærke (1-4 bogstaver), serienummer (bestående af tal) og årstalsmærke (et enkelt bogstav)</td>
-</tr>
-</table>
+![cykelhandler relation til cykel med pil og 'har på lager'](Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg)
 
-<table>
-<tr>
-	<td>Foretrukken term</td>
- 	<td>Juridisk kilde</td>
-  	<td>Kilde</td>
-   	<td>Tilhørende emneområde</td>
-    	<td>Identifikator</td>
-     	<td>Afledt af</td>
-</tr>
-<tr>
-	<td><b>cykel</b></td>
- 	<td>https://www.retsinformation.dk/eli/lta/2016/976</td>
-  	<td></td>
-   	<td>Ja</td>
-    	<td>https://data.gov.dk/concept/core/transportationMeans/bicycle</td>
-     	<td></td>
-</tr>
-<tr>
-	<td><b>cykelstel</b></td>
- 	<td></td>
-  	<td>Tværoffentlig referencegruppe for køretøjer</td>
-   	<td>Ja</td>
-    	<td>https://data.gov.dk/concept/core/transportationMeans/bicycleFrame</td>
-     	<td></td>
-</tr>
-<tr>
-	<td><b>stelnummer</b></td>
- 	<td>https://www.retsinformation.dk/eli/lta/2009/4</td>
-  	<td></td>
-   	<td>Ja</td>
-    	<td>https://data.gov.dk/concept/core/transportationMeans/SerialNumber</td>
-     	<td></td>
-</tr>
-</table>
+![cykelhandler relation til cykel med pil og 'har på lager'](Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg)
 
 _Figur 16: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind._
 
