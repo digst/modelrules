@@ -1115,7 +1115,6 @@ Den enkelte myndighed eller det enkelte projekt kan desuden tilføje yderligere 
 Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, der indeholder en skabelon til begrebslister i tabelformat, og som følger specifikationerne. Nedenfor ses et eksempel på en begrebsliste.
 
 ![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-eksempel-på-udfyldt-begrebsliste.svg)
-![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-Begrebet-‘stelnummer’-beskrevet-i-listeformat.svg)
 
 _Figur 16: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind._
 
@@ -1432,45 +1431,7 @@ Modeller skal - uanset om de er begrebsmodeller eller af en anden type - være b
 
 Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de angives som metadata til hvert modelelement. Hver tagged value består af et tag-navn, der svarer til navnet på en kolonne i begrebslisten, og værdi for tagget det er individuelt for hvert element/begreb.
 
-<table>
-<tr>
-<td>Foretrukken term</td>
-<td>Accepteret term</td>
-<td>Frarådet term</td>
-<td>Definition</td>
-<td>Eksempel</td>
-<td>Kommentar</td>
-<td>Anvendelsesnote</td>
-</tr>
-<tr>
-<td><b>stelnummer</b></td>
-<td>stelnr.</td>
-<td></td>
-<td><i>unik kombination af tal og bogstaver der markeres på stellet af en køretøj for entydigt at kunne identificere</i></td>
-<td>WDA1234Z</td>
-<td></td>
-<td>et stelnummer på en cykel består af fabrikantmærke (1-4 bogstaver), serienummer (bestående af tal) og årstalsmærke (et enkelt bogstav)</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td>Foretrukken term</td>
-<td>Juridisk kilde</td>
-<td>Kilde</td>
-<td>Tilhører emneområde</td>
-<td>Identifikation</td>
-<td>Afledt af</td>
-</tr>
-<tr>
-<td><b>stelnummer</b></td>
-<td>https://www.retsinformation.dk/eli/lta/2009/4</td>
-<td></td>
-<td>Ja</td>
-<td>https://data.gov.dk/concept/core/transportationMeans/SerialNumber</td>
-<td></td>
-</tr>
-</table>
+![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-Begrebet-‘stelnummer’-beskrevet-i-listeformat.svg)
 
 _Figur 18: Begrebet ‘stelnummer’ beskrevet i listeformat. Åbn billedet i en ny fane for at zoome ind._
 
@@ -1628,7 +1589,7 @@ Det første eksempel viser multiplicitet i forbindelse med attributter. Standard
 
 Eksemplet nedenfor viser en anvendelsessituation, hvor man altid vil have information om hvor mange passagerpladser cykeltaxaen har og hvorvidt den er overdækket, men kun i nogle tilfælde vil have oplysninger om cykeltaxaens vægt og model.
 
-<img src="Illustrations/kap5-11-cykeltaxa-multiplicitet.svg" alt="ELI på EUR-Lex" style="width:1000px;"/>
+<img src="Illustrations/kap5-11-cykeltaxa-multipicitet.svg" alt="ELI på EUR-Lex" style="width:200px;"/>
 
 _Figur xx: Multiplicitet vist på attributter_
 
