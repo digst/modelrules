@@ -1906,13 +1906,13 @@ For mindre klassifikationer kan det være meningsfuldt at repræsentere og visua
 #### Valg af enumeration eller klassifikationsklasse og instanser
 En enumeration, hvor klassifikationsemnerne repræsenteres af enumerationsværdier, eller en klassifikationsklasse, hvor emnerne repræsenteres af instanser, kan i mange situationer repræsentere den samme information, som i eksemplet nedenfor.
 
-![Klassfikationer valg](Illustrations/kap5-20a-Klassifikationer-valg.svg)
+<img src="Illustrations/kap5-20a-Klassifikationer-valg.svg" alt="Klassfikationer valg" style="width:1000px;"/>
 
 Så hvilken modelleringsmetode skal man vælge? Enumerationer er primært egnede til små simple klassifikationer, der kan forventes at være stabile over længere tid. Det kunne fx være klassifikationer med ugedage, godkendelsesstatus eller filtilladelser.
 
 Kvalifikationsklasser og instanser er bedre egnet til store og/eller dynamiske klassifikationer. Desuden giver denne metode mulighed for at lave klassifikationer med hierarkier samt at berige dem med attributter. Det er ikke altid hensigtsmæssigt at modellere store klassifikationer visuelt, dvs. med UML. Vi vender tilbage til dette længere nede.
 
-![Klassifikationer valg](Illustrations/kap5-20b-Klassifikationer-valg2.svg)
+<img src="Illustrations/kap5-20b-Klassifikationer-valg2.svg" alt="Klassifikationer valg" style="width:1000px;"/>
 
 #### Modellering af klassifikationer med enumerationer
 En enumeration specificerer en række værdier i form af tekststrenge som gyldigt udfaldsrum for et attribut. Anvendes en enumeration, vil klassifikationsemnerne være værdierne i denne enumeration.
