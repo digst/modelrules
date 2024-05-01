@@ -714,10 +714,18 @@ Modelelementer der indgår i en anvendelsesmodel skal således være defineret i
 	<img alt="Anvendelsesmodel sammensat af kernemodelelementer" src="Illustrations/omfang-anvendelsesmodel.svg">
 </p>
 
+  <table style="border:none;">
+    <tr>
+      <td style="border:white;"><em>Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde</em></td>
+      <td style="border:none;"><em>Figur 2.12: Anvendelsesmodel sammensat af kernemodelelementer: en anvendelsesmodel kan forstås som sammensætningen af elementer fra byggeblokke til en bestemt anvendelsessituation</em></td>
+    </tr>
+  </table>
+</div>
+
 <table>
  <tr>
-    <td>_Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde_</td>
-    <td>_Figur 2.12: Anvendelsesmodel sammensat af kernemodelelementer: en anvendelsesmodel kan forstås som sammensætningen af elementer fra byggeblokke til en bestemt anvendelsessituation_</td>
+    <td> <i>Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde</i> </td>
+    <td> _Figur 2.12: Anvendelsesmodel sammensat af kernemodelelementer: en anvendelsesmodel kan forstås som sammensætningen af elementer fra byggeblokke til en bestemt anvendelsessituation_ </td>
  </tr>
 </table>
                 
