@@ -1434,36 +1434,7 @@ Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de
 
 _Figur 18: Begrebet ‘stelnummer’ beskrevet i listeformat. ~~Åbn billedet i en ny fane for at zoome ind~~(kommer snart)._
 
-Tag
-Værdi
-preflabel (da)
-stelnummer
-altLabel (da)
-stelnr.
-deprecatedLabel (da)
-
-
-definition (da)
-unik kombination af tal og bogstaver der markeres på stellet af et køretøj for entydigt at kunne identificere dette
-example (da) 
-WDA1234Z
-comment (da)
-
-
-applicationNote (da)
-et stelnummer på en cykel består af fabrikantmærke (1-4 bogstaver), serienummer (bestående af tal) og årstalsmærke (et enkelt bogstav)
-legalSource
-https://www.retsinformation.dk/eli/lta/2009/4
-source
-
-
-isDefinedBy 
-https://data.gov.dk/concept/core/TransportationMeans
-URI
-https://data.gov.dk/concept/core/TransportationMeans/VIN-number
-wasDerivedFrom
-
-<img src="Illustrations/kap5-2-tags.svg" alt="‘stelnummer’ beskrevet med tagged values" style="width:200px;"/>
+<img src="Illustrations/kap5 - tags.svg" alt="‘stelnummer’ beskrevet med tagged values" style="width:900px;"/>
 
 _Tabel X ‘stelnummer’ beskrevet med tagged values_
 
