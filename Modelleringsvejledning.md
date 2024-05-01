@@ -13,7 +13,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; [Organisatoriske anbefalinger for modellering](#organisatoriske-anbefalinger-for-modellering)
 
-**[Kapitel 2: Om modeller](#kapitel-2-modeltyper-og-proces)**
+**[Kapitel 2: Modeltyper og proces](#kapitel-2-modeltyper-og-proces)**
 
 &nbsp;&nbsp;&nbsp;&nbsp; [Hvad er en model?](#hvad-er-en-model)
 
@@ -66,8 +66,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Direkte genbrug](#direkte-genbrug)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvor finder man genbrugelige definitioner?](#hvor-finder-man-genbrugelige-definitioner)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Der er en lang række kilder, man kan trække på, når man leder efter genbrugelige definitioner:](#hvor-finder-man-genbrugelige-definitioner)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hvad hvis begrebet er modelleret, men ikke godt nok?](#hvad-hvis-begrebet-er-modelleret-men-ikke-godt-nok)
 
@@ -451,7 +449,7 @@ Sprogbrugen om modeltyper og deres anvendelse er forskelligartet og flertydig. I
 **Terminologiske begrebsmodeller** beskriver begreber og deres indbyrdes relationer. En terminologisk begrebsmodel kan udformes som en begrebsliste eller et begrebsdiagram - eller begge dele. Terminologiske begrebsmodeller kaldes i daglig tale ofte blot begrebsmodeller. Der findes også andre modeltyper der kan blive kaldt begrebsmodeller, og ‘terminologisk begrebsmodel’ er det derfor en mere præcis term. ‘Begrebsmodel’ kan dog betragtes som en accepteret alternativ term, og den bruges i vid udstrækning i dette dokument, altid for at referere til terminologiske begrebsmodeller.
 
 * **Begrebslister** er repræsentationer af begrebsmodeller udtrykt på listeform. 
-Repræsenteres begrebsmodellen som en begrebsliste, udtrykkes den i tabelformat eller efter ISO 10241 Termposter i standarder.
+Repræsenteres begrebsmodellen som en begrebsliste, udtrykkes den i tabelformat eller efter [ISO 10241](#iso10241) Termposter i standarder.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Illustrations/kap2-1-modeltyper_tabe.svgl.svg" alt="Eksempel på begrebsliste i tabelformat]" style="width:400px;"/>
@@ -930,7 +928,7 @@ Metoden indebærer, at man definerer et begreb ved at angive nærmeste overbegre
 
 Det er væsentligt at vælge det nærmeste overbegreb, fordi man derved implicit medtager det nærmeste overbegrebs adskillende træk i definitionen. Hvis man fx skal lave en definition af ‘tandemcykel’ og bruger ’køretøj’ som overbegreb skulle man med de adskillende træk adskille ‘tandemcykel’ fra alle andre køretøjer, hvilket man kunne komme til at gøre på en måde der er inkonsistent med definitionen af ‘cykel’. Ved at bruge ‘cykel’ som overbegreb er det allerede givet at en tandemcykel er et _køretøj der drives frem ved pedalkraft_, og man kan nøjes med at tilføje _hvor to eller flere pedalerende personer sidder bag ved hinanden_. Ved altid at vælge det nærmeste overbegreb sikrer man konsistens i sin begrebsmodel.
 
-Som det ses bør definitionen ikke have stort begyndelsesbogstav, indeholde termen eller indledes med ‘det betyder at’, ‘defineres som’ eller lignende, og definitionen bør ikke afsluttes med punktum. Supplerende oplysninger skal anføres som kommentarer og må ikke indgå i definitionen. Definitionen er således en frase, som kan erstatte termen i en given tekst (ISO 2016).
+Som det ses bør definitionen ikke have stort begyndelsesbogstav, indeholde termen eller indledes med ‘det betyder at’, ‘defineres som’ eller lignende, og definitionen bør ikke afsluttes med punktum. Supplerende oplysninger skal anføres som kommentarer og må ikke indgå i definitionen. Definitionen er således en frase, som kan erstatte termen i en given tekst ([ISO 704](#iso704)).
 
 ### Oplysende definitioner
 For at sikre sig, at de karakteristika, man bruger i definitionen, er tilstrækkeligt oplysende og rent faktisk egnede til at adskille begrebet fra andre af samme type, er der visse anvisninger, man skal følge:
@@ -1032,7 +1030,7 @@ Som minimum registreres den foretrukne term, men såfremt et begreb kan udtrykke
 * Anvend verbalfraser i nutidsform for associationer i begrebsmodeller 
 * Anvend et almindeligt udbredt tegnsæt (Unicode)
 
-I forbindelse med begrebsafklaringen anbefales det, at de termer, der skal indgå i begrebsmodellen, kvalificeres efter nedenstående principper. Jf. Madsen (2007) og Socialstyrelsen (2010) 
+I forbindelse med begrebsafklaringen anbefales det, at de termer, der skal indgå i begrebsmodellen, kvalificeres efter nedenstående principper. Jf. [Madsen (2007)](#madsen) og [Socialstyrelsen (2010)](#ss2010) 
 
 1. Termer bør være **passende**, dvs. termer skal være gængse og overholde etablerede og kendte konventioner for termdannelse inden for emneområdet.
 2. Termer bør være **selvforklarende**, dvs. termer skal afspejle adskillende karakteristiske træk, således at man får et helt eller delvist indtryk af definitionen alene ud fra termen.
@@ -1084,7 +1082,7 @@ _Figur 4.1: Eksempler på HTTP-URIer_
 
 # Kapitel 5: Udarbejdelse af modeller
 ### Begrebslister
-En begrebsmodel kan udtrykkes som en begrebsliste. Begrebslisten skal udtrykkes i det tabelformat, der er specificeret i modelreglerne, eller efter ISO 10241. Her vejledes om anvendelse af tabelformatet. Ønsker man at anvende ISO 10241-formatet henvises til denne standard for vejledning. 
+En begrebsmodel kan udtrykkes som en begrebsliste. Begrebslisten skal udtrykkes i det tabelformat, der er specificeret i modelreglerne, eller efter [ISO 10241](#iso10241). Her vejledes om anvendelse af tabelformatet. Ønsker man at anvende ISO 10241-formatet henvises til denne standard for vejledning. 
 
 Begrebsoplysningerne opsættes som en tabel, således at hver række beskriver ét begreb. Tabellen opsættes med kolonneoverskrifter, som det er specificeret i Modelreglerne, Jf. Bilag D og E: 
 
@@ -1406,25 +1404,25 @@ En pakke i UML er et element som kan indeholde andre UML-elementer, og som karak
 I anvendelsesmodeller kan man med fordel organiserer elementer fra forskellige kernemodeller i forskellige underpakker i modellen. Dette gælder især hvis man laver kernemodeller i forbindelse med en anvendelsesmodel uden at kernemodellerne publiceres separat. 
 
 ### Stereotyper
-Stereotyper er en måde at specialisere UML-elementer til en bestemt kontekst. Navne på stereotyper vises mellem en type anførselstegn (guillemets) der ligner dobbelte spidse parenteser: <<stereotypenavn>>. Derudover fungerer de som ‘beholder’ for såkaldte tagged values. I modelreglerne anvendes tagged values til at dokumentere (angive metadata for) både modelelementer og pakker. Derfor er det i henhold til modelreglerne obligatorisk at anvende stereotyper for både modelelementer og modelpakker. 
+Stereotyper er en måde at specialisere UML-elementer til en bestemt kontekst. Navne på stereotyper vises mellem en type anførselstegn (guillemets) der ligner dobbelte spidse parenteser: &laquo; stereotypenavn &raquo;. Derudover fungerer de som ‘beholder’ for såkaldte tagged values. I modelreglerne anvendes tagged values til at dokumentere (angive metadata for) både modelelementer og pakker. Derfor er det i henhold til modelreglerne obligatorisk at anvende stereotyper for både modelelementer og modelpakker. 
 
 Til modelelementer anvendes: 
-* << Concept >> i begrebsmodeller og informationsmodeller 
-* << ModelElement >> i logiske datamodeller
+* &laquo; Concept &raquo; i begrebsmodeller og informationsmodeller 
+* &laquo; ModelElement &raquo; i logiske datamodeller
   
 Elementer der ikke tildeles stereotyper, fordi de ikke skal dokumenteres med metadata: generaliseringer, associationer i begrebsmodeller og (unavngivne) associationer i logiske datamodeller.
 
 Til modelpakker anvendes afhængigt af modeltype: <br>
-* << ConceptModel >> 
-* << InformationModel >> 
-* << LogicalDatamodel >> 
-* << ClassificationModel >>
+* &laquo; ConceptModel &raquo; 
+* &laquo; InformationModel &raquo; 
+* &laquo; LogicalDatamodel &raquo; 
+* &laquo; ClassificationModel &raquo;
 
 Det er ikke et krav at angive stereotyper på underpakker, men det er selvfølgelig tilladt hvor det giver mening.
 
-Det er tilladt at anvende stereotyper udover de ovenfor nævnte. Fx er det udbredt at anvende stereotyperne << mandatory >>, << recommended >>  og << optional >> til at angive kravniveauer. Det er tilladt at definere egne stereotyper. Her bør man dog være meget opmærksom på om stereotypenavnene er selvforklarende og dermed tilføjer information eller blot bliver støj for udenforstående der ikke forstår dem. Ligeledes bør man være opmærksom på flere stereotyper per element kan gøre diagrammer sværere at læse.
+Det er tilladt at anvende stereotyper udover de ovenfor nævnte. Fx er det udbredt at anvende stereotyperne &laquo; mandatory &raquo;, &laquo; recommended &raquo;  og &laquo; optional &raquo; til at angive kravniveauer. Det er tilladt at definere egne stereotyper. Her bør man dog være meget opmærksom på om stereotypenavnene er selvforklarende og dermed tilføjer information eller blot bliver støj for udenforstående der ikke forstår dem. Ligeledes bør man være opmærksom på flere stereotyper per element kan gøre diagrammer sværere at læse.
 
-UML keywords vises på samme måde som stereotyper. Almindelige keywords er << enumeration >> og << dataType >>, men disse er altså ikke stereotyper.
+UML keywords vises på samme måde som stereotyper. Almindelige keywords er &laquo; enumeration &raquo; og &laquo; dataType &raquo;, men disse er altså ikke stereotyper.
 
 ### Dokumentation af modelelementer
 Modeller skal - uanset om de er begrebsmodeller eller af en anden type - være baseret på afklarede og dokumenterede begreber. Derfor skal elementer i UML-modeller dokumenteres med stort set de samme begrebsoplysninger som findes i en begrebsliste. For forklaring af disse oplysningstyper se [afsnittet om Begrebslister](#begrebslister) i starten af dette kapitel.
@@ -1616,7 +1614,7 @@ _Datatyperne kan tilgås fra W3Cs specifikationerne [XML Schema 1.1 Part 2: Data
 * **ISO/TC 211** Harmonized Model <br>
 _ISO/TC 211 Datatyperne kan tilgås fra [ISO/TC211 Harmonized Model Management Group GitHub-repositorium](https://github.com/ISO-TC211/HMMG) (HMMG)_
 
-XSD/RDFS datatyperne er udviklet og vedligeholdes af W3C (organisation for internetstandardisering) og anvendes bredt på nettet, herunder som standard for det semantiske web (Linked Data). IISO/TC 211 datatyperne er en UML-repræsentation af udvalgte såkaldte ”language-independent data types” beskrevet i ISO/IEC 11404. De anvendes blandt andet af INSPIRE og i modelleringen af Grunddata, hvor de også skal anvendes fremadrettet. Der er udarbejdet mapning mellem de to standarder som del af Guidelines for the RDF encoding of spatial data. Selvom disse ikke er formelt vedtaget, kan mapningerne regnes for gældende i regi af FDA.
+XSD/RDFS datatyperne er udviklet og vedligeholdes af W3C (organisation for internetstandardisering) og anvendes bredt på nettet, herunder som standard for det semantiske web (Linked Data). ISO/TC 211 datatyperne er en UML-repræsentation af udvalgte såkaldte ”language-independent data types” beskrevet i ISO/IEC 11404. De anvendes blandt andet af INSPIRE og i modelleringen af Grunddata, hvor de også skal anvendes fremadrettet. Der er udarbejdet mapning mellem de to standarder som del af Guidelines for the RDF encoding of spatial data. Selvom disse ikke er formelt vedtaget, kan mapningerne regnes for gældende i regi af FDA.
 
 Nogle af de mest almindelig datatyper ses nedenfor:
 
@@ -1901,7 +1899,7 @@ Det er ofte sådan at det samme individ/genstand i den virkelig verden passer in
 Gode definitioner baseret på adskillende træk gør det også nemmere at anvende klassifikationsemnerne til opmærkning. I praksis skal klassifikationer anvendes af personer der ikke har har været med til at udarbejde dem. Det kan være slutbrugere af det system klassifikationen er udarbejdet til eller andre modellører der genbruger klassifikationen. Det  er det vigtigt at de bruger klassifikationen som beregnet, hvilket gode definitioner letter væsentligt. Ellers går man i realiteten glip af de standardiseringsfordele man formodentligt netop gerne ville opnå ved at bruge en klassifikation.
 
 ### Modellering af klassifikationer i UML
-For mindre klassifikationer kan det være meningsfuldt at repræsentere og visualisere disse med UML. I UML kan klassifikationer modelleres på to måder. Enten med enumerationer eller med klassifikationsklasser, men for begge gælder at de skal placeres i en selvstændig pakke med stereotypen <<ClassificationModel>> og dokumenteres med metadata. Dette for at facilitere at klassifikationerne kan genbruges i så mange sammenhænge som muligt, samt gøre det muligt at lave ændringsstyring på klassifikationer uafhængigt af de modeller der benytter dem. 
+For mindre klassifikationer kan det være meningsfuldt at repræsentere og visualisere disse med UML. I UML kan klassifikationer modelleres på to måder. Enten med enumerationer eller med klassifikationsklasser, men for begge gælder at de skal placeres i en selvstændig pakke med stereotypen &laquo; ClassificationModel &raquo; og dokumenteres med metadata. Dette for at facilitere at klassifikationerne kan genbruges i så mange sammenhænge som muligt, samt gøre det muligt at lave ændringsstyring på klassifikationer uafhængigt af de modeller der benytter dem. 
 
 #### Valg af enumeration eller klassifikationsklasse og instanser
 En enumeration, hvor klassifikationsemnerne repræsenteres af enumerationsværdier, eller en klassifikationsklasse, hvor emnerne repræsenteres af instanser, kan i mange situationer repræsentere den samme information, som i eksemplet nedenfor.
@@ -2431,9 +2429,9 @@ En anden måde at lave diagrammer til kommunikation er at lave simplificerede vi
 
 ## Yderligere best practices i international modellering
 ### Angivelse af kravniveau med supplerende stereotyper 
-Hvis man i en UML-model ønsker at tydeliggøre de forskellige krav til anvendelse af de forskellige elementer i modellen, bør man anvende supplerende stereotyper til dette. Eksempelvis kan stereotyperne 5<<mandatory>>, <<recommended>>, og <<optional>> anvendes til at angive om udfyldelse af et givet felt er obligatorisk, anbefalet eller valgfrit. 
+Hvis man i en UML-model ønsker at tydeliggøre de forskellige krav til anvendelse af de forskellige elementer i modellen, bør man anvende supplerende stereotyper til dette. Eksempelvis kan stereotyperne &laquo; mandatory &raquo;, &laquo; recommended &raquo;, og &laquo; optional &raquo; anvendes til at angive om udfyldelse af et givet felt er obligatorisk, anbefalet eller valgfrit. 
 
-Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af Europa-Kommissionen. Se fx [UML-diagrammet til DCAT-AP 2.0.1](https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2020-06/8d26212c-3ed4-4c9d-b5a5-0b5934daae34/DCAT_AP_2.0.1.png). I [INSPIRE](https://inspire-regadmin.jrc.ec.europa.eu/dataspecification/themes/br/Chapter5.pdf) data specifikationerne anvendes også stereotypen <<voidable>> til at angive at der ikke eksisterer eller kan afledes en tilsvarende værdi i kildedatasættet. 
+Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af Europa-Kommissionen. Se fx [UML-diagrammet til DCAT-AP 2.0.1](https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2020-06/8d26212c-3ed4-4c9d-b5a5-0b5934daae34/DCAT_AP_2.0.1.png). I [INSPIRE](https://inspire-regadmin.jrc.ec.europa.eu/dataspecification/themes/br/Chapter5.pdf) data specifikationerne anvendes også stereotypen &laquo;voidable&raquo; til at angive at der ikke eksisterer eller kan afledes en tilsvarende værdi i kildedatasættet. 
 
 ![Kravsniveau med stereotyper](Illustrations/kap7-6-kravniveau-med-stereotyper.svg)
 
@@ -2538,19 +2536,17 @@ Allemang, Dean 2008: “Semantic Web for the Working Ontologist", Morgan Kaufman
 
 [INSPIRE 2016: “Data Specifications”](http://inspire.ec.europa.eu/data-specifications/)
 
-ISO 704 Terminology Work - Principles and methods
+<a id="iso704"></a>ISO 704 Terminology Work - Principles and methods
 
 ISO 1087-1 Terminology Work -- Vocabulary -- Part 1: Theory and application
 
-ISO 10241 International terminology standards – Preparation and layout 
+<a id="iso10241"></a>ISO 10241 International terminology standards – Preparation and layout 
 
 ISO 1087-2 Terminology Work -- Vocabulary -- Part 2: Computer applications
 
 [ISO 2017: Online Browsing Platform (OBP)](https://www.iso.org/obp/ui/)
 
-[ISO 2016: How to write standards](https://www.iso.org/iso/how-to-write-standards.pdf)
-
-Madsen, Bodil Nistrup 2007, ”Terminologi 1 - Principper og metoder”, Hans Reitzels Forlag.
+<a id="madsen"></a>Madsen, Bodil Nistrup 2007, ”Terminologi 1 - Principper og metoder”, Hans Reitzels Forlag.
 
 [OMG (2005): “OMG Unified Modeling Language TM (OMG UML) - version 2.0”](http://www.omg.org/spec/UML/2.0/)
 
@@ -2558,7 +2554,7 @@ Madsen, Bodil Nistrup 2007, ”Terminologi 1 - Principper og metoder”, Hans Re
 
 SDFE 2001: “Datamodelvejledning”, Arne Simonsen. Jesper Vinther Christensen, Anders Friis-Christensen, Jan Hjelmager  
 
-[Socialstyrelsen (2010): “Vurdering af begrebssystemer”](http://www.socialebegreber.dk/begrebsarbejde/vurderingsskema-1)
+<a id="ss2010"></a>Socialstyrelsen (2010): “Vurdering af begrebssystemer”
 
 [http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf](http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf)
 
