@@ -716,18 +716,11 @@ Modelelementer der indgår i en anvendelsesmodel skal således være defineret i
 
   <table style="border:none;">
     <tr>
-      <td style="border:white;"><em>Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde</em></td>
+      <td style="border:none;"><em>Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde</em></td>
       <td style="border:none;"><em>Figur 2.12: Anvendelsesmodel sammensat af kernemodelelementer: en anvendelsesmodel kan forstås som sammensætningen af elementer fra byggeblokke til en bestemt anvendelsessituation</em></td>
     </tr>
   </table>
-</div>
 
-<table>
- <tr>
-    <td> <i>Figur 2.11: Et antal kernemodeller: en kernemodel kan forstås som en byggeblok for et bestemt emne- eller forretningsområde</i> </td>
-    <td> _Figur 2.12: Anvendelsesmodel sammensat af kernemodelelementer: en anvendelsesmodel kan forstås som sammensætningen af elementer fra byggeblokke til en bestemt anvendelsessituation_ </td>
- </tr>
-</table>
                 
 §25 - [<ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/sammensaet-anvendelsesmodeller-af-elementer-fra)
 
@@ -1122,7 +1115,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
 
 ![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-eksempel-på-udfyldt-begrebsliste.svg)
 
-_Figur 16: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind._
+_Figur 16: Eksempel på udfyldt begrebslisteskabelon. ~~Åbn billedet i en ny fane for at zoome ind~~ (kommer snart)._
 
 Se også [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen) for information om, hvilke oplysninger selve modellen bør forsynes med.
 
@@ -1439,7 +1432,7 @@ Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de
 
 ![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-Begrebet-‘stelnummer’-beskrevet-i-listeformat.svg)
 
-_Figur 18: Begrebet ‘stelnummer’ beskrevet i listeformat. Åbn billedet i en ny fane for at zoome ind._
+_Figur 18: Begrebet ‘stelnummer’ beskrevet i listeformat. ~~Åbn billedet i en ny fane for at zoome ind~~(kommer snart)._
 
 Tag
 Værdi
@@ -1941,6 +1934,8 @@ En enumeration er en flad liste uden struktur. Derfor bør alle værdierne i en 
 Ligeledes bør man undgå at beskrive mere end et inddelingskriterie i en enkelt enumeration. Cykler kan fx opdeles både efter tiltænkt anvendelse og efter tiltænkte anvendere. Både ‘racercykel’ og ‘damecykel’ er direkte underbegreber til ‘cykel’ og dermed på samme niveau, men fordi de er opdelt efter forskellige inddelingskriterier specificerer de cykler ud fra forskellige dimensioner, og samme cykel kan fx være både en racercykel og en damecykel. 
 
 Man kunne måske forestille sig at lave en enumeration over kombinationerne, såsom ‘herre racercykel’, ‘dame racercykel’, ‘børne racercykel’, ‘herre bycykel’, ‘dame bycykel’ etc., men det giver større overskuelighed. Samtidig er det nemmere at vedligeholde og genbruge, hvis enummerationerne deles op i to.
+
+<img src="Illustrations/kap5 - enumeration - en dimension.svg" alt="Eksempel hvor en enumeration indeholdt to indelingskriterier er blevet delt op i to" style="width:700px;"/>
 
 #### Modellering af klassifikationer med klassifikationsklasser 
 Anvendes en klassifikationsklasse, vil klassifikationsemnerne være instanser af denne klasse. 
