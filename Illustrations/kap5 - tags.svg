@@ -2,8 +2,8 @@
 <svg
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="113"
-   height="130"
+   width="538"
+   height="400"
 >
 
   <path
@@ -12,7 +12,7 @@
      id="path17" />
   <text
      xml:space="preserve"
-     style="font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     style="font-size:9.375350px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
      transform="matrix(1.000000,-0.000000,0.000000,1.000000,51.630857,41.253084)"
      x="0.000000"
      y="8.702087"
@@ -22,7 +22,7 @@
        id="tspan23"><tspan
          dx="-20.000000"
          dy="-20.000000"
-         style="fill:#000000;font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         style="fill:#000000;font-size:9.375350px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
          id="tspan21">stelnummer</tspan></tspan></text>
   <path
 	style="fill:none; stroke:#000000; stroke-width:0.5px:"
@@ -32,10 +32,231 @@
 	d=" M 76,116 L 80,120 L 76,124" />
 		
   <text
-	style="fill:#000000;font-size:9.375000px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:Normal;font-family:Calibri;"
+	style="fill:#000000;font-size:9.375350px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:Normal;font-family:Calibri;"
 	x="58"
 	y="90"
-	>tags</text>	
+	>tags</text>
+
+  <path 
+	style="fill:lightgrey;stroke:none"
+	d= "M 535,13 L 128, 13 L 128, 35 L 535, 35" />	
 	
-  
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 535, 395 L 535,13 L 128, 13 L 128, 395" />
+	
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="30"
+	>Tag</text>
+	
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="30"
+	>Værdi</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 35 L 535, 35" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="55"
+	>preflabel (da)</text>
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="55"
+	>stelnummer</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 60 L 535, 60" />
+	
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="80"
+	>altLabel (da)</text>
+	
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="80"
+	>stelnr.</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 85 L 535, 85" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="105"
+	>deprecatedLabel (da)</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 110 L 535, 110" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="130"
+	>definition (da)</text>
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="130"
+	>unik kombination af tal og bogstaver der markeres på</text>
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="145"
+	>stellet af et køretøj for entydigt at kunne identificere dette</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 150 L 535, 150" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="170"
+	>example (da)</text>
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="170"
+	>WDA1234Z</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 175 L 535, 175" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="195"
+	>comment (da)</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 200 L 535, 200" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="220"
+	>applicationNote (da)</text>
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="220"
+	>et stelnummer på en cykel består af fabrikantmærke (1-4</text>
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="235"
+	>bogstaver), serienummer (bestående af tal) og </text>
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="250"
+	>årstalsmærke (et enkelt bogstav)</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 255 L 535, 255" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="275"
+	>legalSource</text>
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="275"
+	>https://www.retsinformation.dk/eli/lta/2009/4</text>
+	
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 280 L 535, 280" />
+	
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="300"
+	>source</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 305 L 535, 305" />
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="325"
+	>isDefinedBy</text>
+	
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="325"
+	>https://data.gov.dk/concept/core/TransportationMeans</text>
+
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 330 L 535, 330" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="350"
+	>URI</text>
+	
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="350"
+	>https://data.gov.dk/concept/core/TransportationMeans/VI</text>
+	
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:Normal;font-family:Calibri;"
+	x="250"
+	y="365"
+	>N-number</text>
+	
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 370 L 535, 370" />
+
+  <text
+	style="fill:#000000;font-size:12px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="135"
+	y="390"
+	>wasDerivedFrom</text>
+	
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 128, 395 L 535, 395" />
+
+	
+  <path 
+	style="fill:none;stroke:#000000;stroke-width:0.5px;"
+	d= "M 242,13 L 242, 395" />
+	
+
+	
 </svg>
