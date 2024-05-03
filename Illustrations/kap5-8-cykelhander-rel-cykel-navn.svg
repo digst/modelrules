@@ -9,7 +9,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="52.044599mm"
-   height="14.224mm"
+   height="10.224mm"
    id="svg43"
    sodipodi:docname="kap5 cykelhander rel cykel.wmf">
   <metadata
@@ -45,6 +45,7 @@
        x="0"
        y="0" />
   </defs>
+<g transform="translate(0,-5)">
   <path
      style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.54311603px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
      d="     M 134.14966,20.056242    C 134.14966,19.457499 134.63598,18.972121 135.23589,18.972121    L 181.94387,18.972121    C 182.54378,18.972121 183.0301,19.457499 183.0301,20.056242    L 183.0301,39.028364    C 183.0301,39.627107 182.54378,40.112485 181.94387,40.112485    L 135.23589,40.112485    C 134.63598,40.112485 134.14966,39.627107 134.14966,39.028364    z  "
@@ -109,6 +110,6 @@
 	y="26">	
 	har på lager
   </text>
-  
+</g>  
   
 </svg>
