@@ -1468,8 +1468,8 @@ En særlig form for association, med indbygget semantik, er generalisering, ogs�
 For eksempel er ‘Cykel’ og ‘Hestevogn’ specialiseringer - mere specifikke typer - af et ‘Ikke-motoriseretKøretøj’. Som subklasser arver ‘Cykel’ og ‘Hestevogn’ alle egenskaber (både attributter og associationer) fra superklassen ‘Ikke-motoriseretKøretøj’. Derudover kan der modelleres yderligere egenskaber for den enkelte subklasse, som ikke gælder for superklassen. I eksemplet arver ‘Cykel’ og ‘Hestevogn’ attributterne ‘antalHjul’, ‘farve’ og ‘maxPassagerer’ fra ‘Ikke-motoriseretKøretøj’ samtidig med, at de hver især har attributter, der gælder kun for dem. 
 
 <img src="Illustrations/kap5-4-generalisering-nedarvning.svg" alt="Eksempel på generalisering/specialisering" style="width:800px;"/>
-_Figur 5.6: Eksempel på generalisering/specialisering_
-<br>
+*Figur 5.6: Eksempel på generalisering/specialisering*
+<br><br>
 Den indbyggede semantik i generaliseringsassociationen gør, at der her ikke tilføjes metadata, associationsende, stereotype eller multiplicitet.
 
 #### Generaliseringssæt
