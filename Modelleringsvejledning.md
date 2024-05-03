@@ -531,7 +531,7 @@ Et forløb for begrebsmodellering kunne se således ud:
 
 ![Proces for begrebsmodellering](Illustrations/kap2-6-proces-for-begrebsmodellering.svg)
 
-Figur 2.6: Proces for begrebsmodellering
+_Figur 2.6: Proces for begrebsmodellering_
 
 <ol>
 <li> Etablering af arbejdsgruppe </li>
@@ -759,7 +759,7 @@ Et **begreb** er groft sagt det mentale billede vi har af en given type af ting,
 
 <img src="Illustrations/kap3-centrale-elementer-i-begrebsmodellering.svg" alt="Centrale elementer i begrebsmodellering" style="width:1000px;"/>
 
-_Figur 13: Centrale elementer i begrebsmodellering_
+_Figur 3.1: Centrale elementer i begrebsmodellering_
 
 Der vil være en mængde af fænomener i den virkelige verden der falder ind under et givet begreb, og mængden af disse fra ‘den virkelige verden’ kaldes for begrebets **instanser**. Instanser kaldes ofte _referenter_ i terminologilitteratur.
 
@@ -866,12 +866,12 @@ Der henvises til juridiske kilder med et link, nærmere bestemt en ELI [(Europea
 ![]()
 <img src="Illustrations/kap3-ELI-retsinformationen.png" alt="ELI på retsinformationen" style="width:1000px;"/>
 
-_Figur 14: ELI på retsinformationen_
+_Figur 3.2: ELI på retsinformationen_
 
 
 <img src="Illustrations/kap3-ELI-EUR-Lex.png" alt="ELI på EUR-Lex" style="width:1000px;"/>
 
-_Figur 15: ELI på EUR-Lex_
+_Figur 3.3: ELI på EUR-Lex_
 
 Hvis lovgivningen giver en definition af et givent begreb, bør denne ideelt set anvendes, også selvom den ikke opfylder modelreglernes krav til udarbejdelse af definitioner. Det kan dog forekomme, at lovgivningens definition af et begreb vurderes at være decideret uanvendelig. I så fald kan definitionen fravælges, men medtages i en kommentar med en forklaring på, hvorfor den ikke kan anvendes. Ligeledes bør lovgivningens terminologi medtages men ikke nødvendigvis foretrækkes.
 
@@ -1042,6 +1042,7 @@ I forbindelse med begrebsafklaringen anbefales det, at de termer, der skal indg�
 I nogle tilfælde kan principperne trække i forskellige retninger. Her må begrebsmodelløren og den domænekyndige sammen vurdere, hvad der giver bedst mening i det konkrete tilfælde.
 
 §18 - [<ins> <span style="color:#AB2A0C;">Angiv termer i et naturligt sprog</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-termer-i-et-naturligt-sprog)
+
 §19- [<ins> <span style="color:#AB2A0C;">Brug standardiserede konventioner for angivelse af navne</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/brug-standardiserede-konventioner-angivelse-af-navne)
 
 # Kapitel 4: Anvendelse og udformning af HTTP-URIer
@@ -1087,18 +1088,18 @@ En begrebsmodel kan udtrykkes som en begrebsliste. Begrebslisten skal udtrykkes 
 
 Begrebsoplysningerne opsættes som en tabel, således at hver række beskriver ét begreb. Tabellen opsættes med kolonneoverskrifter, som det er specificeret i Modelreglerne, Jf. Bilag D og E: 
 
-* Foretrukken dansk term: dansk term som foretrækkes anvendt for et givet begreb
-* Accepteret dansk term: dansk term som accepteres anvendt for et givet begreb
-* Frarådet dansk term: dansk term som ikke bør anvendes for et givet begreb
-* Definition: dansk beskrivelse af betydningen af et begreb
-* Eksempel: typisk tilfælde der beskrives for at forklare eller anskueliggøre
-* Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
-* Anvendelsesnote: note der beskriver hvordan et begreb anvendes i en bestemt anvendelseskontekst
-* Juridisk kilde: reference til lovgrundlag (hjemmel)
-* Kilde: reference til ressource hvorfra begrebet er afledt
-* Tilhører emneområde: angivelse af om begrebet hører til modellens emneområde
-* Identifikator: entydig reference til begrebet i form af en HTTP-URI
-* Afledt af: reference til element som begrebet er afledt af
+* **Foretrukken dansk term**: dansk term som foretrækkes anvendt for et givet begreb
+* **Accepteret dansk term**: dansk term som accepteres anvendt for et givet begreb
+* **Frarådet dansk term**: dansk term som ikke bør anvendes for et givet begreb
+* **Definition**: dansk beskrivelse af betydningen af et begreb
+* **Eksempel**: typisk tilfælde der beskrives for at forklare eller anskueliggøre
+* **Kommentar**: supplerende bemærkning eller oplysning vedrørende begrebet
+* **Anvendelsesnote**: note der beskriver hvordan et begreb anvendes i en bestemt anvendelseskontekst
+* **Juridisk kilde**: reference til lovgrundlag (hjemmel)
+* **Kilde**: reference til ressource hvorfra begrebet er afledt
+* **Tilhører emneområde**: angivelse af om begrebet hører til modellens emneområde
+* **Identifikator**: entydig reference til begrebet i form af en HTTP-URI
+* **Afledt af**: reference til element som begrebet er afledt af
 
 Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal altid udfyldes. Resten af felterne udfyldes, hvis det er relevant. 
 
@@ -1115,7 +1116,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
 
 ![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-eksempel-på-udfyldt-begrebsliste.svg)
 
-_Figur 16: Eksempel på udfyldt begrebslisteskabelon. ~~Åbn billedet i en ny fane for at zoome ind~~ (kommer snart)._
+_Figur 5.1: Eksempel på udfyldt begrebslisteskabelon. ~~Åbn billedet i en ny fane for at zoome ind~~ (kommer snart)._
 
 Se også [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen) for information om, hvilke oplysninger selve modellen bør forsynes med.
 
@@ -1214,13 +1215,13 @@ Andre modeller: navngives med<br>lowerCamelCase
 </tr>
 </table>
 
-_Tabel X: UML-elementer der anvendes i alle modeltyper_
+_Tabel A: UML-elementer der anvendes i alle modeltyper_
 
 Ovennævnte elementer er de eneste der anvendes i begrebsdiagrammer. Nedenfor ses et eksempel på et begrebsdiagram.
 
 <img src="Illustrations/Kap5-1-begrebsdiagram-for-cykel.svg" alt="Eksempel på begrebsdiagram" style="width:1000px;"/>
 
-_Figur ?: Eksempel på begrebsdiagram_
+_Figur 5.2: Eksempel på begrebsdiagram_
 
 ### Yderligere UML-elementer 
 Nedenfor vises en oversigt over de yderligere UML-elementer, der kan anvendes i informationsmodeller og logiske datamodeller.
@@ -1395,7 +1396,7 @@ Navngives som andre klasser med UpperCamelCase
 </tr>
 </table>
 
-_Tabel X: UML-elementer der udelukkende anvendes i informations- og logiske datamodeller_
+_Tabel B: UML-elementer der udelukkende anvendes i informations- og logiske datamodeller_
 
 Udover de ovenstående elementer anvendes der i alle modeltyper pakker og stereotyper 
 
@@ -1432,11 +1433,11 @@ Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de
 
 ![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-Begrebet-‘stelnummer’-beskrevet-i-listeformat.svg)
 
-_Figur 18: Begrebet ‘stelnummer’ beskrevet i listeformat. ~~Åbn billedet i en ny fane for at zoome ind~~(kommer snart)._
+_Figur 5.3: Begrebet ‘stelnummer’ beskrevet i listeformat. ~~Åbn billedet i en ny fane for at zoome ind~~(kommer snart)._
 
 <img src="Illustrations/kap5 - tags.svg" alt="‘stelnummer’ beskrevet med tagged values" style="width:900px;"/>
 
-_Tabel X ‘stelnummer’ beskrevet med tagged values_
+_Figur 5.4 ‘stelnummer’ beskrevet med tagged values_
 
 Der er to forskelle mellem en UML-model og en begrebsliste, som man skal være opmærksom på. Den ene forskel er, at oplysningen om den entydige identifikator i form af en HTTP-URI bliver obligatorisk. Den anden er, at oplysningen om hvorvidt begrebet eller klassen tilhører modellens emne skal angives på en anden måde, nemlig i tagget ‘isDefinedBy’, hvor den model, hvor begrebet defineres, identificeres ved hjælp af en HTTP-URI. 
 Tilhører begrebet emnet, man modellerer, angives URIen for denne model. For begreber der ikke tilhører emnet, vil det ikke altid være muligt at angive en URI, fx hvis man har genbrugt et begreb fra en kilde der ikke anvender URIer. Det kan stadig give mening at genbruge et begreb for derved at få en fagligt valideret definition og/eller en definition, der i forvejen er bredt anerkendt. Her må man lade tagget være uudfyldt, men selvfølgelig angive, hvor begrebet stammer fra som kilde. 
@@ -1447,9 +1448,9 @@ _Anvendes i alle modeltyper_
 
 En UML-klasse er en repræsentation af et sæt af objekter, der deler semantik og egenskaber. At de deler semantik vil sige, at der findes en definition, der dækker præcis de objekter, der er medlem af klassen, hvormed klassen også svarer til et begreb. Man kan også sige, at en klasse beskriver en kategori/type af instanser. 
 
-<img src="Illustrations/kap5-3-cykel.svg" alt="Klasser der repræsenterer ting af typen cykel" style="width:150px;"/>
+<img src="Illustrations/kap5-3-cykel.svg" alt="Klasse der repræsenterer ting af typen cykel" style="width:150px;"/>
 
-_Figur x: Klasser der repræsenterer ting af typen cykel._
+_Figur 5.5: Klasse der repræsenterer ting af typen cykel._
 
 Alle modeltyper anvender klasser. Der er dog den forskel, at begreber i terminologiske begrebsmodeller navngives med naturligt sprog også når begrebsmodellen visualiseres med UML, hvorimod klasser i informations- og logiske datamodeller navngives med UpperCamelCase, således at begrebet ‘ethjulet cykel’ fx bliver til klassen ‘EthjuletCykel’. Som ved begreber, er det god skik at anvende entalsformen af substantiver (navneord) til navngivelse af klasser, hvilket afspejler, at klassen typificerer et sæt af objekter.
 
@@ -1467,8 +1468,8 @@ En særlig form for association, med indbygget semantik, er generalisering, ogs�
 For eksempel er ‘Cykel’ og ‘Hestevogn’ specialiseringer - mere specifikke typer - af et ‘Ikke-motoriseretKøretøj’. Som subklasser arver ‘Cykel’ og ‘Hestevogn’ alle egenskaber (både attributter og associationer) fra superklassen ‘Ikke-motoriseretKøretøj’. Derudover kan der modelleres yderligere egenskaber for den enkelte subklasse, som ikke gælder for superklassen. I eksemplet arver ‘Cykel’ og ‘Hestevogn’ attributterne ‘antalHjul’, ‘farve’ og ‘maxPassagerer’ fra ‘Ikke-motoriseretKøretøj’ samtidig med, at de hver især har attributter, der gælder kun for dem. 
 
 <img src="Illustrations/kap5-4-generalisering-nedarvning.svg" alt="Eksempel på generalisering/specialisering" style="width:800px;"/>
-_Figur xx: Eksempel på generalisering/specialisering_
-
+_Figur 5.6: Eksempel på generalisering/specialisering_
+<br>
 Den indbyggede semantik i generaliseringsassociationen gør, at der her ikke tilføjes metadata, associationsende, stereotype eller multiplicitet.
 
 #### Generaliseringssæt
@@ -1477,7 +1478,7 @@ _Anvendes i alle modeltyper_
 Et generaliseringssæt samler to eller flere specialiserede klasser i et sæt. Ved at samle klasser i et generaliseringssæt indikerer man at de er specialiserede efter samme inddelingskriterie. Fx er ‘personbil’, ‘varevogn’ og ‘lastbil’ specialiseringer af ‘bil’, der er inddelt i forhold til funktion, hvorimod ‘lejebil’ er en specialisering af ‘bil’ i forhold til hvordan man får retten til at bruge den. Derfor er ‘personbil’, ‘varevogn’ og ‘lastbil’ del af samme generaliseringssæt, mens ‘lejebil’ ikke er. 
 
 <img src="Illustrations/kap5-5-generaliseringssæt.svg" alt="Eksempel på generaliseringssæt" style="width:800px;"/>
-_Figur xx: Eksempel på generaliseringssæt_
+_Figur 5.7: Eksempel på generaliseringssæt_
 
 #### Egenskaber
 En egenskab modelleres i UML som en Property og kan være enten en associationsende eller et attribut. Der skelnes mellem to overordnede typer af egenskaber: 
@@ -1500,7 +1501,8 @@ _Anvendes i informations- og logiske datamodeller_
 Attributter er de egenskaber en klasse har hvis værdi udtrykkes som en bogstavelig værdi (literal). Ofte antal, tekststrenge eller sandt/falsk markeringer. Objekter der er instanser af klassen vil have egenskaben med en specifik værdi. Værdier kan være unikke for et enkelt objekt eller der kan være sammenfald for mange objekter. Fx vil attributtet ‘stelnummer’ på klassen ‘Cykel’ være unikt for hver enkelt instans af klassen, da hvert stelnummer identificerer en unik cykel. For atributtet ‘farve’ må man derimod forvente mange gentagelser af fx ‘sort’, hvis der findes tilstrækkeligt mange instanser af klassen selvom værdien er specifik for hver instans. 
 
 <img src="Illustrations/kap5-5.1cykel-m-attributter.svg" alt="Klassen Cykel med attributter, stelnummer, farve og størrelse" style="width:200px;"/>
-_figur x: Klassen Cykel med attributterne stelnummer, farve og størrelse_
+_Figur 5.8: Klassen Cykel med attributterne stelnummer, farve og størrelse_
+
 
 Attributter navngives med lowerCamelCase, fx ‘stelnummer’, ‘maxPassagerer’ eller ‘antalHjul’. Navnet på klassen bør ikke medtages i attributnavnet. Dels bliver det sværere at genbruge egenskabernes semantik (‘stelnummer’ kan genbruges for fx motorcykler, men ‘cykelStelnummer’ kan ikke - selve UML-attributtet kan ikke genbruges, men egenskaben semantik (navn, definition og anden beskrivelse) kan og bør), dels bliver attributnavnene unødigt lange og svære at læse. Og informationen om at der her er tale om et stelnummer på en cykel er til stede fordi attributtet netop er placeret på klassen ‘Cykel’. 
 
@@ -2105,7 +2107,7 @@ Dokumentation består af metadata, der svarer på spørgsmål om modellen, fx. H
 </table>
 
 
-_Tabel 5: Modelmetadatasektionen fra begrebslisteskabelonen_
+_Tabel C: Modelmetadatasektionen fra begrebslisteskabelonen_
 
 Ovenfor ses modelmetadatasektionen fra begrebslisteskabelonen. Det er de samme metadata alle modeller skal have, selvom metoden til angivelse varierer lidt afhængigt af om det er en UML-model eller en begrebsmodel i listeformat.
 
@@ -2268,7 +2270,7 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
   </tr>
 </table>
 
-_Tabel 6: Fiktivt eksempel på metadata om en model_
+_Tabel D: Fiktivt eksempel på metadata om en model_
 
 
 # Kapitel 7: Det visuelle udtryk
