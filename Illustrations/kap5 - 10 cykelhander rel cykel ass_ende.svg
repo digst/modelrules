@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="52.044599mm"
+   height="14.224mm"
+   id="svg43"
+   sodipodi:docname="kap5 cykelhander rel cykel.wmf">
+  <metadata
+     id="metadata47">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview45" />
+  <defs
+     id="defs3">
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.54311603px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 134.14966,20.056242    C 134.14966,19.457499 134.63598,18.972121 135.23589,18.972121    L 181.94387,18.972121    C 182.54378,18.972121 183.0301,19.457499 183.0301,20.056242    L 183.0301,39.028364    C 183.0301,39.627107 182.54378,40.112485 181.94387,40.112485    L 135.23589,40.112485    C 134.63598,40.112485 134.14966,39.627107 134.14966,39.028364    z  "
+     id="path17" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.54311603px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 134.14966,20.056242    C 134.14966,19.457499 134.63598,18.972121 135.23589,18.972121    L 181.94387,18.972121    C 182.54378,18.972121 183.0301,19.457499 183.0301,20.056242    L 183.0301,39.028364    C 183.0301,39.627107 182.54378,40.112485 181.94387,40.112485    L 135.23589,40.112485    C 134.63598,40.112485 134.14966,39.627107 134.14966,39.028364    z  "
+     id="path19" />
+  <text
+     xml:space="preserve"
+     style="font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,152.615602,23.850667)"
+     x="0.000000"
+     y="5.047211"
+     id="text25"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="5.047211"
+       id="tspan23"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan21">Cykel</tspan></tspan></text>
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="     M 15.207249,21.682424    C 15.207249,21.083681 15.693571,20.598303 16.293481,20.598303    L 63.001459,20.598303    C 63.601368,20.598303 64.087691,21.083681 64.087691,21.682424    L 64.087691,40.654545    C 64.087691,41.253289 63.601368,41.738667 63.001459,41.738667    L 16.293481,41.738667    C 15.693571,41.738667 15.207249,41.253289 15.207249,40.654545    z  "
+     id="path27" />
+  <path
+     style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:0.54311603px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 13.577901,20.056242    C 13.577901,19.457499 14.064223,18.972121 14.664133,18.972121    L 61.37211,18.972121    C 61.97202,18.972121 62.458343,19.457499 62.458343,20.056242    L 62.458343,39.028364    C 62.458343,39.627107 61.97202,40.112485 61.37211,40.112485    L 14.664133,40.112485    C 14.064223,40.112485 13.577901,39.627107 13.577901,39.028364    z  "
+     id="path29" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.54311603px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="     M 13.577901,20.056242    C 13.577901,19.457499 14.064223,18.972121 14.664133,18.972121    L 61.37211,18.972121    C 61.97202,18.972121 62.458343,19.457499 62.458343,20.056242    L 62.458343,39.028364    C 62.458343,39.627107 61.97202,40.112485 61.37211,40.112485    L 14.664133,40.112485    C 14.064223,40.112485 13.577901,39.627107 13.577901,39.028364    z  "
+     id="path31" />
+  <text
+     xml:space="preserve"
+     style="font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,23.353989,23.850667)"
+     x="0.000000"
+     y="5.047211"
+     id="text37"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="5.047211"
+       id="tspan35"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:Normal;font-family:Calibri;"
+         id="tspan33">Cykelhandler</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.54311603px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 62.458343,29.271273   L 134.14966,29.271273  "
+     id="path39" />
+   <path
+	  style="fill:none;stroke:#000000;stroke-width:0.54311603px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+	  d = " M 128.5, 26.5 L 134.14966,29.271273 L 128.5, 32" />
+	  
+  <text 
+	style="fill:#000000;font-size:5.437500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
+	x="105"
+	y="26">	
+	påLager
+  </text>
+  
+
+  
+  
+</svg>
