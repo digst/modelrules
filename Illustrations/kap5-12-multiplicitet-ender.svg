@@ -9,7 +9,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="147.1422mm"
-   height="34.467801mm"
+   height="25.467801mm"
    id="svg123"
    sodipodi:docname="kap5 - 12 multiplicitet - ender.wmf">
   <metadata
@@ -45,7 +45,7 @@
        x="0"
        y="0" />
   </defs>
- 
+ <g transform="translate(0,-8)">
   <path
      style="fill:#fefaf7;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0530909px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
      d="     M 230.62691,39.479607    C 230.62691,38.301013 231.56988,37.345574 232.73309,37.345574    L 323.29891,37.345574    C 324.46212,37.345574 325.40509,38.301013 325.40509,39.479607    L 325.40509,83.227279    C 325.40509,84.405872 324.46212,85.361311 323.29891,85.361311    L 232.73309,85.361311    C 231.56988,85.361311 230.62691,84.405872 230.62691,83.227279    z  "
@@ -259,4 +259,5 @@
          dy="0.000000"
          style="fill:#000000;font-size:10.500000px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Calibri;"
          id="tspan117">0..*</tspan></tspan></text>
+ </g>
 </svg>
