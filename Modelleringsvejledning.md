@@ -1450,7 +1450,7 @@ En UML-klasse er en repræsentation af et sæt af objekter, der deler semantik o
 
 <img src="Illustrations/kap5-3-cykel.svg" alt="Klasse der repræsenterer ting af typen cykel" style="width:150px;"/>
 
-_Figur 5.5: Klasse der repræsenterer ting af typen cykel._
+<i>Figur 5.5: Klasse der repræsenterer ting af typen cykel.</i>
 
 Alle modeltyper anvender klasser. Der er dog den forskel, at begreber i terminologiske begrebsmodeller navngives med naturligt sprog også når begrebsmodellen visualiseres med UML, hvorimod klasser i informations- og logiske datamodeller navngives med UpperCamelCase, således at begrebet ‘ethjulet cykel’ fx bliver til klassen ‘EthjuletCykel’. Som ved begreber, er det god skik at anvende entalsformen af substantiver (navneord) til navngivelse af klasser, hvilket afspejler, at klassen typificerer et sæt af objekter.
 
@@ -1468,7 +1468,7 @@ En særlig form for association, med indbygget semantik, er generalisering, ogs�
 For eksempel er ‘Cykel’ og ‘Hestevogn’ specialiseringer - mere specifikke typer - af et ‘Ikke-motoriseretKøretøj’. Som subklasser arver ‘Cykel’ og ‘Hestevogn’ alle egenskaber (både attributter og associationer) fra superklassen ‘Ikke-motoriseretKøretøj’. Derudover kan der modelleres yderligere egenskaber for den enkelte subklasse, som ikke gælder for superklassen. I eksemplet arver ‘Cykel’ og ‘Hestevogn’ attributterne ‘antalHjul’, ‘farve’ og ‘maxPassagerer’ fra ‘Ikke-motoriseretKøretøj’ samtidig med, at de hver især har attributter, der gælder kun for dem. 
 
 <img src="Illustrations/kap5-4-generalisering-nedarvning.svg" alt="Eksempel på generalisering/specialisering" style="width:800px;"/>
-*Figur 5.6: Eksempel på generalisering/specialisering*
+<i>Figur 5.6: Eksempel på generalisering/specialisering</i>
 <br><br>
 Den indbyggede semantik i generaliseringsassociationen gør, at der her ikke tilføjes metadata, associationsende, stereotype eller multiplicitet.
 
@@ -1501,7 +1501,7 @@ _Anvendes i informations- og logiske datamodeller_
 Attributter er de egenskaber en klasse har hvis værdi udtrykkes som en bogstavelig værdi (literal). Ofte antal, tekststrenge eller sandt/falsk markeringer. Objekter der er instanser af klassen vil have egenskaben med en specifik værdi. Værdier kan være unikke for et enkelt objekt eller der kan være sammenfald for mange objekter. Fx vil attributtet ‘stelnummer’ på klassen ‘Cykel’ være unikt for hver enkelt instans af klassen, da hvert stelnummer identificerer en unik cykel. For atributtet ‘farve’ må man derimod forvente mange gentagelser af fx ‘sort’, hvis der findes tilstrækkeligt mange instanser af klassen selvom værdien er specifik for hver instans. 
 
 <img src="Illustrations/kap5-5.1cykel-m-attributter.svg" alt="Klassen Cykel med attributter, stelnummer, farve og størrelse" style="width:200px;"/>
-_Figur 5.8: Klassen Cykel med attributterne stelnummer, farve og størrelse_
+<i>Figur 5.8: Klassen Cykel med attributterne stelnummer, farve og størrelse</i><br><br>
 
 
 Attributter navngives med lowerCamelCase, fx ‘stelnummer’, ‘maxPassagerer’ eller ‘antalHjul’. Navnet på klassen bør ikke medtages i attributnavnet. Dels bliver det sværere at genbruge egenskabernes semantik (‘stelnummer’ kan genbruges for fx motorcykler, men ‘cykelStelnummer’ kan ikke - selve UML-attributtet kan ikke genbruges, men egenskaben semantik (navn, definition og anden beskrivelse) kan og bør), dels bliver attributnavnene unødigt lange og svære at læse. Og informationen om at der her er tale om et stelnummer på en cykel er til stede fordi attributtet netop er placeret på klassen ‘Cykel’. 
@@ -1512,10 +1512,12 @@ _Anvendes i alle modeltyper_
 Associationer anvendes til at forbinde begreber/klasser. Ligesom en klasse er en generalisering over en gruppe af objekter så er associationen teknisk set en generalisering over hvordan objekter, der er instanser af de to klasser, kan være forbundet. En generisk association udtrykkes med fuldt optrukken streg. Den siger ikke i sig selv noget om _**hvordan**_ klasserne er forbundet, blot at de er.
 
 <img src="Illustrations/kap5-6-cykelhander-rel-cykel-1.svg" alt="cykelhandler relation til cykel" style="width:400px;"/>
+<i>Figur 5.9: Eksempel på relation</i><br><br>
 
 Associationer kan angives med navigabilitet, der vises som en pil i enden af associationer. Dette omtales ofte mindre præcist som retning. Modelreglerne tillader angivelse af navigabilitet, men kræver det ikke.
 
 <img src="Illustrations/kap5-7-cykelhander-rel-cykel-2.svg" alt="cykelhandler relation til cykel med pil" style="width:400px;"/>
+<i>Figur 5.10: Eksempel på relation med navigabilitet</i><br><br>
 
 ##### Associationsnavne
 _Anvendes i begrebs- og informationsmodeller_
@@ -1524,13 +1526,13 @@ En association kan gives et navn der beskriver hvordan de begreber/klasser den f
 
 <img src="Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
 
-_Figur XX: Associationsnavn i begrebsmodel_
+_Figur 5.11: Associationsnavn i begrebsmodel_
 
 Associationsnavnet kan forsynes med angivelse af læseretning i form af et udfyldt pilehoved der fortæller hvordan navnet skal læses, fx ‘Cykelhandler’ harPåLager ‘Cykel’, frem for ‘Cykel’ harPåLager ‘Cykelhandler’.
 
 <img src="Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
 
-Figur XX: Associationsnavn med læseretning i informationsmodel
+<i>Figur 5.12: Associationsnavn med læseretning i informationsmodel</i>
 
 #### Associationsender
 _Anvendes i logiske datamodeller_
@@ -1539,7 +1541,8 @@ Associationsender udtrykker objektegenskaber, dvs egenskaber en klasse har hvor 
 
 Associationsenden bæres af associationen, og i logiske datamodeller er netop det at bære associationsender associationens vigtigste funktion. Associationsenden placeres i den ende af associationen der “længst væk” fra den klasse den er egenskab for, og dermed “tættest på “ den klasse der repræsenterer udfaldsrummet. I eksemplet nedenfor har ‘Cykelhandler’ egenskaben ‘påLager’ og udfaldsrummet for denne egenskab er ‘Cykel’, som er det der kan være på lager. Navne på associationsender angives i lowerCamelCase.
 
-<img src="Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
+<img src="Illustrations/kap5-10-cykelhander-rel-cykel-ass_ende.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
+<i>Figur 5.13: Association med associationsende</i><br><br>
 
 ##### Multiplicitet
 _Anvendes i informations- og logiske datamodeller der er anvendelsesorienterede_
@@ -1560,13 +1563,13 @@ Eksemplet nedenfor viser en anvendelsessituation, hvor man altid vil have inform
 
 <img src="Illustrations/kap5-11-cykeltaxa-multipicitet.svg" alt="ELI på EUR-Lex" style="width:200px;"/>
 
-_Figur xx: Multiplicitet vist på attributter_
+_Figur 5.13: Multiplicitet vist på attributter_
 
 Det følgende eksempel viser multiplicitet i forbindelse med associationsender. En cykelhandler kan have fra 0 til et ubegrænset antal cykler på lager. En specifik cykel kan være på lager hos højst en cykelhandler, men behøver ikke være på lager hos nogen. En cykel har som del netop to bremsesystemer, men et bremsesystem kan være installeret på højst en cykel.
 
 ![Multiplicitet vist på associationsender_](Illustrations/kap5-12-multiplicitet-ender.svg)
 
-_Figur xx: Multiplicitet vist på associationsender_
+_Figur 5.14: Multiplicitet vist på associationsender_
 
 Det kan måske være fristende at læse multipliciteten efter mønsteret ‘klasse - nærmeste multiplicitet - klasse i den anden ende’, altså fx cykelhandler har 0 til 1 cykel, men dette er forkert, da multipliciteten hører til associationsenden som angives nærmest den klasse, den har som udfaldsrum. Dette betyder, at multipliciteten skal læse efter mønsteret ‘klasse - multiplicitet angivet i modsatte ende - klasse i modsatte ende’, altså fx cykelhandler har (på lager) 0 til ubegrænset antal cykler.
 
@@ -1634,16 +1637,15 @@ Nogle af de mest almindelig datatyper ses nedenfor:
 <td>Absolut eller relativ URI eller IRI.</td>
 </tr>
 </table>
-
+<i>Tabel C: Almindelige datatyper</i><br>
 <img src="Illustrations/kap5-13-cykeltaxa-simple-datatyper.svg" alt="Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211" style="width:400px;"/>
 
-_Figur X: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
+_Figur 5.15: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
 
 De ovennævnte datatyper er primitive datatyper. Det vil sige, at de ikke har intern struktur eller underdele. Der findes to andre slags datatyper: Strukturerede datatyper og enumerationer. En enumeration er en lukket liste over værdier der er tilladte som udfaldsrum for et attribut, fx ugens dage.
 
 <img src="Illustrations/ugedag.svg" alt="Eksempel på enumeration over ugedage" style="width:400px;"/>
-
-_Figur xx: Eksempel på enumeration over ugedage_
+_Figur 5.16: Eksempel på enumeration over ugedage_
 
 Enumerationer beskrives yderligere i afsnittet [Klassifikationer og kontrollerede udfaldsrum](#klassifikationer-og-kontrollerede-udfaldsrum), strukturerede datatyper beskrives nedenfor.
 
@@ -1651,7 +1653,7 @@ Enumerationer beskrives yderligere i afsnittet [Klassifikationer og kontrollered
 I de tilfælde, hvor der ikke findes en egnet primitiv datatype, bliver man nødt til selv at definere en datatype. Det gøres ved hjælp af en struktureret datatype. Disse anvendes oftest fordi data består af flere dele som kan beskrives individuelt. Disse forskellige dele angives som attributter på datatypen. Fx består stelnumre af et fabrikantmærke (1-4 bogstaver), et serienummer og et årstalsmærke i form af et bogstav. 
 
 <img src="Illustrations/kap5-14-gul-datatype.svg" alt="Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel" style="width:200px;"/>
-_Figur xx: Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel_
+<i>Figur 5.17: Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel</i><br><br>
 
 Man kan dog også definere en struktureret datatype med kun et enkelt attribut, hvis der ikke er individuelle dele, men man ønsker at definere en datatype, der er mere specifik end de primitive datatyper giver mulighed for. Man kunne fx forestille sig at definere CPR-nummer som en datatype. I sådanne tilfælde skal man overveje om det giver en reel værdi eller om de yderligere restriktioner er noget det er så implemteringsnært og måske endda systemspecifikt at det hører til i en fysisk model.
 
@@ -1664,6 +1666,7 @@ Dette er dog ikke den eneste valgmulighed. Man kan sagtens vælge at modellere e
 Navnet på strukturerede datatyper angives ved det attribut den er datatype for ligesom primitive datatyper. Derudover kan man synliggøre relationen mellem attributtet og datatypen ved hjælp af den relationstype der hedder ‘dependency’. Brugen af dependency gør det typisk nemmere at læse diagrammet, men er ikke strengt nødvendig.
 
 <img src="Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg" alt="Gul datatype som udfaldsrum" style="width:400px;"/>
+<i>Figur 5.18: Struktureret datatype som udfaldsrum</i><br><br>
 
 #### Objekter
 _Anvendes i logiske datamodeller_
@@ -1676,7 +1679,7 @@ Objekter adskiller sig visuelt fra klasser ved at navnet er understreget. For at
 
 <img src="Illustrations/kap5-16-objekt.svg" alt="Objekt" style="width:1000px;"/>
 
-_Figur xx: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier_
+_Figur 5.19: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier_
 
 #### Kompositioner
 _Anvendes i informations- og logiske datamodeller_
@@ -1685,8 +1688,7 @@ En anden association med indbygget semantik er komposition. Den betyder, at inst
 En komposition angives med en association, der har en udfyldt rombe i den ende, der peger på den uafhængige klasse.
 
 ![Komposition](Illustrations/kap5-17-komposition.svg)
-
-_Figur xx: Eksempel på komposition_
+_Figur 5.20: Eksempel på komposition_
 
 I eksemplet er modelleret, at en pladsreservation ikke kan eksistere uden at være knyttet til en bestemt planlagt togafgang. Skulle togafgange blive aflyst forsvinder pladsreservationerne også, hvorimod de passagerer, der har pladsreservationen eksisterer uafhængigt, både i virkeligheden og - efter al sandsynlighed - i systemet, så de kan blive notificeret/ombooket.
 
@@ -1698,8 +1700,7 @@ _Anvendes i informations- og logiske datamodeller_
 En tilknytningsklasse er tilknyttet en association og giver mulighed for at tilføje information til associationen i form af tilknytningsklassens attributter. Dette illustreres med en stiplet linje mellem association og tilknytningsklasse. Nedenfor ses en tilknytningsklasse med attributtet ‘modtagetDato’ som beskriver hvornår associationen mellem cykelhandleren og den enkelte cykel er opstået, altså hvornår den er kommet ‘påLager’.
 
 ![Tilknytningsklasse](Illustrations/kap5-18-tilknytningsklasse.svg)
-
-_Figur xx: Eksempel på tilknytningsklasse_
+_Figur 5.21: Eksempel på tilknytningsklasse_
 
 ### Diagrammer
 ##### Diagrammering af store modeller
@@ -1713,7 +1714,7 @@ Modelreglerne foreskriver genbrug af (semantikken fra) både klasser og egenskab
 
 <img src="Illustrations/kap5-19-dct-description.svg" alt="Genbrug af egenskaben 'description'" style="width:1000px;"/>
 
-_Figur X: Genbrug af egenskaben ‘description’ fra vokabularet DCMI Metadata Terms (dct) som attribut på klassen ‘Cykel’_
+_Figur 5.22: Genbrug af egenskaben ‘description’ fra vokabularet DCMI Metadata Terms (dct) som attribut på klassen ‘Cykel’_
 
 Når det genbrugte element stammer fra en international model, vil der ofte mangle danske termer og dansk definition. For generelt anvendelige elementer kan det tænkes, at der er oprettet oversættelse i andre fællesoffentlige modeller, og nogle internationale modeller har danske oversættelser eller profiler, fx [DCAT-AP-DK](https://digst.github.io/DCAT-AP-DK/releases/v.2.0/docs/). I så fald er det en god ide at genbruge disse oversættelser. Ellers må man selv oversætte.
 
@@ -1753,7 +1754,7 @@ Dette kunne være et it-system, et register eller lignende, der skal understøtt
 Nedenfor ses en (forsimplet) anvendelsesmodel for et it-system til understøttelse af cykeludlejning. Den er sammensat af elementer fra kernemodeller for cykel, kunde og kalender
 
 <img src="Illustrations/kap5-19a-anvendelsesmodel.svg" alt="Anvendelsesmodel" style="width:1000px;"/>
-
+<i>Figur 5.23: Simpel anvendelsesmodel sammensat af elementer fra tre kernemodeller.</i><br><br>
 
 I anvendelsesmodeller giver det - i modsætning til kernemodeller - ikke mening at markere genbrugte elementer visuelt, da alle elementer nødvendigvis skal være genbrugte. 
 
