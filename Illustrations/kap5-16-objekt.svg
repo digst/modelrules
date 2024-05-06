@@ -45,7 +45,7 @@
        x="0"
        y="0" />
   </defs>
-<g transform="translate(-5,-5)">
+<g transform="translate(-20,-15)">
    <path
      style="fill:#dcdcdc;fill-rule:evenodd;fill-opacity:1;stroke:#000000;stroke-width:1.0527847px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
      d="     M 26.319617,39.492978    C 26.319617,38.313985 27.262313,37.358222 28.425187,37.358222    L 191.60681,37.358222    C 192.76969,37.358222 193.71238,38.313985 193.71238,39.492978    L 193.71238,75.2768    C 193.71238,76.45579 192.76969,77.41156 191.60681,77.41156    L 28.425187,77.41156    C 27.262313,77.41156 26.319617,76.45579 26.319617,75.2768    z  "
