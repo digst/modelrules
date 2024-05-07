@@ -1434,7 +1434,7 @@ Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de
 ![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-Begrebet-‘stelnummer’-beskrevet-i-listeformat.svg)
 
 _Figur 5.3: Begrebet ‘stelnummer’ beskrevet i listeformat. ~~Åbn billedet i en ny fane for at zoome ind~~(kommer snart)._
-
+<br><br>
 <img src="Illustrations/kap5 - tags.svg" alt="‘stelnummer’ beskrevet med tagged values" style="width:900px;"/>
 
 _Figur 5.4 ‘stelnummer’ beskrevet med tagged values_
@@ -1511,8 +1511,7 @@ _Anvendes i alle modeltyper_
 
 Associationer anvendes til at forbinde begreber/klasser. Ligesom en klasse er en generalisering over en gruppe af objekter så er associationen teknisk set en generalisering over hvordan objekter, der er instanser af de to klasser, kan være forbundet. En generisk association udtrykkes med fuldt optrukken streg. Den siger ikke i sig selv noget om _**hvordan**_ klasserne er forbundet, blot at de er.
 
-<img src="Illustrations/kap5-6-cykelhander-rel-cykel-1.svg" alt="cykelhandler relation til cykel" style="width:400px;"/>
-<i>Figur 5.9: Eksempel på relation</i><br><br>
+<img src="Illustrations/kap5-6-cykelhander-rel-cykel-1.svg" alt="cykelhandler relation til cykel" style="width:400px;"/><i>Figur 5.9: Eksempel på relation</i><br><br>
 
 Associationer kan angives med navigabilitet, der vises som en pil i enden af associationer. Dette omtales ofte mindre præcist som retning. Modelreglerne tillader angivelse af navigabilitet, men kræver det ikke.
 
@@ -1525,13 +1524,11 @@ _Anvendes i begrebs- og informationsmodeller_
 En association kan gives et navn der beskriver hvordan de begreber/klasser den forbinder er relateret til hinanden, altså en betegnelse for associationens semantik. Associationsnavne bør anvendes i begrebs- og informationsmodeller, undtagen for generaliseringer og kompositioner. I begrebsmodeller angives de i naturligt sprog, men i informationsmodeller, som lowerCamelCase.
 
 <img src="Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
-
 _Figur 5.11: Associationsnavn i begrebsmodel_
 
 Associationsnavnet kan forsynes med angivelse af læseretning i form af et udfyldt pilehoved der fortæller hvordan navnet skal læses, fx ‘Cykelhandler’ harPåLager ‘Cykel’, frem for ‘Cykel’ harPåLager ‘Cykelhandler’.
 
 <img src="Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
-
 <i>Figur 5.12: Associationsnavn med læseretning i informationsmodel</i>
 
 #### Associationsender
@@ -1562,14 +1559,12 @@ Det første eksempel viser multiplicitet i forbindelse med attributter. Standard
 Eksemplet nedenfor viser en anvendelsessituation, hvor man altid vil have information om hvor mange passagerpladser cykeltaxaen har og hvorvidt den er overdækket, men kun i nogle tilfælde vil have oplysninger om cykeltaxaens vægt og model.
 
 <img src="Illustrations/kap5-11-cykeltaxa-multipicitet.svg" alt="ELI på EUR-Lex" style="width:200px;"/>
-
-_Figur 5.13: Multiplicitet vist på attributter_
+_Figur 5.14: Multiplicitet vist på attributter_
 
 Det følgende eksempel viser multiplicitet i forbindelse med associationsender. En cykelhandler kan have fra 0 til et ubegrænset antal cykler på lager. En specifik cykel kan være på lager hos højst en cykelhandler, men behøver ikke være på lager hos nogen. En cykel har som del netop to bremsesystemer, men et bremsesystem kan være installeret på højst en cykel.
 
 ![Multiplicitet vist på associationsender_](Illustrations/kap5-12-multiplicitet-ender.svg)
-
-_Figur 5.14: Multiplicitet vist på associationsender_
+_Figur 5.15: Multiplicitet vist på associationsender_
 
 Det kan måske være fristende at læse multipliciteten efter mønsteret ‘klasse - nærmeste multiplicitet - klasse i den anden ende’, altså fx cykelhandler har 0 til 1 cykel, men dette er forkert, da multipliciteten hører til associationsenden som angives nærmest den klasse, den har som udfaldsrum. Dette betyder, at multipliciteten skal læse efter mønsteret ‘klasse - multiplicitet angivet i modsatte ende - klasse i modsatte ende’, altså fx cykelhandler har (på lager) 0 til ubegrænset antal cykler.
 
@@ -1640,12 +1635,12 @@ Nogle af de mest almindelig datatyper ses nedenfor:
 <i>Tabel C: Almindelige datatyper</i><br>
 <img src="Illustrations/kap5-13-cykeltaxa-simple-datatyper.svg" alt="Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211" style="width:400px;"/>
 
-_Figur 5.15: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
+_Figur 5.16: Attributter med angivelse af datatyper i hhv. XSD/RDFS og ISO/TC 211_
 
 De ovennævnte datatyper er primitive datatyper. Det vil sige, at de ikke har intern struktur eller underdele. Der findes to andre slags datatyper: Strukturerede datatyper og enumerationer. En enumeration er en lukket liste over værdier der er tilladte som udfaldsrum for et attribut, fx ugens dage.
 
 <img src="Illustrations/ugedag.svg" alt="Eksempel på enumeration over ugedage" style="width:400px;"/>
-_Figur 5.16: Eksempel på enumeration over ugedage_
+<i>Figur 5.17: Eksempel på enumeration over ugedage</i><br><br>
 
 Enumerationer beskrives yderligere i afsnittet [Klassifikationer og kontrollerede udfaldsrum](#klassifikationer-og-kontrollerede-udfaldsrum), strukturerede datatyper beskrives nedenfor.
 
@@ -1653,7 +1648,7 @@ Enumerationer beskrives yderligere i afsnittet [Klassifikationer og kontrollered
 I de tilfælde, hvor der ikke findes en egnet primitiv datatype, bliver man nødt til selv at definere en datatype. Det gøres ved hjælp af en struktureret datatype. Disse anvendes oftest fordi data består af flere dele som kan beskrives individuelt. Disse forskellige dele angives som attributter på datatypen. Fx består stelnumre af et fabrikantmærke (1-4 bogstaver), et serienummer og et årstalsmærke i form af et bogstav. 
 
 <img src="Illustrations/kap5-14-gul-datatype.svg" alt="Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel" style="width:200px;"/>
-<i>Figur 5.17: Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel</i><br><br>
+<i>Figur 5.18: Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel</i><br><br>
 
 Man kan dog også definere en struktureret datatype med kun et enkelt attribut, hvis der ikke er individuelle dele, men man ønsker at definere en datatype, der er mere specifik end de primitive datatyper giver mulighed for. Man kunne fx forestille sig at definere CPR-nummer som en datatype. I sådanne tilfælde skal man overveje om det giver en reel værdi eller om de yderligere restriktioner er noget det er så implemteringsnært og måske endda systemspecifikt at det hører til i en fysisk model.
 
@@ -1666,7 +1661,7 @@ Dette er dog ikke den eneste valgmulighed. Man kan sagtens vælge at modellere e
 Navnet på strukturerede datatyper angives ved det attribut den er datatype for ligesom primitive datatyper. Derudover kan man synliggøre relationen mellem attributtet og datatypen ved hjælp af den relationstype der hedder ‘dependency’. Brugen af dependency gør det typisk nemmere at læse diagrammet, men er ikke strengt nødvendig.
 
 <img src="Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg" alt="Gul datatype som udfaldsrum" style="width:400px;"/>
-<i>Figur 5.18: Struktureret datatype som udfaldsrum</i><br><br>
+<i>Figur 5.19: Struktureret datatype som udfaldsrum</i><br><br>
 
 #### Objekter
 _Anvendes i logiske datamodeller_
@@ -1678,8 +1673,7 @@ I logiske modeller er man oftest på et abstraktionsniveau, der gør, at man ikk
 Objekter adskiller sig visuelt fra klasser ved at navnet er understreget. For at tydeliggøre forskellen kan man desuden med fordel anvende en lysegrå farve. Det er muligt at medtage navnet på den klasse objektet er en instans af. Dette gøres i så fald efter objektets navn, adskilt med kolon. Dette kan anbefales i tilfælde hvor klassen ikke ellers er medtaget i diagrammer. Hvis der hører attributter til klassen, kan disse vises på objektet instantieret med de værdier der gælder for den specifikke instans.
 
 <img src="Illustrations/kap5-16-objekt.svg" alt="Objekt" style="width:1000px;"/>
-
-_Figur 5.19: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier_
+_Figur 5.20: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier_
 
 #### Kompositioner
 _Anvendes i informations- og logiske datamodeller_
@@ -1688,7 +1682,8 @@ En anden association med indbygget semantik er komposition. Den betyder, at inst
 En komposition angives med en association, der har en udfyldt rombe i den ende, der peger på den uafhængige klasse.
 
 ![Komposition](Illustrations/kap5-17-komposition.svg)
-_Figur 5.20: Eksempel på komposition_
+
+_Figur 5.21: Eksempel på komposition_
 
 I eksemplet er modelleret, at en pladsreservation ikke kan eksistere uden at være knyttet til en bestemt planlagt togafgang. Skulle togafgange blive aflyst forsvinder pladsreservationerne også, hvorimod de passagerer, der har pladsreservationen eksisterer uafhængigt, både i virkeligheden og - efter al sandsynlighed - i systemet, så de kan blive notificeret/ombooket.
 
@@ -1700,7 +1695,8 @@ _Anvendes i informations- og logiske datamodeller_
 En tilknytningsklasse er tilknyttet en association og giver mulighed for at tilføje information til associationen i form af tilknytningsklassens attributter. Dette illustreres med en stiplet linje mellem association og tilknytningsklasse. Nedenfor ses en tilknytningsklasse med attributtet ‘modtagetDato’ som beskriver hvornår associationen mellem cykelhandleren og den enkelte cykel er opstået, altså hvornår den er kommet ‘påLager’.
 
 ![Tilknytningsklasse](Illustrations/kap5-18-tilknytningsklasse.svg)
-_Figur 5.21: Eksempel på tilknytningsklasse_
+
+_Figur 5.22: Eksempel på tilknytningsklasse_
 
 ### Diagrammer
 ##### Diagrammering af store modeller
@@ -1714,7 +1710,7 @@ Modelreglerne foreskriver genbrug af (semantikken fra) både klasser og egenskab
 
 <img src="Illustrations/kap5-19-dct-description.svg" alt="Genbrug af egenskaben 'description'" style="width:1000px;"/>
 
-_Figur 5.22: Genbrug af egenskaben ‘description’ fra vokabularet DCMI Metadata Terms (dct) som attribut på klassen ‘Cykel’_
+_Figur 5.23: Genbrug af egenskaben ‘description’ fra vokabularet DCMI Metadata Terms (dct) som attribut på klassen ‘Cykel’_
 
 Når det genbrugte element stammer fra en international model, vil der ofte mangle danske termer og dansk definition. For generelt anvendelige elementer kan det tænkes, at der er oprettet oversættelse i andre fællesoffentlige modeller, og nogle internationale modeller har danske oversættelser eller profiler, fx [DCAT-AP-DK](https://digst.github.io/DCAT-AP-DK/releases/v.2.0/docs/). I så fald er det en god ide at genbruge disse oversættelser. Ellers må man selv oversætte.
 
@@ -1754,7 +1750,7 @@ Dette kunne være et it-system, et register eller lignende, der skal understøtt
 Nedenfor ses en (forsimplet) anvendelsesmodel for et it-system til understøttelse af cykeludlejning. Den er sammensat af elementer fra kernemodeller for cykel, kunde og kalender
 
 <img src="Illustrations/kap5-19a-anvendelsesmodel.svg" alt="Anvendelsesmodel" style="width:1000px;"/>
-<i>Figur 5.23: Simpel anvendelsesmodel sammensat af elementer fra tre kernemodeller.</i><br><br>
+<i>Figur 5.24: Simpel anvendelsesmodel sammensat af elementer fra tre kernemodeller.</i><br><br>
 
 I anvendelsesmodeller giver det - i modsætning til kernemodeller - ikke mening at markere genbrugte elementer visuelt, da alle elementer nødvendigvis skal være genbrugte. 
 
@@ -1775,7 +1771,7 @@ Dette gælder både ved direkte brug af elementer fra kernemodeller samt når ma
 #### Præcisere anvendelsen
 Når et element har en lidt bredere definition end man kunne ønske sig og man gerne vil specificere hvordan det præcis skal forstås inden for et forretningsdomæne eller system kan man tilføje en anvendelsesnote til elementet.
 
-_Eksempel_
+**_Eksempel_**
 
 
 Term: stelnummer
@@ -1790,22 +1786,23 @@ Man kan i en anvendelsesmodel blive mere specifik omkring hvilke data der kan fo
 
 En anden måde at indsnævre et udfaldsrum er ved at udpege en relevant klassifikation/enumeration for en given attribut eller ved at begrænse hvilke værdier i en klassifikation/enumeration, som allerede er en del af modellen, der kan anvendes. Da de enkelte værdier i en klassifikation/enumeration er tekststrenge, vil disse kunne anvendes alle steder hvor datatypen er/kan være en tekststreng.
 
-_Eksempel på tilføjelse af enumeration_
+**_Eksempel på tilføjelse af enumeration_**
 
 Attributtet ‘farve’ på klassen ‘Cykel’ er defineret med datatypen xsd:string i kernemodellen, men hvis man ved at der i den konkrete anvendelse vil være tale om, at cykler kan have seks specifikke farver, kan man tilføje en enumeration for farve.
 
 <img src="Illustrations/kap5-19b-anvendelsesmodellering-enum.svg" alt="Anvendelsesmodellering" style="width:1000px;"/>
-
-_Eksempel på begrænsning af mulige værdier_
+<i>Figur 5.25: Enumeration tilføjet som udfaldsrum for farve</i><br><br>
+**_Eksempel på begrænsning af mulige værdier_**
 
 Hvis der i en kernemodel findes en enumeration over cykeltyper med fire forskellige typer, og man ved at der i den konkrete anvendelse kun er to der er relevante kunne man begrænse enumerationen som vist nedenfor.
 
-<img src="Illustrations/kap5-19c-anvendelsesmodellering-reduceret-enum.svg" alt="Anvendelsesmodellering reduceret" style="width:400px;"/>
+<img src="Illustrations/kap5-19c-anvendelsesmodellering-reduceret-enum.svg" alt="Anvendelsesmodellering reduceret enumeration" style="width:400px;"/>
+<i>Figur 5.26: Enumeration reduceret til specifik anvendelse</i><br><br>
 
 Man kan også tilføje en struktureret datatype til erstatning for en simpel datatype, når de værdier beskrevet af den strukturerede datatype stadig vil kunne beskrives af den simple datatype, fx for at specificere at en tekststreng skal have en bestemt struktur. Fx kan man i en anvendelsesmodel der beskriver cykler specificere at attributtet ‘stelnummer’ i stedet for ‘xsd:string’ skal have den strukturerede datatype ‘StelnummerCykel’ som udfaldsrum.
 
 <img src="Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg" alt="Gul datatype som udfaldsrum" style="width:400px;"/>
-
+<i>Figur 5.27 :Struktureret datatype som udfaldsrum</i><br><br>
 #### Indsnævring af multiplicitet 
 Hvis kernemodellen har angivet multiplicitet (eller man baserer sin anvendelsesmodel på en anden anvendelsesmodel), kan man gøre multipliciteten mere, men ikke mindre, specifik. Det vil sige at man ikke kan angive en multiplicitet der ikke er tilladt ifølge den model, man genbruger fra. Hvis der eksempelvis er angivet 0..1 som multiplicitet, kan man godt specificere 1..1. men ikke 0..*, og 1..* kan specificeres til 1..10, men ikke 0..10.
 
@@ -1880,12 +1877,14 @@ For mindre klassifikationer kan det være meningsfuldt at repræsentere og visua
 En enumeration, hvor klassifikationsemnerne repræsenteres af enumerationsværdier, eller en klassifikationsklasse, hvor emnerne repræsenteres af instanser, kan i mange situationer repræsentere den samme information, som i eksemplet nedenfor.
 
 <img src="Illustrations/kap5-20a-Klassifikationer-valg.svg" alt="Klassfikationer valg" style="width:1000px;"/>
+<i>Figur 5.28: Cykeltper som enumeration og som klassifikationsklasse med instanser</i><br><br>
 
 Så hvilken modelleringsmetode skal man vælge? Enumerationer er primært egnede til små simple klassifikationer, der kan forventes at være stabile over længere tid. Det kunne fx være klassifikationer med ugedage, godkendelsesstatus eller filtilladelser.
 
 Kvalifikationsklasser og instanser er bedre egnet til store og/eller dynamiske klassifikationer. Desuden giver denne metode mulighed for at lave klassifikationer med hierarkier samt at berige dem med attributter. Det er ikke altid hensigtsmæssigt at modellere store klassifikationer visuelt, dvs. med UML. Vi vender tilbage til dette længere nede.
 
 <img src="Illustrations/kap5-20b-Klassifikationer-valg2.svg" alt="Klassifikationer valg" style="width:1000px;"/>
+<i>Figur 5.29: Klassifikation med flere niveauer</i><br><br>
 
 #### Modellering af klassifikationer med enumerationer
 En enumeration specificerer en række værdier i form af tekststrenge som gyldigt udfaldsrum for et attribut. Anvendes en enumeration, vil klassifikationsemnerne være værdierne i denne enumeration.
@@ -1901,7 +1900,7 @@ Sådan oprettes en klassifikationsmodel som en enumeration i UML:
 
 <img src="Illustrations/kap5-21a-enumeration.svg" alt="Klassifikation med enumaration" style="width:200px;"/>
 
-_Figur xx: Klassifikationsmodel med enumeration_
+_Figur 5.30: Klassifikationsmodel med enumeration_
 
 En enumeration er en flad liste uden struktur. Derfor bør alle værdierne i en enumeration være på samme niveau, dvs. at ingen af værdierne er over- eller underordnet andre værdier i enumerationen. Fx kunne en enumeration med værdierne ‘enpersonscykel’, ‘flerpersonscykel’  og ‘tandemcykel’ skabe det indtryk at tandemcykel er til præcis to personer, mens flerpersonscykel er til flere end to. Definitionerne ville afsløre at en tandemcykel er karakteriseret ved at rytterne (som der kan være mere end to af) sidder bag ved hinanden og at flerpersons blot betyder mere end en rytter, hvilket betyder at at tandemcykler er en specifik (underordnet) type af flerpersonscykel. Hvis ‘tandemcykel’ og ‘flerpersonscykel’ bliver præsenteret som sideordnede, vil modellens kommunikative værdi være reduceret, og der vil nemt kunne opstå tvivl om, hvordan enumerationen skal anvendes.
 
@@ -1909,7 +1908,8 @@ Ligeledes bør man undgå at beskrive mere end et inddelingskriterie i en enkelt
 
 Man kunne måske forestille sig at lave en enumeration over kombinationerne, såsom ‘herre racercykel’, ‘dame racercykel’, ‘børne racercykel’, ‘herre bycykel’, ‘dame bycykel’ etc., men det giver større overskuelighed. Samtidig er det nemmere at vedligeholde og genbruge, hvis enummerationerne deles op i to.
 
-<img src="Illustrations/kap5 - enumeration - en dimension.svg" alt="Eksempel hvor en enumeration indeholdt to indelingskriterier er blevet delt op i to" style="width:700px;"/>
+<img src="Illustrations/kap5 - enumeration - en dimension.svg" alt="Eksempel hvor en enumeration der indeholdt to indelingskriterier er blevet delt op i to" style="width:700px;"/>
+<i>Figur 5.31: Enumeration opdelt i to baseret på inddelingskriterier</i><br><br>
 
 #### Modellering af klassifikationer med klassifikationsklasser 
 Anvendes en klassifikationsklasse, vil klassifikationsemnerne være instanser af denne klasse. 
@@ -1922,10 +1922,8 @@ Sådan oprettes en klassifikationsmodel ved brug af en klassifikationsklasse:
 4. Dokumentér både klassifikationsklassen samt instanser med metadata ligesom alle andre modelelementer, dvs. som minimum med URI, definition og foretrukken term. 
 5. Anvend klassifikationsklassen som udfaldsrum for den relevante egenskab <br>
 (se mere nedenfor)
-
-![Klassifikationsmodel med klassifikationsklasse](Illustrations/kap5-21b-Klassifikation-med-klassifikationsklasse.svg)
-
-_Figur xx: Klassifikationsmodel med klassifikationsklasse (associationer er valgfrie)_
+<img src="kap5-21b-Klassifikation-med-klassifikationsklasse.svg" alt="Klassifikation med klassifikationsklasse" style="width:400px;"/>
+_Figur 5.32: Klassifikationsmodel med klassifikationsklasse (associationer er valgfrie)_
 
 
 #### Klassifikationer med flere niveauer
@@ -1933,7 +1931,7 @@ En klassifikation kan indeholde mange niveauer af klassifikationsemner, der er s
 
 ![Dele af en større klassifikation](Illustrations/Kap5-21c-klassifikation-mange-niveauer.svg)
 
-_Figur x: Dele af en større klassifikation_
+_Figur 5.33: Dele af en større klassifikation_
 
 Egentlig burde alle klassifikationsemner illustreres med et objekt i UML, da alle er instanser af den klassifikationsklasse der beskriver hele klassifikationen. Dette er dog ikke muligt da UML ikke tillader relationer mellem objekter. Derfor må alle niveauer undtagen det allermest detaljerede vises med klasser. Et objekt arver alle egenskaber fra den klasse det er et objekt af, og giver mulighed for evt. at instantiere en eller flere egenskaber med den specifikke værdi der gælder for objektet.
 
