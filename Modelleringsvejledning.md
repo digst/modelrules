@@ -1937,7 +1937,7 @@ Egentlig burde alle klassifikationsemner illustreres med et objekt i UML, da all
 
 ![Objekter med egenskaber instantieret](Illustrations/kap5-21d-Klassifikationer-nedarvning-objekt.svg)
 
-_Figur x: Objekter med nogle egenskaber instantieret_
+_Figur 5.34: Objekter med nogle egenskaber instantieret_
 
 #### Anvend generaliseringssæt til at vise inddelingskriterier
 Et generaliseringssæt er et element der gør det muligt at gruppere specialiseringer iht. et relevant inddelingskriterium. Et generaliseringssæt kan visuelt siges at dele en generaliseringsassociation således at der er én pil der peger på overbegrebet med flere ender der forbinder specialiseringerne. Man kan nøjes med at bruge den visuelle indikation, men det er også muligt at tilføje yderligere information til generaliseringssættet.
@@ -1950,7 +1950,7 @@ Egenskaben isDisjoint har udfaldsrummet ‘udelukkende’ (disjoint) / ‘overla
 
 ![Generaliseringssæt](Illustrations/kap5-5-generaliseringssæt.svg)
 
-_Figur xx: Eksempel som viser anvendelse af generaliseringssæt_
+_Figur 5.35: Eksempel på anvendelse af generaliseringssæt_
 
 ### Store klassifikationer
 Nogle klassifikationer indeholder hundreder af klassifikationsemner, som kan være fordelt på flere niveauer. Selvom det teknisk kan lade sig gøre at modellere disse i UML, bliver diagrammet meget svært, for ikke at sige umuligt, at udarbejde og præsentere på en overskuelig og anvendelig måde. Her kan en anden præsentationsform, såsom en klassifikationsservice, et regneark eller en html-præsentation være mere velegnet. 
@@ -2003,30 +2003,30 @@ Notation er en alternativ måde at give den information som man i et diagram få
 ### Anvendelse af klassifikation som udfaldsrum
 Henviser man til en klassifikation fra et attribut vælges enumerationen eller klassifikationsklassen som attributtets udfaldsrum/datatype som det ses i illustration til venstre herunder. 
 
-![Henvisning via attribut](Illustrations/kap5-22-Henvisning-til-enum-fra-attribut.svg) ![tydeligere henvisning til enumeration via attribut](Illustrations/kap5-23-Henvisning-til-enum-fra-attribut-med-dependency.svg)
+![to måder at henvise til enumeration via attribut](Illustrations/kap5-23-Henvisning-til-enum-fra-attribut-med-dependency.svg)
                                  
-_Figur xx: Henvisning via attribut_		   _Figur xx: Tydeligere henvisning til enumeration via attribut_
+_Figur 5.36: To måder at henvise til enumeration via attribut_	
 
 Til venstre er der skabt sammenhæng mellem attributtet og klassifikationen, men det er også muligt at vise relationen mellem en enumeration og en attribut mere tydeligt i UML-diagrammet med en dependency-relation som det ses i illustrationen til højre.
 
 Henviser man fra en klasse til en klassifikationsklasse ved hjælp af en association gives associationsenden en passende betegnelse samt relevante metadata.
 
-![Henvisning til klassifikationsklasse via associationsende](Illustrations/kap5-24-henvisning-til-klassifikation-med-associationsende.svg)
+<img src="Illustrations/kap5-24-henvisning-til-klassifikation-med-associationsende.svg" alt="henvisning til klassifikationslasse via associationsende" width="400"/>
 
-_Figur xx: Henvisning til klassifikationsklasse via associationsende_
+_Figur 3.37: Henvisning til klassifikationsklasse via associationsende_
 
 #### Brug af eksterne klassifikationer
 Når man vil genbruge en eksisterende klassifikation der er udstillet eksternt skal man oprette en klassifikationsklasse som ovenfor, men i stedet for at oprette de tilhørende klassifikationsemner som UML-objekter indsættes i stedet en entydig reference til definitionen af klassifikationens udfaldsrum i tagget ‘rdfs:isDefinedBy’ (er defineret af). Referencen skal være en resolverbar og persistent HTTP-URI, hvor anvendere kan slå klassifikationen og dens indhold op.
 
 ![Henvisning til ekstern klassifikation](Illustrations/Kap5-26-Ekstern-klassifikation.svg)
 
-_Figur XX: Henvisning til ekstern klassifikation_
+_Figur 5.38: Henvisning til ekstern klassifikation_
 
 Det kan være relevant at genbruge en specifik del af en (ekstern) klassifikation frem for den hele. I så fald må man modellere en anvendelsesmodel på baggrund af den genbrugte klassifikation, der viser hvilke dele man anvender. 
 
 <img src="Illustrations/Kap5-27-klassifikationer-delvis-genbrug.svg" alt="ELI på EUR-Lex" style="width:1000px;"/>
 
-_Figur XX: Eksempel på anvendelse af del af ekstern klassifikation_
+_Figur 5.39: Eksempel på anvendelse af del af ekstern klassifikation_
 
 
 # Kapitel 6: Dokumentation af modellen
