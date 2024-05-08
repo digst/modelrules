@@ -867,7 +867,7 @@ Der henvises til juridiske kilder med et link, nærmere bestemt en ELI [(Europea
 <img src="Illustrations/kap3-ELI-retsinformationen.png" alt="ELI på retsinformationen" style="width:1000px;"/>
 
 _Figur 3.2: ELI på retsinformationen_
-
+<br><br>
 
 <img src="Illustrations/kap3-ELI-EUR-Lex.png" alt="ELI på EUR-Lex" style="width:1000px;"/>
 
@@ -925,7 +925,7 @@ Metoden indebærer, at man definerer et begreb ved at angive nærmeste overbegre
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**cykel**: _<ins>køretøj</ins> der <ins>drives frem ved pedalkraft</ins>_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I dette eksempel er overbegrebet et _<ins>“køretøj”</ins>_, og det, der adskiller en cykel fra andre køretøjer er, at det _<ins>“drives frem ved pedalkraft</ins>_”.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I dette eksempel er overbegrebet et _<ins>“køretøj”</ins>_, og det, der adskiller en cykel fra andre køretøjer er, at det _<ins>“drives</ins>_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_<ins>frem ved pedalkraft</ins>_”.
 
 Det er væsentligt at vælge det nærmeste overbegreb, fordi man derved implicit medtager det nærmeste overbegrebs adskillende træk i definitionen. Hvis man fx skal lave en definition af ‘tandemcykel’ og bruger ’køretøj’ som overbegreb skulle man med de adskillende træk adskille ‘tandemcykel’ fra alle andre køretøjer, hvilket man kunne komme til at gøre på en måde der er inkonsistent med definitionen af ‘cykel’. Ved at bruge ‘cykel’ som overbegreb er det allerede givet at en tandemcykel er et _køretøj der drives frem ved pedalkraft_, og man kan nøjes med at tilføje _hvor to eller flere pedalerende personer sidder bag ved hinanden_. Ved altid at vælge det nærmeste overbegreb sikrer man konsistens i sin begrebsmodel.
 
@@ -1116,7 +1116,7 @@ Man kan på Modelreglernes websted på FDA hjemmesiden downloade et regneark, de
 
 ![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-eksempel-på-udfyldt-begrebsliste.svg)
 
-_Figur 5.1: Eksempel på udfyldt begrebslisteskabelon. ~~Åbn billedet i en ny fane for at zoome ind~~ (kommer snart)._
+_Figur 5.1: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fane for at zoome ind (højrekliksmenu)._
 
 Se også [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen) for information om, hvilke oplysninger selve modellen bør forsynes med.
 
@@ -1433,7 +1433,7 @@ Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de
 
 ![Eksempel på udfyldt begrebslisteskabelon](Illustrations/Kap-5-Begrebet-‘stelnummer’-beskrevet-i-listeformat.svg)
 
-_Figur 5.3: Begrebet ‘stelnummer’ beskrevet i listeformat. ~~Åbn billedet i en ny fane for at zoome ind~~(kommer snart)._
+_Figur 5.3: Begrebet ‘stelnummer’ beskrevet i listeformat. Åbn billedet i en ny fane for at zoome ind (højrekliksmenu)._
 <br><br>
 <img src="Illustrations/kap5 - tags.svg" alt="‘stelnummer’ beskrevet med tagged values" style="width:900px;"/>
 
@@ -1478,7 +1478,7 @@ _Anvendes i alle modeltyper_
 Et generaliseringssæt samler to eller flere specialiserede klasser i et sæt. Ved at samle klasser i et generaliseringssæt indikerer man at de er specialiserede efter samme inddelingskriterie. Fx er ‘personbil’, ‘varevogn’ og ‘lastbil’ specialiseringer af ‘bil’, der er inddelt i forhold til funktion, hvorimod ‘lejebil’ er en specialisering af ‘bil’ i forhold til hvordan man får retten til at bruge den. Derfor er ‘personbil’, ‘varevogn’ og ‘lastbil’ del af samme generaliseringssæt, mens ‘lejebil’ ikke er. 
 
 <img src="Illustrations/kap5-5-generaliseringssæt.svg" alt="Eksempel på generaliseringssæt" style="width:800px;"/>
-_Figur 5.7: Eksempel på generaliseringssæt_
+<i>Figur 5.7: Eksempel på generaliseringssæt</i>
 
 #### Egenskaber
 En egenskab modelleres i UML som en Property og kan være enten en associationsende eller et attribut. Der skelnes mellem to overordnede typer af egenskaber: 
@@ -1511,7 +1511,8 @@ _Anvendes i alle modeltyper_
 
 Associationer anvendes til at forbinde begreber/klasser. Ligesom en klasse er en generalisering over en gruppe af objekter så er associationen teknisk set en generalisering over hvordan objekter, der er instanser af de to klasser, kan være forbundet. En generisk association udtrykkes med fuldt optrukken streg. Den siger ikke i sig selv noget om _**hvordan**_ klasserne er forbundet, blot at de er.
 
-<img src="Illustrations/kap5-6-cykelhander-rel-cykel-1.svg" alt="cykelhandler relation til cykel" style="width:400px;"/><i>Figur 5.9: Eksempel på relation</i><br><br>
+<img src="Illustrations/kap5-6-cykelhander-rel-cykel-1.svg" alt="cykelhandler relation til cykel" style="width:400px;"/>
+<i>Figur 5.9: Eksempel på relation</i><br><br>
 
 Associationer kan angives med navigabilitet, der vises som en pil i enden af associationer. Dette omtales ofte mindre præcist som retning. Modelreglerne tillader angivelse af navigabilitet, men kræver det ikke.
 
@@ -1524,7 +1525,7 @@ _Anvendes i begrebs- og informationsmodeller_
 En association kan gives et navn der beskriver hvordan de begreber/klasser den forbinder er relateret til hinanden, altså en betegnelse for associationens semantik. Associationsnavne bør anvendes i begrebs- og informationsmodeller, undtagen for generaliseringer og kompositioner. I begrebsmodeller angives de i naturligt sprog, men i informationsmodeller, som lowerCamelCase.
 
 <img src="Illustrations/kap5-8-cykelhander-rel-cykel-navn.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
-_Figur 5.11: Associationsnavn i begrebsmodel_
+<i>Figur 5.11: Associationsnavn i begrebsmodel</i>
 
 Associationsnavnet kan forsynes med angivelse af læseretning i form af et udfyldt pilehoved der fortæller hvordan navnet skal læses, fx ‘Cykelhandler’ harPåLager ‘Cykel’, frem for ‘Cykel’ harPåLager ‘Cykelhandler’.
 
@@ -1559,12 +1560,12 @@ Det første eksempel viser multiplicitet i forbindelse med attributter. Standard
 Eksemplet nedenfor viser en anvendelsessituation, hvor man altid vil have information om hvor mange passagerpladser cykeltaxaen har og hvorvidt den er overdækket, men kun i nogle tilfælde vil have oplysninger om cykeltaxaens vægt og model.
 
 <img src="Illustrations/kap5-11-cykeltaxa-multipicitet.svg" alt="ELI på EUR-Lex" style="width:200px;"/>
-_Figur 5.14: Multiplicitet vist på attributter_
+<i>Figur 5.14: Multiplicitet vist på attributter</i><br><br>
 
 Det følgende eksempel viser multiplicitet i forbindelse med associationsender. En cykelhandler kan have fra 0 til et ubegrænset antal cykler på lager. En specifik cykel kan være på lager hos højst en cykelhandler, men behøver ikke være på lager hos nogen. En cykel har som del netop to bremsesystemer, men et bremsesystem kan være installeret på højst en cykel.
 
 ![Multiplicitet vist på associationsender_](Illustrations/kap5-12-multiplicitet-ender.svg)
-_Figur 5.15: Multiplicitet vist på associationsender_
+<br><i>Figur 5.15: Multiplicitet vist på associationsender</i>
 
 Det kan måske være fristende at læse multipliciteten efter mønsteret ‘klasse - nærmeste multiplicitet - klasse i den anden ende’, altså fx cykelhandler har 0 til 1 cykel, men dette er forkert, da multipliciteten hører til associationsenden som angives nærmest den klasse, den har som udfaldsrum. Dette betyder, at multipliciteten skal læse efter mønsteret ‘klasse - multiplicitet angivet i modsatte ende - klasse i modsatte ende’, altså fx cykelhandler har (på lager) 0 til ubegrænset antal cykler.
 
@@ -1673,7 +1674,7 @@ I logiske modeller er man oftest på et abstraktionsniveau, der gør, at man ikk
 Objekter adskiller sig visuelt fra klasser ved at navnet er understreget. For at tydeliggøre forskellen kan man desuden med fordel anvende en lysegrå farve. Det er muligt at medtage navnet på den klasse objektet er en instans af. Dette gøres i så fald efter objektets navn, adskilt med kolon. Dette kan anbefales i tilfælde hvor klassen ikke ellers er medtaget i diagrammer. Hvis der hører attributter til klassen, kan disse vises på objektet instantieret med de værdier der gælder for den specifikke instans.
 
 <img src="Illustrations/kap5-16-objekt.svg" alt="Objekt" style="width:1000px;"/>
-_Figur 5.20: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier_
+<i>Figur 5.20: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier</i>
 
 #### Kompositioner
 _Anvendes i informations- og logiske datamodeller_
@@ -1786,13 +1787,13 @@ Man kan i en anvendelsesmodel blive mere specifik omkring hvilke data der kan fo
 
 En anden måde at indsnævre et udfaldsrum er ved at udpege en relevant klassifikation/enumeration for en given attribut eller ved at begrænse hvilke værdier i en klassifikation/enumeration, som allerede er en del af modellen, der kan anvendes. Da de enkelte værdier i en klassifikation/enumeration er tekststrenge, vil disse kunne anvendes alle steder hvor datatypen er/kan være en tekststreng.
 
-**_Eksempel på tilføjelse af enumeration_**
+<b><i>Eksempel på tilføjelse af enumeration</i></b>
 
 Attributtet ‘farve’ på klassen ‘Cykel’ er defineret med datatypen xsd:string i kernemodellen, men hvis man ved at der i den konkrete anvendelse vil være tale om, at cykler kan have seks specifikke farver, kan man tilføje en enumeration for farve.
 
 <img src="Illustrations/kap5-19b-anvendelsesmodellering-enum.svg" alt="Anvendelsesmodellering" style="width:1000px;"/>
 <i>Figur 5.25: Enumeration tilføjet som udfaldsrum for farve</i><br><br>
-**_Eksempel på begrænsning af mulige værdier_**
+<b><i>Eksempel på begrænsning af mulige værdier</i></b>
 
 Hvis der i en kernemodel findes en enumeration over cykeltyper med fire forskellige typer, og man ved at der i den konkrete anvendelse kun er to der er relevante kunne man begrænse enumerationen som vist nedenfor.
 
@@ -1802,7 +1803,8 @@ Hvis der i en kernemodel findes en enumeration over cykeltyper med fire forskell
 Man kan også tilføje en struktureret datatype til erstatning for en simpel datatype, når de værdier beskrevet af den strukturerede datatype stadig vil kunne beskrives af den simple datatype, fx for at specificere at en tekststreng skal have en bestemt struktur. Fx kan man i en anvendelsesmodel der beskriver cykler specificere at attributtet ‘stelnummer’ i stedet for ‘xsd:string’ skal have den strukturerede datatype ‘StelnummerCykel’ som udfaldsrum.
 
 <img src="Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg" alt="Gul datatype som udfaldsrum" style="width:400px;"/>
-<i>Figur 5.27 :Struktureret datatype som udfaldsrum</i><br><br>
+<i>Figur 5.27: Struktureret datatype som udfaldsrum</i><br><br>
+
 #### Indsnævring af multiplicitet 
 Hvis kernemodellen har angivet multiplicitet (eller man baserer sin anvendelsesmodel på en anden anvendelsesmodel), kan man gøre multipliciteten mere, men ikke mindre, specifik. Det vil sige at man ikke kan angive en multiplicitet der ikke er tilladt ifølge den model, man genbruger fra. Hvis der eksempelvis er angivet 0..1 som multiplicitet, kan man godt specificere 1..1. men ikke 0..*, og 1..* kan specificeres til 1..10, men ikke 0..10.
 
@@ -1922,8 +1924,8 @@ Sådan oprettes en klassifikationsmodel ved brug af en klassifikationsklasse:
 4. Dokumentér både klassifikationsklassen samt instanser med metadata ligesom alle andre modelelementer, dvs. som minimum med URI, definition og foretrukken term. 
 5. Anvend klassifikationsklassen som udfaldsrum for den relevante egenskab <br>
 (se mere nedenfor)
-<img src="kap5-21b-Klassifikation-med-klassifikationsklasse.svg" alt="Klassifikation med klassifikationsklasse" style="width:400px;"/>
-_Figur 5.32: Klassifikationsmodel med klassifikationsklasse (associationer er valgfrie)_
+<img src="Illustrations/kap5-21b-Klassifikation-med-klassifikationsklasse.svg" alt="Klassifikation med klassifikationsklasse" style="width:400px;"/>
+<i>Figur 5.32: Klassifikationsmodel med klassifikationsklasse (associationer er valgfrie)</i>
 
 
 #### Klassifikationer med flere niveauer
@@ -2003,7 +2005,7 @@ Notation er en alternativ måde at give den information som man i et diagram få
 ### Anvendelse af klassifikation som udfaldsrum
 Henviser man til en klassifikation fra et attribut vælges enumerationen eller klassifikationsklassen som attributtets udfaldsrum/datatype som det ses i illustration til venstre herunder. 
 
-![to måder at henvise til enumeration via attribut](Illustrations/kap5-23-Henvisning-til-enum-fra-attribut-med-dependency.svg)
+<img src="Illustrations/kap5-23-Henvisning-til-enum-fra-attribut-med-dependency.svg" alt="To måder at henvise til enumeration via attribut" style="width:400px;"/>
                                  
 _Figur 5.36: To måder at henvise til enumeration via attribut_	
 
@@ -2024,7 +2026,7 @@ _Figur 5.38: Henvisning til ekstern klassifikation_
 
 Det kan være relevant at genbruge en specifik del af en (ekstern) klassifikation frem for den hele. I så fald må man modellere en anvendelsesmodel på baggrund af den genbrugte klassifikation, der viser hvilke dele man anvender. 
 
-<img src="Illustrations/Kap5-27-klassifikationer-delvis-genbrug.svg" alt="ELI på EUR-Lex" style="width:1000px;"/>
+<img src="Illustrations/Kap5-27-klassifikationer-delvis-genbrug.svg" alt="Genbrug at del af klassifikation" style="width:400px;"/>
 
 _Figur 5.39: Eksempel på anvendelse af del af ekstern klassifikation_
 
@@ -2106,7 +2108,7 @@ Dokumentation består af metadata, der svarer på spørgsmål om modellen, fx. H
 </table>
 
 
-_Tabel C: Modelmetadatasektionen fra begrebslisteskabelonen_
+_Tabel D: Modelmetadatasektionen fra begrebslisteskabelonen_
 
 Ovenfor ses modelmetadatasektionen fra begrebslisteskabelonen. Det er de samme metadata alle modeller skal have, selvom metoden til angivelse varierer lidt afhængigt af om det er en UML-model eller en begrebsmodel i listeformat.
 
@@ -2177,12 +2179,13 @@ Når man udarbejder en model baserer man sig på eksisterende viden og det øger
 
 En juridisk kilde skal angives ved hjælp af en ELI. ELIer fungerer både som entydige identifikatorer og som webadresse på loven/bekendtgørelsen på enten retsinformationen erl EUR-Lex. På EUR-Lex skal man dog være opmærksom på, at det ikke er adressen på den danske oversættelse, men på lovens hovedside.
 
+<img src="Illustrations/kap3-ELI-retsinformationen.png" alt="ELI på retsinformationen" style="width:1000px;"/>
+_Figur 6.1: ELI på retsinformation_
 
-_Figur xx: ELI på retsinformation_
+<br<br>
 
-
-
-_Figur xx: ELI på EUR-Lex_
+<img src="Illustrations/kap3-ELI-EUR-Lex.png" alt="ELI på EUR-Lex" style="width:1000px;"/>
+_Figur 6.2: ELI på EUR-Lex_
 
 Nationale og internationale standarder er også ofte relevante kilder for modeller. Disse angives i **Kilde**, og her kan også angives andre typer af kilder, der måtte være relevante. Som ved juridisk kilde kan der være flere per model og i så fald gentages feltet/tagget. Da langt fra alle kilder har en identifier i stil med ELI, er der større frihed for hvordan kilden angives, selvom en HTTP-URI stadig er ideel. Er kilden online kan man angive et link til den, ellers må man angive titel, forfatter m.m., så andre kan identificere kilden.
 
@@ -2269,7 +2272,7 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
   </tr>
 </table>
 
-_Tabel D: Fiktivt eksempel på metadata om en model_
+_Tabel E: Fiktivt eksempel på metadata om en model_
 
 
 # Kapitel 7: Det visuelle udtryk
@@ -2365,18 +2368,16 @@ I begrebs- og informationsmodeller giver det ikke meget mening at tale om naviga
 I UML er både attributter og associationsender egenskaber og kan teknisk have både datatyper og klasser som udfaldsrum. Det giver dog mere ensartede og letlæselige modeller hvis objektegenskaber modelleres som _associationsender_ og datatypeegenskaber som _attributter_.
 
 ![Egenskaber](Illustrations/kap7-3-egenskaber.svg)
-
-_Figur 7.2 : ??_
+_Figur 7.2: Forskellen på datatypeegenskaber og objektegenskaber_
 
 Objektegenskaber har klasser som udfaldsrum, og datatypeegenskaber har datatyper som udfaldsrum. Her kan der være tale om primitive datatyper, strukturerede datatyper eller enumerationer. For strukturerede datatyper og enumerationer hjælper det læseren, hvis der oprettes en dependency mellem atrributtet og datatypen.
 
 Nedenfor ses objektegenskaben ‘påLager’ med klassen ‘Cykel’ som udfaldsrum modelleret som associationsende. Datatypeegenskaberne ‘navn’, ‘cvrNr’, ‘stelnummer’ og størrelse’ er modelleret som attributter. Heraf har ‘stelnummer’ en struktureret datatype som udfaldsrum og sammenhængen mellem elementerne er illustreret med en dependency.
 
-![Eksempel på egenskaber](Illustrations/kap7-4-egenskaber-eksempel.svg)
-
+<img src="Illustrations/kap7-4-egenskaber-eksempel" alt="eksempel med egenskaber" style="width:700px;"/>
 _Figur 7.3: objektegenskaber som associationsender og datatypeegenskaber som attributter._
 
-## Eksempel på UML-diagram 
+### Eksempel på UML-diagram 
 
 ![Diagrameksempel](Illustrations/kap7-5-diagrameksempel.svg)
 
@@ -2417,7 +2418,7 @@ Ved at anvende en forkortelse for namespacet på den model hvor modelelementer e
 
 ![Præfixer](Illustrations/kap7-7-præfixer.svg)
 
-_Figur 7.6: ??_
+_Figur 7.6: KLasser og associationsender med præfix_
 
 For at gøre det let at se hvilke modeller der er genbrugt i given model, bør man også indsætte en tekstboks med anvendte prefixes og namespaces i modellen, fx
 
