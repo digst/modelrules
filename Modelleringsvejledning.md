@@ -2185,7 +2185,7 @@ En juridisk kilde skal angives ved hjælp af en ELI. ELIer fungerer både som en
 <br><br>
 
 <img src="Illustrations/kap3-ELI-EUR-Lex.png" alt="ELI på EUR-Lex" style="width:1000px;"/>
-<i>Figur 6.2: ELI på EUR-Lex</><br><br>
+<i>Figur 6.2: ELI på EUR-Lex</i><br><br>
 Nationale og internationale standarder er også ofte relevante kilder for modeller. Disse angives i **Kilde**, og her kan også angives andre typer af kilder, der måtte være relevante. Som ved juridisk kilde kan der være flere per model og i så fald gentages feltet/tagget. Da langt fra alle kilder har en identifier i stil med ELI, er der større frihed for hvordan kilden angives, selvom en HTTP-URI stadig er ideel. Er kilden online kan man angive et link til den, ellers må man angive titel, forfatter m.m., så andre kan identificere kilden.
 
 Endelig kan andre modeller være en væsentligt kilde til den model man har udarbejdet. Det gælder især, når man udarbejder en informationsmodel eller en datamodel på baggrund af en begrebsmodel eller eventuelt en begrebsmodel med udgangspunkt i en datamodel. Her anvendes Afledt af, hvor den HTTP-URI der er identifikator for ophavsmodellen angives. Juridiske og andre kilder skal stadig angives, selvom modellen er afledt af en anden.
@@ -2373,7 +2373,7 @@ Objektegenskaber har klasser som udfaldsrum, og datatypeegenskaber har datatyper
 
 Nedenfor ses objektegenskaben ‘påLager’ med klassen ‘Cykel’ som udfaldsrum modelleret som associationsende. Datatypeegenskaberne ‘navn’, ‘cvrNr’, ‘stelnummer’ og størrelse’ er modelleret som attributter. Heraf har ‘stelnummer’ en struktureret datatype som udfaldsrum og sammenhængen mellem elementerne er illustreret med en dependency.
 
-<img src="Illustrations/kap7-4-egenskaber-eksempel.svg" alt="eksempel med egenskaber" style="width:700px;"/>
+<img src="Illustrations/kap7-4-egenskaber-eksempel.svg" alt="eksempel med egenskaber" style="width:700px;"/><br>
 <i>Figur 7.3: objektegenskaber som associationsender og datatypeegenskaber som attributter.</i>
 
 ### Eksempel på UML-diagram 
