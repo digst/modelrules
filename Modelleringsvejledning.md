@@ -904,7 +904,7 @@ Med dækkende menes at definitionerne skal inkludere præcis de samme instanser 
 
 **Ikke dækkende** definition af cykel: “ikke-motoriseret køretøj med to hjul” (inkluderer løbehjul og håndtrukne rickshaws, hvilket gør den for bred, men fx ikke elcykler eller trehjulede cykler, så den er også for smal).
 
-**Dækkende**: “køretøj der drives frem ved pedalkraft” (inkluderer elcykler, ladcykler, et- og trehjulede cykler, tandemcykler mm.)
+**Dækkende**: “køretøj der drives frem ved pedalkraft” (inkluderer elcykler, ladcykler, et- og trehjulede cykler, tandemcykler mm.).
 
 Med oplysende menes at definitionen rent faktisk skal indeholde oplysninger om, hvad begrebet _er_. En person, der ikke på forhånd kender begrebet, skal blive klogere af at læse definitionen, og en person der mener at kende begrebet skal kunne afgøre om det er præcis det begreb, vedkommende formoder, at det er. Dette udelukker fx at man bruger et synonym som definition, at man blot omskriver termen, eller at man blot tilføjer en generisk frase så som ‘henvisning til’ eller ‘angivelse af’ til termen.
 
@@ -949,7 +949,7 @@ Definitioner må **ikke være cirkulære**, hverken inden for definitionen selv 
 Definitioner må **ikke være negative**, dvs. de skal præcisere, hvad noget er, ikke hvad det ikke er. Dog kan udelukkelsen af noget være centralt for en definition.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Negativ (dårlig) definition: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**børnecykel**: cykel der ikke er beregnet til voksne. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**børnecykel**: cykel der ikke er beregnet til voksne
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definition med udelukkelse: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**passager**: person der er med i/på et transportmiddel uden at føre dette 
@@ -993,7 +993,8 @@ Anvendelsesneutralitet betyder også, at man skal tænke over at undgå ord, der
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**stelnummer**: unik kombination af tal og bogstaver der indgraveres på stellet af en cykel for entydigt at kunne identificere denne
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anvendelsesneutral definition: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**stelnummer**: unik kombination af tal og bogstaver der markeres permanent på stellet af et køretøj for entydigt at kunne identificere dette
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**stelnummer**: unik kombination af tal og bogstaver der markeres permanent på stellet af et køretøj for entydigt at kunne <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identificere dette
 
 Dette skal ikke forstås således at den definition man udarbejder nødvendigvis skal dække alle anvendelser af det ord eller udtryk, der er den foretrukne term. Ordet kan, især hvis det også anvendes almensprogligt, have andre eller bredere betydninger, og man skal definere den betydning, det har inden for det faglige emneområde, man er i gang med at modellere.
 
@@ -1398,7 +1399,7 @@ Navngives som andre klasser med UpperCamelCase
 
 _Tabel B: UML-elementer der udelukkende anvendes i informations- og logiske datamodeller_
 
-Udover de ovenstående elementer anvendes der i alle modeltyper pakker og stereotyper 
+Udover de ovenstående elementer anvendes der i alle modeltyper pakker og stereotyper. 
 
 ### Pakker 
 En pakke i UML er et element som kan indeholde andre UML-elementer, og som karakteriserer disse i sammenhæng. Pakker anvendes til at organisere elementerne. Der skal være en pakke der indeholder hele modellen. Denne kan desuden have underpakker, hvis man ønsker at gruppere modelelementer. Dette kan for eksempel anvendes i en anvendelsesmodel til at gruppere elementer baseret på hvilken kernemodel de kommer fra. Modellens pakke bærer desuden dennes metadata.
@@ -1702,7 +1703,7 @@ _Figur 5.22: Eksempel på tilknytningsklasse_
 ### Diagrammer
 ##### Diagrammering af store modeller
 
-Hvis den model man udarbejder indeholder mange begreber/klasser, er det ikke nødvendigvis hensigtsmæssigt at inkludere dem alle på samme diagram. Der er ingen regler for, hvordan eller hvornår man bør opdele sin model i flere diagrammer. Det kan dog anbefales at lave en slags oversigts- eller indflyvningsdiagram, der indeholder de mest centrale begreber/klasse og sammenhænge, og som kan fungere som en introduktion til modellen. Et givent modelelement kan optræde på flere diagrammer, men oprettes kun en gang..
+Hvis den model man udarbejder indeholder mange begreber/klasser, er det ikke nødvendigvis hensigtsmæssigt at inkludere dem alle på samme diagram. Der er ingen regler for, hvordan eller hvornår man bør opdele sin model i flere diagrammer. Det kan dog anbefales at lave en slags oversigts- eller indflyvningsdiagram, der indeholder de mest centrale begreber/klasse og sammenhænge, og som kan fungere som en introduktion til modellen. Et givent modelelement kan optræde på flere diagrammer, men oprettes kun en gang.
 
 ## Genbrug af modelelementer
 Genbrug forstås i modelreglerne som genbrug af et modelelements semantik, dvs. at man genbruger den forståelse der er knyttet til elementet og dermed dets definition og anden metadata. Det genbrugte element identificeres ved dets HTTP-URI. Dette skal ses i modsætning til genbrug af UML-elementer, hvor nogle værktøjer giver mulighed for at genbruge visse UML-elementer, fx klasser, i flere modeller. Egenskaber er i UML derimod defineret ift. den klasse de hører til og UML-elementet kan ikke umiddelbart genbruges. Men egenskabens semantik kan genbruges, og der findes egenskaber som det giver mening at anvende i forbindelse med mange forskellige klasser, fx startDato (http://www.w3.org/ns/dcat#startDate) eller beskrivelse (http://purl.org/dc/terms/description).
