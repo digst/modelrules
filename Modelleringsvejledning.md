@@ -1056,7 +1056,7 @@ Den HTTP-URI en model forsynes med kaldes også dens namespace, hvilket vil sige
 Et namespace opbygges i henhold til [Retningslinjer for stabile HTTP-URIer](https://arkitektur.digst.dk/specifikationer/grundlaeggende-specifikationer/introduktion-til-retningslinjer-stabile-http-urier) af: 
 “https://” + domæne + “/” + type + “/” + emne  + “/” + reference 
 
-Eksempel på namespace for en model i form at en URI:<br><code>https://data.gov.dk/concept/core/TransportationMeans</code>
+Eksempel på namespace for en model i form at en URI: ````https://data.gov.dk/concept/core/TransportationMeans```` <br/>
 
 For en detaljeret gennemgang af de forskellige delelementer henvises til retningslinjerne. Nedenfor angives, hvordan de skal anvendes til at lave namespaces for modeller udarbejdet i henhold til modelreglerne. Her gælder det at:
 
@@ -1065,9 +1065,9 @@ For en detaljeret gennemgang af de forskellige delelementer henvises til retning
 * emne = ‘core’ for kernemodeller og ‘profile’ for anvendelsesmodeller
 * reference identificerer den enkelte model
   
-Modelelementer, inkl. begreber, forsynes med en URI bestående af modellens namespace samt et entydigt fragment der identificerer elementet inden for modellen. Husk at modelelementer defineres i kernemodeller (se mere i afsnittet [Anvendelsesmodellering](#anvendelsesmodellering)). Namespace og fragmentnavn bør adskilles enten med “/”, fx <code>https://data.gov.dk/concept/core/TransportationMeans/bicycle</code>. Det er også muligt at anvende “#” som fragmentskilletegn, <code>https://data.gov.dk/concept/core/TransportationMeans#bicycle</code>. Dette afspejler dog ikke den aktuelle konsensus om bedste praksis, hvorfor det anbefales at anvende “/”. Især i ældre modeller kan man dog  møde “#”.
+Modelelementer, inkl. begreber, forsynes med en URI bestående af modellens namespace samt et entydigt fragment der identificerer elementet inden for modellen. Husk at modelelementer defineres i kernemodeller (se mere i afsnittet [Anvendelsesmodellering](#anvendelsesmodellering)). Namespace og fragmentnavn bør adskilles enten med “/”, fx ````https://data.gov.dk/concept/core/TransportationMeans/bicycle````. Det er også muligt at anvende “#” som fragmentskilletegn, ````https://data.gov.dk/concept/core/TransportationMeans#bicycle````. Dette afspejler dog ikke den aktuelle konsensus om bedste praksis, hvorfor det anbefales at anvende “/”. Især i ældre modeller kan man dog  møde “#”.
 
-Fragmentet bør afspejle modelelementets navn, og vil ofte være identisk med dette. Dog kan fragmenter ikke indeholde mellemrum, så begrebsnavne der består af flere ord omskrives til CamelCase, fx <code>https://data.gov.dk/concept/core/transportationMeans/tandemBicycle</code>
+Fragmentet bør afspejle modelelementets navn, og vil ofte være identisk med dette. Dog kan fragmenter ikke indeholde mellemrum, så begrebsnavne der består af flere ord omskrives til CamelCase, fx ````https://data.gov.dk/concept/core/transportationMeans/tandemBicycle````
 
 Desuden kan det være en god ide at angive fragmentet på engelsk, selvom elementnavnet er på dansk. Ved at vælge engelsk gør man det muligt at modellen og dens elementer kan genbruges internationalt og dermed øge sammenhæng ikke kun i Danmark, men også på tværs af grænserne. Det bliver også muligt at bringe sin model i spil i forhold til internationalt standardiseringsarbejde og dermed reducere risikoen for at skulle ændre sin modellering som følge af international standardisering. International brug kræver engelske definitioner og termer, som kan tilføjes senere, hvorimod URIen ikke kan ændres efter at modellen er erklæret stabil i version 1.0.0.
 
@@ -1816,7 +1816,7 @@ Det er muligt at få brug for elementer i sin anvendelsesmodel som endnu ikke er
 
 Man slipper ikke udenom at definere de elementer man skal bruge i henhold til reglerne for hvordan elementer defineres i kernemodeller, hvilket vil sige at de skal dokumenteres med definitioner, termer og anden metadata. Man kan dog undlade at tage stilling til hvilke andre elementer der burde være en del af en given kernemodel, modelleringen af disse, samt den fysiske oprettelse af kernemodellen.
 
-Essentielt skal modelelementerne stadig have en identifikator i form af en HTTP-URI, og denne skal afspejle den kernemodel, elementet kommer fra. Det vil sige at modelelementer aldrig defineres i (dvs. ikke har HTTP-URIer der starter med) anvendelsesmodellens namespace. En anvendelsesmodel for et system til registrering af transportmidler ejet af en given styrelse kunne fx have identifikatoren: <code>https://data.gov.dk/model/profile/styrelseXTransportmidler</code>, men elementer defineret i forbindelse hermed ville have identifikatorer der afspejler de emne de tilhører, fx <code>https://data.gov.dk/model/core/bygning/garage</code> eller <code>https://data.gov.dk/model/core/bilsyn/sidst-synet</code>. 
+Essentielt skal modelelementerne stadig have en identifikator i form af en HTTP-URI, og denne skal afspejle den kernemodel, elementet kommer fra. Det vil sige at modelelementer aldrig defineres i (dvs. ikke har HTTP-URIer der starter med) anvendelsesmodellens namespace. En anvendelsesmodel for et system til registrering af transportmidler ejet af en given styrelse kunne fx have identifikatoren: ````https://data.gov.dk/model/profile/styrelseXTransportmidler````, men elementer defineret i forbindelse hermed ville have identifikatorer der afspejler de emne de tilhører, fx ````https://data.gov.dk/model/core/bygning/garage```` eller ````https://data.gov.dk/model/core/bilsyn/sidst-synet````. 
 
 Hvor det normalt ikke giver mening at markere genbrugte elementer visuelt i en anvendelsesmodel, kan det ved implicit kernemodellering være en god måde at adskille den implicitte kernemodel fra elementer genbrugt andre steder fra.
 
@@ -2202,30 +2202,30 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
 <table>
   <tr>
     <td><b>Felt</b></td>
-    <td><b>Definition</b></td>
+    <td><b>Eksempeldata</b></td>
   </tr>
   <tr>
-    <td>Namespace <br>(namespace)* </td>
+    <td>Namespace <br>(namespace) </td>
     <td><code>https://data.gov.dk/concept/core/transportationMeans/</code></td>
   </tr>
   <tr>
-    <td>Modelnavn <br>(label)* </td>
+    <td>Modelnavn <br>(label) </td>
     <td>Begrebsmodel for transportmidler</td>
   </tr>
   <tr>
-    <td>Beskrivelse <br>(comment)* </td>
+    <td>Beskrivelse <br>(comment) </td>
     <td>Begrebsmodel over transportmidler udarbejdet som eksempelmodel i forbindelse modelleringsvejledningen til de fællesoffentlige regler for begrebs- og datamodellering. Modelleringen er derfor ikke fyldestgørende eller fagligt valideret, og modellens metadata er eksempler uden reel gyldighed.</td>
   </tr>
   <tr>
-    <td>Modelsprog <br>(language)*</td>
+    <td>Modelsprog <br>(language)</td>
     <td>da</td>
   </tr>
   <tr>
-    <td>Modelomfang <br>(modelScope)*</td>
+    <td>Modelomfang <br>(modelScope)</td>
     <td>kernemodel</td>
   </tr>
   <tr>
-    <td>Emne <br>(theme) *</td>
+    <td>Emne <br>(theme) </td>
     <td>59.02.05 Overordnede opgaver vedrørende trafik og transport</td>
   </tr>
   <tr>
@@ -2237,19 +2237,19 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
     <td>Rådet for Sikker Trafik</td>
   </tr>
   <tr>
-    <td>Modelansvarlig <br>(responsibleEntity)*</td>
+    <td>Modelansvarlig <br>(responsibleEntity)</td>
     <td>Trafik-, Bygge- og Boligstyrelsen</td>
   </tr>
   <tr>
-    <td>Modelstatus <br>(modelStatus)*</td>
+    <td>Modelstatus <br>(modelStatus)</td>
     <td>Under udvikling</td>
   </tr>
   <tr>
-    <td>Versionnummer <br>(versionInfo)*</td>
+    <td>Versionnummer <br>(versionInfo)</td>
     <td>0.1.0</td>
   </tr>
   <tr>
-    <td>Seneste opdateringsdato <br>(dateModified)*</td>
+    <td>Seneste opdateringsdato <br>(dateModified)</td>
     <td>2020-11-06</td>
   </tr>
   <tr>
@@ -2270,7 +2270,7 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
   </tr>
   <tr>
     <td>Afledt af <br>(wasDerivedFrom)</td>
-    <td><code>https://data.gov.dk/model/core/transportationMeans/</code></td>
+    <td><code>https://data.gov.dk/model/core/transportationMeans/ </code> </td>
   </tr>
 </table>
 
