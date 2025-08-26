@@ -251,7 +251,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Angivelse af kravniveau med supplerende stereotyper](#angivelse-af-kravniveau-med-supplerende-stereotyper)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Angiv gerne namespaces og præfikser i logiske datamodeller](#angiv-gerne-namespaces-og-præfikser-i-logiske-datatyper)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Angiv gerne namespaces og præfikser i logiske datamodeller](#angiv-gerne-namespaces-og-præfikser-i-logiske-datamodeller)
 
 **[Kapitel 8: Governance](#kapitel-8-governance)**
 
@@ -705,7 +705,7 @@ I realiteten er det ikke altid muligt at finde alle de elementer man har brug fo
 
 En anvendelsesmodel er en model, som er rettet mod en specifik anvendelse i en afgrænset kontekst. 
 
-Dette kunne være et system, et register eller lignende, der skal understøtte et forretningsområde. Anvendelsesmodeller afspejler og afgrænses af behovet for information i en bestemt anvendelsessituation og sammensættes af elementer fra en eller flere kernemodeller. Anvendelsesmodeller kan forstås som sammensætningen af forskellige byggeblokke til en bestemt anvendelse.
+Der kan være forskellige grader af specificitet og afgræsninger. Den typiske afgrænsede kontekst kunne være et system, et register eller lignende, der skal understøtte et forretningsområde, men den afgrænsede kontekst kan også være ’i det offentlige Danmark’, ’fælleskommunalt’, ’i sundhedssektoren’ eller lignende. Anvendelsesmodeller afspejler og afgrænses af behovet for information i en bestemt anvendelsessituation og sammensættes af elementer fra en eller flere kernemodeller. Anvendelsesmodeller kan forstås som sammensætningen af forskellige byggeblokke til en bestemt anvendelse.
 
 Modelelementer der indgår i en anvendelsesmodel skal således være defineret i kernemodeller. Der kan dog være projekter, hvor man ikke har tid/ressourcer til eksplicit at udarbejde kernemodellerne, hvorfor modelreglerne åbner mulighed for, at en eller flere kernemodeller kan modelleres som en del af en anvendelsesmodel ved anvendelse af forskellige namespaces i modelelementerens HTTP-URIer. <br> Se mere [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier).
 
@@ -925,7 +925,7 @@ Metoden indebærer, at man definerer et begreb ved at angive nærmeste overbegre
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**cykel**: _<ins>køretøj</ins> der <ins>drives frem ved pedalkraft</ins>_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I dette eksempel er overbegrebet et _<ins>“køretøj”</ins>_, og det, der adskiller en cykel fra andre køretøjer er, at det _<ins>“drives</ins>_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_<ins>frem ved pedalkraft</ins>_”.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I dette eksempel er overbegrebet et _<ins>“køretøj”</ins>_, og det, der adskiller en cykel fra andre køretøjer er, at det _<ins>“drives frem ved pedalkraft</ins>_”.
 
 Det er væsentligt at vælge det nærmeste overbegreb, fordi man derved implicit medtager det nærmeste overbegrebs adskillende træk i definitionen. Hvis man fx skal lave en definition af ‘tandemcykel’ og bruger ’køretøj’ som overbegreb skulle man med de adskillende træk adskille ‘tandemcykel’ fra alle andre køretøjer, hvilket man kunne komme til at gøre på en måde der er inkonsistent med definitionen af ‘cykel’. Ved at bruge ‘cykel’ som overbegreb er det allerede givet at en tandemcykel er et _køretøj der drives frem ved pedalkraft_, og man kan nøjes med at tilføje _hvor to eller flere pedalerende personer sidder bag ved hinanden_. Ved altid at vælge det nærmeste overbegreb sikrer man konsistens i sin begrebsmodel.
 
@@ -971,7 +971,7 @@ I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegre
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**pigecykel**: damecykel der er lavet i mindre størrelse og som er tiltænkt børn
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_overbegreb_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_adskillende træk fra definition af ‘børnecykel’_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_overbegreb_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_adskillende træk fra definition af ‘børnecykel’_
 
 §21 - [<ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udarbejd-strukturerede-definitioner-paa-en-standardiseret)
 
@@ -1056,7 +1056,7 @@ Den HTTP-URI en model forsynes med kaldes også dens namespace, hvilket vil sige
 Et namespace opbygges i henhold til [Retningslinjer for stabile HTTP-URIer](https://arkitektur.digst.dk/specifikationer/grundlaeggende-specifikationer/introduktion-til-retningslinjer-stabile-http-urier) af: 
 “https://” + domæne + “/” + type + “/” + emne  + “/” + reference 
 
-Eksempel på namespace for en model i form at en URI:<br>https://data.gov.dk/concept/core/TransportationMeans
+Eksempel på namespace for en model i form at en URI:<br><code>https://data.gov.dk/concept/core/TransportationMeans</code>
 
 For en detaljeret gennemgang af de forskellige delelementer henvises til retningslinjerne. Nedenfor angives, hvordan de skal anvendes til at lave namespaces for modeller udarbejdet i henhold til modelreglerne. Her gælder det at:
 
@@ -1065,9 +1065,9 @@ For en detaljeret gennemgang af de forskellige delelementer henvises til retning
 * emne = ‘core’ for kernemodeller og ‘profile’ for anvendelsesmodeller
 * reference identificerer den enkelte model
   
-Modelelementer, inkl. begreber, forsynes med en URI bestående af modellens namespace samt et entydigt fragment der identificerer elementet inden for modellen. Husk at modelelementer defineres i kernemodeller (se mere i afsnittet [Anvendelsesmodellering](#anvendelsesmodellering)). Namespace og fragmentnavn bør adskilles enten med “/”, fx https://data.gov.dk/concept/core/TransportationMeans/bicycle. Det er også muligt at anvende “#” som fragmentskilletegn, https://data.gov.dk/concept/core/TransportationMeans#bicycle. Dette afspejler dog ikke den aktuelle konsensus om bedste praksis, hvorfor det anbefales at anvende “/”. Især i ældre modeller kan man dog  møde “#”.
+Modelelementer, inkl. begreber, forsynes med en URI bestående af modellens namespace samt et entydigt fragment der identificerer elementet inden for modellen. Husk at modelelementer defineres i kernemodeller (se mere i afsnittet [Anvendelsesmodellering](#anvendelsesmodellering)). Namespace og fragmentnavn bør adskilles enten med “/”, fx <code>https://data.gov.dk/concept/core/TransportationMeans/bicycle</code>. Det er også muligt at anvende “#” som fragmentskilletegn, <code>https://data.gov.dk/concept/core/TransportationMeans#bicycle</code>. Dette afspejler dog ikke den aktuelle konsensus om bedste praksis, hvorfor det anbefales at anvende “/”. Især i ældre modeller kan man dog  møde “#”.
 
-Fragmentet bør afspejle modelelementets navn, og vil ofte være identisk med dette. Dog kan fragmenter ikke indeholde mellemrum, så begrebsnavne der består af flere ord omskrives til CamelCase, fx https://data.gov.dk/concept/core/transportationMeans/tandemBicycle
+Fragmentet bør afspejle modelelementets navn, og vil ofte være identisk med dette. Dog kan fragmenter ikke indeholde mellemrum, så begrebsnavne der består af flere ord omskrives til CamelCase, fx <code>https://data.gov.dk/concept/core/transportationMeans/tandemBicycle</code>
 
 Desuden kan det være en god ide at angive fragmentet på engelsk, selvom elementnavnet er på dansk. Ved at vælge engelsk gør man det muligt at modellen og dens elementer kan genbruges internationalt og dermed øge sammenhæng ikke kun i Danmark, men også på tværs af grænserne. Det bliver også muligt at bringe sin model i spil i forhold til internationalt standardiseringsarbejde og dermed reducere risikoen for at skulle ændre sin modellering som følge af international standardisering. International brug kræver engelske definitioner og termer, som kan tilføjes senere, hvorimod URIen ikke kan ændres efter at modellen er erklæret stabil i version 1.0.0.
 
@@ -1747,7 +1747,7 @@ En sådan markering bør samtidigt være en indikation af at man vil opdatere si
 ## Anvendelsesmodellering
 En anvendelsesmodel er en model, som er rettet mod en specifik anvendelse i en afgrænset kontekst. 
 
-Dette kunne være et it-system, et register eller lignende, der skal understøtte et forretningsområde. Anvendelsesmodeller afspejler og afgrænses af behovet for information i en bestemt anvendelsessituation og sammensættes af elementer fra en eller flere kernemodeller. Anvendelsesmodeller kan forstås som sammensætningen af forskellige byggeblokke til en bestemt anvendelse. 
+Der kan være forskellige grader af specificitet og afgræsninger. Den typiske afgrænsede kontekst kunne være et system, et register eller lignende, der skal understøtte et forretningsområde, men den afgrænsede kontekst kan også være ’i det offentlige Danmark’, ’fælleskommunalt’, ’i sundhedssektoren’ eller lignende.  Anvendelsesmodeller afspejler og afgrænses af behovet for information i en bestemt anvendelsessituation og sammensættes af elementer fra en eller flere kernemodeller. Anvendelsesmodeller kan forstås som sammensætningen af forskellige byggeblokke til en bestemt anvendelse. 
 
 Nedenfor ses en (forsimplet) anvendelsesmodel for et it-system til understøttelse af cykeludlejning. Den er sammensat af elementer fra kernemodeller for cykel, kunde og kalender
 
@@ -1816,9 +1816,9 @@ Det er muligt at få brug for elementer i sin anvendelsesmodel som endnu ikke er
 
 Man slipper ikke udenom at definere de elementer man skal bruge i henhold til reglerne for hvordan elementer defineres i kernemodeller, hvilket vil sige at de skal dokumenteres med definitioner, termer og anden metadata. Man kan dog undlade at tage stilling til hvilke andre elementer der burde være en del af en given kernemodel, modelleringen af disse, samt den fysiske oprettelse af kernemodellen.
 
-Essentielt skal modelelementerne stadig have en identifikator i form af en HTTP-URI, og denne skal afspejle den kernemodel, elementet kommer fra. Det vil sige at modelelementer aldrig defineres i (dvs. ikke har HTTP-URIer der starter med) anvendelsesmodellens namespace. En anvendelsesmodel for et system til registrering af transportmidler ejet af en given styrelse kunne fx have identifikatoren: https://data.gov.dk/model/profile/styrelseXTransportmidler, men elementer defineret i forbindelse hermed ville have identifikatorer der afspejler de emne de tilhører, fx https://data.gov.dk/model/core/bygning/garage eller https://data.gov.dk/model/core/bilsyn/sidst-synet. 
+Essentielt skal modelelementerne stadig have en identifikator i form af en HTTP-URI, og denne skal afspejle den kernemodel, elementet kommer fra. Det vil sige at modelelementer aldrig defineres i (dvs. ikke har HTTP-URIer der starter med) anvendelsesmodellens namespace. En anvendelsesmodel for et system til registrering af transportmidler ejet af en given styrelse kunne fx have identifikatoren: <code>https://data.gov.dk/model/profile/styrelseXTransportmidler</code>, men elementer defineret i forbindelse hermed ville have identifikatorer der afspejler de emne de tilhører, fx <code>https://data.gov.dk/model/core/bygning/garage</code> eller <code>https://data.gov.dk/model/core/bilsyn/sidst-synet</code>. 
 
-Hvor det normalt ikke giver mening at markere genbrugte elementer visuelt i en anvendelsesmodel, er det ved implicit kernemodellering en god måde at adskille den implicitte kernemodel fra elementer genbrugt andre steder fra.
+Hvor det normalt ikke giver mening at markere genbrugte elementer visuelt i en anvendelsesmodel, kan det ved implicit kernemodellering være en god måde at adskille den implicitte kernemodel fra elementer genbrugt andre steder fra.
 
 ### Anvendelsesmodel baseret på en anden anvendelsesmodel
 Udover at sammensætte sin anvendelsesmodel direkte på kernemodellering, kan der være situationer hvor det giver mening at basere sin anvendelsesmodel på en allerede eksisterende anvendelsesmodel. Dette vil være hvis der findes en model rettet mod en anvendelsessituation der er mere generel end, men fuldt inkluderer, den man har brug for at modellere. Eksempler inkluderer tilpasning af en international model til nationale forhold, som i eksemplet nedenfor, eller oprettelse af en anvendelsesmodel for en sektor eller et specifikt system baseret på en fællesoffentlig model.
@@ -1828,6 +1828,8 @@ Udover at sammensætte sin anvendelsesmodel direkte på kernemodellering, kan de
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Fælleseuropæisk anvendelsesmodel**: DCAT-AP _(Application Profile for Data Portals in Europe)_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Dansk anvendelsesmodel**: DCAT-DK-AP _(Dansk anvendelsesprofil til beskrivelse af datasæt og datakataloger)_
+
+Herudover vil der kunne defineres sektor eller systemspecifikke anvendelsesmodeller.
 
 Der vil normalt være tale om mindre ændringer. Man kan øge specificiteten som beskrevet ovenfor, og derudover kan man tilføje elementer. Her skal man være opmærksom på at de tilføjede elementer skal være defineret i en kernemodel. Og selvfølgelig kan de ikke udveksles med systemer eller anvendere der bruger den mere generelle model man baserer sig på. 
  
@@ -2204,7 +2206,7 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
   </tr>
   <tr>
     <td>Namespace <br>(namespace)* </td>
-    <td>https://data.gov.dk/concept/core/transportationMeans/</td>
+    <td><code>https://data.gov.dk/concept/core/transportationMeans/</code></td>
   </tr>
   <tr>
     <td>Modelnavn <br>(label)* </td>
@@ -2268,7 +2270,7 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
   </tr>
   <tr>
     <td>Afledt af <br>(wasDerivedFrom)</td>
-    <td>https://data.gov.dk/model/core/transportationMeans/</td>
+    <td><code>https://data.gov.dk/model/core/transportationMeans/</code></td>
   </tr>
 </table>
 
@@ -2497,7 +2499,7 @@ Man udstiller sin model på sin organisations egen hjemmeside eller server. Man 
 
 I forhold til registrering af modeller, er tilgangen indtil videre at sikre bredest mulig videndeling. Modellerne registreres med henblik på inspiration og potentielt genbrug, og derfor kan alle udstillede modeller optages i kataloget. Dermed kan både modeller under udvikling og modeller, der ikke overholder modelreglerne optages. Der er heller ingen krav til hvilket format modellerne skal have, blot at de skal være offentligt tilgængelige. Bemærk at registrering i Modelkataloget dermed ikke er ensbetydende med, at modellen får status som anbefalet og optaget i FDA.
 
-I praksis får man modeller optaget ved at henvende sig til modelsekretariatet (arkitektur@digst.dk) med et link til udstillingen af modellen og oplysninger om et kontaktpunkt (mailadresse, gerne en funktionspostkasse), hvor man kan henvende sig hvis man har spørgsmål til modellen samt angivelse af vilkårene for genanvendelse af modellen ved angivelse af en specifik licens. Modelsekretariatet anbefaler [Creative Commons — CC0 1.0 Universal (CC0)](https://creativecommons.org/publicdomain/zero/1.0/), som er en åben licens, der tillader enhver form for brug og dermed er velegnet til at understøtte genbrug af modeller. Man kan dog også vælge en anden licens, og hvis man har brug for hjælp til at vælge, kan man fx benytte [Creative Commons licensvælger](https://www.google.com/url?q=https://creativecommons.org/choose/&sa=D&source=docs&ust=1709039583509040&usg=AOvVaw2QJ9pp3yDtcB0uTv_y_Y9K) eller [Joinup Licensing Assistant (EU)](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses). Derudover bruges modelmetadata (som beskrevet i [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen)) til at beskrive modeller i kataloget. Hvis de ikke allerede er udfyldt i modellen, må de meget gerne medsendes i det omfang det er muligt; især er det vigtigt at kende modelstatus.
+I praksis får man modeller optaget ved at henvende sig til modelsekretariatet (arkitektur@digst.dk) med et link til udstillingen af modellen og oplysninger om et kontaktpunkt (mailadresse, gerne en funktionspostkasse), hvor man kan henvende sig hvis man har spørgsmål til modellen samt angivelse af vilkårene for genanvendelse af modellen ved angivelse af en specifik licens. Modelsekretariatet anbefaler [Creative Commons — CC0 1.0 Universal (CC0)](https://creativecommons.org/publicdomain/zero/1.0/), som er en åben licens, der tillader enhver form for brug og dermed er velegnet til at understøtte genbrug af modeller. Man kan dog også vælge en anden licens, og hvis man har brug for hjælp til at vælge, kan man fx benytte [Creative Commons licensvælger](https://creativecommons.org/chooser) eller [Joinup Licensing Assistant (EU)](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses). Derudover bruges modelmetadata (som beskrevet i [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen)) til at beskrive modeller i kataloget. Hvis de ikke allerede er udfyldt i modellen, må de meget gerne medsendes i det omfang det er muligt; især er det vigtigt at kende modelstatus.
 
 # Referencer
 Allemang, Dean 2008: “Semantic Web for the Working Ontologist", Morgan Kaufmann Publishers
@@ -2526,13 +2528,11 @@ ISO 1087-2 Terminology Work -- Vocabulary -- Part 2: Computer applications
 
 [OMG (2005): “OMG Unified Modeling Language TM (OMG UML) - version 2.0”](http://www.omg.org/spec/UML/2.0/)
 
-[Udbetaling Danmark, KL og KOMBIT 2015: ”Metodehåndbog - Begrebsmodeller, Informationsmodeller og Begrebsdefinitioner”.](http://www.kombit.dk/metodeh%C3%A5ndb%C3%B8ger)
+[Udbetaling Danmark, KL og KOMBIT 2015: ”Metodehåndbog - Begrebsmodeller, Informationsmodeller og Begrebsdefinitioner”.](https://kombit.dk/sites/default/files/user_upload/documents/Videnscenter/Metodehaandbog%20begrebs%20og%20informationsmodeller.pdf)
 
 SDFE 2001: “Datamodelvejledning”, Arne Simonsen. Jesper Vinther Christensen, Anders Friis-Christensen, Jan Hjelmager  
 
-<a id="ss2010"></a>Socialstyrelsen (2010): “Vurdering af begrebssystemer”
-
-[http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf](http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf)
+<a id="ss2010"></a>[Socialstyrelsen (2010): “Vurdering af begrebssystemer”](http://danskevalueringsselskab.dk/wp-content/uploads/2018/03/Seminar5_2010.pdf)
 
 [W3C 2008: “Best Practice Recipes for Publishing RDF Vocabularies”](https://www.w3.org/TR/swbp-vocab-pub/#recipe3)
 
