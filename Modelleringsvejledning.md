@@ -429,7 +429,7 @@ Hvis man som organisation ønsker at arbejde med begreber og datamodeller på en
 4. Sikr tilstrækkelige kompetencer og ressourcer til modellering
 5. Vedligehold et overblik over organisationens begreber og datamodeller
    
-Du kan downloade en [folder med yderligere information](https://arkitektur.digst.dk/sites/default/fileuploads/folder_god-begrebs-og-datamodellering-i-det-offentlige.docx) om disse fem anbefalinger.
+Du kan downloade en [folder med yderligere information](https://arkitektur.digst.dk/sites/default/fileuploads/folder_god-begrebs-og-datamodellering-i-det-offentlige (7).docx) om disse fem anbefalinger.
 
 
 # Kapitel 2: Modeltyper og proces
