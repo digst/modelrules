@@ -1102,7 +1102,7 @@ Begrebsoplysningerne opsættes som en tabel, således at hver række beskriver �
 * **Identifikator**: entydig reference til begrebet i form af en HTTP-URI
 * **Afledt af**: reference til element som begrebet er afledt af
 
-Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal altid udfyldes. Resten af felterne udfyldes, hvis det er relevant. 
+Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal altid udfyldes. Der bør desunden angives en kilde (juridisk, hvis muligt). Resten af felterne udfyldes, hvis det er relevant. 
 
 <a id="emne"></a>‘Tilhører emneområde’ kan udfyldes med en præcis reference til den model hvor begrebet er defineret, hvilket for kernemodeller kan være modellen selv. For kernemodeller kan man også nøjes med at angive om begrebet tilhører modellens emneområde med Ja/Nej. Man bør kunne se hvor begrebet stammer fra enten i feltet ‘Tilhører emneområde’ eller i et af kildefelterne.
  
