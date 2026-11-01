@@ -35,7 +35,7 @@
            transform="translate(14.45,100.3818)"
            id="g20"><path
              id="path22"
-             style="fill:#89b2e0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#AB2A0C;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 0,0 -1.25,-2.14 c -1.2,-2.04 -2.09,-4.23 -2.66,-6.5 l -6.23,0.86 c -1.03,0.14 -1.81,1.03 -1.81,2.07 v 4.93 c 0,1.26 1.12,2.24 2.38,2.07 z" /></g><g
            transform="translate(14.45,100.3818)"
            id="g24"><path
@@ -65,7 +65,7 @@
            transform="translate(150.42,98.7219)"
            id="g44"><path
              id="path46"
-             style="fill:#89b2e0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#AB2A0C;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="M 0,0 V -4.93 C 0,-5.97 -0.77,-6.86 -1.81,-7 l -6.67,-0.92 c -0.53,2.75 -1.5,5.41 -2.88,7.88 l -0.47,0.83 9.45,1.28 C -1.12,2.24 0,1.27 0,0" /></g><g
            transform="translate(150.42,98.7219)"
            id="g48"><path
@@ -95,7 +95,7 @@
            transform="translate(134.07,74.0219)"
            id="g68"><path
              id="path70"
-             style="fill:#89b2e0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#AB2A0C;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 0,0 c -4.1,-3.75 -11.54,-0.92 -14.38,1.01 -3.26,2.22 -0.29,6.43 3.82,10.19 4.1,3.75 9.23,6.91 11.05,3.41 C 2.23,11.28 4.11,3.76 0,0 m -109.64,21.6 c -2.03,0 -3.28,2.21 -2.25,3.95 l 12.9,21.82 c 2.76,4.66 7.79,7.51 13.2,7.48 L -28.3,54.5 c 4.93,-0.03 9.46,-2.66 11.94,-6.91 L -3.99,26.3 c 1.21,-2.08 -0.29,-4.7 -2.7,-4.7 z m 9.09,-20.59 c -2.84,-1.93 -10.28,-4.76 -14.38,-1.01 -4.11,3.76 -2.23,11.28 -0.5,14.61 1.83,3.5 6.95,0.34 11.06,-3.41 4.11,-3.76 7.08,-7.97 3.82,-10.19 M 7.87,16.77 v 0.01 c -0.53,2.75 -1.5,5.41 -2.88,7.88 L 4.52,25.49 -9.56,50.66 c -4.06,7.24 -11.71,11.73 -20.02,11.73 h -54.43 c -8.97,0 -17.28,-4.76 -21.82,-12.5 l -13.79,-23.53 -1.25,-2.14 c -1.2,-2.04 -2.09,-4.23 -2.66,-6.5 -0.68,-2.73 -0.9,-5.58 -0.62,-8.42 l 1.34,-13.86 c 0.4,-4.07 1.73,-7.85 3.77,-11.13 3.5,-5.61 9.1,-9.75 15.65,-11.36 1.99,-0.5 4.06,-0.76 6.19,-0.76 h 76.28 c 3.12,0 6.13,0.51 8.95,1.46 6.13,2.07 11.34,6.21 14.75,11.63 2.22,3.5 3.68,7.54 4.15,11.91 L 8.2,8.9 c 0.29,2.64 0.17,5.29 -0.33,7.87" /></g><g
            transform="translate(134.07,74.0219)"
            id="g72"><path
@@ -120,7 +120,7 @@
            transform="translate(117.13,95.6218)"
            id="g88"><path
              id="path90"
-             style="fill:#c9c9c9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#D3C1BD;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 0,0 h -25.82 c 0,7.14 5.78,12.92 12.91,12.92 C -5.78,12.92 0,7.14 0,0" /></g><g
            transform="translate(117.13,95.6218)"
            id="g92"><path
@@ -138,14 +138,14 @@
              style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
              d="m 0,0 h -18.4 c 0,5.08 4.12,9.2 9.2,9.2 C -4.12,9.2 0,5.08 0,0 Z" /></g><text
            id="text106"
-           style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#1d1d1d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(0.99999167,0,0,-1,36.21138,148.8901)"><tspan
              id="tspan104"
              y="0"
              x="0 7.7867999 11.1228 15.7908 22.462799 29.1348 32.470798 35.806801 43.138802 50.470798 57.142799 64.4748 71.146797">Virkeligheden</tspan></text>
 <text
            id="text110"
-           style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#1d1d1d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(0.99999167,0,0,-1,297.7972,148.8901)"><tspan
              id="tspan108"
              y="0"
@@ -162,21 +162,21 @@
              style="fill:none;stroke:#1d1d1d;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
              d="m 0,0 h -51.456 c -1.945,0 -3.522,1.577 -3.522,3.522 v 7.435 c 0,1.945 1.577,3.522 3.522,3.522 H 0 c 1.945,0 3.522,-1.577 3.522,-3.522 V 3.522 C 3.522,1.577 1.945,0 0,0 Z" /></g><path
            id="path120"
-           style="fill:#c9c9c9;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#D3C1BD;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
            d="M 442.386,103.89 H 272.56 v 17.201 h 169.826 z" /><path
            id="path122"
-           style="fill:#c9c9c9;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#D3C1BD;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
            d="M 442.386,69.181 H 272.56 v 18.263 h 169.826 z" /><path
            id="path124"
-           style="fill:#c9c9c9;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#D3C1BD;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
            d="M 442.386,35.506 H 272.56 v 17.292 h 169.826 z" /><g
            transform="translate(272.56,121.0909)"
            id="g126"><path
              id="path128"
-             style="fill:none;stroke:#2b2b2a;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:none;stroke:#3F1A2B;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
              d="M 0,0 H 169.826" /></g></g></g><text
        id="text132"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,172.5093,97.4463)"><tspan
          id="tspan130"
          y="0"
@@ -188,95 +188,95 @@
            transform="translate(172.8491,87.7972)"
            id="g142"><path
              id="path144"
-             style="fill:none;stroke:#2b2b2a;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:none;stroke:#3F1A2B;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
              d="M 0,0 H 30.191 83.107" /></g><g
            transform="translate(250.8301,84.1973)"
            id="g146"><path
              id="path148"
-             style="fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="M 0,0 C -0.111,0.174 -0.059,0.406 0.116,0.518 L 4.955,3.6 0.116,6.682 C -0.059,6.793 -0.111,7.025 0,7.2 0.111,7.374 0.345,7.425 0.519,7.315 L 5.854,3.916 C 5.962,3.847 6.028,3.728 6.028,3.6 6.028,3.472 5.962,3.352 5.854,3.283 L 0.519,-0.115 C 0.456,-0.155 0.386,-0.174 0.317,-0.174 0.193,-0.174 0.072,-0.112 0,0" /></g><path
            id="path150"
-           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:none;stroke:#3F1A2B;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
            d="M 442.386,19.958 H 272.56 v 118.217 h 169.826 z" /></g></g><text
        id="text154"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#1d1d1d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,52.2344,54.709)"><tspan
          id="tspan152"
          y="0"
          x="0 6.723 13.446 16.173 21.402 26.631001 29.358 34.946999 40.535999">AB 12 345</tspan></text>
 <text
        id="text158"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,330.4232,125.8721)"><tspan
          id="tspan156"
          y="0"
          x="0 8.0039997 14.676 18.672001 24.672001 31.344 38.015999 44.688 47.352001">Personbil</tspan></text>
 <text
        id="text162"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,278.3442,108.2466)"><tspan
          id="tspan160"
          y="0"
          x="0 7.2199998 12.78 18.889999 21.67 24.450001 30.559999 36.669998 45.560001 54.450001 60.009998">Reg. nummer</tspan></text>
 <text
        id="text166"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,360.9052,108.2466)"><tspan
          id="tspan164"
          y="0"
          x="0 6.6700001 13.34 16.120001 21.68 27.24 30.02 35.580002 41.139999">AB 12 345</tspan></text>
 <text
        id="text170"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,278.3442,91.2466)"><tspan
          id="tspan168"
          y="0"
-         x="0 2.78 8.8900003 15 18.889999 24.450001 30.559999 33.34 38.900002 42.23 46.119999 51.68 55.57 61.130001">Indregistreret</tspan></text>
+         x="0">Indregistreret</tspan></text>
 <text
        id="text174"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,361.4612,91.2466)"><tspan
          id="tspan172"
          y="0"
          x="0 5.5599999 11.12 16.68 22.24 25.57 31.129999 36.689999 40.02 45.580002">2021-09-07</tspan></text>
 <text
        id="text178"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,278.3442,74.2466)"><tspan
          id="tspan176"
          y="0"
-         x="0 6.1100001 11.67 15.56 21.120001">Farve</tspan></text>
+         x="0">Farve</tspan></text>
 <text
        id="text182"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,361.4592,74.2466)"><tspan
          id="tspan180"
          y="0"
-         x="0 6.6700001 8.8900003">Blå</tspan></text>
+         x="0 6.6700001">Rødbrun</tspan></text>
 <text
        id="text186"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,278.3442,57.2466)"><tspan
          id="tspan184"
          y="0"
-         x="0 6.6700001 10 15.56 18.34 24.450001 30.559999 39.450001 48.34 53.900002">Stelnummer</tspan></text>
+         x="0">Stelnummer</tspan></text>
 <text
        id="text190"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,361.4612,57.2466)"><tspan
          id="tspan188"
          y="0"
          x="0 6.6700001 12.78 18.34 23.9 29.459999 35.02 40.580002 46.139999 51.700001 57.259998 62.82">VF4568566187</tspan></text>
 <text
        id="text194"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,278.3442,40.2466)"><tspan
          id="tspan192"
          y="0"
-         x="0 6.6700001 10 15.56 18.889999 25">Status</tspan></text>
+         x="0">Status</tspan></text>
 <text
        id="text200"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,361.4622,40.2466)"><tspan
          id="tspan196"
          y="0"
@@ -286,7 +286,7 @@
          x="-83.117996"> </tspan></text>
 <text
        id="text204"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#2b2b2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1,0,0,-1,311.6842,23.2466)"><tspan
          id="tspan202"
          y="0"
@@ -296,7 +296,7 @@
          clip-path="url(#clipPath212)"
          id="g208"><text
            id="text216"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#1d1d1d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Paralucent, &apos;Libre Franklin&apos;, system-ui, -apple-system, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif;writing-mode:lr-tb;fill:#3F1A2B;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,8.5293,4.2373)"><tspan
              id="tspan214"
              y="0"

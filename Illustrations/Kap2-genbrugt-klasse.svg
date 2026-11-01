@@ -202,7 +202,7 @@
     <g
        id="g3651"
        transform="matrix(0.59418755,0,0,0.59418755,564.86501,257.73439)"
-       style="fill:#0a82ff;fill-opacity:1">
+       style="fill:#87CDEB;fill-opacity:1">
       <rect
          x="-295.49799"
          y="89.529045"
@@ -210,20 +210,20 @@
          height="102.047"
          class="st2"
          id="rect3653"
-         style="fill:#0a82ff;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+         style="fill:#87CDEB;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
       <path
          d="m -295.49798,115.22404 178.58,0"
          class="st1"
          id="path3655"
          inkscape:connector-curvature="0"
-         style="fill:#0a82ff;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+         style="fill:#87CDEB;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
     </g>
     <g
        transform="matrix(0.59418755,0,0,0.59418755,810.68402,257.73439)"
        id="g3657"
-       style="fill:#0a82ff;fill-opacity:1">
+       style="fill:#87CDEBfill-opacity:1">
       <rect
-         style="fill:#0a82ff;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         style="fill:#87CDEB;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
          id="rect3659"
          class="st2"
          height="102.047"
@@ -231,7 +231,7 @@
          y="89.529045"
          x="-295.49799" />
       <path
-         style="fill:#0a82ff;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+         style="fill:#87CDEB;fill-opacity:1;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
          inkscape:connector-curvature="0"
          id="path3661"
          class="st1"
@@ -311,7 +311,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family: Arial, Helvetica, sans-serif;-inkscape-font-specification:Sans Bold"
        x="76.426682"
        y="65.830276"
        id="text4457"
@@ -326,7 +326,7 @@
        id="text4463"
        y="65.829529"
        x="731.46216"
-       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family: Arial, Helvetica, sans-serif;-inkscape-font-specification:Sans Bold"
        xml:space="preserve"><tspan
          style="font-size:24px;font-weight:normal;-inkscape-font-specification:Sans"
          y="65.829529"
@@ -335,7 +335,7 @@
          sodipodi:role="line">Model fra andet emneområde</tspan></text>
     <path
        sodipodi:type="arc"
-       style="opacity:0.92000002;fill:none;stroke:#ff6600;stroke-width:0.99851382;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.99108295, 5.99108295;stroke-dashoffset:0"
+       style="opacity:0.92000002;fill:none;stroke:#AB2A0C;stroke-width:0.99851382;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.99108295, 5.99108295;stroke-dashoffset:0"
        id="path4467"
        sodipodi:cx="560.26727"
        sodipodi:cy="522.59344"
@@ -345,7 +345,7 @@
        transform="matrix(1.0317137,0,0,1.2265033,-11.404233,-296.36915)" />
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family: Arial, Helvetica, sans-serif;-inkscape-font-specification:Sans Bold"
        x="640.4964"
        y="244.95178"
        id="text4469"
