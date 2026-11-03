@@ -1,4 +1,6 @@
-# Indholdsfortegnelse
+# Modelleringsvejledning
+
+## Indholdsfortegnelse
 **[Forord](#forord)**
 
 &nbsp;&nbsp;&nbsp;&nbsp; [Læsevejledning](#læsevejledning)
@@ -271,7 +273,7 @@
 
 
 
-# Forord
+## Forord
 Formålet med denne vejledning er at understøtte god modellering og dokumentation af begreber og data, hvilket er en forudsætning for at forvalte data effektivt, og at de anvendes hensigtsmæssigt inden for den enkelte organisation, på tværs af myndigheder samt i samarbejdet med borgere og virksomheder. 
 
 Denne vejledning bygger på De fællesoffentlige regler for begrebs- og datamodellering - i daglig tale modelreglerne, der operationaliserer arkitektur regel 6.2 fra Hvidbog om fællesoffentlig digital arkitektur: Anvend fælles regler for dokumentation af data.
@@ -280,7 +282,7 @@ Vejledningen passer til version 2.1.0 af modelreglerne og er udarbejdet i regi a
 
 De fællesoffentlige modelregler ejes af Udvalget for arkitektur og standarder, som er en del af den fællesoffentlige governance for samarbejde på digitaliseringsområdet. 
 
-## Læsevejledning 
+### Læsevejledning 
 Vejledningens kapitler har forskellige målgrupper. Her er en oversigt over kapitlernes indhold og deres målgrupper: 
 
 - **Kapitel 1: Introduktion**
@@ -313,7 +315,7 @@ Kapitel 3-6 indeholder afsnit, som beskriver konkrete trin i modelleringsprocess
 §regelnummer - Regelnavn
 
 
-## Oversigt over regler
+### Oversigt over regler
 **Generelt:**
 
 [01 - Brug UML som det visuelle modelsprog](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r01)
@@ -377,9 +379,9 @@ Kapitel 3-6 indeholder afsnit, som beskriver konkrete trin i modelleringsprocess
 [28 - Modellér klassifikationsemner som instanser](https://arkitektur.digst.dk/metoder/begrebs-og-datametoder/regler-begrebs-og-datamodellering/de-faellesoffentlige-regler-begrebs#r28)
 
 
-# Kapitel 1: Introduktion
+## Kapitel 1: Introduktion
 
-## Formål
+### Formål
 Det overordnede formål med begrebs- og datamodellering er at skabe et fælles sprog med klarhed og konsensus om betydningen af begreber og de betegnelser, vi bruger om de enkelte begreber, og opnå sammenhæng mellem hvordan begreber anvendes af forretningen og til at beskrive data. Ved at data er velbeskrevne og i overensstemmelse med forretningen dannes grundlag for effektiv udvikling af it-systemer, der understøtter forretningen. Datamodeller dokumenterer desuden den information, der håndteres i forretningen.
 
 Vi har nok alle oplevet situationer, hvor der er opstået forvirring, fordi vi har brugt en betegnelse, der var ukendt for andre, eller endnu værre har brugt en betegnelse, som modtagerne forstod på en anden måde, end vi mente. Det kan blive værre endnu, når man krydser mellem forskellige faglige domæner eller forskellige organisationer. Men selv inden for ét fagdomæne og inden for én organisation kan sprogbrug være forskelligt.
@@ -396,7 +398,7 @@ Modellering er et solidt grundlag for klar kommunikation med borgere, erhvervsdr
 
 _Figur 1.1: Samme begreb - samme forståelse_
 
-## Hvorfor anvende de fællesoffentlige regler for begrebs- og datamodellering?
+### Hvorfor anvende de fællesoffentlige regler for begrebs- og datamodellering?
 Modelreglerne er en metoderamme, der udstikker fælles retningslinjer for udformning, deling og genbrug af begrebs- og datamodeller i fællesoffentligt regi og bidrager til bedre data, bedre forståelse af data, og øget deling og genbrug af data.
 
 Reglerne er en samling af anerkendte og internationalt forankrede metoder til god begrebs- og datamodellering som understøtter:
@@ -418,7 +420,7 @@ Ensartethed, og dermed fælles forståelse, i beskrivelse af begreber og data er
 
 Genbrug er med til at minimere det samlede ressource- og tidsforbrug på udvikling og vedligeholdelse af it-løsninger ved at undgå dobbeltarbejde. Desuden sikres høj kvalitet ved genbrug af modelelementer, der er defineret af domæneeksperter.
 
-## Organisatoriske anbefalinger for modellering
+### Organisatoriske anbefalinger for modellering
 For at opnå god begrebs- og datamodellering er det nødvendigt at forankre ansvar, opgaver, kompetencer og ressourcer i organisationen.
 
 Hvis man som organisation ønsker at arbejde med begreber og datamodeller på en ensartet og struktureret måde, anbefales følgende tiltag som en del af den Fællesoffentlige digitale arkitektur (FDA):
@@ -432,9 +434,9 @@ Hvis man som organisation ønsker at arbejde med begreber og datamodeller på en
 Du kan downloade en [folder med yderligere information](https://arkitektur.digst.dk/sites/default/fileuploads/folder_god-begrebs-og-datamodellering-i-det-offentlige.docx) om disse fem anbefalinger.
 
 
-# Kapitel 2: Modeltyper og proces
+## Kapitel 2: Modeltyper og proces
 
-## Hvad er en model?
+### Hvad er en model?
 En model er en repræsentation af virkeligheden, der er egnet til at formidle viden om aspekter af virkeligheden til et bestemt formål. En model er typisk opbygget af elementer, der hver især repræsenterer ‘noget’ i virkeligheden. Modellen beskriver de egenskaber ved elementerne, der er relevante i forhold til modellens formål samt hvordan de relaterer sig til hinanden. Formelt defineres en model i kontekst af modelreglerne som et _“objekt der repræsenterer en entitet ved at besidde en ægte delmængde af dens egenskaber”_.
 
 Der kan være forskellige tilgange til modelleringsarbejdet alt efter om det indgår i arbejdet med lovgivning, afklaring af behov og ønsker eller begrebs- og datamodellering til kørende it-systemer. Modellerne har forskelligt indhold i forhold til den sammenhæng, de indgår i.
@@ -443,7 +445,7 @@ De forskellige modeller påvirkes både af arbejdet med andre modeltyper, samt a
 
 Dette kapitel fortæller om de forskellige modeltyper og den overordnede proces for modeludarbejdelse. Læs mere om hvordan man i praksis udarbejder modellerne i [Kapitel 5: Udarbejdelse af modeller](#kapitel-5-udarbejdelse-af-modeller).
 
-## Modeltyper  
+### Modeltyper  
 Sprogbrugen om modeltyper og deres anvendelse er forskelligartet og flertydig. I det følgende opridses den forståelse og navngivning, som tilstræbes i denne vejledning. Herefter fortæller vi lidt om arbejdet med de forskellige modeltyper.
 
 **Terminologiske begrebsmodeller** beskriver begreber og deres indbyrdes relationer. En terminologisk begrebsmodel kan udformes som en begrebsliste eller et begrebsdiagram - eller begge dele. Terminologiske begrebsmodeller kaldes i daglig tale ofte blot begrebsmodeller. Der findes også andre modeltyper der kan blive kaldt begrebsmodeller, og ‘terminologisk begrebsmodel’ er det derfor en mere præcis term. ‘Begrebsmodel’ kan dog betragtes som en accepteret alternativ term, og den bruges i vid udstrækning i dette dokument, altid for at referere til terminologiske begrebsmodeller.
@@ -483,7 +485,7 @@ Informationsmodeller modellerer virkeligheden som den ser ud fra et specifikt fo
 
 _Figur 2.5: Virkeligheden vs. data om virkeligheden_
 
-### Arbejdet med terminologiske begrebsmodeller
+#### Arbejdet med terminologiske begrebsmodeller
 En terminologisk begrebsmodel kan repræsenteres på listeform eller som et diagram, hvor begrebernes indbyrdes relationer også tydeliggøres.
 
 Begrebsmodellering er en proces, hvor domænekyndige bliver enige om betydningen af begreber og beskriver det i en definition. Når begrebsarbejdet dokumenteres i en model opnås genbrugelighed, fordi det er tydeligt, hvad der menes med de forskellige begreber. Begrebsmodeller udviklet efter den samme metode kan sammenlignes, udbygges og sættes sammen efter behov.
@@ -492,7 +494,7 @@ Arbejdet med begrebsmodeller bør inddrage af centrale fagpersoner for det emne/
 
 I det omfang det er muligt, bør begrebernes relation til gældende lovgrundlag, relevante standarder eller øvrige rammer undersøges. Det er vigtigt, at organisationen prioriterer at domæneeksperter med viden om forretningens lovgivning og formål deltager i begrebsafklaringen, da det netop er af hensyn til forretningen, at modellen og begreberne skal dokumenteres og forankres.
 
-#### Anvendelse af begrebsmodeller
+##### Anvendelse af begrebsmodeller
 Formålet med begrebsmodellering er som skrevet i indledningen at skabe afklaring og enighed om betydningen af begreber, brugen af termer og begrebernes indbyrdes relationer, og den vigtige viden som domænekyndige bidrager med i processen dokumenteres og fastholdes på en ensartet måde. Det kan være relevant at udarbejde begrebsmodeller i mange forskellige sammenhænge, fx til at:
 
 * skabe fælles sprogbrug i forretningen, så misforståelser undgås
@@ -506,7 +508,7 @@ Formålet med begrebsmodellering er som skrevet i indledningen at skabe afklarin
    
 Kort sagt er begrebsmodeller et middel til at dokumentere viden, skabe interoperabilitet og undgå misforståelser og fejl ved at skabe fælles forståelse. It-løsninger udarbejdet på baggrund af robust begrebsmodellering har et stærkt fundament for fagligt korrekte og relevante data uden gentagelser og støj.
 
-#### Begrebsmodellens indhold og afgrænsning 
+##### Begrebsmodellens indhold og afgrænsning 
 Det er vigtigt at undersøge det umiddelbare formål og den direkte anvendelse af begrebsarbejdet, da dette har stor indflydelse på omfanget af begrebsmodellen. Ved en anvendelsesorienteret model, fx til forberedelse af et specifikt it-system eller udvikling af en indberetningsformular, vil det være forretningsbehovene i forbindelse med anvendelsen, der dikterer modellens omfang og indhold. Men også ved emneorienteret modellering er det vigtigt at holde sig formålet for øje. Og hvor et formål som ‘at dokumentere vores faglige viden’ er yderst prisværdigt, så er det også en stor mundfuld, og det kan anbefales at starte med at prioritere et mere specifikt formål, fx ‘at dokumentere de begreber hvor vi har unik viden’, ‘at understøtte dette specifikke samarbejde med ekstern part’ eller ‘at hjælpe de projektledere, jurister mm., vi samarbejder med, til at forstå os’.
 
 En model, der indeholder netop ét emneområdes begreber, er kendetegnet ved at være en samling af begreber, som naturligt hører sammen. Det vil sige, at der er høj begrebsmæssig samhørighed inden for modellen. Emneafgrænsning kan være svært og der er ingen endegyldige svar på hvordan det gøres. En af de komplicerende faktorer er, at afgørelsen af om noget er et eller flere emneområder, kan afhænge af detaljeringsniveauet. 
@@ -526,7 +528,7 @@ Hvis der foretages begrebsarbejde med henblik på videre datamodellering, kan de
 
 For at afdække hvilke begreber det er relevant at medtage i begrebsmodellen og hvilke betegnelser der tidligere er blevet brugt for dem, kan man fx konsultere tidligere udarbejdede rapporter, vejledninger - både til fagfolk og borgere, blanketter samt skærmbilleder, dokumentation og dataudtræk fra tidligere systemer. 
 
-#### Proces for begrebsmodellering
+##### Proces for begrebsmodellering
 Et forløb for begrebsmodellering kunne se således ud:
 
 ![Proces for begrebsmodellering](Illustrations/kap2-6-proces-for-begrebsmodellering.svg)
@@ -560,7 +562,7 @@ _Figur 2.6: Proces for begrebsmodellering_
 
 Begrebsdiagrammet kan gøre det nemmere at udarbejde hensigtsmæssige definitioner, idet en god definition bygger på en analyse af det pågældende begrebs placering og relation til andre begreber i begrebsdiagrammet. Erfaring har også vist at der bruges færre ressourcer, hvis man i fællesskab på en workshop drøfter nøglebegreber og tegner de helt overordnede begrebsdiagrammer for emneområdet inden definitionsarbejdet sættes i gang. Derfor kan det være en god ide at udarbejde uformelle diagrammer som en del af Fase 3, selv om man ikke planlægger at publicere formelle diagrammer. Ved modellering af begreber, der repræsenterer fysiske objekter, kan det alternativt eller i tillæg være nyttigt at anvende tegninger af det, man modellerer.
 
-### Informationsmodeller
+#### Informationsmodeller
 Informationsmodeller udarbejdes med henblik på analyse og forretningsafklaring. De kan danne det forretningsmæssige grundlag for videre logisk datamodellering. Informationsmodeller er uafhængige af et fremtidigt valg af teknologisk understøttelse af den løsning, de modellerer. Herunder afspejler de heller ikke et specifikt paradigme for implementering, såsom relationel database, noSQL eller triple store. 
 
 I en informationsmodel sættes begreber ind i en afgrænset kontekst og beriges med forretningslogik. I modsætning til begreber kan forretningslogik ændre sig over tid, omend den typisk er stabil over lange perioder. Fx kunne en dansk statsborger indtil 2015 kun have ét statsborgerskab, hvilket kan udtrykkes med multipliciteten 1..1. Nu kan man have to, altså have multipliciteten 1..2. I en anden forretningskontekst kan man have brug for også at repræsentere statsløse i modellen, og derfor angive multipliciteten 0..2. I alle tilfælde er begrebet statsborgerskab det samme, det er blot blevet beriget med informationer om hvordan det anvendes i en forretningsmæssig kontekst.
@@ -571,7 +573,7 @@ Informationsmodeller kan understøtte it-projekters behovsafklaring i forretning
 
 Et enkelt projekt kan have brug for flere sammenhængende modeller, der komplementerer hinanden, fx for at dokumentere de informationer, man anvender i sine processer, beslutninger, use cases eller services. I forbindelse med udbud kan denne øvelse bruges til at lette arbejdet med at kvalitetssikre kravspecifikationer. Ved at anvende informationsmodeller i kravspecifikationer samt modellere sammenhængen imellem disse, bliver inkonsistens, uklarheder og mangler synliggjort.
 
-#### Proces for informationsmodellering
+##### Proces for informationsmodellering
 Informationsmodeller udarbejdes som UML-klassediagrammer.
 
 Ofte vil en informationsmodel blive udarbejdet på baggrund af en begrebsmodel. I så fald består det primære modelleringsarbejde i at tage stilling til hvilken struktur de forskellige begreber skal repræsenteres med, samt at tilføje multipliciteter. Dette arbejde udføres primært af informationsmodellører, men det bør kvalitetssikres af forretningskyndige indenfor modellens emneområde.
@@ -582,21 +584,21 @@ Det er også tænkeligt at man identificerer enkelte nye begreber der er relevan
 
 I tilfælde hvor der ikke er en begrebsmodel som udgangspunkt, må man starte med det begrebsafklarende og -definerende arbejde som beskrevet i kapitel 3. 
 
-### Logiske datamodeller
+#### Logiske datamodeller
 Hvor begrebs- og informationsmodeller beskriver virkeligheden, beskriver datamodeller [data om virkeligheden](indsæt link til figur 2.5). Logiske datamodeller er datamodeller som beskriver datas logiske sammenhænge uafhængigt af hvilken specifik fysisk struktur og teknisk implementering der anvendes til opbevaring af data. Formålet med logiske datamodeller er at give en forståelse af data, der er gyldig for alle de fysiske formater, data måtte findes i.
 
 En god logisk datamodel kræver forståelse af den forretning og de processer, hvor data skabes og/eller anvendes. Det er derfor vigtigt, at domæneeksperter med indgående viden om forretningen deltager i modelleringsarbejdet, ligesom der bør deltage data- eller informationsarkitekter med viden om logisk datamodellering.
 
-#### Anvendelse af logisk datamodellering:
+##### Anvendelse af logisk datamodellering:
 
 Logiske datamodeller er velegnede til kommunikation om data, fx mellem en datadistributør og en potentiel anvender. Den logiske datamodel dokumenterer hvilke data distributøren har og hvad de betyder, men dokumenterer ikke hvordan data fysisk opbevares eller leveres, og dataleverancer kan således ske på flere måder og evt. tilpasses anvenders behov, efter at den logiske datamodel har givet anvenderen mulighed for at vurdere hvilke data der er relevante.
 
 Logiske datamodeller danner desuden det semantiske grundlag for fysiske modeller, fx implementering i databaser eller til udvekslingsformater og bidrager dermed til at forretningens forståelse af data og de bagvedliggende begreber afspejles i de data der i praksis gemmes og udveksles.
 
-#### Proces for logisk datamodellering
+##### Proces for logisk datamodellering
 Hvis der eksisterer en veldokumenteret begrebsmodel, er det oplagt, at den logiske datamodel tager udgangspunkt i den. Hvis ikke kan det give mening at udarbejde en begrebsmodel sideløbende med udarbejdelsen af den logiske model, da det tunge arbejde med vidensindsamling, begrebsafklaring, udarbejdelse af definitioner mv. alligevel skal udføres. Processen for datamodellering varierer alt efter om der er en begrebsmodel, eller om man starter uden forudgående begrebsmodellering. Nedenfor beskrives først processen, hvor der er en begrebsmodel og derefter processen uden.
 
-#### Processen med udgangspunkt i begrebsmodellering
+##### Processen med udgangspunkt i begrebsmodellering
 Hvis der er blevet udarbejdet en eller flere begrebs- eller informationsmodeller der helt eller delvist dækker det samme emne, skal den logiske datamodel baseres på disse modeller og sammenhængen skal dokumenteres. Begrebsmodellering, informationsmodellering og logisk datamodellering er tæt forbundet, og der vil typisk være behov for at justere de forskellige modeller undervejs i modelleringsforløbet.
 
 Når der er udarbejdet en begrebsmodel bliver arbejdet med den logiske modellering væsentligt nemmere, idet der allerede er foretaget indsamling af viden og forståelsesmæssig afklaring, samt udarbejdet definitioner og andre metadata som elementerne i den logiske datamodel kan arve. Der skal tages stilling til hvilke begreber der er relevante i den specifikke kontekst den logiske datamodel skal beskrive, og hvilken rolle det enkelte begreb har i den logiske datamodel - om det repræsenteres vha. en klasse, et attribut eller noget tredje - og hvilke associationer mv. der udtrykker datas logiske struktur. 
@@ -647,12 +649,12 @@ _Fig 2.7: Proces for logisk datamodellering_
 
 Modelelementer kan sagtens være relevante for modellen og den senere anvendelse uden at de af den grund hører opgave- eller forretningsmæssigt hjemme i den pågældende organisations emne- eller forretningsområde. Disse modelelementer kan importeres i modellen da de kan være relevante i modellen, fordi de kan være direkte relateret til forretningens egne modelelementer.
 
-### Klassifikationsmodeller
+#### Klassifikationsmodeller
 Klassifikationsmodeller kategoriserer og ordner entiteter i emneklasser. Dette kan både bruges til at modellere større hierarkier af entiteter eller til kontrollerede udfaldsrum. Kontrollerede (eller lukkede) udfaldsrum er når man har et sæt af faste værdier som en egenskab kan have, fx sagstyper, fortrolighedsgrad eller ugedage. I det sidste tilfælde vil 'mandag', 'tirsdag', 'onsdag' etc. være entiteter tilhørende emneklassen 'ugedag'.
 
 Klassifikationsmodeller er begrebsmodeller, men kan anvendes i sammenhæng med både begrebs-, informations- og logiske datamodeller. Klassifikationer skal dog laves i separate modeller for at fremme genbrug og dermed fælles forståelse.
 
-## Hvilke modeltyper skal jeg udarbejde?
+### Hvilke modeltyper skal jeg udarbejde?
 Det er op til projektet og den modelansvarlige organisation at afklare og afgøre hvilke modeltyper, der er behov for til specifikke formål og målgrupper.
 
 Det er dog et krav, at der etableres sammenhæng mellem modellerne, såfremt der oprettes forskellige modeltyper for det samme emne. 
@@ -675,7 +677,7 @@ Informationsmodeller tilføjer yderligere forretningsmæssig information om stru
 
 Logiske datamodeller bør udarbejdes i projekter der beskæftiger sig med udveksling af data mellem forskellige systemer, og kan være nyttige i andre projekter der beskæftiger sig med data, herunder systemudvikling og dataanalyse. 
 
-## Modelomfang (kernemodeller vs. anvendelsesmodeller)
+### Modelomfang (kernemodeller vs. anvendelsesmodeller)
 Modelreglerne er baseret på en række principper om gode modeller og på en modelleringsmetode, som fremmer genbrugelighed og sammenhængende begreber og data. En del af metoden går ud på at skelne mellem modeller, der beskriver et bestemt emneområde (benævnt **kernemodeller**), og modeller, der beskriver en bestemt anvendelseskontekst (benævnt **anvendelsesmodeller**). Dette gælder for alle modeltyper. Nedenfor beskrives de to typer modeller mere indgående.
 
 På denne måde vil selvstændige emneområder blive beskrevet selvstændigt, og de kan godkendes af et forum, der er relevant for emneområdet. Til en bestemt anvendelse kan elementer fra forskellige emneområder så sammensættes i en model der netop understøtter det konkrete formål. Det kan fx være i forbindelse med en implementering af et specifikt it-system, database, udvekslingsformat eller lignende.
@@ -684,7 +686,7 @@ Denne vigtige skelnen mellem kernemodeller og anvendelsesmodeller gør det mulig
 
 §06 - [<ins> <span style="color:#AB2A0C;"> Angiv meningsfyldte navne og beskrivelser for modeller </span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-meningsfyldte-navne-og-beskrivelser-modeller)
 
-### Kernemodeller
+#### Kernemodeller
 En kernemodel er en genbrugelig model over et afgrænset emneområde, som ikke definerer modelelementer, der er defineret i andre emneorienterede modeller. 
 
 Modellen har typisk et centralt forretningsobjekt i fokus. En model, der netop indeholder ét emneområdes begreber, er kendetegnet ved at være en samling af begreber, der hører naturligt sammen gennem høj samhørighed i modellen. Modellerne bliver mere generelt anvendelige ved at afgrænse kernemodellerne til (mindre) emneområder uden at knytte dem til specifikke anvendelser. Kernemodellerne kan ses som byggeblokke, der gør det muligt at genbruge de modelelementer, der allerede er defineret og beskrevet inden for et relevant emne. Da kernemodeller ikke overlapper, men relaterer sig til hinanden, vil de med tiden danne et komplet modelnetværk, som beskriver hele den offentlige forretning.
@@ -701,7 +703,7 @@ _Figur 2.10: Genbrug af klasse fra et andet emneområde i egen model_
 
 I realiteten er det ikke altid muligt at finde alle de elementer man har brug for, og man kan derfor være nødt til selv, forhåbentligt midlertidigt, at definere disse modelelementer. I begge tilfælde angives det, at modelelementet ikke tilhører emneområdet. Implikationen af denne angivelse er også, at man ikke tager samme grad af ansvar for modelelementets faglige indhold, og at man planlægger at følge opdateringer af den model, der har defineret elementet, eller at erstatte sit midlertidige modelelement når en passende erstatning modelleres.
 
-### Anvendelsesmodeller
+#### Anvendelsesmodeller
 
 En anvendelsesmodel er en model, som er rettet mod en specifik anvendelse i en afgrænset kontekst. 
 
@@ -724,7 +726,7 @@ Modelelementer der indgår i en anvendelsesmodel skal således være defineret i
                 
 §25 - [<ins> <span style="color:#AB2A0C;">Sammensæt anvendelsesmodeller af elementer fra kernemodeller</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/sammensaet-anvendelsesmodeller-af-elementer-fra)
 
-## Genbrug af eksisterende modellering
+### Genbrug af eksisterende modellering
 Genbrug af eksisterende modellering fremmer sammenhængende begreber og data, fordi genbrug af modeller og modelelementer automatisk skaber interoperabilitet mellem modeller.
 
 Kernemodeller bør ikke overlappe andre kernemodeller, og der bør kun findes én modellering af et givet emneområde og dets modelelementer. Hvis man har behov for at anvende eksterne modelelementer til at beskrive ‘sin egen’ model, kan man repræsentere dem som indlånte i modellen. En model kan fremme genbrug ved at være grundlæggende beskrevet, udstillet via internettet og orienteret mod fællesoffentlig interoperabilitet. Det er derfor helt centralt, at sammenhængen med andre modeller og modelelementer er dokumenteret. Det vil sige, at man i henhold til modelreglerne er forpligtet til at undersøge, om de relevante begreber og modelelementer allerede er beskrevet på en fyldestgørende måde. 
@@ -733,7 +735,7 @@ Det skal være nemt at _finde_ eksisterende modeller, og derfor er der blevet op
 
 §24 - [<ins> <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/definer-kun-nye-modelelementer-naar-det-er-noedvendigt)
 
-### Undgå silomodellering
+#### Undgå silomodellering
 Der er i det offentlige en lang tradition for at arbejde i projekter, som har et iboende “snævert syn” på den problemstilling, som projektet arbejder med, og det kan derfor være svært at undgå silomodellering. Det er oftest meget lettere kun at tænke på projektets egne behov og ikke blive forstyrret med noget andre har beskrevet i forvejen. Hvad nu hvis det, de andre har beskrevet, ikke lige præcis er det, vi mener? Så hellere definere det selv. Det kender de fleste sikkert.
 
 Et andet problem er, at det kan være svært for det enkelte projekt at retfærdiggøre investeringen i gode, brede og genanvendelige modeller, da det ofte vil være nogle andre end projektet selv, der får gavn af den store modelleringsindsats. Ydermere kommer gevinsten ikke lige med det samme, men måske først på længere sigt.
@@ -746,10 +748,10 @@ Målet er, skridt for skridt, at få etableret et sammenhængende netværk af go
 
 _Figur 2.13: Illustration af overgangen fra silomodellering til et sammenhængende netværk af kernemodeller_
 
-# Kapitel 3: Termer og definitioner
+## Kapitel 3: Termer og definitioner
 Elementer i datamodeller skal være baseret på afklarede begreber med definitioner og vedtagne termer. Derfor gælder alt i dette kapitel om termer og definitioner også for elementer i datamodeller.
 
-## Hvad er termer og begreber?
+### Hvad er termer og begreber?
 Et **begreb** er groft sagt det mentale billede vi har af en given type af ting, oftest associeret med et bestemt ord eller udtryk. I faglig kommunikation anvendes en **term** til at udtrykke et specifikt begreb med en afgrænset betydning. Termer kaldes ofte også _fagudtryk_. De faktiske ting (konkrete eller abstrakte) som “hører ind under” begrebet kaldes **instanser**. Instanser kan være forskellige på en række punkter (fx farve, alder, mærke, størrelse), men deler en eller flere egenskaber (fx funktion, opbygning) der gør at man kan sige at de er af samme slags. Disse delte egenskaber danner grundlag for begrebets **definition**. Nedenfor ses definitioner af de centrale elementer i begrebsmodellering, samt en illustration af deres indbyrdes forhold.
 
 * Et **begreb** er en mental forestilling om et bestemt fænomen. 
@@ -767,7 +769,7 @@ Ved definering af et begreb beskrives betydningen af begrebet, og det bliver mul
 
 Findes der flere synonyme termer, vil én typisk foretrækkes og prioriteres, hvor andre vil være accepterede men ikke foretrukne. Der kan også være termer som aktuelt anvendes for et begreb, som frarådes, fordi de er uønskede, forældede eller direkte forkerte. En foretrukken term er en term, som vurderes at være den bedste af flere synonyme udtryk for et givet begreb. En accepteret term er en term, hvis anvendelse godtages, men ikke foretrækkes. En frarådet term er en term, som ikke bør anvendes, fordi den er uønsket, forældet eller forkert. Begrebet kan også udtrykkes med termer på flere sprog. 
 
-## Anvendelse af eksisterende begreber og definitioner
+### Anvendelse af eksisterende begreber og definitioner
 En vigtig målsætning med fælles modelregler er øget genbrug af begreber og definitioner på tværs af den offentlige sektor for at opnå en entydig forståelse og anvendelse af begreberne i fx lovgivning, it-systemer og sagsbehandling. Derfor er det helt centralt, at man altid genbruger allerede eksisterende begreber i egen organisation samt genbruger fra andre organisationer, hvor det er muligt.
 
 Der er overordnet fire måder at genbruge eksisterende begreber og definitioner og dermed skabe sammenhæng: 
@@ -777,7 +779,7 @@ Der er overordnet fire måder at genbruge eksisterende begreber og definitioner 
 * Specialisering af et begreb fra en anden model
 * Anvendelse af kilder.
   
-### Direkte genbrug
+#### Direkte genbrug
 Når det begreb man har brug for i sin model allerede er modelleret i en anden model med en passende definition og identifikation i form af en HTTP-URI, bør man genbruge dette.  
 Eksempelmodellen ‘Cykel’ genbruger fx begrebet ‘cykelhandler’ fra kernemodellen ‘Detailhandel’.
 Ved genbrug overtager man definition, termer, identifikator og andre informationer og man bør ikke ændre definitionen ud over at definitioner på et andet sprog end dansk oversættes til dansk. Det er tilladt at tilføje yderligere informationer, fx alternative termer eller kommentarer, der præciserer hvordan begrebet bruges i netop denne model, samt selvfølgelig dansk oversættelse når man genbruger international modellering. De tilføjede informationer må selvfølgelig ikke være i modstrid med allerede eksisterende informationer. 
@@ -786,7 +788,7 @@ Ved denne form for genbrug er man ikke ansvarlig for definitionens udformning. K
 
 I begrebsmodeller og informationsmodeller kan man genbruge direkte fra andre begrebsmodeller. I logiske datamodeller kan man genbruge direkte fra andre datamodeller. Man kan også genbruge definitioner på tværs af modeltyper, men så er der tale om en afledning (se nedenfor), ikke direkte genbrug. 
 
-#### Hvor finder man genbrugelige definitioner?
+##### Hvor finder man genbrugelige definitioner?
 Der er en lang række kilder, man kan trække på, når man leder efter genbrugelige definitioner, fx:
 
 * Lovgivning
@@ -823,17 +825,17 @@ På nuværende tidspunkt er omfanget af eksisterende fællesoffentlig modellerin
 
 Det fællesoffentlige modelkatalog henviser også til internationale modeller, der beskriver forholdsvis overordnede begreber, og som formodes at være relevante for mange modeller. Modelsekretariatet kan ofte ikke vurdere kvaliteten af mere fagligt orienterede modeller, så dem er der ikke nødvendigvis henvist til. De kan dog inkluderes, hvis kilden er tilstrækkelig pålidelig, eller hvis domæneksperter siger god for dem.
 
-#### Hvad hvis begrebet er modelleret, men ikke godt nok?
+##### Hvad hvis begrebet er modelleret, men ikke godt nok?
 Man kan komme i en situation, hvor det begreb man har brug for er modelleret i en anden begrebsmodel, men definitionen er ikke tilstrækkelig anvendelsesneutral til, at man umiddelbart kan bruge begrebet i sin model, eller definitionen er lidt uklar, så man bliver i tvivl om det rent faktisk er det begreb man skal bruge. 
 
 I den situation bør man, om muligt, det vil i praksis nok primært være når der er tale om en anden dansk myndighed, kontakte den modelansvarlige organisation og få præciseret begrebets betydning, så det bliver klart om man kan genbruge det. Samtidigt vil dette give feedback til den modelansvarlige om at begrebet ikke er tydeligt, og det kan aftales at der tilføjes forklaring til begrebet, eller man kan evt. blive enige om at erstatte begrebet med et nyt fælles begreb. Er det ikke muligt, må man oprette sit eget begreb. Man opretter ligeledes sit eget begreb i situationer hvor et begreb i en anden model hedder det samme som det begreb man har brug for, men definitionen gør det klart, at der er tale om et andet begreb. 
 
-#### Begreber i datamodeller
+##### Begreber i datamodeller
 Datamodeller indeholder implicit information om begreber, idet elementerne i modellen er et udtryk for anvendte begreber. Gode datamodeller indeholder definitioner af elementerne. Disse definitioner kan være af svingende kvalitet, og det er op til den enkelte modellør, at vurdere om kvaliteten er tilstrækkelig til at definitionen kan genbruges. 
 
 For datamodeller udarbejdet i henhold til modelreglerne gælder dog de samme krav til definitionerne som gælder for begrebsdefinitioner, så her kan definitioner umiddelbart genbruges. 
 
-#### Hvad hvis begrebet er modelleret flere steder?
+##### Hvad hvis begrebet er modelleret flere steder?
 Man kan også komme ud for at der findes flere modelleringer af samme begreb. For at opnå sammenhæng i den offentlige administration bør man, hvis en sådan findes, vælge modellering, der er anvendt og godkendt i det fællesoffentlige samarbejde eller i andet offentligt samarbejde, fx den fælleskommunale rammearkitektur. 
 
 
@@ -841,19 +843,19 @@ I tilfælde hvor man har flere definitioner fra andre kilder at vælge mellem, e
 
 §24 - [<ins> <span style="color:#AB2A0C;">Definér kun nye modelelementer når det er nødvendigt</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/definer-kun-nye-modelelementer-naar-det-er-noedvendigt)
 
-### Afledning
+#### Afledning
 Som nævnt ovenfor kan man ikke genbruge direkte på tværs af skellet mellem begreber og datamodelelementer. Det er fordi begrebsmodeller (og informationsmodeller) modellerer virkeligheden, mens datamodeller modellerer data. Bemærk også, at internationale modeller med navne som ‘ontology’ og ‘vocabulary’, fx [The Organization Ontology](https://www.w3.org/TR/vocab-org/) eller [EUs Core Location Vocabulary](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-location-vocabulary), ofte modellerer data og derfor være at betragte som datamodeller i regi af modelreglerne. SKOS-modeller (Concept Schemes) er derimod begrebsmodeller.
 
 For at beholde sammenhængen mellem virkelighed og data er det dog en rigtig god ide at genbruge definitioner og termer. Hvis man udarbejder flere modeltyper for samme område er det et krav at man gør dette, og det er også en god måde at genbruge fra andre modeller på. I begge tilfælde anvendes feltet ‘afledt af’ til at angive det begreb eller dataelement der er kilden til definitionen.
 
-### Specialisering
+#### Specialisering
 Hvis begrebet kan fortolkes som en specialisering af et eksisterende begreb, skal der oprettes et nyt begreb med en specialiseringsrelation til det eksisterende overbegreb. Dette skaber sammenhæng på tværs af modeller, selvom der ikke direkte genbruges begreber. Det kan fx være internationale modelelementer der specialiseres til en dansk kontekst.
 
 Ved specialisering kan man indsnævre overbegrebets definition, men det er ikke tilladt at udvide eller på anden vis være i modstrid med den eksisterende definition.
 
 Som ved direkte genbrug, kan der være overvejelser ift. eksisterende definitioners egnethed til genbrug, og anbefalingerne gælder også her.
 
-#### Anvendelse af kilder
+##### Anvendelse af kilder
 Kilder til definitioner bør udvælges i følgende prioriterede rækkefølge:
 
 1. Love og bekendtgørelser, se [retsinformationen](https://www.retsinformation.dk/) og [EUR-Lex](https://eur-lex.europa.eu/homepage.html)
@@ -885,7 +887,7 @@ Man kan i nogle tilfælde finde inspiration til sine egne definitioner i [Den Da
 
 §23 - [<ins> <span style="color:#AB2A0C;">Angiv modelelementers lovgrundlag</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-modelelementers-lovgrundlag)
 
-## Udarbejdelse af nye definitioner
+### Udarbejdelse af nye definitioner
 Gode definitioner er en essentielle del af en god begrebsmodel. Det er her, den fælles forståelse, man er nået frem til, nedfældes, formaliseres og bliver delbar og genbrugelig. Derfor er det vigtigt, at definitionerne er entydige, forståelige og egnede til brug i andre kontekster. Regel 20-22 beskæftiger sig derfor med udarbejdelsen af definitioner.
 
 Først og fremmest skal alle begreber forsynes med en definition, der entydigt og fyldestgørende forklarer begrebets betydning, således at det kan forstås uanset, om man har været involveret i begrebsarbejdet eller ej.
@@ -896,7 +898,7 @@ Når man selv udarbejder definitioner, er der yderligere regler man skal overhol
 
 §20 - [<ins> <span style="color:#AB2A0C;">Udarbejd definitioner eller beskrivelser af modellens elementer</span> <ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udarbejd-strukturerede-definitioner-paa-en-standardiseret)
 
-### Strukturerede definitioner
+#### Strukturerede definitioner
 Man bør udarbejde definitioner der er **koncise**, **dækkende** og **oplysende**. 
 Med koncise menes at definitionerne skal være korte og præcise. De skal være så korte som muligt og så komplekse som nødvendigt. Al ekstra information skal tilføjes i en bemærkning. Definitionen beskriver kun ét begreb, dvs. ikke andre begreber, der indgår i definitionen eller over- eller underordnede begreber. 
 
@@ -931,10 +933,10 @@ Det er væsentligt at vælge det nærmeste overbegreb, fordi man derved implicit
 
 Som det ses bør definitionen ikke have stort begyndelsesbogstav, indeholde termen eller indledes med ‘det betyder at’, ‘defineres som’ eller lignende, og definitionen bør ikke afsluttes med punktum. Supplerende oplysninger skal anføres som kommentarer og må ikke indgå i definitionen. Definitionen er således en frase, som kan erstatte termen i en given tekst ([ISO 704](#iso704)).
 
-### Oplysende definitioner
+#### Oplysende definitioner
 For at sikre sig, at de karakteristika, man bruger i definitionen, er tilstrækkeligt oplysende og rent faktisk egnede til at adskille begrebet fra andre af samme type, er der visse anvisninger, man skal følge:
 
-#### Undgå cirkulære definitioner
+##### Undgå cirkulære definitioner
 
 Definitioner må **ikke være cirkulære**, hverken inden for definitionen selv eller inden for begrebsmodellen. Dvs. at de ikke må indeholde henvisninger til sig selv, samt at to (eller flere) begreber ikke må henvise til hinanden på en måde så ingen af dem reelt defineres.
 
@@ -945,7 +947,7 @@ Definitioner må **ikke være cirkulære**, hverken inden for definitionen selv 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**herrecykel**: drengecykel til voksne <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**drengecykel**: herrecykel til børn
 
-#### Anvend ikke negative definitioner
+##### Anvend ikke negative definitioner
 Definitioner må **ikke være negative**, dvs. de skal præcisere, hvad noget er, ikke hvad det ikke er. Dog kan udelukkelsen af noget være centralt for en definition.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Negativ (dårlig) definition: <br>
@@ -954,19 +956,19 @@ Definitioner må **ikke være negative**, dvs. de skal præcisere, hvad noget er
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definition med udelukkelse: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**passager**: person der er med i/på et transportmiddel uden at føre dette 
 
-#### Brug ikke opremsninger
+##### Brug ikke opremsninger
 Definitioner bør ikke bestå af opremsninger som fx en liste af underbegreber eller af de bestanddele, sådan en ting består af. Dette er ikke god måde at udarbejde definitioner, dels fordi det ikke siger meget om, hvad begrebet er, dels fordi det er svært at være sikker på, at alle underbegreber/bestanddele er med. Desuden kan nye underbegreber opstå og bestanddele kan ændre sig over tid.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opremsende (dårlige) definitioner: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**børnecykel**: pige- eller drengecykel (hvad hvis man begynder at markedsføre kønsneutrale børnecykler) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**cykelhjul**: nav, eger og ring (hvad er/gør de ting? Og så blev den forældet da man også begyndte at bruge pladehjul)
 
-#### Karakteristika skal altid gælde
+##### Karakteristika skal altid gælde
 De karakteristika, der bruges i definitioner, og som adskiller begrebet fra sideordnede begreber, skal beskrive noget som ALTID gælder. Ord som typisk, ofte, som regel, gerne, normalt bør derfor undgås i en definition, da de antyder at man ikke har fat i det, der reelt er det adskillende karakteristika. Fx vil en tandemcykel typisk have to ryttere, men en cykel til to ryttere der sidder ved siden af hinanden er ikke en tandemcykel, da en tandemcykel bliver defineret som en cykel, hvor to eller flere ryttere sidder på række bag ved hinanden og træder i pedaler. Derfor er ‘typisk to’ ikke egnet som adskillende træk.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**tandemcykel**: cykel hvor to eller flere pedalerende personer sidder bag ved hinanden
 
-#### Polyhierarki 
+##### Polyhierarki 
 I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegreber. Et sådant begreb vil ofte være defineret ved at være kombinationen af adskillende træk fra de to overbegreber uden at have yderligere adskillende træk. For eksempel er en ‘pigecykel’ defineret ved at være en kombination af de adskillende træk fra ‘børnecykel’ og ‘damecykel’. Man kan fx lave en definition der består af det ene overbegreb samt de adskillende træk fra det andet.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**pigecykel**: damecykel der er lavet i mindre størrelse og som er tiltænkt børn
@@ -975,7 +977,7 @@ I visse tilfælde kan et begreb arve karakteristika fra to forskellige overbegre
 
 §21 - [<ins> <span style="color:#AB2A0C;">Udarbejd strukturerede definitioner på en standardiseret måde</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udarbejd-strukturerede-definitioner-paa-en-standardiseret)
 
-### Udarbejd anvendelsesneutrale definitioner
+#### Udarbejd anvendelsesneutrale definitioner
 
 For at opnå det største potentiale for genbrug og sammenhæng bør definitionen være så anvendelsesneutral som muligt. Dette vil samtidig være med til at gøre definitionen robust over for nogle ændringer i verden omkring os.
 
@@ -1002,7 +1004,7 @@ En definition af ‘stel’ til brug for modellering af køretøjer skal sålede
 
 §22 - [<ins> <span style="color:#AB2A0C;">Udarbejd anvendelsesneutrale definitioner</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/udarbejd-anvendelsesneutrale-definitioner)
 
-### Tjekliste til udarbejdelse af definitioner
+#### Tjekliste til udarbejdelse af definitioner
 * Kan definitionen umiddelbart erstatte termen uden tab af mening?
     * Husk lille begyndelsesbogstav og ikke at afslutte med punktum
 * Er det **nærmeste** overbegreb anvendt?
@@ -1017,7 +1019,7 @@ En definition af ‘stel’ til brug for modellering af køretøjer skal sålede
     * tekniske formater
     * egennavne
 
-## Termer
+### Termer
 Begreber skal forsynes med termer som afspejler forretningens sprogbrug samtidigt med at de skrives i et naturligt sprog med standardiserede konventioner og almindelig god praksis.
 
 Ved at forsyne modelelementer med termer i et naturligt sprog afspejles terminologien i emneområdet, og dermed understøttes fremsøgning og genbrug af modelelementer. Med naturligt sprog skal forstås skriftsprog der følger det pågældende sprogs retskrivning og ikke programmeringskonventioner såsom CamelCase og sammensætningen af ord med understregning eller bindestreg. Termerne skal altså ikke yderligere behandles for at kunne indgå og forstås som termer i en traditionel ordliste.
@@ -1046,7 +1048,7 @@ I nogle tilfælde kan principperne trække i forskellige retninger. Her må begr
 
 §19- [<ins> <span style="color:#AB2A0C;">Brug standardiserede konventioner for angivelse af navne</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/brug-standardiserede-konventioner-angivelse-af-navne)
 
-# Kapitel 4: Anvendelse og udformning af HTTP-URIer
+## Kapitel 4: Anvendelse og udformning af HTTP-URIer
 En URI er en entydig persistent identifikator, der bl.a. er med til at facilitere genbrug, fordi det altid bliver helt entydigt om to modeller anvender det samme element eller blot to elementer med det samme navn men potentielt forskellig semantik.
 
 En HTTP-URI følger den syntaks vi alle kender fra almindelige internetadresser - også kaldet URLs. Hvor URL står for Universal Ressource Locator, står URI for Universal Resource Identifier. En URI adskiller sig fra URLer ved at den først og fremmest har funktion som entydig identifikator. Derudover kan den også anvendes som entydig adresse (som en URL) på en webside, hvor man kan finde yderligere information om det den identificerer - i denne sammenhæng om modellen eller modelelementet, hvilket selvfølgelig er det ideelle at gøre.
@@ -1083,8 +1085,8 @@ _Figur 4.1: Eksempler på HTTP-URIer_
 §17 - [<ins> <span style="color:#AB2A0C;"> Giv alle modelelementer en identifikator</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/giv-alle-modelelementer-en-identifikator)
 
 
-# Kapitel 5: Udarbejdelse af modeller
-### Begrebslister
+## Kapitel 5: Udarbejdelse af modeller
+#### Begrebslister
 En begrebsmodel kan udtrykkes som en begrebsliste. Begrebslisten skal udtrykkes i det tabelformat, der er specificeret i modelreglerne, eller efter [ISO 10241](#iso10241). Her vejledes om anvendelse af tabelformatet. Ønsker man at anvende ISO 10241-formatet henvises til denne standard for vejledning. 
 
 Begrebsoplysningerne opsættes som en tabel, således at hver række beskriver ét begreb. Tabellen opsættes med kolonneoverskrifter, som det er specificeret i Modelreglerne, Jf. Bilag D og E: 
@@ -1121,13 +1123,13 @@ _Figur 5.1: Eksempel på udfyldt begrebslisteskabelon. Åbn billedet i en ny fan
 
 Se også [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen) for information om, hvilke oplysninger selve modellen bør forsynes med.
 
-## UML-modellering
+### UML-modellering
 
 UML står for Unified Modelling Language og er en udbredt standard til informations- og datamodellering. Modelreglerne er mere restriktive end UML-specifikationen både med hensyn til hvilke elementer man har til rådighed og med hensyn til fortolkningen af visse af disse. Dette er for at sikre, at modeller udarbejdet i henhold til reglerne er utvetydige og lette at forstå, og dermed kan deles og genbruges uden, at der kan opstå betydningen af begretvivlsspørgsmål om den rette fortolkning. Nedenfor gives en oversigt over de tilladte elementer og derefter gennemgås hvordan de hver især bruges i henhold til modelreglerne. Det er dog uden for scope af denne vejledning at give en grundig indføring i UML-modellering.
 
 UML kan også anvendes til visualisering af begrebsmodeller med diagrammer. I modelreglerne og derfor denne vejledning er det begrænset hvilke elementer der er tilladt for at det stemmer overens med de ting man bør udtrykke i en begrebsmodel. Begrebsdiagrammer, der følger modelreglerne kan gøres til genstand for review og optages i modelkataloget. Derudover opnås et ensartet, genkendeligt og derfor let forståeligt udtryk på tværs af organisationer og domæner.
 
-### UML-elementer der anvendes i alle modeltyper
+#### UML-elementer der anvendes i alle modeltyper
 
 Nedenfor ses en oversigt over de UML-elementer, der kan anvendes i alle modeltyper med definitioner, kommentarer, information om hvordan navne skrives og billedeksempler.
 
@@ -1224,7 +1226,7 @@ Ovennævnte elementer er de eneste der anvendes i begrebsdiagrammer. Nedenfor se
 
 _Figur 5.2: Eksempel på begrebsdiagram_
 
-### Yderligere UML-elementer 
+#### Yderligere UML-elementer 
 Nedenfor vises en oversigt over de yderligere UML-elementer, der kan anvendes i informationsmodeller og logiske datamodeller.
 
 <table>
@@ -1401,12 +1403,12 @@ _Tabel B: UML-elementer der udelukkende anvendes i informations- og logiske data
 
 Udover de ovenstående elementer anvendes der i alle modeltyper pakker og stereotyper. 
 
-### Pakker 
+#### Pakker 
 En pakke i UML er et element som kan indeholde andre UML-elementer, og som karakteriserer disse i sammenhæng. Pakker anvendes til at organisere elementerne. Der skal være en pakke der indeholder hele modellen. Denne kan desuden have underpakker, hvis man ønsker at gruppere modelelementer. Dette kan for eksempel anvendes i en anvendelsesmodel til at gruppere elementer baseret på hvilken kernemodel de kommer fra. Modellens pakke bærer desuden dennes metadata.
 
 I anvendelsesmodeller kan man med fordel organiserer elementer fra forskellige kernemodeller i forskellige underpakker i modellen. Dette gælder især hvis man laver kernemodeller i forbindelse med en anvendelsesmodel uden at kernemodellerne publiceres separat. 
 
-### Stereotyper
+#### Stereotyper
 Stereotyper er en måde at specialisere UML-elementer til en bestemt kontekst. Navne på stereotyper vises mellem en type anførselstegn (guillemets) der ligner dobbelte spidse parenteser: &laquo; stereotypenavn &raquo;. Derudover fungerer de som ‘beholder’ for såkaldte tagged values. I modelreglerne anvendes tagged values til at dokumentere (angive metadata for) både modelelementer og pakker. Derfor er det i henhold til modelreglerne obligatorisk at anvende stereotyper for både modelelementer og modelpakker. 
 
 Til modelelementer anvendes: 
@@ -1427,7 +1429,7 @@ Det er tilladt at anvende stereotyper udover de ovenfor nævnte. Fx er det udbre
 
 UML keywords vises på samme måde som stereotyper. Almindelige keywords er &laquo; enumeration &raquo; og &laquo; dataType &raquo;, men disse er altså ikke stereotyper.
 
-### Dokumentation af modelelementer
+#### Dokumentation af modelelementer
 Modeller skal - uanset om de er begrebsmodeller eller af en anden type - være baseret på afklarede og dokumenterede begreber. Derfor skal elementer i UML-modeller dokumenteres med stort set de samme begrebsoplysninger som findes i en begrebsliste. For forklaring af disse oplysningstyper se [afsnittet om Begrebslister](#begrebslister) i starten af dette kapitel.
 
 Dette gøres i praksis, som nævnt ovenfor, ved hjælp af tagged values, hvor de angives som metadata til hvert modelelement. Hver tagged value består af et tag-navn, der svarer til navnet på en kolonne i begrebslisten, og værdi for tagget det er individuelt for hvert element/begreb.
@@ -1443,8 +1445,8 @@ _Figur 5.4 ‘stelnummer’ beskrevet med tagged values_
 Der er to forskelle mellem en UML-model og en begrebsliste, som man skal være opmærksom på. Den ene forskel er, at oplysningen om den entydige identifikator i form af en HTTP-URI bliver obligatorisk. Den anden er, at oplysningen om hvorvidt begrebet eller klassen tilhører modellens emne skal angives på en anden måde, nemlig i tagget ‘isDefinedBy’, hvor den model, hvor begrebet defineres, identificeres ved hjælp af en HTTP-URI. 
 Tilhører begrebet emnet, man modellerer, angives URIen for denne model. For begreber der ikke tilhører emnet, vil det ikke altid være muligt at angive en URI, fx hvis man har genbrugt et begreb fra en kilde der ikke anvender URIer. Det kan stadig give mening at genbruge et begreb for derved at få en fagligt valideret definition og/eller en definition, der i forvejen er bredt anerkendt. Her må man lade tagget være uudfyldt, men selvfølgelig angive, hvor begrebet stammer fra som kilde. 
 
-### Gennemgang af UML-elementer
-#### Klasser 
+#### Gennemgang af UML-elementer
+##### Klasser 
 _Anvendes i alle modeltyper_
 
 En UML-klasse er en repræsentation af et sæt af objekter, der deler semantik og egenskaber. At de deler semantik vil sige, at der findes en definition, der dækker præcis de objekter, der er medlem af klassen, hvormed klassen også svarer til et begreb. Man kan også sige, at en klasse beskriver en kategori/type af instanser. 
@@ -1459,7 +1461,7 @@ I forbindelse med forretnings- og løsningsarkitektur snakkes ofte om forretning
 
 Når man går fra forretningsmodellering til UML-modellering skal man passe på sprogforbistring i forbindelse med ‘objekt’. Hvor ordet forretningsobjekt ofte bruges om en type af objekter, repræsenterer et UML-objekt altid et enkelt konkret objekt, og typer repræsenteres af klasser. 
 
-#### Generaliseringer
+##### Generaliseringer
 
 _Anvendes i alle modeltyper_
 
@@ -1473,7 +1475,7 @@ For eksempel er ‘Cykel’ og ‘Hestevogn’ specialiseringer - mere specifikk
 <br><br>
 Den indbyggede semantik i generaliseringsassociationen gør, at der her ikke tilføjes metadata, associationsende, stereotype eller multiplicitet.
 
-#### Generaliseringssæt
+##### Generaliseringssæt
 _Anvendes i alle modeltyper_
 
 Et generaliseringssæt samler to eller flere specialiserede klasser i et sæt. Ved at samle klasser i et generaliseringssæt indikerer man at de er specialiserede efter samme inddelingskriterie. Fx er ‘personbil’, ‘varevogn’ og ‘lastbil’ specialiseringer af ‘bil’, der er inddelt i forhold til funktion, hvorimod ‘lejebil’ er en specialisering af ‘bil’ i forhold til hvordan man får retten til at bruge den. Derfor er ‘personbil’, ‘varevogn’ og ‘lastbil’ del af samme generaliseringssæt, mens ‘lejebil’ ikke er. 
@@ -1481,7 +1483,7 @@ Et generaliseringssæt samler to eller flere specialiserede klasser i et sæt. V
 <img src="Illustrations/kap5-5-generaliseringssæt.svg" alt="Eksempel på generaliseringssæt" style="width:800px;"/>
 <i>Figur 5.7: Eksempel på generaliseringssæt</i>
 
-#### Egenskaber
+##### Egenskaber
 En egenskab modelleres i UML som en Property og kan være enten en associationsende eller et attribut. Der skelnes mellem to overordnede typer af egenskaber: 
 1. **Datatypeegenskab**: <br>
 _egenskab hvor udfaldsrummet er en mængde af <ins>dataværdier</ins>_ <br>
@@ -1496,7 +1498,7 @@ Objektegenskaber repræsenteres bedst som **associationsender**.
 
 I UML kan en relation til enten et objekt eller en dataværdi i begge tilfælde udtrykkes både som en association og som et attribut. For at få et standardiseret udtryk – og dermed et lettere aflæseligt udtryk – anbefales modellører at repræsentere objektegenskaber som _associationsender_ og datatypeegenskaber som _attributter_. 
 
-#### Attributter
+##### Attributter
 _Anvendes i informations- og logiske datamodeller_
 
 Attributter er de egenskaber en klasse har hvis værdi udtrykkes som en bogstavelig værdi (literal). Ofte antal, tekststrenge eller sandt/falsk markeringer. Objekter der er instanser af klassen vil have egenskaben med en specifik værdi. Værdier kan være unikke for et enkelt objekt eller der kan være sammenfald for mange objekter. Fx vil attributtet ‘stelnummer’ på klassen ‘Cykel’ være unikt for hver enkelt instans af klassen, da hvert stelnummer identificerer en unik cykel. For atributtet ‘farve’ må man derimod forvente mange gentagelser af fx ‘sort’, hvis der findes tilstrækkeligt mange instanser af klassen selvom værdien er specifik for hver instans. 
@@ -1507,7 +1509,7 @@ Attributter er de egenskaber en klasse har hvis værdi udtrykkes som en bogstave
 
 Attributter navngives med lowerCamelCase, fx ‘stelnummer’, ‘maxPassagerer’ eller ‘antalHjul’. Navnet på klassen bør ikke medtages i attributnavnet. Dels bliver det sværere at genbruge egenskabernes semantik (‘stelnummer’ kan genbruges for fx motorcykler, men ‘cykelStelnummer’ kan ikke - selve UML-attributtet kan ikke genbruges, men egenskaben semantik (navn, definition og anden beskrivelse) kan og bør), dels bliver attributnavnene unødigt lange og svære at læse. Og informationen om at der her er tale om et stelnummer på en cykel er til stede fordi attributtet netop er placeret på klassen ‘Cykel’. 
 
-#### Associationer 
+##### Associationer 
 _Anvendes i alle modeltyper_
 
 Associationer anvendes til at forbinde begreber/klasser. Ligesom en klasse er en generalisering over en gruppe af objekter så er associationen teknisk set en generalisering over hvordan objekter, der er instanser af de to klasser, kan være forbundet. En generisk association udtrykkes med fuldt optrukken streg. Den siger ikke i sig selv noget om _**hvordan**_ klasserne er forbundet, blot at de er.
@@ -1520,7 +1522,7 @@ Associationer kan angives med navigabilitet, der vises som en pil i enden af ass
 <img src="Illustrations/kap5-7-cykelhander-rel-cykel-2.svg" alt="cykelhandler relation til cykel med pil" style="width:400px;"/>
 <i>Figur 5.10: Eksempel på relation med navigabilitet</i><br><br>
 
-##### Associationsnavne
+###### Associationsnavne
 _Anvendes i begrebs- og informationsmodeller_
 
 En association kan gives et navn der beskriver hvordan de begreber/klasser den forbinder er relateret til hinanden, altså en betegnelse for associationens semantik. Associationsnavne bør anvendes i begrebs- og informationsmodeller, undtagen for generaliseringer og kompositioner. I begrebsmodeller angives de i naturligt sprog, men i informationsmodeller, som lowerCamelCase.
@@ -1533,7 +1535,7 @@ Associationsnavnet kan forsynes med angivelse af læseretning i form af et udfyl
 <img src="Illustrations/kap5-9-cykelhander-rel-cykel-læseretning.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
 <i>Figur 5.12: Associationsnavn med læseretning i informationsmodel</i>
 
-#### Associationsender
+##### Associationsender
 _Anvendes i logiske datamodeller_
 
 Associationsender udtrykker objektegenskaber, dvs egenskaber en klasse har hvor udfaldsrummet er en anden klasse (eller strengt taget de objekter der er instanser af den anden klasse). I praksis vil der ofte være en sammenhæng mellem et associationsnavn i en begrebs- eller informationsmodel og en associationsende i en logisk datamodel, selvom de udtrykkes på forskellig vis.
@@ -1543,7 +1545,7 @@ Associationsenden bæres af associationen, og i logiske datamodeller er netop de
 <img src="Illustrations/kap5-10-cykelhander-rel-cykel-ass_ende.svg" alt="cykelhandler relation til cykel med pil og 'har på lager'" style="width:400px;"/>
 <i>Figur 5.13: Association med associationsende</i><br><br>
 
-##### Multiplicitet
+###### Multiplicitet
 _Anvendes i informations- og logiske datamodeller der er anvendelsesorienterede_
 
 Multiplicitet angiver hvor mange (forskellige) værdier en egenskab kan eller skal have. Angives for attributter og associationsender i anvendelsesmodeller. Kan evt. angives i kernemodeller hvis multipliciteten har særlig betydning for forståelsen og man er helt sikker på at multipliciteten dækker alle potentielle anvendelsessituationer og ikke kan ændres over tid (fx ved lovændring, som da det i 2015 blev muligt for en dansker at have dobbelt statsborgerskab). <br>
@@ -1576,7 +1578,7 @@ I nogle sammenhænge bruges termen ’kardinalitet’ synonymt med multiplicitet
 
 Ved genbrug af egenskaber gælder det, at man kan gøre multipliciteten mere specifik, men ikke angive en multiplicitet, der ikke er tilladt ifølge den model, man genbruger fra. Hvis der eksempelvis er angivet 0..1 som multiplicitet, kan man godt specificere 1..1. men ikke 0..*, og 1..* kan specificeres til 1..10, men ikke 0..10.
 
-### Datatyper
+#### Datatyper
 _Anvendes altid i logiske datamodeller. Anvendes normalt ikke i informationsmodeller, men det kan evt. være relevant at modellere forretningsspecifikke datatyper som strukturerede datatyper (se nedenfor)  fordi det kan være en del af forretningsforståelsen._
 
 Datatyper angives for attributter og er en specifikation af hvordan de data, der kan optræde som værdi for det givne attribut, kan se ud og opføre sig, fx om det er et tal som der kan laves matematiske operationer på eller en streng af karaktere. ‘111’ vil derfor være et eksempel på forskellige datatyper afhængigt af om det er antallet af biler en organisation ejer, og derfor et tal der kan stige eller falde, eller et id-nummer for en af bilerne, der i princippet lige så godt kunne være ‘xyz’ og skal behandles som en tekststreng.
@@ -1646,7 +1648,7 @@ De ovennævnte datatyper er primitive datatyper. Det vil sige, at de ikke har in
 
 Enumerationer beskrives yderligere i afsnittet [Klassifikationer og kontrollerede udfaldsrum](#klassifikationer-og-kontrollerede-udfaldsrum), strukturerede datatyper beskrives nedenfor.
 
-#### Strukturerede datatyper
+##### Strukturerede datatyper
 I de tilfælde, hvor der ikke findes en egnet primitiv datatype, bliver man nødt til selv at definere en datatype. Det gøres ved hjælp af en struktureret datatype. Disse anvendes oftest fordi data består af flere dele som kan beskrives individuelt. Disse forskellige dele angives som attributter på datatypen. Fx består stelnumre af et fabrikantmærke (1-4 bogstaver), et serienummer og et årstalsmærke i form af et bogstav. 
 
 <img src="Illustrations/kap5-14-gul-datatype.svg" alt="Struktureret datatype der modellerer opbygningen af et stelnummer på en cykel" style="width:200px;"/>
@@ -1665,7 +1667,7 @@ Navnet på strukturerede datatyper angives ved det attribut den er datatype for 
 <img src="Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg" alt="Gul datatype som udfaldsrum" style="width:400px;"/>
 <i>Figur 5.19: Struktureret datatype som udfaldsrum</i><br><br>
 
-#### Objekter
+##### Objekter
 _Anvendes i logiske datamodeller_
 
 Et UML-objekt repræsenterer en konkret instans af en klasse, eller sagt på en anden måde, et af de objekter, der er medlem af klassen. Det kan også kaldes en forekomst eller et individ (individ behøver i denne sammenhæng ikke at være et menneske, men er en hvilket som helst individuel ting). Fx er objektet ‘CykelAK951847M’ den specifikke cykel, der har stelnummeret AK951847M, og er medlem af klassen ‘Cykel’.
@@ -1677,7 +1679,7 @@ Objekter adskiller sig visuelt fra klasser ved at navnet er understreget. For at
 <img src="Illustrations/kap5-16-objekt.svg" alt="Objekt" style="width:1000px;"/>
 <i>Figur 5.20: Eksempler på objekt, objekt vist med klassenavn og objekt med attributværdier</i>
 
-#### Kompositioner
+##### Kompositioner
 _Anvendes i informations- og logiske datamodeller_
 
 En anden association med indbygget semantik er komposition. Den betyder, at instanser af den ene af de forbundne klasser er en del af/tilhører instanser af den anden forbundne klasse. Implikationen af dette er, at instanser af den “afhængige” klasse ikke kan oprettes i et datasæt uden at være forbundet til en instans af den “uafhængige” klasse, samt at når en instans af den “uafhængige” klasse slettes, slettes også forbundne instanser af den “afhængige” klasse. <br>
@@ -1691,7 +1693,7 @@ I eksemplet er modelleret, at en pladsreservation ikke kan eksistere uden at væ
 
 Note om multiplicitet: Instanser af afhængige klasser kan altid kun indgå i en instans af den uafhængige klasse, men associationen i sig selv siger intet om hvor mange instanser af den afhængige klasse der kan eksistere per instans af den uafhængige klasse, derfor skal der angives multiplicitet i den ende af kompositionen.
 
-#### Tilknytningsklasser
+##### Tilknytningsklasser
 _Anvendes i informations- og logiske datamodeller_
 
 En tilknytningsklasse er tilknyttet en association og giver mulighed for at tilføje information til associationen i form af tilknytningsklassens attributter. Dette illustreres med en stiplet linje mellem association og tilknytningsklasse. Nedenfor ses en tilknytningsklasse med attributtet ‘modtagetDato’ som beskriver hvornår associationen mellem cykelhandleren og den enkelte cykel er opstået, altså hvornår den er kommet ‘påLager’.
@@ -1700,12 +1702,12 @@ En tilknytningsklasse er tilknyttet en association og giver mulighed for at tilf
 
 _Figur 5.22: Eksempel på tilknytningsklasse_
 
-### Diagrammer
-##### Diagrammering af store modeller
+#### Diagrammer
+###### Diagrammering af store modeller
 
 Hvis den model man udarbejder indeholder mange begreber/klasser, er det ikke nødvendigvis hensigtsmæssigt at inkludere dem alle på samme diagram. Der er ingen regler for, hvordan eller hvornår man bør opdele sin model i flere diagrammer. Det kan dog anbefales at lave en slags oversigts- eller indflyvningsdiagram, der indeholder de mest centrale begreber/klasse og sammenhænge, og som kan fungere som en introduktion til modellen. Et givent modelelement kan optræde på flere diagrammer, men oprettes kun en gang.
 
-## Genbrug af modelelementer
+### Genbrug af modelelementer
 Genbrug forstås i modelreglerne som genbrug af et modelelements semantik, dvs. at man genbruger den forståelse der er knyttet til elementet og dermed dets definition og anden metadata. Det genbrugte element identificeres ved dets HTTP-URI. Dette skal ses i modsætning til genbrug af UML-elementer, hvor nogle værktøjer giver mulighed for at genbruge visse UML-elementer, fx klasser, i flere modeller. Egenskaber er i UML derimod defineret ift. den klasse de hører til og UML-elementet kan ikke umiddelbart genbruges. Men egenskabens semantik kan genbruges, og der findes egenskaber som det giver mening at anvende i forbindelse med mange forskellige klasser, fx startDato (http://www.w3.org/ns/dcat#startDate) eller beskrivelse (http://purl.org/dc/terms/description).
 
 Modelreglerne foreskriver genbrug af (semantikken fra) både klasser og egenskaber, hvis der findes eksisterende modellering, der opfylder relevante behov. For klasser kan genbrugen eventuelt i praksis ske ved genbrug af et UML-element, hvor semantikken allerede er dokumenteret, men for egenskaber - samt klasser der ikke tidligere er oprettet i systemet - sker genbrugen ved at anføre HTTP-URI (identifikator) for det genbrugte element, samt at kopiere definition mm.
@@ -1722,29 +1724,29 @@ Ved genbrug respekteres de definitioner samt egenskaber, den fremmede klasse har
 
 Yderligere metadata kan medtages i det omfang det er relevant, og vil under alle omstændigheder være gældende. I eksemplet ovenfor vil kommentaren om at en beskrivelse kan inkludere abstrakt, indholdsfortegnelse, grafik eller fritekst stadig være gældende for egenskaben som sådan, og den vil altid skulle bruges netop som egenskab og ikke som entitet/klasse. Det er dog ikke nødvendigt at medtage i en model, hvor egenskaben bruges på en mere specifik måde, og dens status som attribut netop er i overensstemmelse med at det er en egenskab.
 
-### Genbrug med anvendelsesnote
+#### Genbrug med anvendelsesnote
 Når man genbruger et modelelement kan man i nogle tilfælde ønske at beskrive at anvendelsen i en bestemt model er  mere specifik end det genbrugte element giver mulighed for. Det kan fx være ved genbrug af meget generelle egenskaber, som fx ‘beskrivelse’ ovenfor. Denne mere specifikke brug beskrives i en anvendelsesnote. Anvendelsesnoten ændrer ikke på elementets definition, men kan være en hjælp til hvordan det bruges i en given model. Man kan altså ikke bruge anvendelsesnoten til at beskrive en brug der på nogen måde falder uden for elementets oprindelige semantik. 
 
 Det er en god ide at indlede anvendelsesnoten med angivelse af hvilken model eller anvendelse den gælder, fx I datamodellen for transportmidler anvendes Registrering til angivelse af registrering i motorregisteret. Hvis man direkte genbruger et UML-element, hvis metadata derfor også vises i en eller flere andre modeller, er det en nødvendighed for at kunne se hvilken model noten gælder, og også i andre tilfælde gør det genbrug lettere.
 
-### Fravær af HTTP-URI
+#### Fravær af HTTP-URI
 Direkte genbrug kræver en identifikator i form af en HTTP-URI, da identifikatoren viser at der er tale om samme element. Men ikke alle modeller har disse identifikatorer, og der kan sagtens være værdi i at genbruge definition og anden metadata alligevel, enten fordi det er fagligt solidt, allerede er bredt anvendt eller stammer fra dokumentationen af et system man ved man skal integrere med. 
 
 Har man kontakt til ejeren af modellen fra hvilken man vil bruge elementer, kan det være en god ide at høre om den pågældende organisation vil tilføje HTTP-URIer til modellen for at facilitere genbrug. Hvis dette ikke er muligt, må man bruge den pågældende model som kilde. Det vil sige at man bruger definition mm., angiver modellen som kilde (source), og selv tildeler en HTTP-URI. 
 
-### Markering af genbrugte elementer
+#### Markering af genbrugte elementer
 Ved genbrugte elementer tager den modelansvarlige ikke det samme ansvar for definition og anden metadata som ved elementer, man selv definerer. Fx kan der, for at opnå sammenhæng,være mening i at genbruge definitioner der ikke opfylder modelreglernes principper for udarbejdelse af definitioner. Ligeledes kan man have brug for at genbruge modelelementer fra områder hvor man ikke selv er fagekspert, men stoler på at de domæneeksperter, der har defineret dem, har gjort det rigtigt. 
 
 Derfor er det vigtigt at man gør det tydeligt hvilke elementer der er genbrugt. Dette gøres I UML først og fremmest ved at udfylde tagget ‘isDefinedBy’ (tilhører emneområde) med HTTP-URI for den model, som modelelementet kommer fra. Derudover er det god praksis at give genbrugte klasser en visuel markering i form af blå farve. I begrebslister skives HTTP-URIen i kolonnen ‘Tilhører emneområde’. Desuden kan man give den foretrukne term en blå farve.
 
-### Mangel på genbrugeligt element
+#### Mangel på genbrugeligt element
 Da mange emneområder endnu ikke er dækket af en genbrugelig kernemodel, er det muligt at stå i en situation hvor man mangler et genbrugeligt element. Et element man har brug for at relatere til, men som ligger uden for ens eget ekspertiseområde og som burde være defineret i forbindelse med en anden kernemodel, men ikke er det. 
 
 Her er man nødt til selv at definere elementet. Ved at give det en blå markering - eller i en begrebsliste skrive ‘Nej’ i kolonnen ‘Tilhører emneområde’ - kan man dog signalere at dette element burde have været defineret andetsteds. Dermed siger man også at man ikke tager den samme grad af ansvar for elementet og dets generelle anvendelighed som man gør for de elementer der falder inden for modellens emneområde. Dette flager over for andre modellører at de skal være varsomme med at genbruge elementet. Et sådant element må gerne genbruges, men det er så at sige ‘på eget ansvar’. 
 
 En sådan markering bør samtidigt være en indikation af at man vil opdatere sin model når et passende element bliver defineret i en kernemodel af nogen med den rette ekspertise. 
 
-## Anvendelsesmodellering
+### Anvendelsesmodellering
 En anvendelsesmodel er en model, som er rettet mod en specifik anvendelse i en afgrænset kontekst. 
 
 Der kan være forskellige grader af specificitet og afgræsninger. Den typiske afgrænsede kontekst kunne være et system, et register eller lignende, der skal understøtte et forretningsområde, men den afgrænsede kontekst kan også være ’i det offentlige Danmark’, ’fælleskommunalt’, ’i sundhedssektoren’ eller lignende.  Anvendelsesmodeller afspejler og afgrænses af behovet for information i en bestemt anvendelsessituation og sammensættes af elementer fra en eller flere kernemodeller. Anvendelsesmodeller kan forstås som sammensætningen af forskellige byggeblokke til en bestemt anvendelse. 
@@ -1758,10 +1760,10 @@ I anvendelsesmodeller giver det - i modsætning til kernemodeller - ikke mening 
 
 Derudover genbruges modelelementer på samme måde som beskrevet ovenfor med den metadata, herunder identifikator, definition og termer, som de er definerede, med i kernemodeller. 
 
-### Multiplicitet
+#### Multiplicitet
 Det er normalt god praksis ikke at angive multiplicitet i kernemodellering, og i anvendelsesorienterede begrebsmodeller anvendes der heller ikke multiplicitet. I informationsmodeller der er anvendelsesmodeller skal der derimod angives multiplicitet for alle attributter, og i logiske datamodeller der er anvendelsesmodeller skal der angives multiplicitet for alle egenskaber, dvs. både attributter og associationsender. Når multipliciteten ikke er eksplicit angivet er antagelsen i UML at den er netop ‘1’. Nogle værktøjer viser derfor ikke multipliciteten når den er ‘1’, men det er en god ide at angive den eksplicit hvis man kan.
 
-### Øget specificitet
+#### Øget specificitet
 I en anvendelsesmodel kan man gøre modelleringen mere specifik og målrettet i den konkrete anvendelsessituation ved at
 
 * præcisere anvendelsen af et modelelement
@@ -1770,7 +1772,7 @@ I en anvendelsesmodel kan man gøre modelleringen mere specifik og målrettet i 
   
 Dette gælder både ved direkte brug af elementer fra kernemodeller samt når man baserer en anvendelsesmodel på en eksisterende anvendelsesmodel.
 
-#### Præcisere anvendelsen
+##### Præcisere anvendelsen
 Når et element har en lidt bredere definition end man kunne ønske sig og man gerne vil specificere hvordan det præcis skal forstås inden for et forretningsdomæne eller system kan man tilføje en anvendelsesnote til elementet.
 
 **_Eksempel_**
@@ -1782,7 +1784,7 @@ Definition: unik kombination af tal og bogstaver der markeres på stellet af et 
 
 Anvendelsesnote: På en cykel sidder stelnummeret enten under kranken eller på sadelrøret og består af fabrikantmærke, serienummer og årstalsmærke.
 
-#### Indsnævre udfaldsrum
+##### Indsnævre udfaldsrum
 Man kan i en anvendelsesmodel blive mere specifik omkring hvilke data der kan forekomme som værdier for et givent attribut og dermed indsnævre udfaldsrummet for attributtet. Det kunne fx være ved at indsnævre ’xsd:dateTime’ til ’xsd:dateTimeStamp’ eller bruge ’xsd:positiveInteger’ i stedet for ’xsd:integer’. <br>
 [https://arkitektur.digst.dk/node/1091#bilag-b-datatyper-fra-xsdrdfs](https://arkitektur.digst.dk/node/1091#bilag-b-datatyper-fra-xsdrdfs) 
 
@@ -1806,12 +1808,12 @@ Man kan også tilføje en struktureret datatype til erstatning for en simpel dat
 <img src="Illustrations/kap5-15-gul-datatype-som-udfaldsrum.svg" alt="Gul datatype som udfaldsrum" style="width:400px;"/>
 <i>Figur 5.27: Struktureret datatype som udfaldsrum</i><br><br>
 
-#### Indsnævring af multiplicitet 
+##### Indsnævring af multiplicitet 
 Hvis kernemodellen har angivet multiplicitet (eller man baserer sin anvendelsesmodel på en anden anvendelsesmodel), kan man gøre multipliciteten mere, men ikke mindre, specifik. Det vil sige at man ikke kan angive en multiplicitet der ikke er tilladt ifølge den model, man genbruger fra. Hvis der eksempelvis er angivet 0..1 som multiplicitet, kan man godt specificere 1..1. men ikke 0..*, og 1..* kan specificeres til 1..10, men ikke 0..10.
 
 I praksis betyder dette at man kan gøre valgfrie elementer (med en multiplicitet der inkluderer 0) obligatoriske, man kan vælge at de aldrig anvendes eller man kan bibeholde dem som valgfrie med samme multiplicitet.
 
-### Implicitte kernemodeller
+#### Implicitte kernemodeller
 Det er muligt at få brug for elementer i sin anvendelsesmodel som endnu ikke er defineret i nogen kernemodel. I den ideelle verden ville man udarbejde den relevante kernemodel. I praksis er dette ikke altid muligt inden for rammerne af et givet projekt. Modelreglerne åbner mulighed for, at en eller flere kernemodeller kan modelleres som en del af en anvendelsesmodel ved anvendelse af namespaces der afspejler emneorienterede modellering i modelelementerens HTTP-URIer. Se mere [Kapitel 4: Anvendelse og udformning af HTTP-URIer](#kapitel-4-anvendelse-og-udformning-af-http-urier).
 
 Man slipper ikke udenom at definere de elementer man skal bruge i henhold til reglerne for hvordan elementer defineres i kernemodeller, hvilket vil sige at de skal dokumenteres med definitioner, termer og anden metadata. Man kan dog undlade at tage stilling til hvilke andre elementer der burde være en del af en given kernemodel, modelleringen af disse, samt den fysiske oprettelse af kernemodellen.
@@ -1820,7 +1822,7 @@ Essentielt skal modelelementerne stadig have en identifikator i form af en HTTP-
 
 Hvor det normalt ikke giver mening at markere genbrugte elementer visuelt i en anvendelsesmodel, kan det ved implicit kernemodellering være en god måde at adskille den implicitte kernemodel fra elementer genbrugt andre steder fra.
 
-### Anvendelsesmodel baseret på en anden anvendelsesmodel
+#### Anvendelsesmodel baseret på en anden anvendelsesmodel
 Udover at sammensætte sin anvendelsesmodel direkte på kernemodellering, kan der være situationer hvor det giver mening at basere sin anvendelsesmodel på en allerede eksisterende anvendelsesmodel. Dette vil være hvis der findes en model rettet mod en anvendelsessituation der er mere generel end, men fuldt inkluderer, den man har brug for at modellere. Eksempler inkluderer tilpasning af en international model til nationale forhold, som i eksemplet nedenfor, eller oprettelse af en anvendelsesmodel for en sektor eller et specifikt system baseret på en fællesoffentlig model.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**International kernemodel**: DCAT _(Data Catalog Vocabulary)_
@@ -1834,7 +1836,7 @@ Herudover vil der kunne defineres sektor eller systemspecifikke anvendelsesmodel
 Der vil normalt være tale om mindre ændringer. Man kan øge specificiteten som beskrevet ovenfor, og derudover kan man tilføje elementer. Her skal man være opmærksom på at de tilføjede elementer skal være defineret i en kernemodel. Og selvfølgelig kan de ikke udveksles med systemer eller anvendere der bruger den mere generelle model man baserer sig på. 
  
 
-## Klassifikationer og kontrollerede udfaldsrum
+### Klassifikationer og kontrollerede udfaldsrum
 
 I mange sammenhænge støder man på klassifikationer - også under navne som emnesystematikker, journalplaner, kontoplaner, opgavekataloger, taksonomier, kodelister, enumerationer, mv. - som kontrollerer udfaldsrum på en systematisk måde. Klassifikationer kan være alt fra små simple lister over fx statusser eller fortrolighedsgrader til store niveauopdelte systematikker over fx diagnoser eller myndighedsopgaver.
 
@@ -1848,7 +1850,7 @@ Klassifikationer skal derfor dokumenteres på lige fod med andre modeller. Dog m
 
 Se også [Anvendelsesprofil for klassifikation](https://arkitektur.digst.dk/specifikationer/klassifikation/anvendelsesprofil-klassifikationer).
 
-### Formålet med at lave og bruge klassifikationer
+#### Formålet med at lave og bruge klassifikationer
 Faste udfaldsrum i form af klassifikationer, hvad enten der er tale om ganske små eller meget store klassifikationer, flade lister eller hierarkiske strukturer, giver en række fordele frem for fritekstfelter i it-systemer. 
 
 Det er oftest hurtigere at vælge en værdi på en liste end at skrive selv, og risikoen for fejl ved datainput reduceres. Samtidigt sikres konsistens, således at information der funktionelt betyder det samme også repræsenteres ens i data. Et menneske forstår fx umiddelbart at det betyder det samme uanset om der i et felt står ‘borgeren har rygproblemer’ eller bare ‘rygproblemer’, men værktøjer til databehandling og -analyse gør ofte ikke, og det vil være en fordel at have et fast sæt af værdier at vælge mellem. <br>
@@ -1862,7 +1864,7 @@ Begreberne bag forekomsterne i en klassifikation - også benævnt emnerne -  i k
 
 §28  - [<ins> <span style="color:#AB2A0C;">Modellér klassifikationsemner som instanser </span> </ins>](https://arkitektur.digst.dk/node/1091#r28)
 
-### Begrebsafklaring som grundlag for gode klassifikationer
+#### Begrebsafklaring som grundlag for gode klassifikationer
 Ved struktureret begrebsarbejde analyseres og defineres begreber ved at angive nærmeste overbegreb samt adskillende træk i forhold til et givet inddelingskriterium (se kapitlet [Termer og definitioner](#kapitel-3-termer-og-definitioner) for yderligere information). Man anfører, hvad begrebet er for “en slags”, og hvilke karakteristika netop denne slags har i forhold til andre begreber med samme direkte overbegreb (under samme inddelingskriterium). 
 
 Et inddelingskriterium angiver et særligt perspektiv, som begreberne inden for en gruppe bliver betragtet ud fra, og hvorved de adskiller sig fra hinanden. Fx i forhold til egenskaber, tilstand, formål, indhold, udformning, anvendelse m.v. Transportmidler kan fx inddeles efter tiltænkt anvendelse (godstransport, persontransport, fritids/sportsbrug), fremdriftsmiddel (benzin, diesel, el, hybrid), ejerforhold (eje, leje, leasing, dele) mm.  
@@ -1875,10 +1877,10 @@ Det er ofte sådan at det samme individ/genstand i den virkelig verden passer in
 
 Gode definitioner baseret på adskillende træk gør det også nemmere at anvende klassifikationsemnerne til opmærkning. I praksis skal klassifikationer anvendes af personer der ikke har har været med til at udarbejde dem. Det kan være slutbrugere af det system klassifikationen er udarbejdet til eller andre modellører der genbruger klassifikationen. Det  er det vigtigt at de bruger klassifikationen som beregnet, hvilket gode definitioner letter væsentligt. Ellers går man i realiteten glip af de standardiseringsfordele man formodentligt netop gerne ville opnå ved at bruge en klassifikation.
 
-### Modellering af klassifikationer i UML
+#### Modellering af klassifikationer i UML
 For mindre klassifikationer kan det være meningsfuldt at repræsentere og visualisere disse med UML. I UML kan klassifikationer modelleres på to måder. Enten med enumerationer eller med klassifikationsklasser, men for begge gælder at de skal placeres i en selvstændig pakke med stereotypen &laquo; ClassificationModel &raquo; og dokumenteres med metadata. Dette for at facilitere at klassifikationerne kan genbruges i så mange sammenhænge som muligt, samt gøre det muligt at lave ændringsstyring på klassifikationer uafhængigt af de modeller der benytter dem. 
 
-#### Valg af enumeration eller klassifikationsklasse og instanser
+##### Valg af enumeration eller klassifikationsklasse og instanser
 En enumeration, hvor klassifikationsemnerne repræsenteres af enumerationsværdier, eller en klassifikationsklasse, hvor emnerne repræsenteres af instanser, kan i mange situationer repræsentere den samme information, som i eksemplet nedenfor.
 
 <img src="Illustrations/kap5-20a-Klassifikationer-valg.svg" alt="Klassfikationer valg" style="width:1000px;"/>
@@ -1891,7 +1893,7 @@ Kvalifikationsklasser og instanser er bedre egnet til store og/eller dynamiske k
 <img src="Illustrations/kap5-20b-Klassifikationer-valg2.svg" alt="Klassifikationer valg" style="width:1000px;"/>
 <i>Figur 5.29: Klassifikation med flere niveauer</i><br><br>
 
-#### Modellering af klassifikationer med enumerationer
+##### Modellering af klassifikationer med enumerationer
 En enumeration specificerer en række værdier i form af tekststrenge som gyldigt udfaldsrum for et attribut. Anvendes en enumeration, vil klassifikationsemnerne være værdierne i denne enumeration.
 
 Sådan oprettes en klassifikationsmodel som en enumeration i UML:
@@ -1916,7 +1918,7 @@ Man kunne måske forestille sig at lave en enumeration over kombinationerne, så
 <img src="Illustrations/kap5 - enumeration - en dimension.svg" alt="Eksempel hvor en enumeration der indeholdt to indelingskriterier er blevet delt op i to" style="width:700px;"/>
 <i>Figur 5.31: Enumeration opdelt i to baseret på inddelingskriterier</i><br><br>
 
-#### Modellering af klassifikationer med klassifikationsklasser 
+##### Modellering af klassifikationer med klassifikationsklasser 
 Anvendes en klassifikationsklasse, vil klassifikationsemnerne være instanser af denne klasse. 
 
 Sådan oprettes en klassifikationsmodel ved brug af en klassifikationsklasse:
@@ -1931,7 +1933,7 @@ Sådan oprettes en klassifikationsmodel ved brug af en klassifikationsklasse:
 <i>Figur 5.32: Klassifikationsmodel med klassifikationsklasse (associationer er valgfrie)</i>
 
 
-#### Klassifikationer med flere niveauer
+##### Klassifikationer med flere niveauer
 En klassifikation kan indeholde mange niveauer af klassifikationsemner, der er specialiseringer af hinanden. 
 
 ![Dele af en større klassifikation](Illustrations/Kap5-21c-klassifikation-mange-niveauer.svg)
@@ -1944,7 +1946,7 @@ Egentlig burde alle klassifikationsemner illustreres med et objekt i UML, da all
 
 _Figur 5.34: Objekter med nogle egenskaber instantieret_
 
-#### Anvend generaliseringssæt til at vise inddelingskriterier
+##### Anvend generaliseringssæt til at vise inddelingskriterier
 Et generaliseringssæt er et element der gør det muligt at gruppere specialiseringer iht. et relevant inddelingskriterium. Et generaliseringssæt kan visuelt siges at dele en generaliseringsassociation således at der er én pil der peger på overbegrebet med flere ender der forbinder specialiseringerne. Man kan nøjes med at bruge den visuelle indikation, men det er også muligt at tilføje yderligere information til generaliseringssættet.
 
 Dels kan man give generaliseringssættet et navn. Navnet bør beskrive det inddelingskriterie der er anvendt for sættet, fx er ‘primært formål’ et passende navn når man opdeler køretøjer efter hvad de først og fremmest er tiltænkt at transportere. Derudover kan et generaliseringssæt beskrives med egenskaberne isCovering og isDisjoint. 
@@ -1957,7 +1959,7 @@ Egenskaben isDisjoint har udfaldsrummet ‘udelukkende’ (disjoint) / ‘overla
 
 _Figur 5.35: Eksempel på anvendelse af generaliseringssæt_
 
-### Store klassifikationer
+#### Store klassifikationer
 Nogle klassifikationer indeholder hundreder af klassifikationsemner, som kan være fordelt på flere niveauer. Selvom det teknisk kan lade sig gøre at modellere disse i UML, bliver diagrammet meget svært, for ikke at sige umuligt, at udarbejde og præsentere på en overskuelig og anvendelig måde. Her kan en anden præsentationsform, såsom en klassifikationsservice, et regneark eller en html-præsentation være mere velegnet. 
 
 For at følge modelreglerne skal klassifikationsemnerne stadig dokumenteres med, som minimum, identifikator, definition og foretrukken term. Dette for at understøtte forståelse og genbrug af klassifikationen. Desuden er det god skik at anvende notation til at vise hvor i klassifikationen de enkelte klassifikationsemner hører til, hvilket fx kan gøres ved notation.
@@ -2005,7 +2007,7 @@ Notation er en alternativ måde at give den information som man i et diagram få
 1.2.1.2.2 skraldevogn
 
 
-### Anvendelse af klassifikation som udfaldsrum
+#### Anvendelse af klassifikation som udfaldsrum
 Henviser man til en klassifikation fra et attribut vælges enumerationen eller klassifikationsklassen som attributtets udfaldsrum/datatype som det ses i illustration til venstre herunder. 
 
 <img src="Illustrations/kap5-23-Henvisning-til-enum-fra-attribut-med-dependency.svg" alt="To måder at henvise til enumeration via attribut" style="width:400px;"/>
@@ -2020,7 +2022,7 @@ Henviser man fra en klasse til en klassifikationsklasse ved hjælp af en associa
 
 _Figur 3.37: Henvisning til klassifikationsklasse via associationsende_
 
-#### Brug af eksterne klassifikationer
+##### Brug af eksterne klassifikationer
 Når man vil genbruge en eksisterende klassifikation der er udstillet eksternt skal man oprette en klassifikationsklasse som ovenfor, men i stedet for at oprette de tilhørende klassifikationsemner som UML-objekter indsættes i stedet en entydig reference til definitionen af klassifikationens udfaldsrum i tagget ‘rdfs:isDefinedBy’ (er defineret af). Referencen skal være en resolverbar og persistent HTTP-URI, hvor anvendere kan slå klassifikationen og dens indhold op.
 
 ![Henvisning til ekstern klassifikation](Illustrations/Kap5-26-Ekstern-klassifikation.svg)
@@ -2034,7 +2036,7 @@ Det kan være relevant at genbruge en specifik del af en (ekstern) klassifikatio
 _Figur 5.39: Eksempel på anvendelse af del af ekstern klassifikation_
 
 
-# Kapitel 6: Dokumentation af modellen
+## Kapitel 6: Dokumentation af modellen
 Modelreglerne 6-13 omhandler dokumentation af modellen, der bidrager til den overordnede forståelse af modellen og dens kontekst. Det er en forudsætning for at modellerne kan genbruges og gør det lettere at finde begrebs- og datamodeller og vurdere deres egnethed til genbrug, når de beskrives på en struktureret og standardiseret måde. Samtidig forpligter det dem, der skaber modellen, til at tage ejerskab over modellens indhold. 
 
 Dokumentation består af metadata, der svarer på spørgsmål om modellen, fx. Hvad hedder den? Hvad handler den om? Hvem er ansvarlig for dens indhold? Hvornår blev den senest opdateret? Hvad er dens status?
@@ -2119,7 +2121,7 @@ Ovenfor ses modelmetadatasektionen fra begrebslisteskabelonen. Det er de samme m
 
 §07 - [<ins> <span style="color:#AB2A0C;">Angiv identifikation af modeller </span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-identifikation-af-modeller)
 
-## Modellens indhold og kontekst
+### Modellens indhold og kontekst
 En del af modellens metadata skal beskrive modellens indhold. Det primære formål med dette er at bidrage til den overordnede forståelse af modellen og dens kontekst. Dermed får andre modellører mulighed for at fremsøge modeller, der kan være relevante for dem, og vurdere modellernes indholdsmæssige relevans for genbrug.
 
 **Modelnavn** er en meningsfyldt betegnelse for modellen, der afspejler, hvad man kan forvente at finde modelleret. For emneorienterede modeller bør modelnavnet referere til det specifikke emneområde og/eller modellens centrale forretningsbegreb. Ofte vil det være hensigtsmæssigt at tage udgangspunkt i navnet på det mest centrale element i modellen, som modellens andre elementer på en eller anden måde relaterer sig til. Det bør ikke referere til planlagte anvendelser eller eventuelle systemer, der skal anvende begreberne. <br>
@@ -2139,7 +2141,7 @@ Med angivelse af **emne** klassificeres modellen i forhold til en etableret emne
 §09 - [<ins> <span style="color:#AB2A0C;">Angiv emneområde for modellen</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-emneomraade-modellen) 
 
 
-## Modelstatus og versionering
+### Modelstatus og versionering
 **Modelstatus** er en angivelse af, hvor modellen er i sin livscyklus, og er en indikation af, hvor pålidelig den er. Der er fire valgmuligheder:
 
 * **Under udvikling** (development), der anvendes mens modellen har en foreløbig og ukomplet udformning
@@ -2160,7 +2162,7 @@ Der er en vis sammenhæng mellem modelstatus og versionering, sådan at en model
 §10 - [<ins> <span style="color:#AB2A0C;">Angiv modellens version</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-modellens-version) <br>
 §12 - [<ins> <span style="color:#AB2A0C;">Angiv modellens modelstatus</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-modellens-modelstatus) 
 
-## Forretningsgodkendelse og modelansvar
+### Forretningsgodkendelse og modelansvar
 **Godkendelsesstatus, Godkendt af**
 
 For at sikre faglig validitet samt forankring i forretningen skal begrebs- og datamodeller godkendes af et fagligt relevant forum. Det er relevant for potentielle anvendere at vide hvilket forum, der har godkendt modellen, hvorfor dette skal angives i feltet **Godkendt af**. Dette felt bør også udfyldes selvom godkendelsen reelt ikke er sket endnu, blot forum for godkendelsen er identificeret. Hvor modellen aktuelt befinder sig i godkendelsesflowet indikeres med **Godkendelsesstatus**, som har udfaldsrummet:
@@ -2177,7 +2179,7 @@ Hvis modellen er ‘godkendt med bemærkninger’ bør disse bemærkninger være
 §08 - [<ins> <span style="color:#AB2A0C;">Angiv den modelansvarlige organisation</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-den-modelansvarlige-organisation) <br>
 §11 - [<ins> <span style="color:#AB2A0C;">Modellen skal forretningsgodkendes</span>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/modellen-skal-forretningsgodkendes) </ins>
 
-## Modellens kilder
+### Modellens kilder
 Når man udarbejder en model baserer man sig på eksisterende viden og det øger sammenhæng, at anvendere ved hvilke kilder man har hentet viden fra. Især er det vigtigt at afsøge modellens lovgrundlag, dvs. de love, forordninger, bekendtgørelser mm., der enten danner grundlag for udarbejdelsen af modellen eller omhandler begreber/elementer der indgår i modellen. Dette lovgrundlag angives som **Juridisk kilde**. En model kan sagtens have flere juridiske kilder, og i så fald gentages oplysningstypen (med flere rækker i tabelformat eller flere tagged values af samme type i en UML-model). 
 
 En juridisk kilde skal angives ved hjælp af en ELI. ELIer fungerer både som entydige identifikatorer og som webadresse på loven/bekendtgørelsen på enten retsinformationen erl EUR-Lex. På EUR-Lex skal man dog være opmærksom på, at det ikke er adressen på den danske oversættelse, men på lovens hovedside.
@@ -2196,7 +2198,7 @@ Endelig kan andre modeller være en væsentligt kilde til den model man har udar
 §13 - [<ins> <span style="color:#AB2A0C;">Angiv modellens lovgrundlag</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/angiv-modellens-lovgrundlag) <br>
 §14 - [<ins> <span style="color:#AB2A0C;">Etablér sammenhæng mellem modeller </span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/etabler-sammenhaeng-mellem-begrebsmodeller-og-logiske)
 
-## Eksempel på udfyldte metadata
+### Eksempel på udfyldte metadata
 Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
 
 <table>
@@ -2277,24 +2279,24 @@ Nedenfor ses et fiktivt eksempel på hvordan metadata om en model kunne se ud.
 _Tabel E: Fiktivt eksempel på metadata om en model_
 
 
-# Kapitel 7: Det visuelle udtryk
+## Kapitel 7: Det visuelle udtryk
 Af hensyn til brugbarheden bør man gøre modellerne så læsevenlige som kompleksiteten i modellen tillader det, og helt overordnet anbefales det at det visuelle udtryk i UML-modellerne ensrettes så meget som muligt. 
 
 Det visuelle udtryk af modellen understøtter kommunikation mellem forskellige interessenter såsom arkitekter, udviklere og forretningseksperter, samt på tværs af organisationer med forskellig dokumentationspraksis. Det visuelle udtryk kan dermed betragtes som UMLs største fordel, og denne udnyttes bedst, hvis diagrammerne er nemme at afkode og behagelige at kigge på. Derfor giver det mening at følge fælles principper for udarbejdelsen af diagrammer, for at opnå et genkendeligt visuelt udtryk. Dette gælder uanset om der er tale om begrebsdiagrammer, diagrammer for informationsmodeller eller logiske datamodeller.
 
 De generelle anbefalinger nedenfor betyder ikke at selve indholdet af UML-modellen bliver bedre, men at det bliver nemmere at kommunikere modellen til interessenter. 
 
-## Anbefalinger til grafisk opsætning og præsentation
+### Anbefalinger til grafisk opsætning og præsentation
 
-### Undgå krydsende streger hvor det er muligt
+#### Undgå krydsende streger hvor det er muligt
 Gør dit UML-diagram lettere at læse og forstå ved at undgå at stregerne krydser hinanden. Ligeledes bør streger ikke krydse klasser, enumerationer eller strukturerede datatyper.
 
 Hvis dit UML-diagram er så omfattende at det kan være svært at undgå dette, så kan dette være et tegn på, at modellen med fordel kan opdeles i deldiagrammer.
 
-### Foretræk vinkelrette knæk fremfor skrå streger
+#### Foretræk vinkelrette knæk fremfor skrå streger
 Det kan give et mere ordnet og roligt udtryk hvis modellens streger ikke tegnes skråt fra element til element, men at de derimod knækkes vinkelret.
 
-### Ensret klassernes størrelser og justeringer
+#### Ensret klassernes størrelser og justeringer
 Ensret UML-klassernes størrelser og justeringer i det omfang det er muligt.
 I begrebsdiagrammer: lav de klasser der repræsenterer begreberne lige høje og hvor muligt lige brede
 I informationsmodeller og logiske datamodeller: lad gerne klasser være lige brede, eller brug evt. 2 faste bredder.
@@ -2302,14 +2304,14 @@ I informationsmodeller og logiske datamodeller: lad gerne klasser være lige bre
 Man kan evt. vælge at lade diagrammets mest centrale klasse/begreb være større end resten, dels for at give en visuel indikation af at det er centralt, dels for at give bedre plads til mange associationer. At lade et mindre centralt element være større vil derimod virke forvirrende.
 Det giver et mere roligt udtryk hvis klassernes kanter, hvor muligt er justeret, så kanterne flugter med hinanden.
 
-### Sørg for at al tekst er læsbar
+#### Sørg for at al tekst er læsbar
 Navne på associationer og associationsender skal være fri af andre elementer så hele navnet er synligt og altså ikke ligge oven på hinanden.
 
 Tag også hensyn til at indholdet af klasser (klassenavn, attributter og datatyper) bedst kan læses hvis der er plads mellem tekst og kanten af klassen. Dette kan gøre det nødvendigt at bryde ovenstående princip om ensretning af klassernes størrelse.
 
 Desuden kan det være en god ide at øge tekststørrelsen eller gøre skrift fed for at øge læsbarheden. 
 
-### Brug anbefalede farver
+#### Brug anbefalede farver
 Farver skal anvendes til at fremhæve information, der allerede er tilstede i modellen. Når der anvendes farver bør man bruge dem, der anbefales i modelreglerne og dem der typisk anvendes til specifikke modelelementtyper. 
 
 Modelreglerne fastlægger for eksempel at genbrugte/indlånte elementer fremhæves i kernemodeller med en visuel markering. Her anbefales farven blå. Informationen om at et givet modelelement er genbrugt og defineret i en anden model vil allerede være til stede i form af elementets URI og evt. kvalificerede elementnavne, men fremhæves yderligere med den visuelle markering. 
@@ -2350,23 +2352,23 @@ Man kan eventuelt anvende yderligere visuelle markeringer, der fremhæver aspekt
 * anvendes konsistent
 * forklares på diagrammet
 
-### Placer overordnede klasser over deres specialiseringer
+#### Placer overordnede klasser over deres specialiseringer
 Lad så vidt muligt generaliseringspilene pege opad. 
 Når man anvender en hierarkisk relation som en specialisering, så er det lettere at afkode modellen hvis overordnede klasser også er placeret over underordnede klasser. Er dette ikke muligt, fx i forbindelse med flere omfattende generaliseringssæt, er det næstbedste at placere specialiseringerne til højre for den overordnede klasse, således at den overordnede klasse kommer først i læseretning.
 
-### Anvend generaliseringssæt
+#### Anvend generaliseringssæt
 Generaliseringssæt (hvor flere generaliseringspile samles i en spids) kan bruges til at vise at specialiserede klasser/begreber er specialiserede efter samme inddelingskriterie, fx formål eller funktion. Dette giver diagrammer mere information samtidigt med at det bliver mere roligt at se på. Læs mere om [generaliseringssæt i afsnittet om UML-modellering](#uml-modellering).
 
 ![Generaliseringssæt](Illustrations/kap7-2-generaliseringssæt.svg)
 
 _Figur 7.1: Eksempel på anvendelse af generaliseringssæt i begrebsdiagram_
 
-### Angiv retning på begrebsrelationer
+#### Angiv retning på begrebsrelationer
 UML-associationer kan angives med eller uden navigabilitet, der vises som en pil i enden af associationer. Dette omtales ofte mindre præcist som retning. Navigabilitet er ikke det samme som, men ofte sammenfaldende med læseretning. 
 
 I begrebs- og informationsmodeller giver det ikke meget mening at tale om navigabilitet, og associationer bruges specifikt til at udtrykke relationer mellem begreber. Derfor kan pilene benyttes til at angive relationens retning. Man kan også anvende læseretningspile i forbindelse med associationsnavnet. For mange, især dem uden stor erfaring med UML, er det dog lettere at læse modeller med retning på relationerne. Desuden er det i nogle værktøjer svært at styre retningen på læseretningspile præcist.
 
-### Brug associationer til klasser og attributter til datatyper
+#### Brug associationer til klasser og attributter til datatyper
 I UML er både attributter og associationsender egenskaber og kan teknisk have både datatyper og klasser som udfaldsrum. Det giver dog mere ensartede og letlæselige modeller hvis objektegenskaber modelleres som _associationsender_ og datatypeegenskaber som _attributter_.
 
 ![Egenskaber](Illustrations/kap7-3-egenskaber.svg)
@@ -2379,14 +2381,14 @@ Nedenfor ses objektegenskaben ‘påLager’ med klassen ‘Cykel’ som udfalds
 <img src="Illustrations/kap7-4-egenskaber-eksempel.svg" alt="eksempel med egenskaber" style="width:700px;"/><br>
 <i>Figur 7.3: objektegenskaber som associationsender og datatypeegenskaber som attributter.</i>
 
-### Eksempel på UML-diagram 
+#### Eksempel på UML-diagram 
 
 ![Diagrameksempel](Illustrations/kap7-5-diagrameksempel.svg)
 
 _Figur 7.4: UML-diagram hvor anbefalinger følges_
 
-## Anbefalinger til organisering og kommunikation
-### Skab overblik med opdeling og overordnede diagrammer 
+### Anbefalinger til organisering og kommunikation
+#### Skab overblik med opdeling og overordnede diagrammer 
 I forbindelse med formidling af en større model anbefales det at lave en slags oversigts- eller indflyvningsdiagram, der indeholder de mest centrale elementer (uden eventuelle attributter) og relationer, og som kan fungere som en introduktion til modellen. 
 
 Det kan også være hensigtsmæssigt at dele en stor model op i flere deldiagrammer. Generelt bør et diagram kunne være på en A4-side (gerne med landskabsorientering) eller en Powerpoint-slide, samtidigt med at det har en størrelse hvor al tekst er nemt læsbart. 
@@ -2395,18 +2397,18 @@ Der findes diagrammer hvor elementerne naturligt falder ind i forskellige gruppe
 
 I fortællingen om hvilke kernemodeller der indgår i en en given anvendelsesmodel kan det være en idé at udarbejde et pakkediagram som viser hvilke kernemodeller en anvendelsesprofil sammensætter og/eller indramme elementer fra samme kernemodel med pakken på diagrammet. 
 
-### Organiser diagrammet ift. rækkefølge hvor relevant 
+#### Organiser diagrammet ift. rækkefølge hvor relevant 
 I nogle situationer er der en indbygget logisk rækkefølge eller kronologi mellem elementerne.. Fx kommer en ansøgning om en ydelse før bevillingen af ydelsen, som igen kommer før udbetalingen af ydelsen. I disse tilfælde kan det lette læsningen af diagrammet, hvis rækkefølgen følger almindelig læseretning, således at det der kommer først står længst til venstre og det der kommer sidst står længst til højre. Organiseringen i rækkefølge har dog ingen reel betydning – det er udelukkende en læsehjælp. Ønsker man at modellere et flow eller lignende anvendes en anden modeltype, fx et procesdiagram.
 
-### Lav også alternative visuelle diagrammer til kommunikationsformål
+#### Lav også alternative visuelle diagrammer til kommunikationsformål
 Det kan være relevant at formidle det centrale indhold af en begrebs- eller datamodel visuelt med andre grafiske metoder til specifikke kommunikationsformål.  
 
 Det er typisk uformelle modeller med kasser, figurer og streger eller illustrationer med ikoner eller andre grafiske illustrationer, der repræsenterer modellens elementer og relationer. Se eksempelvis denne [illustration fra grunddataprogrammet](https://datafordeler.dk/vejledning/grunddata/datamodel/) som viser grunddata på et overordnet niveau.
 
 En anden måde at lave diagrammer til kommunikation er at lave simplificerede views af UML-modellen. Sådanne diagrammer kan være velegnede i forbindelse med forretningsgodkendelse af modellen. Det kan fx være nyttigt at lave diagramvisninger, der ikke viser stereotyper, datatyper, prefixes eller aliaser på et andet sprog, selvom dette er en del af den bagvedliggende model.
 
-## Yderligere best practices i international modellering
-### Angivelse af kravniveau med supplerende stereotyper 
+### Yderligere best practices i international modellering
+#### Angivelse af kravniveau med supplerende stereotyper 
 Hvis man i en UML-model ønsker at tydeliggøre de forskellige krav til anvendelse af de forskellige elementer i modellen, bør man anvende supplerende stereotyper til dette. Eksempelvis kan stereotyperne &laquo; mandatory &raquo;, &laquo; recommended &raquo;, og &laquo; optional &raquo; anvendes til at angive om udfyldelse af et givet felt er obligatorisk, anbefalet eller valgfrit. 
 
 Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af Europa-Kommissionen. Se fx [UML-diagrammet til DCAT-AP 2.0.1](https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2020-06/8d26212c-3ed4-4c9d-b5a5-0b5934daae34/DCAT_AP_2.0.1.png). I [INSPIRE](https://inspire-regadmin.jrc.ec.europa.eu/dataspecification/themes/br/Chapter5.pdf) data specifikationerne anvendes også stereotypen &laquo;voidable&raquo; til at angive at der ikke eksisterer eller kan afledes en tilsvarende værdi i kildedatasættet. 
@@ -2415,7 +2417,7 @@ Disse stereotyper anvendes også typisk i anvendelsesprofilerne der udgives af E
 
 _Figur 7.5: Udsnit fra UML-diagram til DCAT-AP 2.0.1_
 
-### Angiv gerne namespaces og præfikser i logiske datamodeller
+#### Angiv gerne namespaces og præfikser i logiske datamodeller
 Ved at anvende en forkortelse for namespacet på den model hvor modelelementer er defineret som præfiks for UML-elementnavne, er det til enhver tid tydeligt hvor et givent element kommer fra. Se fx  [W3Cs UML-visualisering af DCAT](https://www.w3.org/TR/vocab-dcat-2/). Det er især relevant i anvendelsesmodeller som sammensættes af modelelementer fra forskellige kernemodeller. I kernemodeller kan man eksempelvis også vælge alene at forsyne de indlånte elementer med prefixes, så defaultlæsningen bliver at de øvrige klasser er modellens egne. 
 
 ![Præfixer](Illustrations/kap7-7-præfixer.svg)
@@ -2429,13 +2431,13 @@ For at gøre det let at se hvilke modeller der er genbrugt i given model, bør m
 _Figur 7.7: Tekstboks med anvendte prefixes_
 
 
-# Kapitel 8: Governance
+## Kapitel 8: Governance
 
 Modelreglerne er en del af det fællesoffentlige arkitektursamarbejde og falder styringsmæssigt under Udvalg for Arkitektur og Standarder (UAS). De skal anvendes af initiativerne i de fællesoffentlige digitaliseringsstrategier til at beskrive og modellere begreber og data. Modelreglerne kan anvendes, og anbefales anvendt, i den offentlige sektor i øvrigt.
 
 For at sikre kvalitet og sammenhæng i modelleringsarbejdet skal modeller, der bliver udarbejdet i regi af de fællesoffentlige digitaliseringsstrategier forretningsgodkendes, gennemgå modelteknisk review og udstilles.
 
-## Forretningsgodkendelse
+### Forretningsgodkendelse
 Forretningsgodkendelse er en erklæring af at modellen er fagligt retvisende og accepteret som gældende for det pågældende emneområde. Den skal derfor foretages af et beslutningsdygtigt forum med relevant fagligt indsigt. Dette kan fx være det forum (styregruppe, programledelse mm), der tog beslutningen om at starte det projekt modelleringen er en del af. Det kan også være et fagligt forum, som fx grunddataprogrammets arkitekturforum. Det er op til projektet at vælge det mest relevante forum.
 
 Når en eller flere modeller forelægges til forretningsgodkendelse, bør det godkendende forum gøres opmærksom på, at de ved godkendelsen tager ansvar for gyldigheden (på godkendelsestidspunktet) af **det semantiske indhold** af de begreber eller modelelementer, der er defineret som en del af modellen (tilhører dens emneområde). Derimod tager de ikke noget ansvar for begreber/modelelementer fra andre emneområder, der er medtaget i modellen for at give kontekst og sammenhæng. For at sikre validiteten af godkendelsen bør forummets medlemmer modtage modelmaterialet i tilstrækkelig tid til at kunne diskutere dette med andre medlemmer af deres organisation.
@@ -2446,7 +2448,7 @@ Mange projekter vælger at foretage forretningsgodkendelse efter det modelteknis
 
 §11 - [<ins> <span style="color:#AB2A0C;">Modellen skal forretningsgodkendes</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/modellen-skal-forretningsgodkendes)
 
-## Modelteknisk review
+### Modelteknisk review
 For at understøtte anvendelsen af de fællesoffentlige modelregler, og at fælles begrebs- og datamodeller genbruges og tænkes ind i udviklingen af it-løsninger, udføres modelreviews for initiativer i fællesoffentlige digitaliseringsstrategier med væsentligt indhold af datamodellering og datadeling. Projekter der som led i det fællesoffentlige samarbejde gennemgår et arkitekturreview vil blive tjekket for, om de har (eller bør have) en eller flere modeller, der bør gennemgå et modelreview. For modeller der ikke er udarbejdet i regi af en fællesoffentlig digitaliseringsstrategi, kan review aftales med modelsekretariatet, afhængigt af dets ressourcer. Det kan især give mening for tværgående projekter, der skal understøtte datadeling mellem flere offentlige parter. 
 
 Reviewet foretages af modelsekretariatet, hvor modelreglerne også er blevet udarbejdet. Modelsekretariatet består primært af dataarkitekter, med kompetencer inden for både begrebs- og datamodellering. Desuden deltager skiftende review-boards, typisk bestående af to personer per review. Medlemmerne i review-boardet repræsenterer de fællesoffentlige parter. Når det er muligt inkluderes personer i review-boardet med en faglig indsigt i modellens emne, fx repræsentanter for anvendere af de modellerede data, eller personer der arbejder i et relateret domæne. Dette kan dog ikke garanteres.
@@ -2461,13 +2463,13 @@ Projektet afgør derefter i hvilket omfang det vil følge anbefalingerne i revie
 
 For projekter i regi af en fællesoffentlig digitaliseringsstrategi skal der afleveres en handlingsplan der forklarer, hvad man vil gøre for at efterleve de anbefalinger der er givet til det aktuelle projekt, eller hvorfor man ikke agter at følge dem. Projektet kan også komme med kommentarer til eventuelle anbefalinger til det fremtidige arbejde og tværgående anbefalinger. Reviewrapport og handlingsplan forelægges derefter Udvalg for Arkitektur og Standarder (UAS) til godkendelse, og vurdering af om modellen skal optages som del af FDA. 
 
-### Proces for review
+#### Proces for review
 Review aftales via modelsekretariatet ved at skrive til arkitektur@digst.dk. Hvis et projekt ønsker, at et review bliver udført på et bestemt tidspunkt, fx af hensyn til den overordnede projektplan, er det en god ide at aftale tid til reviewet i god tid, så modelsekretariatet kan afsætte den fornødne tid i kalenderen og har mulighed for at besætte reviewboardet. Det også en god ide at afsætte tid i projektplanen til at behandle de anbefalinger reviewrapporten kommer med. 
 Et review tager normalt to uger. Hvis det ikke kan lade sig gøre at foretage reviewet i løbet af to uger, aftales en længere periode, når det aftales, hvornår reviewet skal foregå. I den forbindelse kan modelsekretariatet bede om et udkast til modellen eller andet materiale, der kan hjælpe med at vurdere reviewopgavens omfang. 
 
 For at afklare spørgsmål i forhold til modelreglerne, reviewet, genbrug af modellering eller andet projektet måtte ønske sparring om, er det muligt at aftale et møde med modelsekretariatet i løbet af modelleringsprocessen inden reviewet.
 
-#### Selve reviewindleveringen
+##### Selve reviewindleveringen
 For at få det maksimale udbytte af modelreviewet, skal modellerne have det korrekte format samt opfylde de anbefalede dokumentationskrav som beskrevet i modelreglerne. 
 
 Udover modelreglernes krav til selve modellen, anbefales det at den samlede materialepakke, der indsendes til et modelreview, omfatter følgende:
@@ -2483,7 +2485,7 @@ Udover modelreglernes krav til selve modellen, anbefales det at den samlede mate
 
 * **Modeldiagramfil**: billedfil med det eller de visuelle diagram(mer).
 
-## Udstilling
+### Udstilling
 Ved at udstille sine modeller skaber man mulighed for genbrug og videndeling. Andre offentlige myndigheder, leverandøren m.fl. får bedre mulighed for at forstå ens forretning. Dette er selvfølgelig især vigtigt når andre skal lave modeller, hvor de har brug for at anvende elementer fra ens model, fx fordi de skal levere eller aftage data. Også mens modellen er under udvikling kan den give værdi at udstille modellen, så andre kan få et indblik i hvad der er på vej og viden om hvem de kan henvende sig til, hvis de har en modelleringsopgave, der relaterer sig til den model der er under udvikling. Derfor opfordrer modelsekretariatet til at udstille modeller under udvikling - selvfølgelig med klar indikation af at de er under udvikling og derfor ustabile. Vælger man at vente med at udstille sin model til den er helt færdig, kan man sende informationer om den planlagte udstilling ved review- altså hvor og hvornår modellen vil blive udstillet - for at reglen om at modellen skal udstilles kan betragtes som opfyldt.
 
 Man udstiller sin model på sin organisations egen hjemmeside eller server. Man vælger selv placeringen, dog bør man sikre sig, at den valgte http-adresse er så stabil som muligt. Skulle man alligevel få behov for at ændre den, vil det være god stil i en periode at henvise fra den gamle adresse til den nye.
@@ -2494,14 +2496,14 @@ Man udstiller sin model på sin organisations egen hjemmeside eller server. Man 
 
 §05 - [<ins> <span style="color:#AB2A0C;">Gør modellen tilgængelig i maskinlæsbart format</span> </ins>](https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering/goer-modellen-tilgaengelig-i-maskinlaesbart-format) 
 
-## Modelkataloget
+### Modelkataloget
 [Det fællesoffentlige katalog over begrebs- og datamodeller (modelkataloget)](https://data.gov.dk/catalogue/models/) er en oversigt over begrebs- og datamodeller der er udarbejdet eller relevante i offentlig regi og som er registreret med henblik på videndeling og genbrug. Kataloget indeholder metadata om og links til udstilling af de registrerede modeller, men ikke modellerne selv.
 
 I forhold til registrering af modeller, er tilgangen indtil videre at sikre bredest mulig videndeling. Modellerne registreres med henblik på inspiration og potentielt genbrug, og derfor kan alle udstillede modeller optages i kataloget. Dermed kan både modeller under udvikling og modeller, der ikke overholder modelreglerne optages. Der er heller ingen krav til hvilket format modellerne skal have, blot at de skal være offentligt tilgængelige. Bemærk at registrering i Modelkataloget dermed ikke er ensbetydende med, at modellen får status som anbefalet og optaget i FDA.
 
 I praksis får man modeller optaget ved at henvende sig til modelsekretariatet (arkitektur@digst.dk) med et link til udstillingen af modellen og oplysninger om et kontaktpunkt (mailadresse, gerne en funktionspostkasse), hvor man kan henvende sig hvis man har spørgsmål til modellen samt angivelse af vilkårene for genanvendelse af modellen ved angivelse af en specifik licens. Modelsekretariatet anbefaler [Creative Commons — CC0 1.0 Universal (CC0)](https://creativecommons.org/publicdomain/zero/1.0/), som er en åben licens, der tillader enhver form for brug og dermed er velegnet til at understøtte genbrug af modeller. Man kan dog også vælge en anden licens, og hvis man har brug for hjælp til at vælge, kan man fx benytte [Creative Commons licensvælger](https://creativecommons.org/chooser) eller [Joinup Licensing Assistant (EU)](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses). Derudover bruges modelmetadata (som beskrevet i [Kapitel 6: Dokumentation af modellen](#kapitel-6-dokumentation-af-modellen)) til at beskrive modeller i kataloget. Hvis de ikke allerede er udfyldt i modellen, må de meget gerne medsendes i det omfang det er muligt; især er det vigtigt at kende modelstatus.
 
-# Referencer
+## Referencer
 Allemang, Dean 2008: “Semantic Web for the Working Ontologist", Morgan Kaufmann Publishers
 
 [Bellekens, Geert 2011: “UML Best Practice: Attribute or Association](https://bellekens.com/2011/08/10/uml-best-practice-attribute-or-association/)
