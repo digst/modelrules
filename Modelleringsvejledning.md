@@ -1326,7 +1326,11 @@ Enumerationen navngives med<br>UpperCamelCase, værdierne med<br>lowerCamelCase
 <td>
 multiplicitet
 </td>
-<td></td>
+<td>
+	angivelse af, hvor mange (forskellige) værdier <br>en egenskab kan eller skal have. 
+	
+_Angives for attributter og associationsender. <br>Multiplicitet angives med en nedre og øvre grænse_
+</td>
 <td>
 
 <p align="center">
